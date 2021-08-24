@@ -1,5 +1,5 @@
-Link                : 
-Github              : https://github.com/oguzkaran/.NetCore-Javascript-WebProgramming
+Link              : 
+Github            : https://github.com/oguzkaran/.NetCore-Javascript-Web-Programming
 
 İletişim Bilgileri:
 Oğuz Karan
