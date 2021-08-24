@@ -1,34 +1,30 @@
-# JavaApp2-Jul-2021
+# .NetCore-Javascript-WebProgramming
+
 KAYNAK GÖSTERMEK KOŞULUYLA HER TÜRLÜ ALINTI YAPILABİLİR
 
-#java
-#programming
-#eclipse 
-#intellij
-#spring
-#springboot
-#stream
-#parallelstream
-#collections
-#jpa
-#hibernate
-#mapstruct
-#retrofit
-#resttemplate
-#postgresql
-#rxjava
-#crudrepository
-#tcp
-#socket
-#iot
-#websocket
-#udp
-#datastructures
-#algorithms
-#rcursion
-#docker
+#csharp
+#.net
+#.netcore
+#dotnet
+#dotnetcore
+#entityframework
+#blazor
+#razor
+#javascript
+#ecmascript
+#asp.net
+#asp.netcore
+#nodejs
+#expressjs
+#node
+#express
+#mean
+#mern
 #mongodb
-#nosql
-#cryptography
-#garbacecollector
+#tcp
+#udp
+#rest
+#restful
+#grpc
+#http
 
