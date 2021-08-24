@@ -1,4 +1,4 @@
-# .NetCore-Javascript-WebProgramming
+# .NetCore-Javascript-Web-Programming
 
 KAYNAK GÖSTERMEK KOŞULUYLA HER TÜRLÜ ALINTI YAPILABİLİR
 
