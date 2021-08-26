@@ -1,8 +1,7 @@
 ﻿/*---------------------------------------------------------------------------------------------------------------------
-    var anahtar sözcüğünün bir kullanımı
+    Yerel metotların yerel değişkenleri yakalamsı
 ----------------------------------------------------------------------------------------------------------------------*/
 using System;
-using System.Collections.Generic;
 
 namespace CSD
 {    
@@ -10,13 +9,26 @@ namespace CSD
     {
         public static void Main()
         {
-            dynamic a = 10;
+            Console.Write("Bir sayı giriniz:");
+            int count = Convert.ToInt32(Console.ReadLine());
 
-            a = "ankara";
+            Sample.Foo(count);                        
+        }
+    }
 
-            a = new Random();
+    class Sample {
+        [Obsolete]
+        public static void Foo(int count)
+        {
+            var random = new Random();
 
-            //...
+            for (int i = 0; i < count; ++i) {
+                var val = random.Next(100);
+
+                bool isEven() => val % 2 == 0;        
+
+                Console.WriteLine("{0}:{1}", val, isEven() ? "Çift" : "Tek");
+            }
         }
     }
 }
