@@ -1,36 +1,22 @@
 ﻿/*---------------------------------------------------------------------------------------------------------------------
-    Yerel metotların yerel değişkenleri yakalamsı
+    .. operatörü ile bir Range oluşturulabilir ve bir diziye indek aralığı olarak verilebilir
 ----------------------------------------------------------------------------------------------------------------------*/
 using System;
 
 namespace CSD
-{    
+{
     class App
     {
         public static void Main()
         {
-            Console.Write("Bir sayı giriniz:");
-            int count = Convert.ToInt32(Console.ReadLine());
+            var names = new string[] { "ali", "veli", "selami", "ayşe", "fatma" };
 
-            Sample.Foo(count);                        
+            var range = 1..3;
+
+            foreach (var name in names[range]) //[1, 3)
+                Console.WriteLine(name);
         }
-    }
-
-    class Sample {
-        [Obsolete]
-        public static void Foo(int count)
-        {
-            var random = new Random();
-
-            for (int i = 0; i < count; ++i) {
-                var val = random.Next(100);
-
-                bool isEven() => val % 2 == 0;        
-
-                Console.WriteLine("{0}:{1}", val, isEven() ? "Çift" : "Tek");
-            }
-        }
-    }
+    }    
 }
 
 

@@ -14,3 +14,8 @@ C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\Sample\ob
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\Sample\obj\Debug\net5.0\ref\Sample.dll
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\Sample\obj\Debug\net5.0\Sample.pdb
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\Sample\obj\Debug\net5.0\Sample.genruntimeconfig.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\Sample\bin\Debug\net5.0\CSD.Util.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\Sample\bin\Debug\net5.0\CSD.Util.pdb
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\Sample\obj\Debug\net5.0\Sample.csproj.CopyComplete
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\Sample\bin\Debug\net5.0\CSD.GeneralTest.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\Sample\bin\Debug\net5.0\CSD.GeneralTest.pdb
