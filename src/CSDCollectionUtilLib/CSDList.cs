@@ -1,21 +1,47 @@
-﻿#define TEST
+﻿//#define TEST
 
 using System;
+using System.Collections;
 
 namespace CSD.Util.Collections
 {
-    public class CSDList<E>
+    #region CSDList class
+    public class CSDList<E> : IEnumerable
     {
+        private class CSDListEnumerator<T> : IEnumerator
+        {
+            public CSDList<T> m_list;
+            public int m_idx = -1;
+
+            public CSDListEnumerator(CSDList<T> list)
+            {
+                m_list = list;    
+            }
+
+            public object Current => m_list[m_idx];
+
+            public bool MoveNext()
+            {
+                ++m_idx;
+                return m_idx != m_list.m_idx;                    
+            }
+
+            public void Reset()
+            {
+                m_idx = -1;
+            }
+        }
+
         private const int ms_defaultCapacity = 10;
         private E[] m_elems;
         private int m_idx;
 
+#pragma warning restore
         private void allocateCapacity(int capacity)
         {
 #if TEST
 #if !DEBUG
-#line 100
-#error You must be in Debug configuration
+#warning You must be in Debug configuration
 #endif
             Console.WriteLine($"Capacity:{capacity}");
             Console.WriteLine($"Count:{m_idx}");
@@ -29,10 +55,12 @@ namespace CSD.Util.Collections
             m_elems = temp;
         }
 
+        #region CSDList default ctor
         public CSDList() : this(ms_defaultCapacity)
         {
                             
         }
+        #endregion
 
         public CSDList(int initialCapacity)
         {
@@ -71,5 +99,13 @@ namespace CSD.Util.Collections
         {
             allocateCapacity(m_idx);
         }
+       
+
+        public IEnumerator GetEnumerator()
+        {
+            return new CSDListEnumerator<E>(this);                
+        }
     }
+
+    #endregion
 }
