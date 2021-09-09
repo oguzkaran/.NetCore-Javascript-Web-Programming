@@ -21,6 +21,16 @@
         "runtime": {
           "bin/placeholder/CSD.Util.dll": {}
         }
+      },
+      "CSD.Util.Collections/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CSD.Util.Collections.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSD.Util.Collections.dll": {}
+        }
       }
     }
   },
@@ -34,12 +44,18 @@
       "type": "project",
       "path": "../CSDUtilLib/CSDUtilLib.csproj",
       "msbuildProject": "../CSDUtilLib/CSDUtilLib.csproj"
+    },
+    "CSD.Util.Collections/1.0.0": {
+      "type": "project",
+      "path": "../CSDCollectionUtilLib/CSDCollectionUtilLib.csproj",
+      "msbuildProject": "../CSDCollectionUtilLib/CSDCollectionUtilLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "CSD.GeneralTest >= 1.0.0",
-      "CSD.Util >= 1.0.0"
+      "CSD.Util >= 1.0.0",
+      "CSD.Util.Collections >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -79,6 +95,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\CSDCollectionUtilLib\\CSDCollectionUtilLib.csproj": {
+              "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\CSDCollectionUtilLib\\CSDCollectionUtilLib.csproj"
+            },
             "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\CSDUtilLib\\CSDUtilLib.csproj": {
               "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\CSDUtilLib\\CSDUtilLib.csproj"
             },

@@ -1,0 +1,12 @@
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\obj\Release\net5.0\CSDCollectionUtilLib.csproj.AssemblyReference.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\obj\Release\net5.0\CSDCollectionUtilLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\obj\Release\net5.0\CSDCollectionUtilLib.AssemblyInfoInputs.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\obj\Release\net5.0\CSDCollectionUtilLib.AssemblyInfo.cs
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\obj\Release\net5.0\CSDCollectionUtilLib.csproj.CoreCompileInputs.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\bin\Release\net5.0\CSD.Util.Collections.deps.json
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\bin\Release\net5.0\CSD.Util.Collections.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\bin\Release\net5.0\ref\CSD.Util.Collections.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\bin\Release\net5.0\CSD.Util.Collections.pdb
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\obj\Release\net5.0\CSD.Util.Collections.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\obj\Release\net5.0\ref\CSD.Util.Collections.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\CSDCollectionUtilLib\obj\Release\net5.0\CSD.Util.Collections.pdb
