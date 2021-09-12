@@ -10,7 +10,7 @@ namespace CSD
     {
         public static void Main()
         {
-            CSDList<int> list = new CSDList<int>();
+            CSDList<int> list = new ();
 
             for (int i = 0; i < 10; ++i)
                 list.Add(i * 10);
