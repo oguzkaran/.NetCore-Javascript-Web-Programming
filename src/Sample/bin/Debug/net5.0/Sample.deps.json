@@ -9,7 +9,6 @@
       "Sample/1.0.0": {
         "dependencies": {
           "CSD.GeneralTest": "1.0.0",
-          "CSD.Util": "1.0.0",
           "CSD.Util.Collections": "1.0.0"
         },
         "runtime": {
@@ -19,11 +18,6 @@
       "CSD.GeneralTest/1.0.0": {
         "runtime": {
           "CSD.GeneralTest.dll": {}
-        }
-      },
-      "CSD.Util/1.0.0": {
-        "runtime": {
-          "CSD.Util.dll": {}
         }
       },
       "CSD.Util.Collections/1.0.0": {
@@ -40,11 +34,6 @@
       "sha512": ""
     },
     "CSD.GeneralTest/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CSD.Util/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

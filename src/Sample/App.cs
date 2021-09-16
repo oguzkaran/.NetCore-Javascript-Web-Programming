@@ -1,35 +1,27 @@
 ﻿/*---------------------------------------------------------------------------------------------------------------------
-    obejct sınıfının ReferenceEquals isimli static metodu ile referans karşılaştırması yapılabilir
+    TODO: Parametresi ile aldığı iki yazının anagram olup olmadığını test eden isAnagram isimli metodu yazınız ve 
+    test ediniz.
+
+    Tanım: Bir yazının karakterlerinin yerlerinin değiştirilmesiyle ikinici bir yazı elde edilebiliyorsa bu yazılara
+    anagram denir.
+    Örnek: 
+    brat -> bart
 ----------------------------------------------------------------------------------------------------------------------*/
 using System;
 using System.Collections.Generic;
+using CSD.Util.Collections;
 
 namespace CSD
 {
-    class Value<T> {
-        public T Val { get; set; }
-
-        public static bool operator ==(Value<T> v1, Value<T> v2)
-        {
-            return v1.Val.Equals(v2.Val);
-        }
-
-        public static bool operator !=(Value<T> v1, Value<T> v2)
-        {
-            return !(v1 == v2);
-        }
-
-        //...
-    }
-
     class App
     {
         public static void Main()
-        {
-            Value<int> v1 = new() { Val = 10 };
-            Value<int> v2 = new() { Val = 10 };
+        {            
+            var list1 = new List<int> { 1, 2, 3, 4, 5, 6, 7 };
+            var list2 = new List<int> { 1, 2, 3, 4, 5, 3, 6, 7 };
 
-            Console.WriteLine(object.ReferenceEquals(v1, v2));            
+            Console.WriteLine(list1.AreAllDistinct());
+            Console.WriteLine(list2.AreAllDistinct());
         }
     }
 }

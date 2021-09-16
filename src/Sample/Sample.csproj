@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSDCollectionUtilLib\CSDCollectionUtilLib.csproj" />
-    <ProjectReference Include="..\CSDUtilLib\CSDUtilLib.csproj" />
+    <ProjectReference Include="..\CollectionUtilLib\CollectionUtilLib.csproj" />
     <ProjectReference Include="..\GeneralTestDLL\GeneralTestDLL.csproj" />
   </ItemGroup>
 
