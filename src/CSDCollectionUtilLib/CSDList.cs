@@ -2,11 +2,12 @@
 
 using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace CSD.Util.Collections
 {
     #region CSDList class
-    public class CSDList<E> : IEnumerable
+    public class CSDList<E> : IList<E>
     {
         private class CSDListEnumerator<T> : IEnumerator
         {
@@ -87,7 +88,7 @@ namespace CSD.Util.Collections
         public int Count => m_idx;
         public int Capacity => m_elems.Length;
 
-        //...
+        public bool IsReadOnly => throw new NotImplementedException();        
 
         public void Clear()
         {
@@ -98,12 +99,46 @@ namespace CSD.Util.Collections
         public void TrimToSize()
         {
             allocateCapacity(m_idx);
-        }
-       
+        }       
 
         public IEnumerator GetEnumerator()
         {
             return new CSDListEnumerator<E>(this);                
+        }
+
+        public int IndexOf(E item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Insert(int index, E item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveAt(int index)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Contains(E item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CopyTo(E[] array, int arrayIndex)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Remove(E item)
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerator<E> IEnumerable<E>.GetEnumerator()
+        {
+            throw new NotImplementedException();
         }
     }
 

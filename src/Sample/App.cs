@@ -1,25 +1,35 @@
 ﻿/*---------------------------------------------------------------------------------------------------------------------
-    CSDArrayList sınıfı ve dolaşılması
+    obejct sınıfının ReferenceEquals isimli static metodu ile referans karşılaştırması yapılabilir
 ----------------------------------------------------------------------------------------------------------------------*/
 using System;
-using CSD.Util.Collections;
+using System.Collections.Generic;
 
 namespace CSD
 {
+    class Value<T> {
+        public T Val { get; set; }
+
+        public static bool operator ==(Value<T> v1, Value<T> v2)
+        {
+            return v1.Val.Equals(v2.Val);
+        }
+
+        public static bool operator !=(Value<T> v1, Value<T> v2)
+        {
+            return !(v1 == v2);
+        }
+
+        //...
+    }
+
     class App
     {
         public static void Main()
         {
-            CSDList<int> list = new ();
+            Value<int> v1 = new() { Val = 10 };
+            Value<int> v2 = new() { Val = 10 };
 
-            for (int i = 0; i < 10; ++i)
-                list.Add(i * 10);
-
-            foreach (var val in list)
-                Console.Write($"{val} ");
-
-            Console.WriteLine();
+            Console.WriteLine(object.ReferenceEquals(v1, v2));            
         }
-    }    
+    }
 }
-
