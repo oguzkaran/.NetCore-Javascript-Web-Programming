@@ -47,5 +47,11 @@ namespace CSD.TodoApplicationRestApp.Controllers
         {
             return m_randomFactory.RandomTodo;
         }
+
+        [HttpGet("todos/find")]
+        public IEnumerable<TodoInfo> FindTodosByTitleContains(string title)
+        {
+            return m_randomFactory.FindTodosByTitleContains(title);                        
+        }
     }
 }

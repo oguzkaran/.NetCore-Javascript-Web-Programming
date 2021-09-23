@@ -33,13 +33,8 @@ namespace _001_TodoApplicationRestApp
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "_001_TodoApplicationRestApp", Version = "v1" });
             });
 
-            services.AddSingleton<TodoRandomFactory>();
-        }
-
-        private int TodoRandomFactory()
-        {
-            throw new NotImplementedException();
-        }
+            services.AddSingleton<TodoRandomFactory>();            
+        }        
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
