@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CSD.GeneralTest/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CSD.GeneralTest.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSD.GeneralTest.dll": {}
+        }
+      },
+      "CSD.Util.Collections/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CSD.Util.Collections.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSD.Util.Collections.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSD.GeneralTest/1.0.0": {
+      "type": "project",
+      "path": "../GeneralTestDLL/GeneralTestDLL.csproj",
+      "msbuildProject": "../GeneralTestDLL/GeneralTestDLL.csproj"
+    },
+    "CSD.Util.Collections/1.0.0": {
+      "type": "project",
+      "path": "../CollectionUtilLib/CollectionUtilLib.csproj",
+      "msbuildProject": "../CollectionUtilLib/CollectionUtilLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CSD.GeneralTest >= 1.0.0",
+      "CSD.Util.Collections >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Karans\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\SampleSolution\\Sample\\Sample.csproj",
+      "projectName": "Sample",
+      "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\SampleSolution\\Sample\\Sample.csproj",
+      "packagesPath": "C:\\Users\\Karans\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\SampleSolution\\Sample\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Karans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\SampleSolution\\CollectionUtilLib\\CollectionUtilLib.csproj": {
+              "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\SampleSolution\\CollectionUtilLib\\CollectionUtilLib.csproj"
+            },
+            "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\SampleSolution\\GeneralTestDLL\\GeneralTestDLL.csproj": {
+              "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\SampleSolution\\GeneralTestDLL\\GeneralTestDLL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
