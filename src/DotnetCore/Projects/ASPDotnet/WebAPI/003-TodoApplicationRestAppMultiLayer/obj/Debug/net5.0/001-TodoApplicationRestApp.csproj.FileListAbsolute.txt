@@ -27,6 +27,8 @@ C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCor
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\002-TodoApplicationRestAppStatusCode\obj\Debug\net5.0\ref\001-TodoApplicationRestApp.dll
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\002-TodoApplicationRestAppStatusCode\obj\Debug\net5.0\001-TodoApplicationRestApp.pdb
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\002-TodoApplicationRestAppStatusCode\obj\Debug\net5.0\001-TodoApplicationRestApp.genruntimeconfig.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\bin\Debug\net5.0\appsettings.json
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\bin\Debug\net5.0\001-TodoApplicationRestApp.exe
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\bin\Debug\net5.0\001-TodoApplicationRestApp.deps.json
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\bin\Debug\net5.0\001-TodoApplicationRestApp.runtimeconfig.json
@@ -46,6 +48,7 @@ C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCor
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\bin\Debug\net5.0\CSD.Util.Data.dll
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\bin\Debug\net5.0\CSD.Util.Data.pdb
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\obj\Debug\net5.0\001-TodoApplicationRestApp.csproj.AssemblyReference.cache
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\obj\Debug\net5.0\001-TodoApplicationRestApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\obj\Debug\net5.0\001-TodoApplicationRestApp.AssemblyInfoInputs.cache
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\obj\Debug\net5.0\001-TodoApplicationRestApp.AssemblyInfo.cs
@@ -61,6 +64,3 @@ C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCor
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\obj\Debug\net5.0\ref\001-TodoApplicationRestApp.dll
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\obj\Debug\net5.0\001-TodoApplicationRestApp.pdb
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\obj\Debug\net5.0\001-TodoApplicationRestApp.genruntimeconfig.cache
-C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\obj\Debug\net5.0\001-TodoApplicationRestApp.csproj.AssemblyReference.cache
-C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\003-TodoApplicationRestAppMultiLayer\bin\Debug\net5.0\appsettings.json
