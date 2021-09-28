@@ -1,0 +1,11 @@
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Libraries\ExceptionUtilLibrary\bin\Release\net5.0\CSD.Util.Data.deps.json
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Libraries\ExceptionUtilLibrary\bin\Release\net5.0\CSD.Util.Data.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Libraries\ExceptionUtilLibrary\bin\Release\net5.0\ref\CSD.Util.Data.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Libraries\ExceptionUtilLibrary\bin\Release\net5.0\CSD.Util.Data.pdb
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Libraries\ExceptionUtilLibrary\obj\Release\net5.0\ExceptionUtilLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Libraries\ExceptionUtilLibrary\obj\Release\net5.0\ExceptionUtilLibrary.AssemblyInfoInputs.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Libraries\ExceptionUtilLibrary\obj\Release\net5.0\ExceptionUtilLibrary.AssemblyInfo.cs
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Libraries\ExceptionUtilLibrary\obj\Release\net5.0\ExceptionUtilLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Libraries\ExceptionUtilLibrary\obj\Release\net5.0\CSD.Util.Data.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Libraries\ExceptionUtilLibrary\obj\Release\net5.0\ref\CSD.Util.Data.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Libraries\ExceptionUtilLibrary\obj\Release\net5.0\CSD.Util.Data.pdb
