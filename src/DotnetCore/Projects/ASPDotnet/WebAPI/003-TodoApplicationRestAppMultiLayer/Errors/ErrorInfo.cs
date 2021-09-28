@@ -10,7 +10,7 @@ namespace CSD.TodoApplicationRestApp.Errors
         public string Message { get; set; }
 
         public int Status { get; set; }
-
+        public string Detail { get; set; }
         public object Data { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-using CSD.TodoApplicationRestApp.Factories;
+using CSD.TodoApplicationRestApp;
+using CSD.TodoApplicationRestApp.DAL;
 using CSD.TodoApplicationRestApp.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,8 +35,9 @@ namespace _001_TodoApplicationRestApp
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "_001_TodoApplicationRestApp", Version = "v1" });
             });
 
-            services.AddSingleton<TodoRandomFactory>();
-            services.AddSingleton<ITodoRepository, TodoRepository>();
+            services.AddSingleton<ITodoRepository, TodoRepository>()
+                .AddSingleton<TodoAppDAL>()
+                .AddSingleton<TodoAppService>();
         }        
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

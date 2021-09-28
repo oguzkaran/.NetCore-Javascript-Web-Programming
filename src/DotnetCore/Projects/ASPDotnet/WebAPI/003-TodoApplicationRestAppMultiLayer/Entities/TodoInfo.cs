@@ -7,8 +7,8 @@ namespace CSD.TodoApplicationRestApp.Entities
         public int Id { get; set; }
         public string Title { get; set; }
         public string Text { get; set; }
-        public DateTime CreateDateTime { get; set; } = DateTime.Now;
-        public DateTime LastUpdate { get; set; } = DateTime.Now;
+        public DateTime CreateDateTime { get; set; }
+        public DateTime LastUpdate { get; set; }
         public bool Completed { get; set; }
     }
 }

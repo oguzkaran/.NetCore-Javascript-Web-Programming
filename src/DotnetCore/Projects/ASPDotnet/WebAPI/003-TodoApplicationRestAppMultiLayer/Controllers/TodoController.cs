@@ -1,5 +1,6 @@
 ﻿using CSD.TodoApplicationRestApp.Errors;
-using CSD.TodoApplicationRestApp.Factories;
+
+using CSD.Util.Data.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -10,71 +11,42 @@ using System.Threading.Tasks;
 namespace CSD.TodoApplicationRestApp.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]    
+    [ApiController]
     public class TodoController : ControllerBase
     {
-        private readonly TodoRandomFactory m_randomFactory;
+        private readonly TodoAppService m_todoAppService;
 
-        public TodoController(TodoRandomFactory factory)
+        public TodoController(TodoAppService todoAppService)
         {
-            m_randomFactory = factory;
+            m_todoAppService = todoAppService;
         }
 
-        [HttpGet("all")]
-        public IActionResult FindAll()
-        {
-            try
-            {
-                return new ObjectResult(m_randomFactory.All);
-            }
-            catch (Exception) {
-                return NotFound();
-            }
-        }
-
-        [HttpGet("todos/randoms")]
-        public IActionResult FindRandomTodosByCount(string count)
-        {
-            IActionResult actionResult;
-
-            try
-            {
-                actionResult = new ObjectResult(m_randomFactory.FindRandomTodosByCount(int.Parse(count)));
-            }
-            catch (Exception ex) {
-                actionResult = BadRequest(new ErrorInfo { Message = ex.Message, Data = count, Status = 400});
-            }
-
-            return actionResult;
-        }
-
-        [HttpGet("todos")]
-        public IActionResult FindTodosByCount(string count)
-        {
-            IActionResult actionResult;
-
-            try
-            {
-                actionResult = new ObjectResult(m_randomFactory.FindTodosByCount(int.Parse(count)));
-            }
-            catch (Exception)
-            {
-                actionResult = BadRequest();
-            }
-
-            return actionResult;
-        }
-
-        [HttpGet("todos/find")]
-        public IActionResult FindTodosByTitleContains(string title)
+        [HttpGet("todos/count")]
+        public IActionResult CountTodos()
         {
             try
             {
-                return new ObjectResult(m_randomFactory.FindTodosByTitleContains(title));
+                return new ObjectResult(new { Count =  m_todoAppService.CountTodos() });
             }
-            catch (Exception) {
-                return BadRequest();
+            catch (DataServiceException ex)
+            {
+                return NotFound(new ErrorInfo { Message = ex.Message, Status = 404, Detail = "Internal DB problem"});
             }
         }
+
+
+        [HttpPost]
+        public IActionResult SaveTodo([FromBody] TodoInfo todoInfo)
+        {
+            try
+            {
+                return new ObjectResult(m_todoAppService.SaveTodo(todoInfo));
+            }
+            catch (DataServiceException ex)
+            {
+                return NotFound(new ErrorInfo { Message = ex.Message, Status = 404, Detail = "Internal DB problem" });
+            }
+        }
+
     }
 }
