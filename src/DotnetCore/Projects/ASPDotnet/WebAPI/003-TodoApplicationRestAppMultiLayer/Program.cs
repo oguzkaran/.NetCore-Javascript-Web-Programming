@@ -21,7 +21,7 @@ namespace _001_TodoApplicationRestApp
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    //webBuilder.UseUrls("http://192.168.1.167:50500");
+                    webBuilder.UseUrls("http://192.168.1.167:50500");
                 });
     }
 }
