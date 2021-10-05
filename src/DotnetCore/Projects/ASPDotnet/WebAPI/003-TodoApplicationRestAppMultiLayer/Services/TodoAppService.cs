@@ -1,4 +1,5 @@
 ﻿using CSD.TodoApplicationRestApp.DAL;
+using CSD.TodoApplicationRestApp.Entities;
 using CSD.Util.Data.Repository;
 using CSD.Util.Data.Service;
 using System;
@@ -10,8 +11,7 @@ namespace CSD.TodoApplicationRestApp
 {
     public class TodoAppService
     {
-        private readonly TodoAppDAL m_todoAppDAL;
-        
+        private readonly TodoAppDAL m_todoAppDAL;      
 
         public TodoAppService(TodoAppDAL todoAppDAL)
         {
@@ -33,6 +33,38 @@ namespace CSD.TodoApplicationRestApp
                 throw new DataServiceException("TodoAppService.Count", ex);
             }
             //...
+        }
+
+        public IEnumerable<TodoInfo> FindAllTodos()
+        {
+            try
+            {
+                return m_todoAppDAL.FindAllTodos();
+            }
+            catch (RepositoryException ex)
+            {                
+                throw new DataServiceException("TodoAppService.FindAllTodos", ex.InnerException);
+            }
+            catch (Exception ex)
+            {
+                throw new DataServiceException("TodoAppService.FindAllTodos", ex);
+            }
+        }
+
+        public IEnumerable<TodoInfo> FindTodosByMonth(int month)
+        {
+            try
+            {
+                return m_todoAppDAL.FindTodosByMonth(month);
+            }
+            catch (RepositoryException ex)
+            {
+                throw new DataServiceException("TodoAppService.FindTodosByMonth", ex.InnerException);
+            }
+            catch (Exception ex)
+            {
+                throw new DataServiceException("TodoAppService.FindTodosByMonth", ex);
+            }
         }
 
         public TodoInfo SaveTodo(TodoInfo todoInfo)

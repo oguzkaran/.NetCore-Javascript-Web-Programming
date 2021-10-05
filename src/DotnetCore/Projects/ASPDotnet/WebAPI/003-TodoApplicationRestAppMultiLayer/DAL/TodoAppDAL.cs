@@ -1,9 +1,9 @@
-﻿using CSD.TodoApplicationRestApp.Repositories;
+﻿using CSD.TodoApplicationRestApp.Entities;
+using CSD.TodoApplicationRestApp.Repositories;
 using CSD.Util.Data.Repository;
 using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CSD.TodoApplicationRestApp.DAL
 {
@@ -25,6 +25,30 @@ namespace CSD.TodoApplicationRestApp.DAL
             catch (Exception ex)
             {
                 throw new RepositoryException("TodoAppDAL.CountTodos", ex);
+            }
+        }
+
+        public IEnumerable<TodoInfo> FindAllTodos()
+        {
+            try {
+                return m_todoRepository.FindAll();
+            }
+            catch (Exception ex)
+            {
+                throw new RepositoryException("TodoAppDAL.FindAllTodos", ex);
+            }
+        }
+
+
+        public IEnumerable<TodoInfo> FindTodosByMonth(int month)
+        {
+            try
+            {
+                return m_todoRepository.FindByMonth(month);
+            }
+            catch (Exception ex)
+            {
+                throw new RepositoryException("TodoAppDAL.FindTodosByMonth", ex);
             }
         }
 

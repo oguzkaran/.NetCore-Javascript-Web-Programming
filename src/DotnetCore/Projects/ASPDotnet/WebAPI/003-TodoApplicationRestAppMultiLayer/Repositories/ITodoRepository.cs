@@ -1,13 +1,13 @@
-﻿using CSD.Util.Data.Repository;
-using System;
+﻿using CSD.TodoApplicationRestApp.Entities;
+using CSD.Util.Data.Repository;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CSD.TodoApplicationRestApp.Repositories
 {
     public interface ITodoRepository : ICrudRepository<TodoInfo, int>
     {
-
+        IEnumerable<TodoInfo> FindByMonth(int month);
+        IEnumerable<TodoInfo> FindByYear(int year);
     }
 }

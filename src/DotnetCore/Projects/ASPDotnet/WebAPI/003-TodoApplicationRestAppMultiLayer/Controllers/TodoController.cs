@@ -1,12 +1,8 @@
-﻿using CSD.TodoApplicationRestApp.Errors;
+﻿using CSD.TodoApplicationRestApp.Entities;
+using CSD.TodoApplicationRestApp.Errors;
 
 using CSD.Util.Data.Service;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CSD.TodoApplicationRestApp.Controllers
 {
@@ -34,6 +30,31 @@ namespace CSD.TodoApplicationRestApp.Controllers
             }
         }
 
+        [HttpGet("todos/all")]
+        public IActionResult FindAll()
+        {
+            try
+            {
+                return new ObjectResult(m_todoAppService.FindAllTodos());
+            }
+            catch (DataServiceException ex)
+            {
+                return NotFound(new ErrorInfo { Message = ex.Message, Status = 404, Detail = "Internal DB problem" });
+            }
+        }
+
+        [HttpGet("todos/find/month")]
+        public IActionResult FindTodosByMonth(int mon)
+        {
+            try
+            {
+                return new ObjectResult(m_todoAppService.FindTodosByMonth(mon));
+            }
+            catch (DataServiceException ex)
+            {
+                return NotFound(new ErrorInfo { Message = ex.Message, Status = 404, Detail = "Internal DB problem" });
+            }
+        }
 
         [HttpPost]
         public IActionResult SaveTodo([FromBody] TodoInfo todoInfo)
