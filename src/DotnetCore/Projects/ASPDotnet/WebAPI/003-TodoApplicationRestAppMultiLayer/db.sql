@@ -6,5 +6,3 @@ create table TodoInfo (
 	LastUpdate datetime default(SYSDATETIME()) not null,
 	Completed bit default(0) not null	
 )
-
-insert into TodoInfo (Title, Text) values ('Project', 'Repository')
