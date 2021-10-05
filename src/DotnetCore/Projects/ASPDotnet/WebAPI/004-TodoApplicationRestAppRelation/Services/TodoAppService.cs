@@ -4,14 +4,12 @@ using CSD.Util.Data.Repository;
 using CSD.Util.Data.Service;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CSD.TodoApplicationRestApp
 {
     public class TodoAppService
     {
-        private readonly TodoAppDAL m_todoAppDAL;      
+        private readonly TodoAppDAL m_todoAppDAL;
 
         public TodoAppService(TodoAppDAL todoAppDAL)
         {
@@ -65,23 +63,7 @@ namespace CSD.TodoApplicationRestApp
             {
                 throw new DataServiceException("TodoAppService.FindTodosByMonth", ex);
             }
-        }
-
-        public IEnumerable<TodoInfo> FindTodosByLastUpdateMonth(int month)
-        {
-            try
-            {
-                return m_todoAppDAL.FindTodosByLastUpdateMonth(month);
-            }
-            catch (RepositoryException ex)
-            {
-                throw new DataServiceException("TodoAppService.FindTodosByLastUpdateMonth", ex.InnerException);
-            }
-            catch (Exception ex)
-            {
-                throw new DataServiceException("TodoAppService.FindTodosByLastUpdateMonth", ex);
-            }
-        }
+        }        
 
         public IEnumerable<TodoInfo> FindTodosByMonthAndYear(int month, int year)
         {
@@ -113,6 +95,23 @@ namespace CSD.TodoApplicationRestApp
             catch (Exception ex)
             {
                 throw new DataServiceException("TodoAppService.SaveTodo", ex);
+            }
+        }
+
+        public ItemInfo SaveItem(ItemInfo itemInfo)
+        {
+            try
+            {
+                return m_todoAppDAL.SaveItemInfo(itemInfo);
+            }
+            catch (RepositoryException ex)
+            {
+                //...
+                throw new DataServiceException("TodoAppService.SaveItem", ex.InnerException);
+            }
+            catch (Exception ex)
+            {
+                throw new DataServiceException("TodoAppService.SaveItem", ex);
             }
         }
 

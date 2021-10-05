@@ -1,3 +1,11 @@
+create database TodoAppDb
+
+go
+
+use TodoAppDb
+
+go
+
 create table TodoInfo (
 	Id int primary key identity(1, 1),
 	Title nvarchar(128) not null,

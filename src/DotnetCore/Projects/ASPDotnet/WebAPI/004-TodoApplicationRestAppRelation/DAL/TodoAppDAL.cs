@@ -10,10 +10,12 @@ namespace CSD.TodoApplicationRestApp.DAL
     public class TodoAppDAL
     {
         private readonly ITodoRepository m_todoRepository;
+        private readonly IItemRepository m_itemRepository;
 
-        public TodoAppDAL(ITodoRepository todoRepository)
+        public TodoAppDAL(ITodoRepository todoRepository, IItemRepository itemRepository)
         {
             m_todoRepository = todoRepository;
+            m_itemRepository = itemRepository;
         }
 
         public long CountTodos()
@@ -50,19 +52,7 @@ namespace CSD.TodoApplicationRestApp.DAL
             {
                 throw new RepositoryException("TodoAppDAL.FindTodosByMonth", ex);
             }
-        }
-
-        public IEnumerable<TodoInfo> FindTodosByLastUpdateMonth(int month)
-        {
-            try
-            {
-                return m_todoRepository.FindByLastUpdateMonth(month);
-            }
-            catch (Exception ex)
-            {
-                throw new RepositoryException("TodoAppDAL.FindTodosByLastUpdateMonth", ex);
-            }
-        }
+        }        
 
         public IEnumerable<TodoInfo> FindTodosByMonthAndYear(int month,int year)
         {
@@ -87,7 +77,17 @@ namespace CSD.TodoApplicationRestApp.DAL
             }            
         }
 
-        
+        public ItemInfo SaveItemInfo(ItemInfo itemInfo)
+        {
+            try
+            {
+                return m_itemRepository.Save(itemInfo);
+            }
+            catch (Exception ex)
+            {
+                throw new RepositoryException("TodoAppDAL.SaveItemInfo", ex);
+            }
+        }        
         
         //...
     }

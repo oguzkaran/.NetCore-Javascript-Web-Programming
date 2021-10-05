@@ -7,8 +7,7 @@ namespace CSD.TodoApplicationRestApp.Repositories
 {
     public interface ITodoRepository : ICrudRepository<TodoInfo, int>
     {
-        IEnumerable<TodoInfo> FindByMonth(int month);
-        IEnumerable<TodoInfo> FindByLastUpdateMonth(int month);
+        IEnumerable<TodoInfo> FindByMonth(int month);        
         IEnumerable<TodoInfo> FindByMonthAndYear(int month, int year);
         IEnumerable<TodoInfo> FindByYear(int year);
     }

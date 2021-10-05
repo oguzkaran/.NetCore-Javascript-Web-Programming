@@ -67,20 +67,7 @@ namespace CSD.TodoApplicationRestApp.Controllers
             {
                 return NotFound(new ErrorInfo { Message = ex.Message, Status = 404, Detail = "Internal DB problem" });
             }
-        }
-
-        [HttpGet("todos/find/ldate")]
-        public IActionResult FindTodosByLastUpdateMonth(int mon)
-        {
-            try
-            {
-                return new ObjectResult(m_todoAppService.FindTodosByLastUpdateMonth(mon));
-            }
-            catch (DataServiceException ex)
-            {
-                return NotFound(new ErrorInfo { Message = ex.Message, Status = 404, Detail = "Internal DB problem" });
-            }
-        }
+        }        
 
         [HttpPost]
         public IActionResult SaveTodo([FromBody] TodoInfo todoInfo)
