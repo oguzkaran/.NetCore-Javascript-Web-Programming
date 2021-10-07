@@ -10,5 +10,6 @@ namespace CSD.TodoApplicationRestApp.Repositories
         IEnumerable<TodoInfo> FindByMonth(int month);        
         IEnumerable<TodoInfo> FindByMonthAndYear(int month, int year);
         IEnumerable<TodoInfo> FindByYear(int year);
+        TodoInfoItem FindByItemId(int id);
     }
 }

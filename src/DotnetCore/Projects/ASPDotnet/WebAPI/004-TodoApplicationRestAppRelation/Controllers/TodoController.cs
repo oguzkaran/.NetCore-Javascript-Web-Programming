@@ -43,6 +43,23 @@ namespace CSD.TodoApplicationRestApp.Controllers
             }
         }
 
+
+        [HttpGet("todos/find/item")]
+        public IActionResult FindTodoByItemId(int id)
+        {
+            try
+            {
+                var todo = m_todoAppService.FindTodoByItemId(id);
+
+                return todo != null ? new ObjectResult(todo) : NotFound();
+            }
+            catch (DataServiceException ex)
+            {
+                return BadRequest(new ErrorInfo { Message = ex.Message, Status = 400, Detail = "Internal DB problem" });
+            }
+        }
+
+
         [HttpGet("todos/find/cdate/month")]
         public IActionResult FindTodosByMonth(int mon)
         {

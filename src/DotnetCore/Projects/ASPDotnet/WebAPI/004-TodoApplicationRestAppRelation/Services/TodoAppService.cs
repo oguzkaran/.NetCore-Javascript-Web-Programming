@@ -25,10 +25,28 @@ namespace CSD.TodoApplicationRestApp
             catch (RepositoryException ex)
             {
                 //...
-                throw new DataServiceException("TodoAppService.Count", ex.InnerException);
+                throw new DataServiceException("TodoAppService.CountTodos", ex.InnerException);
             }
             catch (Exception ex) {
-                throw new DataServiceException("TodoAppService.Count", ex);
+                throw new DataServiceException("TodoAppService.CountTodos", ex);
+            }
+            //...
+        }
+
+        public long CountItems()
+        {
+            try
+            {
+                return m_todoAppDAL.CountItems();
+            }
+            catch (RepositoryException ex)
+            {
+                //...
+                throw new DataServiceException("TodoAppService.CountItems", ex.InnerException);
+            }
+            catch (Exception ex)
+            {
+                throw new DataServiceException("TodoAppService.CountItems", ex);
             }
             //...
         }
@@ -46,6 +64,22 @@ namespace CSD.TodoApplicationRestApp
             catch (Exception ex)
             {
                 throw new DataServiceException("TodoAppService.FindAllTodos", ex);
+            }
+        }
+
+        public TodoInfoItem FindTodoByItemId(int id)
+        {
+            try
+            {
+                return m_todoAppDAL.FindTodoByItemId(id);
+            }
+            catch (RepositoryException ex)
+            {
+                throw new DataServiceException("TodoAppService.FindTodoByItemId", ex.InnerException);
+            }
+            catch (Exception ex)
+            {
+                throw new DataServiceException("TodoAppService.FindTodoByItemId", ex);
             }
         }
 
@@ -97,6 +131,19 @@ namespace CSD.TodoApplicationRestApp
                 throw new DataServiceException("TodoAppService.SaveTodo", ex);
             }
         }
+
+        public IEnumerable<ItemInfo> FindItemByTodoIdOrderByLastUpdateDesc(int todoId)
+        {
+            try
+            {
+                return m_todoAppDAL.FindItemByTodoIdOrderByLastUpdateDesc(todoId);
+            }
+            catch (Exception ex)
+            {
+                throw new RepositoryException("TodoAppDAL.FindItemByTodoIdOrderByLastUpdateDesc", ex);
+            }
+        }
+
 
         public ItemInfo SaveItem(ItemInfo itemInfo)
         {

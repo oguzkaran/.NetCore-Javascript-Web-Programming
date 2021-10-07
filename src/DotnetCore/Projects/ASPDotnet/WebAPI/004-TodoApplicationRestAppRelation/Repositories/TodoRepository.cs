@@ -1,5 +1,7 @@
 ﻿using CSD.TodoApplicationRestApp.Configuration;
 using CSD.TodoApplicationRestApp.Entities;
+using CSD.Util.Data.Service;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -13,6 +15,9 @@ namespace CSD.TodoApplicationRestApp.Repositories
         private const string ms_selectAllSqlCommandStr = "select * from TodoInfo";
         private const string ms_selectByMonthSqlCommandStr = "select * from TodoInfo where month(CreateDateTime)=@month";
         private const string ms_selectByMonthAndYearSqlCommandStr = "select * from TodoInfo where month(CreateDateTime)=@month and year(CreateDateTime)=@year";
+        private const string ms_selectByItemIdSqlCommanStr = 
+            "select t.Title, t.Description, t.CreateDateTime, i.Text, i.LastUpdate" + 
+            " from TodoInfo t inner join ItemInfo i on t.Id=i.TodoId where i.Id=@ItemId";        
 
         private readonly ConnectionConfig m_connectionConfig;
         private readonly SqlConnection m_connection;
@@ -25,8 +30,20 @@ namespace CSD.TodoApplicationRestApp.Repositories
 
         private TodoInfo getTodoInfo(SqlDataReader reader)
         {
-            return new TodoInfo { Id = (int)reader[0], Title = (string)reader[1], Description = (string)reader[2], 
+            return new() { Id = (int)reader[0], Title = (string)reader[1], Description = (string)reader[2], 
                 CreateDateTime = (DateTime)reader[3], Completed = (bool)reader[4] };
+        }
+
+        private TodoInfoItem getTodoInfoItem(SqlDataReader reader)
+        {
+            return new()
+            {                
+                Title = (string)reader[0],
+                Description = (string)reader[1],
+                CreateDateTime = (DateTime)reader[2],
+                Text = (string)reader[3],
+                LastUpdate = (DateTime)reader[4],
+            };
         }
 
         public long Count()
@@ -67,6 +84,25 @@ namespace CSD.TodoApplicationRestApp.Repositories
                     m_connection.Close();
             }
         }
+
+        public TodoInfoItem FindByItemId(int id)
+        {
+            try
+            {                
+                var command = new SqlCommand(ms_selectByItemIdSqlCommanStr, m_connection);
+
+                command.Parameters.AddWithValue("@ItemId", id);
+                m_connection.Open();
+                var reader = command.ExecuteReader();
+
+                return reader.Read() ? getTodoInfoItem(reader) : null;
+            }
+            finally
+            {
+                if (m_connection.State == System.Data.ConnectionState.Open)
+                    m_connection.Close();
+            }
+        }       
 
         public IEnumerable<TodoInfo> FindByMonth(int month)
         {
@@ -181,6 +217,8 @@ namespace CSD.TodoApplicationRestApp.Repositories
         public IEnumerable<TodoInfo> FindByYear(int year)
         {
             throw new NotImplementedException();
-        }        
+        }
+
+        
     }
 }

@@ -30,6 +30,18 @@ namespace CSD.TodoApplicationRestApp.DAL
             }
         }
 
+        public long CountItems()
+        {
+            try
+            {
+                return m_itemRepository.Count();
+            }
+            catch (Exception ex)
+            {
+                throw new RepositoryException("TodoAppDAL.CountItems", ex);
+            }
+        }
+
         public IEnumerable<TodoInfo> FindAllTodos()
         {
             try {
@@ -41,6 +53,17 @@ namespace CSD.TodoApplicationRestApp.DAL
             }
         }
 
+        public TodoInfoItem FindTodoByItemId(int id)
+        {
+            try
+            {
+                return m_todoRepository.FindByItemId(id);
+            }
+            catch (Exception ex)
+            {
+                throw new RepositoryException("TodoAppDAL.FindTodoByItemId", ex);
+            }
+        }
 
         public IEnumerable<TodoInfo> FindTodosByMonth(int month)
         {
@@ -76,6 +99,19 @@ namespace CSD.TodoApplicationRestApp.DAL
                 throw new RepositoryException("TodoAppDAL.SaveTodoInfo", ex);
             }            
         }
+
+        public IEnumerable<ItemInfo> FindItemByTodoIdOrderByLastUpdateDesc(int todoId)
+        {
+            try
+            {
+                return m_itemRepository.FindByTodoIdOrderByLastUpdateDesc(todoId);
+            }
+            catch (Exception ex)
+            {
+                throw new RepositoryException("TodoAppDAL.FindItemByTodoIdOrderByLastUpdateDesc", ex);
+            }
+        }
+
 
         public ItemInfo SaveItemInfo(ItemInfo itemInfo)
         {
