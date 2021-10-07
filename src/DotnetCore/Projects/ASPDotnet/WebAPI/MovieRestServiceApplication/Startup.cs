@@ -1,3 +1,4 @@
+using CSD.MovieRestServiceApplication.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +33,10 @@ namespace MovieRestServiceApplication
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MovieRestServiceApplication", Version = "v1" });
             });
+
+            services
+                .AddSingleton<IMovieRepository, MovieRepository>()
+                .AddSingleton<IDirectorRepository, DirectorRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

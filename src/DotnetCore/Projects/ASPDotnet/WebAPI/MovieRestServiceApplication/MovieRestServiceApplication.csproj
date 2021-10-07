@@ -11,4 +11,10 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="CSD.Util.Data">
+      <HintPath>dlls\CSD.Util.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
