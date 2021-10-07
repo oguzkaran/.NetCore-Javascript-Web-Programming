@@ -3,14 +3,13 @@ Açıklamalar:
     - Şu ana kadar gördüklerimizle yapmaya çalışınız
     - Internetten herhangi bir araştırma yapmayınız
     - Uygulamanızı SqlServer VTYS'yi kullanarak yapmayınız
-
 Uygulamaya Yönelik Açıklamalar:
     - Uygulama bir film veritabanına yönelik REST servis olacaktır.
     - Sinema filmlerine yönelik aşağıdaki tablolar bulunacaktır
         Movie:
             - Id
             - Name
-            - SceneDateTime
+            - SceneDate
             - Rating
             - Imdb
             - Cost
