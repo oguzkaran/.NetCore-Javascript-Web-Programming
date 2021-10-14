@@ -11,13 +11,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="CSD.Util.Data">
-      <HintPath>..\..\..\..\Libraries\ExceptionUtilLibrary\bin\Release\net5.0\CSD.Util.Data.dll</HintPath>
-    </Reference>
+    <Folder Include="Properties\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <Reference Include="CSD.Data">
+      <HintPath>..\..\..\..\Libraries\DataUtilLib\bin\Release\net5.0\CSD.Data.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
