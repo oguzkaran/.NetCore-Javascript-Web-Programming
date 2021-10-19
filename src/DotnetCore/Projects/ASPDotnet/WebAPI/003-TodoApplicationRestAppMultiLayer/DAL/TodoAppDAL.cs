@@ -4,6 +4,7 @@ using CSD.Util.Data.Repository;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CSD.TodoApplicationRestApp.DAL
 {
@@ -11,12 +12,16 @@ namespace CSD.TodoApplicationRestApp.DAL
     {
         private readonly ITodoRepository m_todoRepository;
 
-        public TodoAppDAL(ITodoRepository todoRepository)
+        private static Task<T> createTask<T>(Func<T> action)
         {
-            m_todoRepository = todoRepository;
+            var task = new Task<T>(action);
+
+            task.Start();
+
+            return task;
         }
 
-        public long CountTodos()
+        private long countTodosCallback()
         {
             try
             {
@@ -28,9 +33,10 @@ namespace CSD.TodoApplicationRestApp.DAL
             }
         }
 
-        public IEnumerable<TodoInfo> FindAllTodos()
+        private IEnumerable<TodoInfo> findAllTodosCallback()
         {
-            try {
+            try
+            {
                 return m_todoRepository.FindAll();
             }
             catch (Exception ex)
@@ -39,8 +45,7 @@ namespace CSD.TodoApplicationRestApp.DAL
             }
         }
 
-
-        public IEnumerable<TodoInfo> FindTodosByMonth(int month)
+        private IEnumerable<TodoInfo> findTodosByMonthCallback(int month)
         {
             try
             {
@@ -52,7 +57,7 @@ namespace CSD.TodoApplicationRestApp.DAL
             }
         }
 
-        public IEnumerable<TodoInfo> FindTodosByLastUpdateMonth(int month)
+        private IEnumerable<TodoInfo> findTodosByLastUpdateMonthCallback(int month)
         {
             try
             {
@@ -64,7 +69,7 @@ namespace CSD.TodoApplicationRestApp.DAL
             }
         }
 
-        public IEnumerable<TodoInfo> FindTodosByMonthAndYear(int month,int year)
+        private IEnumerable<TodoInfo> findTodosByMonthAndYearCallback(int month, int year)
         {
             try
             {
@@ -76,18 +81,54 @@ namespace CSD.TodoApplicationRestApp.DAL
             }
         }
 
-        public TodoInfo SaveTodoInfo(TodoInfo todoInfo)
+
+        private TodoInfo saveTodoInfo(TodoInfo todoInfo)
         {
             try
             {
                 return m_todoRepository.Save(todoInfo);
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 throw new RepositoryException("TodoAppDAL.SaveTodoInfo", ex);
-            }            
+            }
         }
 
-        
+        public TodoAppDAL(ITodoRepository todoRepository)
+        {
+            m_todoRepository = todoRepository;
+        }
+
+        public Task<long> CountTodosAsync()
+        {
+            return createTask(countTodosCallback);
+        }
+
+
+        public Task<IEnumerable<TodoInfo>> FindAllTodosAsync()
+        {
+            return createTask(findAllTodosCallback);            
+        }
+
+        public Task<IEnumerable<TodoInfo>> FindTodosByMonthAsync(int month)
+        {
+            return createTask(() => findTodosByMonthCallback(month));            
+        }
+
+        public Task<IEnumerable<TodoInfo>> FindTodosByLastUpdateMonthAsync(int month)
+        {
+            return createTask(() => findTodosByLastUpdateMonthCallback(month));            
+        }
+
+        public Task<IEnumerable<TodoInfo>> FindTodosByMonthAndYearAsync(int month,int year)
+        {
+            return createTask(() => findTodosByMonthAndYearCallback(month, year));            
+        }
+
+        public Task<TodoInfo> SaveTodoInfoAsync(TodoInfo todoInfo)
+        {
+            return createTask(() => saveTodoInfo(todoInfo));
+        }        
         
         //...
     }

@@ -25,10 +25,9 @@ namespace CSD.TodoApplicationRestApp.Factory
             loadTodos();    
         }
 
-        public IEnumerable<TodoInfo> All => m_todos;
+        public IEnumerable<TodoInfo> All => m_todos;       
 
-        public TodoInfo RandomTodo => m_todos[m_random.Next(m_todos.Count)]; 
-
+        public TodoInfo RandomTodo => m_todos[m_random.Next(m_todos.Count)];
 
         public IEnumerable<TodoInfo> FindTodosByTitleContains(string title)
         {
@@ -39,6 +38,6 @@ namespace CSD.TodoApplicationRestApp.Factory
                     list.Add(todo);
 
             return list;
-        }
+        }        
     }
 }

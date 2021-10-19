@@ -4,25 +4,24 @@ using CSD.Util.Data.Repository;
 using CSD.Util.Data.Service;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace CSD.TodoApplicationRestApp
 {
     public class TodoAppService
     {
-        private readonly TodoAppDAL m_todoAppDAL;      
+        private readonly TodoAppDAL m_todoAppDAL;        
 
         public TodoAppService(TodoAppDAL todoAppDAL)
         {
             m_todoAppDAL = todoAppDAL;
         }
 
-        public long CountTodos()
+        public async Task<long> CountTodosAsyncAsync()
         {
             try
             {
-                return m_todoAppDAL.CountTodos();
+                return await m_todoAppDAL.CountTodosAsync();
             }
             catch (RepositoryException ex)
             {
@@ -35,11 +34,11 @@ namespace CSD.TodoApplicationRestApp
             //...
         }
 
-        public IEnumerable<TodoInfo> FindAllTodos()
+        public async Task<IEnumerable<TodoInfo>> FindAllTodosAsync()
         {
             try
             {
-                return m_todoAppDAL.FindAllTodos();
+                return await m_todoAppDAL.FindAllTodosAsync();
             }
             catch (RepositoryException ex)
             {                
@@ -51,11 +50,11 @@ namespace CSD.TodoApplicationRestApp
             }
         }
 
-        public IEnumerable<TodoInfo> FindTodosByMonth(int month)
+        public async Task<IEnumerable<TodoInfo>> FindTodosByMonthAsync(int month)
         {
             try
             {
-                return m_todoAppDAL.FindTodosByMonth(month);
+                return await m_todoAppDAL.FindTodosByMonthAsync(month);
             }
             catch (RepositoryException ex)
             {
@@ -67,11 +66,11 @@ namespace CSD.TodoApplicationRestApp
             }
         }
 
-        public IEnumerable<TodoInfo> FindTodosByLastUpdateMonth(int month)
+        public async Task<IEnumerable<TodoInfo>> FindTodosByLastUpdateMonthAsync(int month)
         {
             try
             {
-                return m_todoAppDAL.FindTodosByLastUpdateMonth(month);
+                return await m_todoAppDAL.FindTodosByLastUpdateMonthAsync(month);
             }
             catch (RepositoryException ex)
             {
@@ -83,27 +82,27 @@ namespace CSD.TodoApplicationRestApp
             }
         }
 
-        public IEnumerable<TodoInfo> FindTodosByMonthAndYear(int month, int year)
+        public async Task<IEnumerable<TodoInfo>> FindTodosByMonthAndYearAsync(int month, int year)
         {
             try
             {
-                return m_todoAppDAL.FindTodosByMonthAndYear(month, year);
+                return await m_todoAppDAL.FindTodosByMonthAndYearAsync(month, year);
             }
             catch (RepositoryException ex)
-            {
-                throw new DataServiceException("TodoAppService.FindTodosByMonthAndYear", ex.InnerException);
+            { 
+                throw new DataServiceException("TodoAppService.FindTodosByMonthAndYear", ex.InnerException); 
             }
-            catch (Exception ex)
-            {
-                throw new DataServiceException("TodoAppService.FindTodosByMonthAndYear", ex);
+            catch (Exception ex) 
+            {                
+                throw new DataServiceException("TodoAppService.FindTodosByMonthAndYear", ex); 
             }
         }
 
-        public TodoInfo SaveTodo(TodoInfo todoInfo)
+        public async Task<TodoInfo> SaveTodoAsync(TodoInfo todoInfo)
         {
             try
             {
-                return m_todoAppDAL.SaveTodoInfo(todoInfo);
+                return await m_todoAppDAL.SaveTodoInfoAsync(todoInfo);
             }
             catch (RepositoryException ex)
             {
@@ -115,6 +114,5 @@ namespace CSD.TodoApplicationRestApp
                 throw new DataServiceException("TodoAppService.SaveTodo", ex);
             }
         }
-
     }
 }

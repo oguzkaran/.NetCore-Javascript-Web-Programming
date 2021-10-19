@@ -59,8 +59,7 @@ namespace CSD
         }
 
         public static Task<List<int>> GetRandomNumbersAsync(Random r, int n, int min, int max)
-        {
-            Task.Run(() => { });
+        {            
             var task = new Task<List<int>>(()=> GetRandomNumbers(r, n, min, max));
 
             task.Start();

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CSD.Util.Data.Repository
 {
@@ -15,5 +16,16 @@ namespace CSD.Util.Data.Repository
         T FindById(ID id);
         T Save(T entity);
         IEnumerable<T> SaveAll(IEnumerable<T> entities);
+        Task<long> CountAsync();
+        Task DeleteAsync(T entity);
+        Task DeleteAllAsync();
+        Task DeleteAllAsync(IEnumerable<T> entities);
+        Task DeleteAllByIdAsync(IEnumerable<ID> ids);
+        Task DeleteByIdAsync(ID id);
+        Task<bool> ExistsByIdAsync(ID id);
+        Task<IEnumerable<T>> FindAllAsync();
+        Task<T> FindByIdAsync(ID id);
+        Task<T> SaveAsync(T entity);
+        Task<IEnumerable<T>> SaveAllAsync(IEnumerable<T> entities);
     }
 }

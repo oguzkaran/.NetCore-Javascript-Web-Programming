@@ -1,4 +1,7 @@
-﻿using CSD.TodoApplicationRestApp.Entities;
+﻿using CSD.TodoApplicationRestApp.Configuration;
+using CSD.TodoApplicationRestApp.Entities;
+using CSD.Util.Data.Service;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -7,28 +10,49 @@ using System.Threading.Tasks;
 namespace CSD.TodoApplicationRestApp.Repositories
 {
     public class TodoRepository : ITodoRepository
-    {
-        private const string ms_connectionString = @"Server=.;Database=TodoAppDb;Trusted_Connection=True;";
-        private readonly static SqlConnection ms_connection = new(ms_connectionString);
-        private const string ms_insertSqlCommandStr = "insert into TodoInfo (Title, Text) values (@Title, @Text)";
+    {        
+        private const string ms_insertSqlCommandStr = "insert into TodoInfo (Title, Description) values (@Title, @Description)";
         private const string ms_countSqlCommandStr = "select count(*) from TodoInfo";
         private const string ms_selectAllSqlCommandStr = "select * from TodoInfo";
         private const string ms_selectByMonthSqlCommandStr = "select * from TodoInfo where month(CreateDateTime)=@month";
         private const string ms_selectByMonthAndYearSqlCommandStr = "select * from TodoInfo where month(CreateDateTime)=@month and year(CreateDateTime)=@year";
-        private const string ms_selectByLastUpdateMonthSqlCommandStr = "select * from TodoInfo where month(LastUpdate)=@month";
+        private const string ms_selectByItemIdSqlCommanStr = 
+            "select t.Title, t.Description, t.CreateDateTime, i.Text, i.LastUpdate" + 
+            " from TodoInfo t inner join ItemInfo i on t.Id=i.TodoId where i.Id=@ItemId";        
+
+        private readonly ConnectionConfig m_connectionConfig;
+        private readonly SqlConnection m_connection;
+
+        public TodoRepository(ConnectionConfig connectionConfig)
+        {
+            m_connectionConfig = connectionConfig;
+            m_connection = new(m_connectionConfig.ConnectionString);
+        }
 
         private TodoInfo getTodoInfo(SqlDataReader reader)
         {
-            return new TodoInfo { Id = (int)reader[0], Title = (string)reader[1], Text = (string)reader[2], 
-                CreateDateTime = (DateTime)reader[3], LastUpdate = (DateTime)reader[4], Completed = (bool)reader[5] };
+            return new() { Id = (int)reader[0], Title = (string)reader[1], Description = (string)reader[2], 
+                CreateDateTime = (DateTime)reader[3], Completed = (bool)reader[4] };
+        }
+
+        private TodoInfoItem getTodoInfoItem(SqlDataReader reader)
+        {
+            return new()
+            {                
+                Title = (string)reader[0],
+                Description = (string)reader[1],
+                CreateDateTime = (DateTime)reader[2],
+                Text = (string)reader[3],
+                LastUpdate = (DateTime)reader[4],
+            };
         }
 
         public long Count()
         {
             try
             {
-                var command = new SqlCommand(ms_countSqlCommandStr, ms_connection);
-                ms_connection.Open();
+                var command = new SqlCommand(ms_countSqlCommandStr, m_connection);
+                m_connection.Open();
                 var reader = command.ExecuteReader();
 
                 reader.Read();
@@ -37,17 +61,17 @@ namespace CSD.TodoApplicationRestApp.Repositories
             }
             finally
             {
-                if (ms_connection.State == System.Data.ConnectionState.Open)
-                    ms_connection.Close();
+                if (m_connection.State == System.Data.ConnectionState.Open)
+                    m_connection.Close();
             }
         }
         public IEnumerable<TodoInfo> FindAll()
         {
             try
             {
-                var command = new SqlCommand(ms_selectAllSqlCommandStr, ms_connection);
+                var command = new SqlCommand(ms_selectAllSqlCommandStr, m_connection);
                 var list = new List<TodoInfo>();
-                ms_connection.Open();
+                m_connection.Open();
                 var reader = command.ExecuteReader();
 
                 while (reader.Read())
@@ -57,43 +81,39 @@ namespace CSD.TodoApplicationRestApp.Repositories
             }
             finally
             {
-                if (ms_connection.State == System.Data.ConnectionState.Open)
-                    ms_connection.Close();
+                if (m_connection.State == System.Data.ConnectionState.Open)
+                    m_connection.Close();
             }
         }
+
+        public TodoInfoItem FindByItemId(int id)
+        {
+            try
+            {                
+                var command = new SqlCommand(ms_selectByItemIdSqlCommanStr, m_connection);
+
+                command.Parameters.AddWithValue("@ItemId", id);
+                m_connection.Open();
+                var reader = command.ExecuteReader();
+
+                return reader.Read() ? getTodoInfoItem(reader) : null;
+            }
+            finally
+            {
+                if (m_connection.State == System.Data.ConnectionState.Open)
+                    m_connection.Close();
+            }
+        }       
 
         public IEnumerable<TodoInfo> FindByMonth(int month)
         {
             try
             {
                 var list = new List<TodoInfo>();
-                var command = new SqlCommand(ms_selectByMonthSqlCommandStr, ms_connection);
-
-                command.Parameters.AddWithValue("@month", month);                
-                ms_connection.Open();
-                var reader = command.ExecuteReader();
-
-                while (reader.Read())
-                    list.Add(getTodoInfo(reader));
-
-                return list;
-            }
-            finally
-            {
-                if (ms_connection.State == System.Data.ConnectionState.Open)
-                    ms_connection.Close();
-            }
-        }
-
-        public IEnumerable<TodoInfo> FindByLastUpdateMonth(int month)
-        {
-            try
-            {
-                var list = new List<TodoInfo>();
-                var command = new SqlCommand(ms_selectByLastUpdateMonthSqlCommandStr, ms_connection);
+                var command = new SqlCommand(ms_selectByMonthSqlCommandStr, m_connection);
 
                 command.Parameters.AddWithValue("@month", month);
-                ms_connection.Open();
+                m_connection.Open();
                 var reader = command.ExecuteReader();
 
                 while (reader.Read())
@@ -103,21 +123,21 @@ namespace CSD.TodoApplicationRestApp.Repositories
             }
             finally
             {
-                if (ms_connection.State == System.Data.ConnectionState.Open)
-                    ms_connection.Close();
+                if (m_connection.State == System.Data.ConnectionState.Open)
+                    m_connection.Close();
             }
-        }
+        }        
 
         public IEnumerable<TodoInfo> FindByMonthAndYear(int month, int year)
         {
             try
             {
                 var list = new List<TodoInfo>();
-                var command = new SqlCommand(ms_selectByMonthAndYearSqlCommandStr, ms_connection);
+                var command = new SqlCommand(ms_selectByMonthAndYearSqlCommandStr, m_connection);
 
                 command.Parameters.AddWithValue("@month", month);
                 command.Parameters.AddWithValue("@year", year);
-                ms_connection.Open();
+                m_connection.Open();
                 var reader = command.ExecuteReader();
 
                 while (reader.Read())
@@ -127,8 +147,8 @@ namespace CSD.TodoApplicationRestApp.Repositories
             }
             finally
             {
-                if (ms_connection.State == System.Data.ConnectionState.Open)
-                    ms_connection.Close();
+                if (m_connection.State == System.Data.ConnectionState.Open)
+                    m_connection.Close();
             }
         }
 
@@ -136,17 +156,17 @@ namespace CSD.TodoApplicationRestApp.Repositories
         {
             try
             {
-                var command = new SqlCommand(ms_insertSqlCommandStr, ms_connection);
+                var command = new SqlCommand(ms_insertSqlCommandStr, m_connection);
 
                 command.Parameters.AddWithValue("@Title", todoInfo.Title);
-                command.Parameters.AddWithValue("@Text", todoInfo.Text);
-                ms_connection.Open();
+                command.Parameters.AddWithValue("@Description", todoInfo.Description);
+                m_connection.Open();
 
                 command.ExecuteNonQuery();
             }
             finally {
-                if (ms_connection.State == System.Data.ConnectionState.Open)
-                    ms_connection.Close();
+                if (m_connection.State == System.Data.ConnectionState.Open)
+                    m_connection.Close();
             }
 
             return todoInfo;
@@ -183,6 +203,7 @@ namespace CSD.TodoApplicationRestApp.Repositories
         {
             throw new NotImplementedException();
         }
+
         
         public TodoInfo FindById(int id)
         {

@@ -3,6 +3,7 @@ using CSD.TodoApplicationRestApp.Errors;
 
 using CSD.Util.Data.Service;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace CSD.TodoApplicationRestApp.Controllers
 {
@@ -18,11 +19,11 @@ namespace CSD.TodoApplicationRestApp.Controllers
         }
 
         [HttpGet("todos/count")]
-        public IActionResult CountTodos()
+        public async Task<IActionResult> CountTodosAsync()
         {
             try
             {
-                return new ObjectResult(new { Count =  m_todoAppService.CountTodos() });
+                return new ObjectResult(new { Count =  await m_todoAppService.CountTodosAsyncAsync() });
             }
             catch (DataServiceException ex)
             {
@@ -31,11 +32,11 @@ namespace CSD.TodoApplicationRestApp.Controllers
         }
 
         [HttpGet("todos/all")]
-        public IActionResult FindAll()
+        public async Task<IActionResult> FindAllAsync()
         {
             try
             {
-                return new ObjectResult(m_todoAppService.FindAllTodos());
+                return new ObjectResult(await m_todoAppService.FindAllTodosAsync());
             }
             catch (DataServiceException ex)
             {
@@ -44,11 +45,11 @@ namespace CSD.TodoApplicationRestApp.Controllers
         }
 
         [HttpGet("todos/find/cdate/month")]
-        public IActionResult FindTodosByMonth(int mon)
+        public async Task<IActionResult> FindTodosByMonthAsync(int mon)
         {
             try
             {
-                return new ObjectResult(m_todoAppService.FindTodosByMonth(mon));
+                return new ObjectResult(await m_todoAppService.FindTodosByMonthAsync(mon));
             }
             catch (DataServiceException ex)
             {
@@ -57,11 +58,11 @@ namespace CSD.TodoApplicationRestApp.Controllers
         }
 
         [HttpGet("todos/find/cdate/monyear")]
-        public IActionResult FindTodosByMonthAndYear(int mon, int year)
+        public async Task<IActionResult> FindTodosByMonthAndYearAsync(int mon, int year)
         {
             try
             {
-                return new ObjectResult(m_todoAppService.FindTodosByMonthAndYear(mon, year));
+                return new ObjectResult(await m_todoAppService.FindTodosByMonthAndYearAsync(mon, year));
             }
             catch (DataServiceException ex)
             {
@@ -70,24 +71,21 @@ namespace CSD.TodoApplicationRestApp.Controllers
         }
 
         [HttpGet("todos/find/ldate")]
-        public IActionResult FindTodosByLastUpdateMonth(int mon)
+        public async Task<IActionResult> FindTodosByLastUpdateMonthAsync(int mon)
         {
             try
             {
-                return new ObjectResult(m_todoAppService.FindTodosByLastUpdateMonth(mon));
+                return new ObjectResult(await m_todoAppService.FindTodosByLastUpdateMonthAsync(mon));
             }
-            catch (DataServiceException ex)
-            {
-                return NotFound(new ErrorInfo { Message = ex.Message, Status = 404, Detail = "Internal DB problem" });
-            }
+            catch (DataServiceException ex) { return NotFound(new ErrorInfo { Message = ex.Message, Status = 404, Detail = "Internal DB problem" }); }
         }
 
         [HttpPost]
-        public IActionResult SaveTodo([FromBody] TodoInfo todoInfo)
+        public async Task<IActionResult> SaveTodoAsync([FromBody] TodoInfo todoInfo)
         {
             try
             {
-                return new ObjectResult(m_todoAppService.SaveTodo(todoInfo));
+                return new ObjectResult(await m_todoAppService.SaveTodoAsync(todoInfo));
             }
             catch (DataServiceException ex)
             {
