@@ -1,8 +1,9 @@
 ﻿/*---------------------------------------------------------------------------------------------------------------------
-    Yukarıdaki problem async belirleyicisi ve await operatörü ile daha kolay bir biçimde yazılabilir
+    Aşağıdaki örnekte FindByRandomAsync metodunu yazan programcı sizce GetRandomNumbersAsync metodunda yapılana
+    benzer bir iş mi yapmıştır? 
 ----------------------------------------------------------------------------------------------------------------------*/
 using System;
-using System.IO;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -12,38 +13,59 @@ namespace CSD
     {
         public static void Main()
         {
-            Console.WriteLine("main starts");
-            Sample.FooAsync();
-            Console.WriteLine("main ends");
+            Controller controller = new();
+
+            controller.DoWorkAsync();
+
+            Console.WriteLine("main ends!..");
             Console.ReadKey();
         }
     }
 
-    class Sample {
-        public static async void FooAsync()
+    class Controller {
+        public async void DoWorkAsync()
         {
-            var task = new Task<int>(MyTaskUtil.MyTaskProc);
+            var list = await RandomGeneratorRepository.FindByRandomAsync(new Random(), 10, 0, 99);
 
-            task.Start();            
-
-            Console.WriteLine($"Sum:{await task}"); // Burada çağıran için metot sonlanır. await'ten sonraki kısım başka bir thread'de devam eder
+            foreach (var val in list)
+                Console.Write($"{val} ");
         }
     }
 
-    class MyTaskUtil {
-        public static int MyTaskProc()
+    class RandomGeneratorRepository
+    {
+        public static async Task<IEnumerable<int>> FindByRandomAsync(Random r, int n, int min, int max)
         {
-            Random r = new();
-            int sum = 0;
+            return await RandomNumberGenerator.GetRandomNumbersAsync(r, n, min, max);
+        }
+    }
 
-            for (int i = 0; i < 5; ++i) {
-                int val = r.Next(100);
+    class RandomNumberGenerator {        
+        public static List<int> GetRandomNumbers(Random r, int n, int min, int max)
+        {
+            var numbers = new List<int>();
 
-                Thread.Sleep(500);
-                sum += val;
+            for (int i = 0; i < n; ++i) {
+                var val = r.Next(min, max + 1);
+
+                numbers.Add(val);
+                Console.Write($"{val} ");
+                Thread.Sleep(1000);
             }
 
-            return sum;
+            Console.WriteLine();
+
+            return numbers;
         }
-    }
+
+        public static Task<List<int>> GetRandomNumbersAsync(Random r, int n, int min, int max)
+        {
+            Task.Run(() => { });
+            var task = new Task<List<int>>(()=> GetRandomNumbers(r, n, min, max));
+
+            task.Start();
+
+            return task;
+        }
+    }    
 }
