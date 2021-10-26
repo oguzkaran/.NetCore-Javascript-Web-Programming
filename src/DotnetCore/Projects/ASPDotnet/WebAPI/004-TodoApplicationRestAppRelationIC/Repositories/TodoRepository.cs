@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using System.Threading.Tasks;
 
 using static CSD.Util.Error.ExceptionUtil;
+using CSD.Util.TPL;
 
 namespace CSD.TodoApplicationRestApp.Repositories
 {
@@ -52,27 +53,8 @@ namespace CSD.TodoApplicationRestApp.Repositories
         {
             if (m_connection.State == System.Data.ConnectionState.Open)
                 m_connection.Close();
-        }        
-
-        //Genelleştirilecek
-        private Task<T> createTask<T>(Func<T> func)
-        {
-            var task = new Task<T>(func);
-
-            task.Start();
-
-            return task;
         }
-
-        private Task createTask(Action func)
-        {
-            var task = new Task(func);
-
-            task.Start();
-
-            return task;
-        }
-
+        
         #region callbacks
         private long countCallback()
         {
@@ -163,12 +145,12 @@ namespace CSD.TodoApplicationRestApp.Repositories
 
         public Task<long> CountAsync()
         {
-            return SubscribeAsync(() => createTask(countCallback), () => createTask(closeConnection));
+            return SubscribeAsync(() => new Task<long>(countCallback).Create(), () => new Task(() => closeConnection()).Create());
         }
 
         public Task<IEnumerable<TodoInfo>> FindAllAsync()
-        {            
-            return SubscribeAsync(() => createTask(findAllCallback), () => createTask(closeConnection));
+        {
+            return SubscribeAsync(() => new Task<IEnumerable<TodoInfo>>(findAllCallback).Create(), () => new Task(() => closeConnection()).Create());
         }
 
         public Task<TodoInfoItem> FindByItemIdAsync(int id)

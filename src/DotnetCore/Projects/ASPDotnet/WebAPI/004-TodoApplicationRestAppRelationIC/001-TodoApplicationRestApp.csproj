@@ -26,6 +26,9 @@
     <Reference Include="CSD.Util.Mappers">
       <HintPath>..\..\..\..\Libraries\MapperUtilLib\bin\Release\net5.0\CSD.Util.Mappers.dll</HintPath>
     </Reference>
+    <Reference Include="CSD.Util.TPL">
+      <HintPath>..\..\..\..\Libraries\TaskUtilLib\bin\Release\net5.0\CSD.Util.TPL.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
