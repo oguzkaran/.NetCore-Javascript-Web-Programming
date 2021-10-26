@@ -156,7 +156,7 @@ namespace CSD.Util.Error
         public static async Task<R> SubscribeAsync<R>(Func<Task<R>> func, Func<Task> completed)
         {
             try
-            {
+            {                
                 return await func();
             }            
             finally

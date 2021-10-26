@@ -1,12 +1,17 @@
 ﻿using System;
 
-namespace CSD.Util.Mapper.AutoMapper
+namespace CSD.Util.Mappers.AutoMapper
 {
     public class Mapper : IMapper
     {
-        public R Map<T, R>(T t)
+        public Mapper()
+        { 
+                                                
+        }
+
+        public D Map<D, S>(S source)
         {
             throw new NotImplementedException();
-        }
+        }        
     }
 }

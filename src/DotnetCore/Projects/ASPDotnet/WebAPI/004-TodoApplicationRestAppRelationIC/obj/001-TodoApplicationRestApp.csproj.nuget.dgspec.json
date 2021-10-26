@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Libraries\\MapperUtilLib\\MapperUtilLib.csproj": {}
+    "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\004-TodoApplicationRestAppRelation\\001-TodoApplicationRestApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Libraries\\MapperUtilLib\\MapperUtilLib.csproj": {
+    "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\004-TodoApplicationRestAppRelation\\001-TodoApplicationRestApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Libraries\\MapperUtilLib\\MapperUtilLib.csproj",
-        "projectName": "CSD.Util.Mappers",
-        "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Libraries\\MapperUtilLib\\MapperUtilLib.csproj",
+        "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\004-TodoApplicationRestAppRelation\\001-TodoApplicationRestApp.csproj",
+        "projectName": "001-TodoApplicationRestApp",
+        "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\004-TodoApplicationRestAppRelation\\001-TodoApplicationRestApp.csproj",
         "packagesPath": "C:\\Users\\Karans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Libraries\\MapperUtilLib\\obj\\",
+        "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\004-TodoApplicationRestAppRelation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -54,6 +54,14 @@
             "Mapster": {
               "target": "Package",
               "version": "[7.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
@@ -67,6 +75,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

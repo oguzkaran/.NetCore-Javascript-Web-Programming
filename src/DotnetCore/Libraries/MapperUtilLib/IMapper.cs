@@ -1,7 +1,7 @@
-﻿namespace CSD.Util.Mapper
+﻿namespace CSD.Util.Mappers
 {
     public interface IMapper
     {
-        R Map<T, R>(T t);
+        D Map<D, S>(S source);
     }
 }
