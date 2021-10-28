@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSD.Util
+namespace CSD.Util.Number
 {
     public static class NumberUtil
     {
@@ -18,6 +18,12 @@ namespace CSD.Util
 
             return true;
         }
+
+        public static bool IsPrime(this int val)
+        {
+            return IsPrime((long)val);
+        }
+
 
         public static bool IsPrime(this long val)
         {

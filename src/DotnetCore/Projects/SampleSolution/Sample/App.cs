@@ -1,70 +1,48 @@
 ﻿/*---------------------------------------------------------------------------------------------------------------------
-    Aşağıdaki örnekte FindByRandomAsync metodunu yazan programcı sizce GetRandomNumbersAsync metodunda yapılana
-    benzer bir iş mi yapmıştır? 
+    Yukarıdaki örneklerin sorgu sentaksı yapılışı
 ----------------------------------------------------------------------------------------------------------------------*/
 using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
+using CSD.MovieApp;
+using System.Linq;
 
 namespace CSD
 {
     class App
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
-            Controller controller = new();
+            try
+            {
+                if (args.Length != 4)
+                {
+                    Console.WriteLine("Wrong number of arguments");
+                    Environment.Exit(1);
+                }
+                var month= int.Parse(args[1]);
+                var year = int.Parse(args[2]);
+                var minCost = long.Parse(args[3]);
+                var movieFactory = new MovieFactory(args[0]);
 
-            controller.DoWorkAsync();
+                var query = from m in movieFactory.Movies
+                            where m.VisionDate.Month == month && m.VisionDate.Year == year && m.Cost >= minCost
+                            orderby m.VisionDate
+                            select m;                            
+                    
+                query.ToList().ForEach(m => Console.WriteLine($"{m.Name}, {m.VisionDate}, {m.Cost}"));
 
-            Console.WriteLine("main ends!..");
-            Console.ReadKey();
-        }
-    }
+                Console.WriteLine("--------------------------------------------------------------------------");
+                query = from m in movieFactory.Movies
+                        where m.VisionDate.Month == month && m.VisionDate.Year == year && m.Cost >= minCost
+                        orderby m.VisionDate descending
+                        select m;
 
-    class Controller {
-        public async void DoWorkAsync()
-        {
-            var list = await RandomGeneratorRepository.FindByRandomAsync(new Random(), 10, 0, 99);
+                query.ToList().ForEach(m => Console.WriteLine($"{m.Name}, {m.VisionDate}, {m.Cost}"));
 
-            foreach (var val in list)
-                Console.Write($"{val} ");
-        }
-    }
-
-    class RandomGeneratorRepository
-    {
-        public static async Task<IEnumerable<int>> FindByRandomAsync(Random r, int n, int min, int max)
-        {
-            return await RandomNumberGenerator.GetRandomNumbersAsync(r, n, min, max);
-        }
-    }
-
-    class RandomNumberGenerator {        
-        public static List<int> GetRandomNumbers(Random r, int n, int min, int max)
-        {
-            var numbers = new List<int>();
-
-            for (int i = 0; i < n; ++i) {
-                var val = r.Next(min, max + 1);
-
-                numbers.Add(val);
-                Console.Write($"{val} ");
-                Thread.Sleep(1000);
             }
-
-            Console.WriteLine();
-
-            return numbers;
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
-
-        public static Task<List<int>> GetRandomNumbersAsync(Random r, int n, int min, int max)
-        {            
-            var task = new Task<List<int>>(()=> GetRandomNumbers(r, n, min, max));
-
-            task.Start();
-
-            return task;
-        }
-    }    
+    }
 }

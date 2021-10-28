@@ -12,6 +12,16 @@
           "bin/placeholder/CSD.GeneralTest.dll": {}
         }
       },
+      "CSD.Util/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CSD.Util.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSD.Util.dll": {}
+        }
+      },
       "CSD.Util.Collections/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -30,15 +40,21 @@
       "path": "../GeneralTestDLL/GeneralTestDLL.csproj",
       "msbuildProject": "../GeneralTestDLL/GeneralTestDLL.csproj"
     },
+    "CSD.Util/1.0.0": {
+      "type": "project",
+      "path": "../CSDUtilLib/CSDUtilLib.csproj",
+      "msbuildProject": "../CSDUtilLib/CSDUtilLib.csproj"
+    },
     "CSD.Util.Collections/1.0.0": {
       "type": "project",
-      "path": "../CollectionUtilLib/CollectionUtilLib.csproj",
-      "msbuildProject": "../CollectionUtilLib/CollectionUtilLib.csproj"
+      "path": "../CSDCollectionUtilLib/CSDCollectionUtilLib.csproj",
+      "msbuildProject": "../CSDCollectionUtilLib/CSDCollectionUtilLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "CSD.GeneralTest >= 1.0.0",
+      "CSD.Util >= 1.0.0",
       "CSD.Util.Collections >= 1.0.0"
     ]
   },
@@ -81,6 +97,12 @@
           "projectReferences": {
             "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\SampleSolution\\CollectionUtilLib\\CollectionUtilLib.csproj": {
               "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\SampleSolution\\CollectionUtilLib\\CollectionUtilLib.csproj"
+            },
+            "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\SampleSolution\\CSDCollectionUtilLib\\CSDCollectionUtilLib.csproj": {
+              "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\SampleSolution\\CSDCollectionUtilLib\\CSDCollectionUtilLib.csproj"
+            },
+            "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\SampleSolution\\CSDUtilLib\\CSDUtilLib.csproj": {
+              "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\SampleSolution\\CSDUtilLib\\CSDUtilLib.csproj"
             },
             "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\SampleSolution\\GeneralTestDLL\\GeneralTestDLL.csproj": {
               "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\SampleSolution\\GeneralTestDLL\\GeneralTestDLL.csproj"

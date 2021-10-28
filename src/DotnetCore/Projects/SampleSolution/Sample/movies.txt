@@ -1,0 +1,1001 @@
+id@Name@Genre@VisionDate@Rating@Cost
+1@Dead Heat on a Merry-Go-Round@Comedy|Crime@1988-07-13@278485@1335162
+2@Courtship of Eddie's Father, The@Comedy@1974-03-25@2922751@390047
+3@Man from Nowhere, The (Ajeossi)@Action|Crime|Thriller@2004-04-22@2824714@312985
+4@Body Snatchers@Horror|Sci-Fi|Thriller@1972-06-16@617576@1064096
+5@Witch Way Love (Un amour de sorcière)@Comedy|Fantasy@1985-06-26@2839660@232967
+6@Night at the Opera, A@Comedy|Musical|Romance@2011-02-25@875292@503029
+7@Pearl Jam: Immagine in Cornice - Live in Italy 2006@Documentary|Musical@1983-10-02@2534191@1512016
+8@Pink Panther 2, The@Adventure|Comedy|Mystery@2009-08-11@2015506@3948047
+9@Father of the Bride@Comedy@2010-10-05@1968913@1881762
+10@Antonia's Line (Antonia)@Comedy|Drama@2009-01-17@2556256@4853777
+11@Blue Sky@Drama|Romance@1977-07-30@2159995@606282
+12@Among Giants@Comedy|Drama|Romance@2012-07-12@2098551@1019263
+13@Friday the 13th@Horror@1976-12-16@2916592@4764503
+14@Arthur Newman@Comedy|Drama@1998-09-02@1104004@538988
+15@How to Get Ahead in Advertising@Comedy|Fantasy@1973-03-21@2339764@4526073
+16@Killing, The@Crime|Film-Noir@2001-05-31@2494105@4453686
+17@Beverly Hillbillies, The@Comedy@1987-10-17@1065294@2669760
+18@Cobra Woman@Adventure|Drama@1989-01-05@1566749@4880424
+19@In This World@Adventure|Drama@1985-12-29@7717@1169173
+20@The Count of Monte Cristo@Action|Adventure|Drama|Romance|Thriller@2000-06-08@1179330@288842
+21@Jesus Christ Superstar@Drama|Musical@2004-05-19@2389687@145961
+22@One on One@Drama@1981-04-17@1083045@4171877
+23@Constant Gardener, The@Drama|Thriller@1994-05-09@158632@2715995
+24@Actress, the Dollars and the Transylvanians, The (Artista, dolarii si Ardelenii)@Western@2007-07-13@400582@1858720
+25@Clean and Sober@Drama@1988-03-04@83944@3912268
+26@Honky Tonk Freeway@Comedy@1987-05-30@925269@1470338
+27@First Wives Club, The@Comedy@1985-10-27@2954206@4045909
+28@Something to Sing About@Comedy|Musical@2003-06-06@2520132@2755191
+29@Liz & Dick @Drama@1977-10-02@667780@3291987
+30@Training Day@Crime|Drama|Thriller@1979-10-17@337020@3957751
+31@2012: Supernova@Action|Sci-Fi@1988-10-14@1760608@4931181
+32@Pope Joan (Die Päpstin)@Drama|Romance@1980-11-18@821759@2217402
+33@Sex Tape@Comedy@2018-09-11@1115898@3945380
+34@Family Viewing@Drama@2008-11-20@2796437@2653271
+35@Hotel Chevalier (Part 1 of 'The Darjeeling Limited')@Drama@2008-07-11@813513@2973730
+36@Short Time@Comedy@1972-07-04@2206484@4850091
+37@Outbound (Periferic)@Action|Drama@2011-08-12@2062020@1045000
+38@11-11-11 (11-11-11: The Prophecy)@Horror|Thriller@2012-01-25@2376552@2377953
+39@Burma VJ: Reporting from a Closed Country (Burma VJ: Reporter i et lukket land)@Documentary@2007-04-22@406951@179347
+40@Swoon@Crime|Drama@1997-09-24@1686261@1774580
+41@Sun Shines Bright, The@Comedy|Drama@2006-01-22@2858826@1450008
+42@Indiscreet@Comedy|Romance@1988-11-24@821306@454828
+43@Grey Gardens@Drama@2002-08-08@494975@1771534
+44@Girl Next Door, The@Comedy|Romance@1984-08-16@2743570@4960602
+45@Hounddog@Drama@1982-10-20@114403@836977
+46@Red Cliff (Chi bi)@Action|Adventure|Drama|War@1997-03-13@2241824@4042238
+47@The Shoe@(no genres listed)@1992-05-14@1801061@3274828
+48@India Song@Drama|Fantasy|Romance@1990-11-23@926611@4519535
+49@D.O.A.@Film-Noir|Mystery|Thriller@1996-04-03@1384078@3893876
+50@Execution of P, The (Kinatay)@Crime|Thriller@2014-11-20@1928725@4200729
+51@Kansas City Confidential@Crime|Drama|Film-Noir|Mystery@1990-02-04@1722334@852102
+52@Welcome Mr. Marshall (Bienvenido Mister Marshall)@Comedy@1978-08-31@126737@2270190
+53@Hotel for Dogs@Adventure|Children|Comedy@1995-11-06@1704465@4769535
+54@Lost in Translation@Comedy|Drama|Romance@1973-07-25@1779161@1402769
+55@Incredible Shrinking Woman, The@Comedy|Sci-Fi@2004-10-04@1355633@1530674
+56@Air America@Action|Comedy@1971-07-26@1260291@4796936
+57@Godzilla@Action|Adventure|Sci-Fi|IMAX@2005-02-01@2377037@4843398
+58@Coco Before Chanel (Coco avant Chanel)@Drama@2005-01-18@2579973@2891271
+59@Santa with Muscles@Comedy@1972-06-08@503307@3328542
+60@12:08 East of Bucharest (A fost sau n-a fost?)@Comedy|Drama@1990-09-16@216711@3684421
+61@Robot@Action|Comedy|Musical|Sci-Fi@2017-11-30@536425@3508903
+62@A One-Way Trip to Antibes@Drama@1976-08-18@103720@405824
+63@League of Their Own, A@Comedy|Drama@1994-02-24@294656@132249
+64@Soul of Bread, The (Ai de mian bao hun)@Comedy|Romance@1984-09-05@2924216@3450489
+65@Harmony and Me@Comedy@1978-10-15@1040306@519657
+66@War and Peace (Jang Aur Aman)@Documentary|War@1987-07-02@1641351@3234536
+67@I Am You (In Her Skin)@Drama|Thriller@2010-05-23@454884@2777096
+68@Garden of Allah, The@Drama@2016-11-14@2169789@3079123
+69@Keane@Mystery|Thriller@1971-03-07@157538@4503558
+70@Double Life of Veronique, The (Double Vie de Véronique, La)@Drama|Fantasy|Romance@1971-12-30@2494662@4406804
+71@Jack Goes Boating@Comedy|Romance@2011-06-01@2036353@4099617
+72@Gossip@Drama|Thriller@2016-11-20@358659@4952776
+73@Dragon Ball Z: The Return of Cooler (Doragon bôru Z 6: Gekitotsu! Hyakuoku pawâ no senshi)@Action|Adventure|Animation@2001-05-04@1712829@4866832
+74@Cartoon All-Stars to the Rescue@Animation|Children|Comedy|Drama|Fantasy@2008-10-18@2270057@2816703
+75@Contempt (Mépris, Le)@Drama@1986-07-02@2769129@3917405
+76@Smilla's Sense of Snow@Drama|Thriller@1996-08-27@84764@2966769
+77@Girl from Monday, The@Action|Comedy|Sci-Fi@1974-03-31@809951@4554253
+78@Madison Avenue@Drama@1979-12-09@28755@1028659
+79@Blob, The@Horror|Sci-Fi@2007-10-06@1492884@3628183
+80@Under the Roofs of Paris (Sous les toits de Paris)@Comedy|Drama|Romance@2016-05-03@2705760@501312
+81@Shame (Skammen)@Drama|War@2015-03-14@183062@1413412
+82@Wake Up, Ron Burgundy@Comedy@1990-08-10@1274225@42688
+83@In Praise of Older Women@Drama@1995-09-03@1231907@2674036
+84@Prince and the Pauper, The@Adventure|Drama@1983-01-04@2256144@3627711
+85@Brighton Rock@Crime|Drama|Thriller@2001-05-18@717391@2298829
+86@Little Boy Blue@Drama@2000-12-07@2934429@1616391
+87@We Were Here@Documentary@1988-03-06@1857334@1932433
+88@Maidens in Uniform (Mädchen in Uniform)@Drama|Romance@2009-02-03@95099@743450
+89@Sicilian, The@Crime|Drama@1990-02-22@2042182@2520670
+90@Triumph of Love, The@Comedy@2001-12-03@1794743@1133190
+91@This Is the End@Action|Comedy@2015-06-23@2148053@813938
+92@Piranhaconda@Horror|Sci-Fi@1973-12-07@2705054@3811059
+93@Gay Bed and Breakfast of Terror, The@Comedy|Horror@1974-09-02@2188406@4215790
+94@Colorado Territory@Western@2015-12-02@2069058@2428978
+95@Camp de Thiaroye@Drama|War@2009-04-02@1404979@4395567
+96@Susan Lenox (Her Fall and Rise)@Adventure|Drama|Romance@1998-04-17@671628@2323346
+97@Did You Hear About the Morgans?@Comedy|Crime|Drama|Romance@1997-11-16@2866690@2168501
+98@Reclaim@Drama|Thriller@1984-03-10@2439457@3012152
+99@Normal Heart, The@Drama@1996-09-13@808702@2104623
+100@Paleface, The@Comedy|Western@2013-08-11@1593728@3165384
+101@Two Men Went to War@Comedy|War@2006-02-18@1870919@2925068
+102@Desperately Seeking Susan@Comedy|Drama|Romance@2009-12-02@582358@2284863
+103@Le Week-End@Comedy|Drama@1999-09-15@1374834@2682259
+104@Standing Still@Comedy|Drama|Romance@1975-05-12@1979280@2572672
+105@Captain from Castile@Adventure|Drama@1982-09-22@1935642@2827785
+106@Milk and Honey@Drama@1985-11-07@2582708@258750
+107@Comanche Moon@Drama|Western@1979-03-19@130642@2668201
+108@Indian Tomb, The (Das indische Grabmal)@Adventure@2019-04-15@590145@4388340
+109@Holy Guests (Ha-Ushpizin)@Drama@1991-03-07@1411480@3838521
+110@Muertos, Los@Drama@1997-01-10@2772257@430124
+111@Donnie Brasco@Crime|Drama@1975-03-02@792269@1698683
+112@Men with Guns@Drama@1999-06-14@2106126@3434936
+113@Rage of Angels@Action|Adventure|Drama|Romance@1982-12-23@580557@4200702
+114@Felidae@Animation|Mystery|Thriller@1990-04-18@465957@2658236
+115@Reality of Love, The (I Want to Marry Ryan Banks)@Comedy|Romance@1999-05-19@532868@4454813
+116@BloodRayne: The Third Reich@Action|Adventure|Fantasy|Horror@2011-12-10@2607163@1038541
+117@The Green Years@Drama@2012-05-21@711953@2493623
+118@Bitch Slap@Action|Comedy|Crime|Thriller@2016-06-04@2266736@3369436
+119@Kalifornia@Drama|Thriller@2013-07-17@2179080@4321363
+120@Tunnel, The@Drama|Horror|Thriller@1991-08-12@203824@548910
+121@Gigli@Comedy|Crime|Romance@1975-05-19@1881772@330514
+122@Dancemaker@Documentary@2000-02-11@1440976@4404744
+123@The Affairs of Martha@Comedy|Romance@1982-07-05@1926130@2720702
+124@Guns, Girls and Gambling@Crime|Thriller@1989-10-20@1104892@2944848
+125@Young Tom Edison@Drama@1999-09-23@2811271@1804797
+126@Musketeer, The@Action|Adventure|Drama|Romance@1990-07-19@1335507@3234693
+127@Whitecoats@Comedy@2012-08-09@1330849@1329195
+128@Tyler Perry's Madea Goes to Jail@Comedy|Crime|Drama@1981-11-18@1114393@776262
+129@Gambit@Comedy|Crime@2002-09-14@2678577@290198
+130@Unfinished Business@Comedy@2004-01-07@2991744@4775510
+131@Letter, The@Drama@1987-08-12@2867120@368330
+132@Dr. Wai in the Scriptures with No Words (Mao xian wang)@Action@2012-07-15@1825224@1909478
+133@True Lies@Action|Adventure|Comedy|Romance|Thriller@1989-09-30@1430077@3995091
+134@Masseurs and a Woman, The (Anma to onna)@Drama@1993-09-25@1026745@3192178
+135@The Sex and Violence Family Hour@(no genres listed)@2008-05-23@1788909@4397961
+136@Destinées, Les (Destinées sentimentales, Les)@Drama|Romance@2017-04-27@569431@4913656
+137@Blues Harp@Crime|Drama@2003-05-23@2230833@4436691
+138@Last Exorcism Part II, The@Horror|Thriller@2011-05-20@1083128@2271201
+139@Mother, I Love You@Drama@2008-01-10@518227@2500371
+140@Paziraie Sadeh@Drama@1985-03-07@1905287@1035062
+141@Dacii@Drama|War@2003-04-26@958165@3139046
+142@Iris@Drama@1974-03-24@1622200@1997833
+143@Faces of Death 3@Documentary|Horror@2019-05-22@2732160@4575282
+144@I Am Number Four@Action|Sci-Fi|Thriller|IMAX@1999-12-07@2043111@2578337
+145@Close Your Eyes (Hypnotic) (Doctor Sleep)@Crime|Thriller@2000-01-14@1220294@2129620
+146@Running@Drama@1979-06-23@1740434@2336249
+147@Avalanche@Action@2016-09-21@2353401@1694385
+148@Two Lovers@Drama|Romance@1993-03-04@578348@1634819
+149@Dollman@Action|Comedy|Crime@1982-07-22@2189965@4570587
+150@Burmese Harp, The (Biruma no tategoto)@Drama|War@1993-09-27@2934428@3153005
+151@Perfect Family, The@Comedy|Drama@2011-07-05@2030156@3858581
+152@Lego: The Adventures of Clutch Powers@Action|Animation@1974-12-22@2123773@301526
+153@Russia House, The@Drama|Thriller@2001-03-10@302827@1617178
+154@Jungle Book, The@Adventure|Children|Romance@1978-07-08@1032211@1271517
+155@Moving Out@Drama@2013-03-05@722407@4046866
+156@Clash of the Titans@Action|Adventure|Drama|Fantasy@2009-08-01@245179@4647974
+157@Case départ@Comedy@2014-09-27@285823@3172871
+158@Stay Hungry@Comedy|Drama@1998-08-29@2512701@2944396
+159@Taxidermia@Comedy|Drama|Horror@1976-05-01@292828@4824633
+160@Coming Home@Drama|War@1971-12-22@2262515@1325802
+161@Monsieur Ibrahim (Monsieur Ibrahim et les fleurs du Coran)@Drama@1998-01-09@2486341@2292015
+162@Martian Child@Comedy|Drama@1993-07-07@2506129@3436390
+163@Love God?, The@Comedy@2005-12-20@1332331@4572357
+164@Sleepwalking@Drama@2009-10-24@714966@4609183
+165@Roger & Me@Documentary@1999-08-04@2678653@666984
+166@Challenge to Lassie@Children|Drama@2010-10-06@2069302@3195388
+167@Little Soldier, The (Petit soldat, Le)@Drama|War@1974-11-13@1306919@479204
+168@Flower Drum Song@Comedy|Musical|Romance@2005-06-10@2496410@3143883
+169@Courage of the Eagles, The (Les aiguilles rouges)@Drama@2008-09-05@1710235@1568202
+170@Bachelor in Paradise@Comedy|Romance@1988-02-28@1767631@4265483
+171@There Will Be No Leave Today (Segodnya uvolneniya ne budet)@Drama|Thriller@2007-03-25@2085248@3906571
+172@Dark Half, The@Horror|Mystery@1982-11-24@1600506@4584022
+173@Silent Hill: Revelation 3D@Horror|Mystery|Thriller@1981-08-14@2396429@790666
+174@Transporter 3@Action|Adventure|Crime|Thriller@1992-08-10@700938@1617089
+175@Texas Chainsaw 3D@Horror|Mystery|Thriller@2021-02-15@1350951@951110
+176@Brown of Harvard@Drama|Romance@1986-10-25@1964791@4915307
+177@Skeleton Key, The@Drama|Horror|Mystery|Thriller@2021-02-03@1953275@842271
+178@Sherlock Holmes in Washington@Crime|Mystery@1981-07-18@2619126@3887719
+179@Ugly, Dirty and Bad (Brutti sporchi e cattivi)@Comedy|Drama@2002-07-13@1632604@2332037
+180@Acapulco, First Beach... To the Left@Comedy@2008-12-12@2834562@2963234
+181@Where the Boys Are '84@Comedy@2008-04-20@513621@4171869
+182@Snowtown (Snowtown Murders, The)@Crime|Drama|Thriller@2009-09-17@2391282@4017019
+183@Watch, The@Comedy|Sci-Fi@1983-10-05@871300@3588348
+184@Loser Takes All! (Qui perd gagne !)@Comedy|Mystery@1972-10-31@2476897@2167380
+185@Poughkeepsie Tapes, The@Horror|Mystery|Thriller@2014-07-01@1411661@3186106
+186@Sweet November@Drama@1984-08-05@2573993@3576155
+187@Men to Kiss@Comedy|Romance@2020-06-29@827125@1377469
+188@Captain Thunder (Capitán Trueno y el Santo Grial, El) (Prince Killian and the Holy Grail)@Adventure@1992-07-13@1046898@4933172
+189@Women on the 6th Floor, The (Les Femmes du 6ème Étage)@Comedy@2020-06-29@1640510@113997
+190@Dragon Ball Z: Dead Zone (Doragon bôru Z 1: Ora no Gohan wo kaese)@Action|Adventure|Animation|Fantasy|Sci-Fi@2019-11-13@1788400@3680573
+191@Spring Break Shark Attack@Adventure|Drama|Horror@1982-09-22@2536712@1367014
+192@Grumpy Cat's Worst Christmas Ever@Adventure|Children|Comedy@2010-01-15@1389512@1391439
+193@Black Beauty@Adventure|Children|Drama@2009-08-29@676461@4692460
+194@We Won't Grow Old Together (Nous ne vieillirons pas ensemble)@Drama@1976-05-03@374372@3008365
+195@Good, the Bad, the Weird, The (Joheunnom nabbeunnom isanghannom)@Action|Adventure|Comedy|Western@2006-11-13@2921295@3479079
+196@Secret of Santa Vittoria, The@Comedy|Drama|War@2005-05-02@994247@3101707
+197@Wild Rovers@Western@2009-11-24@2525942@1826018
+198@Legally Blonde 2: Red, White & Blonde@Comedy@2007-10-17@1929876@3742730
+199@Hurt Locker, The@Action|Drama|Thriller|War@2017-12-17@1265640@2119945
+200@Last Time I Saw Paris, The@Drama@1990-10-12@892012@738931
+201@Mechanic, The@Action|Drama|Thriller@1979-11-24@2518909@2121135
+202@Rhythm of a Crime (Ritam zlocina)@Crime|Drama@2000-09-18@1280943@2189282
+203@Rock & Rule@Animation|Fantasy|Musical|Sci-Fi@1986-05-12@2287161@1858604
+204@Chicks with Sticks@Comedy|Drama@2011-05-09@1585395@4817989
+205@Soldier in the Rain@Comedy|Drama@2012-04-16@2453404@222402
+206@Scarecrow, The@Drama|Fantasy|Romance@1987-02-25@235439@2933511
+207@Last Real Men, The (Die letzten Männer)@Documentary@1979-05-11@1313726@3401110
+208@Buccaneer, The@Adventure|Drama|Romance|War@2015-04-19@562538@2399015
+209@Straight Talk@Comedy@1985-01-07@1679447@623282
+210@Holy Man@Comedy@2021-07-21@2759215@3229090
+211@Viva Villa!@Western@1992-02-01@1302378@2337250
+212@Fiston@Comedy@1979-03-07@1484743@1192083
+213@Fragile Trust: Plagiarism, Power, and Jayson Blair at the New York Times, A@Documentary@2002-12-18@135867@2953890
+214@Something Wild@Comedy|Crime|Drama@1999-09-01@2637591@3060279
+215@Moving the Mountain@Documentary@1985-07-22@2197102@2711229
+216@Black Roses @Horror|Musical@2012-07-22@2183899@1913711
+217@Private War of Major Benson, The@Children|Comedy|Romance@2005-06-06@1788448@136064
+218@Across the Bridge@Crime|Drama|Thriller@1998-02-09@95735@3582384
+219@My Dear Desperado@Comedy@2011-11-03@2296189@3371876
+220@Ixcanul Volcano@(no genres listed)@2004-08-10@1146073@3256996
+221@Bachelor, The@Comedy|Romance@2009-09-30@2234150@123295
+222@Mating Habits of the Earthbound Human, The@Comedy|Sci-Fi@2009-11-12@2011848@4651339
+223@Freeheld@Documentary@2004-05-21@565072@3865862
+224@Big Bad Mama II@Action|Comedy@1986-03-14@456132@4659458
+225@Double Trouble@Action|Comedy|Crime|Romance@1985-07-10@1430993@1212205
+226@Last Summer@Drama@2000-12-08@1624037@1842717
+227@Crimewave@Comedy|Crime@2019-03-29@1474105@833500
+228@Through and Through (Na wylot)@Crime@2003-07-04@1728285@2963131
+229@Are We Done Yet?@Comedy@2012-05-15@2530815@1652874
+230@Green Wave, The@Documentary@1985-01-11@1303223@88521
+231@71 Fragments of a Chronology of Chance (71 Fragmente einer Chronologie des Zufalls)@Drama@1994-06-25@2942266@2002014
+232@Abyss, The@Action|Adventure|Sci-Fi|Thriller@1996-08-16@1027703@1903311
+233@Relentless@Thriller@2014-04-06@804536@4007908
+234@Blood in the Mobile@Documentary@1982-05-04@1334988@985734
+235@A Husband of Round Trip@Comedy|Fantasy@1991-12-22@467230@3854211
+236@Finding North@Comedy|Drama|Romance@2004-08-10@2045480@4307259
+237@Stash House@Thriller@1991-07-13@50579@1416723
+238@This American Journey@Documentary@1998-12-01@2167925@997061
+239@Where Angels Go, Trouble Follows@Comedy@2018-07-16@2019731@2131310
+240@Hell Night@Horror@1988-04-01@528672@1212764
+241@El Escarabajo de Oro@(no genres listed)@1986-02-20@2046984@135120
+242@Tout ce qui brille@Comedy|Drama@1996-04-04@2603897@1516774
+243@This Land Is Mine@Drama|War@2007-08-27@535505@4258801
+244@One-Eyed Monster@Comedy|Horror|Sci-Fi@2009-11-28@1510160@1400940
+245@Private Lives@Comedy|Drama@2019-04-18@1602871@3884570
+246@Suppose They Gave a War and Nobody Came?@Comedy|Drama@2016-08-02@2176207@680019
+247@Harvey@Comedy|Fantasy@2013-08-09@1949374@4498245
+248@Moment of Truth, The (Il momento della verità)@Drama@1977-11-18@1398469@38273
+249@Say It Isn't So@Comedy|Romance@2014-02-09@733768@3748701
+250@Fifty/Fifty@Action|Comedy|Thriller@2005-05-07@2304784@3094446
+251@DarkBlueAlmostBlack (Azuloscurocasinegro)@Drama|Romance@2006-11-08@2737051@3203371
+252@Intruder, The (L'intrus)@Drama@2017-08-30@234959@2322545
+253@Patriotism (Yûkoku)@Drama@2011-10-30@1984595@2901963
+254@Running on Empty@Drama@1978-02-02@1763142@441257
+255@Hell Night@Horror@1977-03-10@1142866@478533
+256@Born in Flames@Comedy|Drama|Fantasy|Sci-Fi@1973-11-10@2502020@574048
+257@Hero at Large@Comedy@2010-03-08@1286122@4009910
+258@You Will Be My Son (Tu seras mon fils)@Drama@1992-09-19@1636679@4465893
+259@Prime Suspect: Inner Circles@Drama|Mystery@2013-07-20@31419@3161609
+260@Leaves from Satan's Book (Blade af Satans bog)@Drama@2019-05-25@2477218@2846979
+261@Barb Wire@Action|Sci-Fi@2002-09-09@683004@2892609
+262@Defender, The@Action@1988-02-20@678031@2004194
+263@Voices@Drama|Romance@1981-07-19@2270578@1987380
+264@Switch, The@Comedy|Romance@2016-08-28@652204@376438
+265@Devil's Backbone, The (Espinazo del diablo, El)@Drama|Fantasy|Horror|Thriller|War@1999-02-23@1211787@2232891
+266@Green Lantern: Emerald Knights@Action|Adventure|Animation|Children@2015-08-05@1828025@878890
+267@Henry's Crime@Comedy|Crime@1978-01-31@2428030@3735102
+268@Sleep Furiously@Documentary@2015-05-02@596335@1428771
+269@Say It Isn't So@Comedy|Romance@2008-05-23@1615280@46133
+270@Assassin Next Door, The (Kirot)@Action|Film-Noir|Thriller@2000-05-16@2898387@4881449
+271@Caveman's Valentine, The@Drama@1984-09-12@1166571@560627
+272@Big Bang, The@Action|Thriller@2000-01-17@2175216@4399635
+273@Across the Universe@Drama|Fantasy|Musical|Romance@2002-05-19@1587203@3962532
+274@Christmas Story 2, A@Children|Comedy@1986-02-15@869053@196573
+275@Red Riding: 1983@Crime|Drama|Mystery@1987-01-03@2022429@2698372
+276@Nick Offerman: American Ham@Comedy@1991-03-15@36565@609366
+277@Fuse (Gori vatra)@Comedy|Drama@2004-07-26@775179@901556
+278@Missing Person, The@Drama|Film-Noir|Mystery@2003-11-22@1502387@2036097
+279@Bleeder@Drama|Thriller@2005-11-01@1183991@330082
+280@State of Play@Crime|Drama|Thriller@1995-03-30@550395@4910156
+281@Little Giants@Children|Comedy@1974-03-27@1420362@2768345
+282@Sorority Boys@Comedy@2006-11-04@962231@3110782
+283@Once Upon a Scoundrel@Comedy@2007-09-13@199025@3499500
+284@Rich and Strange@Comedy|Romance@1977-07-27@2091947@3694116
+285@L.A. Zombie@Horror@2002-12-02@2454586@387869
+286@Stranger's Heart, A@Drama@1982-01-28@159599@4501169
+287@My Mother's Castle (Château de ma mère, Le)@Comedy|Drama@1978-04-20@480569@2160066
+288@Small Town Murder Songs@Crime|Thriller@1971-01-16@2647464@103831
+289@Casanova@Comedy|Drama|Romance@1992-06-14@2139416@549271
+290@Expecting Love (Mala wielka milosc)@Comedy|Romance@1982-12-21@1950535@3584742
+291@À propos de Nice@Documentary@1988-08-13@691058@3254718
+292@Long Voyage Home, The@Drama|War@2011-03-31@1846651@2098036
+293@Maniac@Horror@1975-01-23@761667@4039551
+294@LOL (Laughing Out Loud)@Comedy@2013-06-18@2873940@2818738
+295@Hospital@Documentary@2012-12-17@1153818@4628975
+296@Party Girl@Drama|Film-Noir@1980-06-11@2699928@1951143
+297@Affair of the Necklace, The@Drama@2006-04-11@2627356@4640334
+298@Gamera vs. Gyaos (Daikaijû kûchûsen: Gamera tai Gyaosu)@Action|Horror|Sci-Fi@2017-04-03@1615982@1212814
+299@Alice, Sweet Alice (a.k.a. Communion) (a.k.a. Holy Terror)@Horror|Mystery@2016-04-07@2537165@4438497
+300@Wrestling for Jesus: The Tale of T-Money@Documentary@1980-07-24@2726440@1686470
+301@24: Redemption@Action|Adventure|Crime|Drama|Thriller@1976-07-30@961817@2300585
+302@L.A. Zombie@Horror@1994-07-23@1081532@3426857
+303@City, The (Ciudad, La)@Drama@2017-12-02@789366@799598
+304@Willy Wonka & the Chocolate Factory@Children|Comedy|Fantasy|Musical@1978-03-14@195089@415220
+305@Barnyard: The Original Party Animals@Animation|Children|Comedy@2019-03-12@1266186@2705390
+306@Kika@Comedy|Drama@1972-06-04@237237@3816367
+307@Privilege@Drama|Musical@2000-04-02@1893576@4602893
+308@Man's Job (Miehen työ)@Drama@1973-10-27@2580490@4977131
+309@Green Fish (Chorok mulkogi)@Drama@1988-09-17@1522357@3857020
+310@Little Girl (La pivellina)@Drama@1986-02-06@658326@2974795
+311@Milagro Beanfield War@Comedy|Drama|Fantasy@2005-05-30@402728@1195349
+312@Movie Crazy@Comedy|Romance@1975-02-26@1797639@1995929
+313@This Special Friendship (Les amitiés particulières)@Drama@2017-07-20@177848@1924605
+314@Bob Roberts@Comedy@1977-08-31@1866942@3631062
+315@Resident Evil: Afterlife@Action|Horror|Sci-Fi|Thriller|IMAX@2001-01-13@2835369@2179259
+316@Exiles (Exils)@Adventure|Drama@2013-12-19@2733360@1458821
+317@Waiting Room (Bekleme odasi)@Drama@1986-04-24@1119557@1613804
+318@Captain America@Action|Drama@1974-12-16@1862693@3247016
+319@Citadel@Drama|Horror|Thriller@2000-01-27@829237@1896358
+320@Prey for Rock & Roll@Drama|Musical@1993-07-11@1707739@4320850
+321@Kommissarie Späck@Comedy@2009-09-07@2135373@3258762
+322@Disgrace@Drama@2009-07-07@1725120@328448
+323@Carrie@Drama|Horror|Thriller@1975-03-04@1012665@4142618
+324@Saints and Soldiers@Action|Adventure|Drama|War@2000-04-04@1616190@1497476
+325@Echelon Conspiracy@Action|Mystery|Thriller@1983-09-17@317696@575718
+326@Consequences of Love, The (Conseguenze dell'amore, Le)@Crime|Drama@1979-10-07@516963@1514813
+327@Jimmy Hollywood@Comedy|Crime|Drama@1992-04-19@1266110@1749068
+328@Twenty Bucks@Comedy@2001-06-10@1975338@2841310
+329@You Don't Know Jack@Drama@1980-01-14@700797@667134
+330@Island, The@Action|Sci-Fi|Thriller@2004-02-14@1721355@2584825
+331@Hand of Death, The (Shao Lin men)@Action@1978-04-18@2092608@2697244
+332@Zaat@Fantasy|Horror|Sci-Fi@2021-03-21@2695271@2246922
+333@Captain America@Action|Fantasy|Sci-Fi|Thriller|War@2011-12-21@393557@3951351
+334@Masks (Masques)@Thriller@1982-09-15@80317@1462483
+335@Good Will Hunting@Drama|Romance@1982-06-29@863986@2633260
+336@Beowulf & Grendel@Action|Adventure|Drama|Fantasy@1999-11-04@2523351@2180085
+337@Eight Days a Week@Comedy@1989-10-20@25181@3449364
+338@Good Wife, The@Drama@1992-07-31@199574@1242145
+339@He Got Game@Drama@2017-06-25@2933199@2654181
+340@Seven Brothers (Seitsemän veljestä)@Animation|Comedy@2007-05-15@2252799@3184414
+341@Old School@Comedy@2020-05-08@998392@911882
+342@Last Exit to Brooklyn@Drama@2004-11-14@85883@3295120
+343@Simple-Minded Murder, The (Enfaldige mördaren, Den)@Drama@1975-10-17@2762308@41478
+344@Man Facing Southeast (Hombre mirando al sudeste)@Drama|Sci-Fi@1985-12-03@1996789@1949272
+345@American Hardcore@Documentary@2016-08-06@2887162@3178276
+346@Devil@Horror|Mystery|Thriller@2014-12-08@2336568@1560681
+347@Dish, The@Comedy@2003-08-31@1832855@344394
+348@Animal, The@Comedy@2000-03-18@2515879@908343
+349@Way We Were, The@Drama|Romance@2004-10-21@2495537@4474077
+350@King Corn@Documentary@2014-06-13@1292234@2072742
+351@I Still Know What You Did Last Summer@Horror|Mystery|Thriller@1996-01-02@198439@3111480
+352@Kama Sutra: A Tale of Love@Romance@1978-10-01@2975357@3184521
+353@Detachment@Drama@1980-10-03@1184082@3368058
+354@Experiment, The@Drama|Thriller@2016-11-04@1399358@633552
+355@Ticker@Action|Crime|Thriller@1973-05-18@2293596@1073290
+356@Step Up 3D@Drama|Romance@1990-05-07@474983@1715526
+357@Bouncing Babies@Comedy@1986-01-18@395566@747204
+358@Hustlers, The (Veijarit)@Comedy|Drama@2011-12-18@1893094@3165487
+359@Crimson Permanent Assurance, The@Adventure|Comedy@1987-06-03@2771950@4070745
+360@Avanti!@Comedy|Drama@2019-06-06@2037644@2772387
+361@Internes Can't Take Money@Crime|Drama|Romance@2005-12-09@1596511@1776675
+362@Lost Son, The@Drama@1987-10-11@2286615@3635233
+363@Irony of Fate, or Enjoy Your Bath! (Ironiya sudby, ili S legkim parom!)@Comedy|Drama|Romance@2009-08-26@2192606@339159
+364@Trouble with the Truth, The@Drama|Romance@1988-03-01@1212712@2573958
+365@Brightness (Yeelen)@Fantasy@1980-12-14@2587575@1096406
+366@The Sign of Four: Sherlock Holmes' Greatest Case@Mystery@1996-10-18@1878592@1624703
+367@Outside Providence@Comedy@1975-11-10@281436@4737462
+368@Dirty Movie@Comedy@1975-12-23@2916973@2600702
+369@Crocodile (Ag-o)@Drama@2020-09-13@968541@3117938
+370@Julia@Drama@1971-10-14@1660342@4804982
+371@The Hearse@Drama|Horror|Mystery@2013-04-01@2430741@1761262
+372@Gilda@Drama|Film-Noir|Mystery|Romance@2010-08-06@2386409@1353120
+373@Monty Python's The Meaning of Life@Comedy@1984-05-29@2749724@1321368
+374@Driller Killer, The@Drama|Horror@2019-11-05@1449054@3464565
+375@Happy Weekend@Comedy@2006-06-01@421662@2116195
+376@How to Die in Oregon@Documentary|Drama@2005-10-30@2357858@386804
+377@After Hours@Comedy|Thriller@2010-09-07@1373862@795663
+378@Russia 88@Drama@1979-02-24@1531955@4737742
+379@Bride Wore Black, The (La mariée était en noir)@Crime|Drama@1995-03-04@2868996@3907752
+380@Q@Drama@1975-08-30@1424770@1598369
+381@Map of the Sounds of Tokyo@Drama|Thriller@1986-05-15@1128577@1489857
+382@Gods and Generals@Action|Drama|War@1993-05-03@2944541@2928772
+383@Alphabet@Documentary@1984-03-02@695005@4020608
+384@These Are the Damned (a.k.a. The Damned)@Drama|Fantasy|Romance|Sci-Fi@1989-03-19@2433485@1642827
+385@Lumiere and Company (Lumière et compagnie)@Documentary@1984-05-19@2667195@2590773
+386@Satanas@Crime|Drama@1976-12-17@2013833@736394
+387@Amador@Drama@1991-11-17@396681@146324
+388@Sex Up Your Life!@Comedy@1976-07-31@1304001@2927306
+389@Me and You and Everyone We Know@Comedy|Drama@1999-08-13@587887@2566630
+390@Tiptoes@Comedy|Drama|Romance@1977-02-13@787261@3220452
+391@Medium Cool@Drama|Romance@2019-12-05@1027811@1785072
+392@Rocket, The (a.k.a. Maurice Richard)@Drama@2019-03-12@2806476@3843574
+393@Munyurangabo@Drama@2011-10-12@1512738@3126699
+394@Mother (Madeo)@Crime|Drama|Mystery|Thriller@1973-06-09@1019086@2196383
+395@Steel@Action@1979-08-25@1205720@3634708
+396@Germany Pale Mother@Drama|War@2010-04-05@2256188@463670
+397@Good Dick@Comedy|Drama|Romance@2014-03-03@19252@1318492
+398@13 Ghosts@Horror@1990-09-19@1664894@900307
+399@Three on a Weekend@Drama@1991-12-23@2312334@2185204
+400@Mission: Impossible@Action|Adventure|Mystery|Thriller@2004-05-11@8302@4106978
+401@Better Living@Comedy@2020-02-28@2587880@3023092
+402@Panic@Drama@2004-11-01@2010702@4008487
+403@Kisses for My President@Comedy@2015-05-23@2816275@1599727
+404@Big Brown Eyes@Comedy|Mystery@1986-07-17@79508@2742916
+405@Ole dole doff@Drama@1998-08-13@2278469@4201220
+406@Guy X@Comedy|War@2003-10-17@2121004@236836
+407@Angels Fall@Drama|Romance|Thriller@2018-02-12@1564387@665809
+408@Brave Little Toaster, The@Animation|Children@1997-09-14@1464348@2457338
+409@Chisum@Western@2008-06-21@1813175@728260
+410@Adventures of Tintin, The@Action|Animation|Mystery|IMAX@1985-08-27@846040@2661230
+411@Searching for Sugar Man@Documentary@1989-09-11@2411490@2115478
+412@Young Philadelphians, The@Drama@1987-01-20@2770586@854122
+413@Players, The (Les infidèles)@Comedy@1991-12-23@490256@1054066
+414@Coluche, l'histoire d'un mec@Drama@1984-05-25@203127@4603674
+415@Machuca@Drama@2013-10-06@1287326@3917534
+416@Persona non grata@Drama@2017-06-15@2898092@3469217
+417@Special When Lit@Documentary@2018-10-27@1178073@2911991
+418@Rollerball@Action|Sci-Fi@1992-05-28@804215@74545
+419@Lord of the Flies@Adventure|Drama|Thriller@1994-08-22@1183194@2103981
+420@Sahara@Action|Adventure|Comedy@1994-09-16@1502115@952921
+421@Faster Pussycat! Kill! Kill!@Action|Crime|Drama@1987-12-27@1993982@3578952
+422@Soldier's Tale, A@Drama|Romance|War@2020-04-06@1620341@4473209
+423@Good Luck. And Take Care of Each Other@Comedy|Drama@2015-10-13@2449329@2744557
+424@Cry in the Night, A@Crime|Drama|Film-Noir@1990-04-15@2148772@4152528
+425@John Mulaney: New In Town@Comedy@2005-08-23@1844875@2408754
+426@David Cross: Bigger & Blackerer@Comedy|Documentary@1990-01-22@2422147@1880627
+427@Ministry of Fear@Drama|Film-Noir|Thriller@2010-12-07@1505513@175922
+428@Cold Turkey@Comedy@2009-07-25@2058300@4622561
+429@Crazy Heart@Drama|Romance@1977-11-21@1903298@387100
+430@5 Days of War@Action|Drama|War@1996-01-10@821744@3585006
+431@Always for Pleasure@(no genres listed)@1977-12-14@805771@111652
+432@Pale Rider@Western@1994-02-09@2405725@4341684
+433@Water for Elephants@Drama|Romance@2004-10-11@359825@3048712
+434@Trailer Park Boys: Don't Legalize It@Comedy|Crime|Drama@1998-09-25@1706935@4022025
+435@Hoot@Children|Comedy@2016-10-13@2635747@818884
+436@Hills Have Eyes Part II, The@Horror@1993-08-12@2218483@4943747
+437@Madonna of the Seven Moons@Drama|Mystery@1981-02-15@1501753@1057577
+438@Once Upon a Time in America@Crime|Drama@1988-09-06@2705005@2830860
+439@Star Maker, The (Uomo delle stelle, L')@Drama@1974-04-06@500081@222844
+440@Tenderness (Hellyys)@Comedy@1973-02-05@983373@1114743
+441@Small Wonders@Documentary@1999-11-03@877290@3822213
+442@I Love, You Love (Ja milujem, ty milujes)@Comedy|Drama|Romance@1983-05-07@1726566@62381
+443@The D Train@Comedy@2000-10-05@2835648@3201886
+444@Das Experiment (Experiment, The)@Drama|Thriller@2008-05-11@2649275@423102
+445@Forget Me Not@Romance@1976-11-02@268740@1700980
+446@The Phantom of the Opera@Drama|Mystery|Romance|Thriller@2014-10-10@1206533@1527442
+447@Midnight Clear@Drama@2002-03-07@254335@2416647
+448@Airborne@Adventure|Comedy@1992-11-07@718554@4416576
+449@Greatest Show on Earth, The@Drama@1998-12-22@1837983@4108884
+450@Funeral in Berlin@Action|Drama|Thriller@2020-06-25@57668@2219168
+451@Circle of Deceit (Die Fälschung)@Drama|War@2021-08-14@914104@3657065
+452@Pride of the Marines@Drama|War@1987-12-29@2881898@2233560
+453@Rock the Boat@Animation@2009-03-26@1015222@2575271
+454@Punch-Drunk Love@Comedy|Drama|Romance@1987-12-10@2308957@2481770
+455@Buona Sera, Mrs. Campbell@Comedy@2005-05-27@2928315@313738
+456@Barbershop 2: Back in Business@Comedy@2001-02-13@1434971@759417
+457@Balto: Wolf Quest @Adventure|Animation|Children@2015-04-30@167447@4400744
+458@Save Me@Drama@2014-02-22@1644322@3722570
+459@American Boy: A Profile of: Steven Prince@Documentary@2019-09-22@2693132@2867629
+460@Trash@Drama@2013-03-06@2275398@756375
+461@Children of the Decree (Das Experiment 770 - Gebären auf Befehl)@Documentary@2012-01-24@508375@1602907
+462@Prince of Persia: The Sands of Time@Action|Adventure|Fantasy|Romance|IMAX@1989-09-10@1484718@52485
+463@Kindred, The@Horror|Sci-Fi@1990-12-28@1899978@3578922
+464@Hijack That Went South, The (Kaappari)@Action|Comedy|Crime@1977-08-05@2857155@1812851
+465@Dream Catcher, The@Drama@1986-11-07@2462903@4804319
+466@Cab for Three, A (Taxi para tres)@Action|Comedy|Crime|Drama@2014-07-21@2834002@2573959
+467@Free Birds@Action|Adventure|Animation|Children|Comedy|Sci-Fi@1995-03-01@1964935@1844959
+468@Gui Si (Silk)@Drama|Horror|Mystery|Sci-Fi|Thriller@2020-02-02@2772330@2946863
+469@Blood Diamond@Action|Adventure|Crime|Drama|Thriller|War@2004-10-09@2482473@828467
+470@Visiteurs du soir, Les (Devil's Envoys, The)@Drama|Fantasy|Romance@1977-05-05@1019797@3758040
+471@King Kong Lives@Adventure|Sci-Fi@2006-05-29@850592@2012156
+472@Therese Raquin (a.k.a. Adultress, The)@Crime|Drama|Romance@2006-01-19@488501@1121904
+473@Dear Mr. Watterson@Documentary@1987-08-07@1750919@2411594
+474@Standard Operating Procedure@Crime|Documentary|War@1987-06-09@842275@2602445
+475@16 Blocks@Crime|Thriller@1980-04-23@467602@528317
+476@Englishman Who Went Up a Hill But Came Down a Mountain, The@Comedy|Romance@2011-06-16@2257647@464461
+477@Lean on Me@Drama@2007-04-12@1397108@2843004
+478@My Rainy Days@Drama|Romance@1971-05-14@2884929@461976
+479@Moonfleet@Adventure|Drama@1972-04-19@1023514@4796552
+480@Hearts in Atlantis@Drama@1990-08-30@299321@4997223
+481@Primal@Horror|Thriller@2012-09-05@1748516@2056259
+482@Adventures of a Dentist@Comedy@1973-03-28@188382@1731673
+483@Idiot Box@Crime|Drama@1998-07-26@2920078@148217
+484@The Land Before Time VII: The Stone of Cold Fire@Adventure|Animation|Children|Fantasy@2016-12-22@2074688@1793620
+485@Letters from a Killer@Crime|Drama|Mystery|Thriller@1977-08-08@466870@2341801
+486@Life Itself@Documentary@2011-08-16@740182@990941
+487@3 Needles@Drama@2000-02-03@758863@508143
+488@Penny Dreadful@Horror|Thriller@1997-06-05@562228@169695
+489@Bosko's Parlor Pranks@Animation@1975-07-23@179013@3330549
+490@Day the Earth Stood Still, The@Drama|Sci-Fi|Thriller|IMAX@1993-10-15@1439466@4460073
+491@Munyurangabo@Drama@1992-11-14@1866526@1452274
+492@Hudsucker Proxy, The@Comedy@1998-01-08@1973879@2388450
+493@Switch@Comedy|Crime|Fantasy@2017-05-04@1563440@3542415
+494@Strange Invaders@Animation|Comedy@2014-02-15@2479946@2786137
+495@Crusades, The@Adventure|Drama|War@1997-09-05@123657@1590736
+496@Sex in Chains (Geschlecht in Fesseln)@Drama@1972-02-18@1792775@2031598
+497@Hard Ticket to Hawaii@Action|Comedy@2019-12-07@2923883@3157438
+498@Scenesters, The@Comedy|Crime|Mystery@2000-11-01@911259@2787303
+499@The Lego Movie@Action|Adventure|Animation|Children|Comedy|Fantasy@1994-07-02@865738@2946256
+500@Art of Crying, The (Kunsten at græde i kor)@Drama@1991-06-01@2534606@2825682
+501@See No Evil, Hear No Evil@Comedy|Crime@1980-06-28@2411206@1819824
+502@Designated Mourner, The@Drama@2008-05-22@2112415@4508695
+503@I Am Fishead@Documentary@1995-10-24@2306624@3523507
+504@Express, The@Drama@1994-02-07@782477@474699
+505@La Belle équipe@(no genres listed)@2020-02-29@1832518@2256537
+506@Pie in the Sky@Comedy|Romance@2000-04-01@490021@1989580
+507@Thirst for Love, The (Ai no kawaki)@Drama@2006-07-17@1016806@2007798
+508@Deep Blue Sea@Action|Horror|Sci-Fi|Thriller@1986-04-13@1275727@677047
+509@Laissons Lucie faire !@(no genres listed)@1973-09-25@642308@4630000
+510@Chappie@Action|Thriller@1978-02-16@1165305@4745225
+511@You Kill Me@Comedy|Crime|Thriller@1984-01-16@2962810@4103334
+512@Elvis on Tour@Documentary|Musical@1981-09-14@2857291@1971034
+513@Teddy Bears' Picnic@Comedy@2011-07-15@2217251@4575706
+514@Remember Sunday@Drama|Romance@1996-11-10@1595583@2372946
+515@Jeremiah Johnson@Western@2019-09-22@1474567@480562
+516@Sundome@Comedy|Drama|Romance@1994-10-29@2974748@3407441
+517@Story of Louis Pasteur, The@Drama@2009-02-19@1316913@500016
+518@Basic@Drama|Thriller|War@1985-12-07@553151@3469377
+519@Hangman's House@Drama@1989-07-16@723731@247886
+520@Legend@Adventure|Fantasy|Romance@1978-06-27@1566058@3322152
+521@Sanshiro Sugata Part Two (Judo Saga II) (Zoku Sugata Sanshirô)@Action|Adventure@2011-05-06@2785264@3040107
+522@Erendira@Drama@1976-08-25@575624@556216
+523@Nature of Existence, The@Documentary@2004-01-29@2355694@3214349
+524@Xtro 2: The Second Encounter@Horror|Sci-Fi@1997-10-16@2569053@4009825
+525@Alice Adams@Comedy|Drama@2004-10-20@991456@311961
+526@The Fuller Brush Man@Adventure|Comedy@2016-12-07@1242135@2532086
+527@Vacancy 2: The First Cut@Horror|Thriller@2010-07-02@2132439@4567319
+528@Kozara@Drama|War@1986-01-04@339089@2405576
+529@Dukes, The@Comedy|Crime|Drama@1972-06-24@431143@3088698
+530@Cake@Comedy|Romance@2012-07-08@111586@3067174
+531@Kidnapping, Caucasian Style (Kavkazskaya plennitsa)@Comedy|Romance@1973-07-06@2699010@3745378
+532@Friday the 13th Part IV: The Final Chapter@Horror@2021-01-03@762679@877574
+533@Cargo@Adventure|Drama|Thriller@1983-12-06@2045722@3574025
+534@Stormbreaker (Alex Rider: Operation Stormbreaker)@Action|Children@2011-12-04@513107@1487401
+535@Playing@Documentary@2007-06-29@25024@774652
+536@Pool, The (Swimming Pool - Der Tod feiert mit) @Horror|Thriller@1986-10-14@2918008@104564
+537@Melbourne@Drama@1977-01-23@2832280@1657471
+538@Choices@Drama@2007-11-15@990065@4296270
+539@Letter to Three Wives, A@Comedy|Drama@2018-02-12@910845@2502707
+540@Female Trouble@Comedy|Crime@1997-03-20@500086@857215
+541@Grateful Dawg@Documentary@2013-01-25@1996290@1964909
+542@People on Sunday (Menschen am Sonntag)@Documentary|Drama|Romance@2014-04-19@553274@4446458
+543@Closed Curtain@(no genres listed)@2005-12-27@709944@2706477
+544@Incident at Oglala@Documentary@1976-05-10@398934@106870
+545@Resident Evil: Apocalypse@Action|Horror|Sci-Fi|Thriller@2007-11-14@2038156@3887467
+546@Tactical Force@Action|Comedy|Crime|Thriller@1984-11-27@264903@1014977
+547@Sleeping Beauty@Adventure|Fantasy@1986-02-01@2225682@1236810
+548@Carol for Another Christmas@Drama|Fantasy|War@1997-08-07@647349@2769621
+549@Europa Report@Sci-Fi|Thriller@1983-02-13@1667630@3130131
+550@My Demon Lover@Comedy|Horror@1996-06-17@1707199@4363328
+551@Consenting Adults@Thriller@2010-09-15@295637@127195
+552@Afterschool@Drama@2014-06-09@279770@2902915
+553@Tales from the Crypt Presents: Bordello of Blood@Comedy|Horror@1972-07-12@269686@892371
+554@Like Dandelion Dust@Drama@1996-02-13@829123@2297941
+555@Operación Cannabis@Action|Adventure|Comedy|Crime@1976-06-12@2956213@4643645
+556@Passionada@Comedy|Romance@2006-11-20@1382675@1566274
+557@Friend Is a Treasure, A (Chi Trova Un Amico, Trova un Tesoro) (Who Finds a Friend Finds a Treasure)@Action|Adventure|Comedy@2014-01-21@2900843@2867037
+558@Wrong@Comedy|Drama@2017-08-25@1002437@515308
+559@In Which We Serve@Drama|War@2019-08-12@2426155@4036397
+560@Spider Baby or, The Maddest Story Ever Told (Spider Baby)@Comedy|Horror@1992-06-10@2167499@4328180
+561@Dikkenek@Comedy@1992-06-27@2683706@304808
+562@Last Vegas@Comedy|Drama|Romance@1975-07-16@2572657@3783841
+563@Steel@Action|Adventure|Crime|Drama@1997-05-13@2066260@2419518
+564@Lord, Save Us from Your Followers@Documentary@2007-09-22@2697801@1418969
+565@Outsourced@Comedy|Romance@1975-04-13@1657789@4166219
+566@File on Thelma Jordan, The@Crime|Drama|Film-Noir|Mystery@1976-11-16@2450047@4613068
+567@Endless Love@Drama|Romance@1991-12-31@202067@2506220
+568@Night Train To Lisbon@Mystery|Romance|Thriller@1982-06-14@144491@2775398
+569@Lady Killer@Comedy|Crime@1980-11-24@2232121@1230989
+570@River Wild, The@Action|Thriller@1977-12-25@2053254@1374678
+571@Piano Tuner of Earthquakes, The@Drama|Fantasy|Romance@2002-04-30@828594@1701871
+572@Synth Britannia@Documentary@2006-05-14@2176320@275882
+573@Rated X: A Journey Through Porn@Documentary@1974-03-11@2022737@3276620
+574@Three Lives of Thomasina, The@Children|Drama@2021-02-12@1232000@4130072
+575@Pope's Toilet, The (El bano del Papa)@Drama@2004-03-26@937123@3327917
+576@Russia's Toughest Prisons (National Geographic)@Documentary@2002-10-13@766003@4332548
+577@Calloused Hands@Drama@1990-02-19@2636858@2717590
+578@Jacky in the Kingdom of Women@Comedy@2009-11-25@1341233@600270
+579@Fuehrer's Face, Der@Animation|War@1971-08-24@1205059@2216479
+580@As Above, So Below@Horror|Thriller@1972-04-28@1587265@542755
+581@What Happens in Vegas...@Comedy|Romance@2020-08-08@1439793@2590995
+582@Trouble with Dee Dee, The@Comedy@1993-12-21@516248@4656783
+583@Muhammad Ali's Greatest Fight@Drama@1997-01-28@1887108@1302671
+584@Blood of the Beasts (Sang des bêtes, Le)@Documentary|Drama@2019-04-27@2632923@2952914
+585@Ju-on: White Ghost@Horror@1984-05-16@178258@4073684
+586@Underdog@Action|Adventure|Children|Comedy|Fantasy|Sci-Fi@2012-08-25@2048910@1992044
+587@India Song@Drama|Fantasy|Romance@1999-09-20@1795463@3817983
+588@Liberty Stands Still@Action|Drama|Thriller@1988-06-25@122@4102871
+589@Departed, The@Crime|Drama|Thriller@2003-03-16@1181924@2224644
+590@Forger, The@Drama@2012-10-30@845636@2328498
+591@Golden Door (Nuovomondo)@Adventure|Drama|Romance@2009-04-11@2999154@60256
+592@Prêt à tout@Comedy@1985-06-08@2354072@3041391
+593@Time to Kill (Tempo di uccidere)@Drama|War@1989-10-11@1564601@3958493
+594@Vampir (Cuadecuc, vampir)@Documentary|Horror@1971-07-15@694128@4467636
+595@Children of a Lesser God@Drama@1985-03-08@855570@3428202
+596@Dancer, Texas Pop. 81@Comedy|Drama@1986-05-08@1881599@1838494
+597@Emil i Lönneberga@Children|Drama@2012-02-17@752770@2416561
+598@Moine, Le (Monk, The)@Drama|Mystery|Thriller@1989-02-04@2582871@2574622
+599@Cat in the Hat, The@Animation|Children@2002-07-27@1544042@4294327
+600@Kuffs@Action|Comedy|Crime@1988-01-25@1742155@2604242
+601@Nightmare on Elm Street, A@Horror|Thriller@2004-02-03@120951@230458
+602@Home Room@Drama@1990-05-28@2636810@286496
+603@Like Mike@Children|Comedy|Fantasy@1976-11-12@1271839@1410482
+604@Ballet Shoes@Children|Drama@2005-04-29@1895732@4679851
+605@Mercy Streets@Action|Crime|Drama@2017-09-30@2382570@4350248
+606@All Good Things@Drama|Mystery|Thriller@1972-07-21@255992@4631919
+607@17 Again@Comedy|Drama@2020-06-03@1515494@1740534
+608@Reel Injun@Documentary@1986-03-25@2981893@985801
+609@Beer League@Comedy@1972-02-15@2133661@1547590
+610@Shutter@Horror|Mystery|Thriller@2006-11-09@2548832@2570513
+611@Hen, his wife@(no genres listed)@1976-12-16@2350293@1206710
+612@Matrix, The@Action|Sci-Fi|Thriller@2016-10-08@743627@277494
+613@Quarantine@Drama|Horror|Mystery|Thriller@1997-12-28@966568@1100789
+614@What's the Matter with Helen?@Crime|Drama|Horror|Musical@2004-11-05@1453737@1072858
+615@The Facts of Murder@Crime|Drama@1971-04-27@2535426@4379361
+616@Downtown@Action|Comedy@1982-01-01@2209243@1494434
+617@Premature@Comedy@2003-10-01@2821693@3501220
+618@Claymation Comedy of Horrors@Animation@1999-07-07@431922@795666
+619@Yamla Pagla Deewana 2@Action|Comedy|Drama@1986-08-16@351556@2226519
+620@Un Poliziotto Scomodo@Action|Crime|Thriller@1972-01-26@2496017@1943002
+621@Madagascar: Escape 2 Africa@Action|Adventure|Animation|Children|Comedy|IMAX@2005-07-08@2625723@822900
+622@You Light Up My Life@Drama|Romance@2014-02-22@1648180@1407683
+623@Snowblind@Western@1979-04-24@1137783@2752182
+624@Rent: Filmed Live on Broadway@Drama|Musical@2018-01-31@1107333@993320
+625@At the Death House Door@Documentary@2007-03-22@2926142@1395434
+626@Batman: Assault on Arkham@Action|Animation|Crime|Thriller@2007-06-01@1921822@2869190
+627@Best of the Best@Action@2008-07-28@2369623@2278894
+628@Bananas!*@Crime|Documentary|Drama@2004-12-15@1867244@710509
+629@Atlantis, the Lost Continent@Adventure|Sci-Fi@2012-01-28@339650@3437672
+630@7 Khoon Maaf@Drama|Mystery|Thriller@1977-11-22@2698302@2670457
+631@Stir of Echoes@Horror|Mystery|Thriller@2004-09-20@2126298@1765466
+632@Planes, Trains & Automobiles@Comedy@2001-11-07@1457896@3935634
+633@Underworld@Crime|Drama|Film-Noir@1991-01-30@2221039@3585765
+634@I Want Candy@Comedy@1976-11-27@2557270@4949448
+635@Seven Days to Noon@Drama|Thriller@1971-04-15@2917999@4421952
+636@Pursuit of Happyness, The@Drama@2009-01-29@2426801@4277069
+637@Vikings, The@Action|Adventure@1979-11-20@803728@236441
+638@Bliss@Comedy|Drama@2014-03-19@2954071@1834982
+639@Walled In@Horror|Thriller@1988-03-26@640356@2808259
+640@Seven Days to Noon@Drama|Thriller@1973-06-08@2093542@553154
+641@Hustler, The@Drama@1989-06-18@982489@3678322
+642@Two Weeks in Another Town@Drama@1997-04-12@1148631@734996
+643@Red-Headed Woman@Comedy|Romance@1998-04-13@1125699@3577836
+644@Glass Menagerie, The@Drama@2000-09-15@2097746@1335060
+645@Time and Tide (Seunlau Ngaklau)@Action|Crime|Thriller@2018-05-28@535513@2093080
+646@Familia@Comedy@1972-08-14@556901@2624877
+647@Foon@Comedy@1981-03-28@678985@2398673
+648@Kissing a Fool@Comedy|Romance@1973-07-21@1369047@2686981
+649@Bride with White Hair, The (Bai fa mo nu zhuan)@Action|Fantasy|Romance@1982-03-20@160899@2460218
+650@Client 9: The Rise and Fall of Eliot Spitzer@Documentary@1991-01-19@1724408@3724889
+651@Hidden Blade, The (Kakushi ken oni no tsume)@Action|Drama|Romance@1986-07-22@941115@3961230
+652@Price of Glory@Drama@2016-12-19@1525149@3817725
+653@Home Movie@Horror|Thriller@1971-01-04@178695@572896
+654@Soft Skin, The (La peau douce)@Drama@2001-03-06@144151@2225412
+655@Boys, The@Drama@2003-06-01@2346713@1886765
+656@Bitter Sweetheart@Comedy|Drama@1994-11-04@1859889@812858
+657@Madness of King George, The@Comedy|Drama@1984-04-11@278661@4646512
+658@Hypocrites@Drama|Fantasy@2020-04-10@299508@2287752
+659@David Cross: The Pride Is Back@Comedy@2003-01-11@2972039@3840626
+660@Planet B-Boy@Documentary@1992-02-07@576541@2500175
+661@Savannah Smiles@Comedy@1994-10-24@1791492@4056394
+662@Happiness Never Comes Alone (Un bonheur n'arrive jamais seul)@Comedy|Romance@2000-11-23@303932@4952104
+663@Splendor in the Grass@Drama|Romance@1997-07-12@2859161@4179508
+664@Texas@Drama|Romance|Western@1995-03-14@581485@4457299
+665@Charlie's Angels@Action|Comedy@2009-11-25@2137152@3249612
+666@Battle of the Year@Musical@1972-02-07@2949771@772374
+667@Midsummer Night's Dream, A@Comedy|Fantasy|Romance@2014-11-08@1348865@3170747
+668@Werewolf Woman (La lupa mannara)@Horror@1984-03-03@1103167@1567271
+669@Other, The@Drama|Horror|Mystery@2013-05-08@826091@3913114
+670@In Praise of Older Women@Drama@1988-02-26@2427824@4435516
+671@Death on the Nile@Crime|Mystery@1988-04-05@2844838@2062232
+672@Gridlock'd@Crime@1979-03-09@2728477@4599694
+673@Witness@Drama|Romance|Thriller@1978-06-11@1224415@4204289
+674@800 Bullets (800 Balas)@Comedy|Crime|Drama|Western@1984-10-18@2166729@120572
+675@Paper, The@Comedy|Drama@2013-04-15@613277@4085053
+676@Seas Beneath@Action|Drama|War@2005-08-12@6697@3676870
+677@Lights in the Dusk (Laitakaupungin valot)@Crime|Drama@1971-12-18@130620@103960
+678@Harvest Month, The (Elokuu)@Drama@2021-06-02@2740217@3011785
+679@Time to Die (Tiempo de morir)@Drama|Western@2006-05-23@2154545@599887
+680@Don't Drink the Water@Comedy@1980-06-09@2121684@2606339
+681@Armwrestler From Solitude, The (Armbryterskan från Ensamheten)@Documentary@1994-06-02@2409698@1610931
+682@Study in Choreography for Camera, A@(no genres listed)@1982-04-13@1980439@4191860
+683@Mummy, The@Horror|Romance@2010-09-04@2217246@4601307
+684@Road to Hong Kong, The@Comedy@1984-01-12@2196987@2498775
+685@Whiteboyz@Comedy|Drama@2007-06-17@2087210@2110126
+686@Kummeli Stories@Comedy@1999-05-30@662517@203586
+687@State of Play@Crime|Drama|Thriller@2005-10-24@2099693@4474222
+688@Terumae romae (Thermae Romae)@Comedy|Sci-Fi@1972-04-05@404190@4924572
+689@More@Animation|Drama|Sci-Fi|IMAX@1983-09-14@278948@2460448
+690@Fly Away (Bis zum Horizont, dann links!)@Comedy@1987-07-14@1278364@695248
+691@Spy Who Came in from the Cold, The@Drama|Thriller@2006-01-16@2552379@1814362
+692@Arsenal@Drama|War@2013-06-21@1691763@1090013
+693@Make the Yuletide Gay@Comedy|Romance@1971-09-13@2875722@3203386
+694@Dreamscape@Horror|Sci-Fi|Thriller@2008-09-04@2240584@1041090
+695@Wild Things@Crime|Drama|Mystery|Thriller@2001-10-23@2800333@4025437
+696@Elizabeth: The Golden Age@Drama@2012-02-15@1105127@1207743
+697@Amarcord@Comedy|Drama@1998-06-11@1443419@212315
+698@Waiting Women (Kvinnors väntan)@Comedy|Drama@2010-01-06@1423230@1815391
+699@1, 2, 3, Sun (Un, deuz, trois, soleil)@Drama@1988-08-16@865647@4935854
+700@Something's Gonna Live@Documentary@1981-07-29@2052980@2913265
+701@Heavenly Creatures@Crime|Drama@2007-04-01@2571023@2890022
+702@Atomic Twister@Action|Drama|Sci-Fi@1973-08-18@2231433@4433161
+703@The Four Feathers@Adventure|Drama|Romance|War@1978-11-12@835082@3076009
+704@Torment@Horror|Thriller@2007-03-08@2769450@3589485
+705@Stray Dog (Nora inu)@Drama|Film-Noir|Thriller@2020-11-01@2693323@522030
+706@Hôtel du Nord@Drama@1976-04-01@1250977@3933106
+707@Life On A String (Bian chang Bian Zou)@Adventure|Drama|Fantasy|Musical@1979-09-15@546733@2266571
+708@Gallipoli@Drama|War@2007-09-29@2337410@1889766
+709@More the Merrier, The@Comedy|Romance@1988-05-01@1648182@4059286
+710@After Five in the Jungle (Nach Fünf im Urwald)@Comedy|Romance@2009-09-03@128836@1494077
+711@Viimeiset rotannahat @Comedy@1987-01-30@290267@1116499
+712@Not on the Lips (Pas sur la bouche)@Comedy|Musical|Romance@1976-01-16@1741438@2414165
+713@Lebanon, Pa.@Drama@1982-02-25@2008246@1722807
+714@From Within@Horror|Thriller@2009-11-27@429540@609561
+715@In China They Eat Dogs (I Kina spiser de hunde)@Action|Comedy@2016-05-24@1517886@1348520
+716@Why Does Herr R. Run Amok? (Warum läuft Herr R. Amok?)@Drama@1972-08-31@120076@1559002
+717@A Justified Life: Sam Peckinpah and the High Country@Documentary@1974-03-06@1341552@4519464
+718@Adventures of Milo and Otis, The (Koneko monogatari)@Adventure|Children|Comedy|Drama@2009-07-17@1236569@4421128
+719@The Sea That Thinks@(no genres listed)@2000-01-01@2897132@559455
+720@Navigator: A Mediaeval Odyssey, The@Adventure|Fantasy|Sci-Fi@1986-09-24@1638182@2355763
+721@Moth, The (Cma)@Drama@1997-07-27@661908@4846084
+722@Shadows (Senki)@Drama|Horror|Mystery|Thriller@1983-07-19@1566095@2893199
+723@Savages, The@Comedy|Drama@1999-09-15@2862883@990988
+724@Sound City@Documentary@2006-07-23@2047721@3529720
+725@Man of Marble (Czlowiek z Marmuru)@Drama@1995-10-30@2584875@1783236
+726@United Red Army (Jitsuroku Rengo Sekigun: Asama sanso e no michi)@Drama@1973-05-30@1321606@3972068
+727@Indecent Proposal@Drama|Romance@2020-07-22@1547602@4230496
+728@Old School@Comedy@2011-04-24@1951073@2698082
+729@Gui Si (Silk)@Drama|Horror|Mystery|Sci-Fi|Thriller@2000-09-12@2958781@1376875
+730@Murder by Death@Comedy|Crime|Mystery|Thriller@1997-01-25@1575386@4770685
+731@Gigantic (A Tale of Two Johns)@Documentary@1972-07-14@1510173@1309774
+732@Thousand Months, A (Mille mois)@Drama@2016-10-14@271236@4307775
+733@Othello (Tragedy of Othello: The Moor of Venice, The)@Drama@2001-12-18@2084996@4334587
+734@The ABCs of Death 2@Comedy|Horror@1977-05-03@1199734@4819546
+735@Diplomatic Immunity (2009– )@Comedy@2003-01-30@2237086@756515
+736@Don McKay@Drama|Mystery|Thriller@2014-10-19@2137292@937244
+737@Baraka@Documentary@2004-12-28@1879256@1994013
+738@Experiment Perilous@Romance|Thriller@1983-10-12@2603107@342234
+739@Defender, The@Action@2016-12-02@2874462@4529520
+740@Pretty Cool@Action|Comedy|Thriller@2016-08-17@2939781@3293780
+741@Maniac@Crime|Horror|Mystery|Romance|Thriller@1976-01-17@787381@2373209
+742@She Hate Me@Comedy|Drama@1984-01-18@2554841@714205
+743@Brother, Can You Spare a Dime?@Documentary@2003-11-28@1085869@1091845
+744@Take This Waltz@Drama|Romance@1986-01-16@2904217@3105893
+745@Herbie Goes Bananas@Adventure|Children|Comedy@1982-10-14@2001757@1546214
+746@Merry Gentleman, The@Drama@2017-09-28@196921@3343187
+747@Pallbearer, The@Comedy@1991-03-16@1083504@1509864
+748@Greatest, The@Drama|Romance@1971-10-04@85@2400550
+749@Ricky Gervais Live 3: Fame@Comedy@1998-05-03@1007774@4821066
+750@Firewalker@Adventure@2011-03-30@895935@1614386
+751@Judgment in Berlin@Crime|Drama@1974-10-26@1442511@2507002
+752@Five Wives, Three Secretaries and Me@Documentary@2012-05-10@838713@3624094
+753@Benchwarmers, The@Comedy@2008-08-13@743588@1738375
+754@Win/win@Drama@2015-11-29@2356751@3467541
+755@Playing for Time@Drama@1992-03-09@75106@4643234
+756@Game of Werewolves@Comedy|Horror@1997-01-06@1030885@2481567
+757@Two Sisters from Boston@Comedy|Musical@1979-11-23@1817052@518518
+758@Sex: The Annabel Chong Story@Documentary@1977-11-07@2159843@2468328
+759@Road to Bali@Comedy|Musical@1971-06-16@2777100@1341472
+760@Mondovino@Documentary@1974-09-25@1815021@2106762
+761@Even the Rain (También la lluvia)@Drama@2018-01-18@1240567@1107645
+762@Moulin Rouge@Drama@1990-04-11@2921036@3579601
+763@Stop at Nothing: The Lance Armstrong Story@Documentary|Thriller@2017-06-30@2545029@1975313
+764@Des fleurs pour Algernon@(no genres listed)@2003-03-12@2797609@1239471
+765@Adventures of Power@Comedy|Musical@1971-04-15@1029349@4570926
+766@Up in Smoke@Comedy@1973-06-15@489@3794671
+767@Kiwi!@Action|Animation@1978-11-03@765447@2750345
+768@Heartbreak Hospital@Comedy|Thriller@1982-01-26@1675052@953861
+769@Clockwise@Comedy@2018-05-06@1328302@1554895
+770@Monga@Crime|Drama@2012-01-15@1237814@3151604
+771@New Jersey Drive@Crime|Drama@1990-05-09@238108@3740009
+772@Boynton Beach Bereavement Club, The@Comedy|Drama@2006-03-10@1004708@247309
+773@A Story of Children and Film@Documentary@2001-02-23@1751376@2680727
+774@Companeros (Vamos a matar, compañeros)@Comedy|Western@2002-11-25@551533@2254196
+775@John Carter@Action|Adventure|Sci-Fi|IMAX@1988-07-12@2427498@3808105
+776@Mysterious Skin@Drama|Mystery@1975-05-12@2229212@2953259
+777@Pressure Point @Drama@2001-01-09@1232238@821523
+778@Four Brothers@Action|Crime|Drama@2018-01-10@2688463@4449155
+779@Mobsters@Crime|Drama@1971-09-09@1489201@2654594
+780@Shadow Man@Action@1981-12-03@239847@4086212
+781@Deadbolt@Thriller@2009-06-22@193421@2402703
+782@Stay as You Are@Drama|Romance@1998-12-21@80779@4422684
+783@Camille@Comedy|Drama|Romance@1986-12-22@1921799@1961624
+784@Edge of Seventeen@Comedy|Drama|Romance@1979-10-07@2699024@2255369
+785@Trippin'@Comedy@2000-11-06@1811631@4097733
+786@Daddy Day Camp@Children|Comedy@1978-02-13@249602@1497004
+787@Saawariya@Drama|Musical|Romance@1997-06-19@2123284@2535370
+788@Salvation, The@Drama|Western@1976-07-16@1240541@4126283
+789@Dance, Girl, Dance@Comedy|Drama@1990-04-30@2256153@4421038
+790@Ong-Bak 3: The Final Battle (Ong Bak 3)@Action@1983-02-17@1027349@4332137
+791@Sister My Sister@Drama@2011-09-15@2049025@658269
+792@Postal@Action|Comedy|Thriller@1997-03-28@941902@238914
+793@At Midnight I'll Take Your Soul (À Meia-Noite Levarei Sua Alma)@Horror@2011-04-01@2285139@1736785
+794@Blue Kite, The (Lan feng zheng)@Drama@2008-04-20@211677@4728933
+795@Final Inquiry, The (Inquiry, The) (inchiesta, L')@Adventure|Drama|Mystery@2019-07-06@416166@1909120
+796@Rob Roy@Action|Drama|Romance|War@1983-02-14@1330102@1700801
+797@Whirlpool@Crime|Drama|Film-Noir|Mystery@2010-07-26@527336@3699078
+798@Mr. Deeds@Comedy|Romance@2007-09-28@764847@192874
+799@Critters 4@Comedy|Horror|Sci-Fi@1980-06-01@1311718@3054884
+800@Stuck @Documentary@2021-02-27@42301@4716261
+801@Birds, the Bees and the Italians, The (Signore & signori)@Comedy@2006-08-14@2548752@3419624
+802@Aurora@Drama@2010-03-14@593316@3627662
+803@Little Hamlet@(no genres listed)@2002-11-03@141731@1997367
+804@E=mc2@Action|Comedy@1990-03-04@2484296@2815783
+805@Dead Space: Downfall@Action|Animation|Sci-Fi@2021-10-10@2457256@288024
+806@They Made Me a Criminal (I Became a Criminal) (They Made Me a Fugitive)@Crime|Drama@1980-11-11@1159883@3263680
+807@Wrestling (Bræðrabylta)@Drama|Romance@1992-12-31@1020473@3248230
+808@The Arrival of Wang@Mystery|Sci-Fi|Thriller@2021-04-29@1679484@3772432
+809@Glory Daze@Drama@1992-02-15@922594@4019559
+810@For a Woman (Pour une femme)@Drama|Romance|War@1990-01-27@1697215@4517427
+811@Lessons of Darkness (Lektionen in Finsternis)@Documentary|War@1985-07-22@1005161@4601655
+812@Lure of the Sila@Drama@2014-09-15@551451@844385
+813@Ali Baba Goes to Town@Comedy|Fantasy|Musical@1992-09-06@21541@3507338
+814@Soupe aux Choux, La@Comedy@1988-10-10@964437@4443498
+815@None But the Brave@Drama|War@2003-04-28@2097842@4864125
+816@Lady on a Train@Comedy|Crime|Film-Noir|Mystery|Romance|Thriller@1986-04-21@1048559@2140180
+817@Perfect Man, A@Drama@1981-08-12@1327845@3386085
+818@Here Comes Peter Cottontail @Animation|Children|Musical@2009-01-24@112836@3233890
+819@Stigmata@Drama|Thriller@1983-04-28@2232493@2714420
+820@Synchromy@Animation@2003-08-24@2325595@1465290
+821@Damage (Fatale)@Drama@1977-01-06@2117620@2272550
+822@Genghis Khan@Adventure|Drama|War@1991-01-24@2289883@3311158
+823@Dimensions of Dialogue (Moznosti dialogu)@Animation|Comedy|Fantasy@1972-05-26@1018908@4653384
+824@Numbers Station, The@Action|Thriller@2006-10-23@1394774@3725211
+825@Cambridge Spies@Drama@2017-10-20@2800887@3617812
+826@Journey from the Fall@Drama@1977-10-10@2355846@706202
+827@Dean Spanley@Comedy|Drama@1989-11-24@2292951@571376
+828@Martin@Drama|Horror@2008-07-26@2655902@1203028
+829@La liga no es cosa de hombres@(no genres listed)@1974-03-18@2884891@4176793
+830@Bananas!*@Crime|Documentary|Drama@1988-11-18@593618@4684230
+831@Canyons, The@Drama|Thriller@2017-09-13@2084287@1832117
+832@Pirate, The@Adventure|Comedy|Musical|Romance@1992-09-26@2867957@2881379
+833@Sometimes They Come Back@Drama|Fantasy|Horror|Thriller@2021-03-30@835098@1717290
+834@Mr. Magorium's Wonder Emporium@Children|Comedy|Fantasy@2011-12-02@2770076@3047824
+835@Alaska: Silence & Solitude@Documentary@1990-06-02@858032@4609936
+836@Raspberry Boat Refugee@Comedy@2010-07-26@897486@4203778
+837@King of Texas, The@Documentary@1975-02-27@780680@1227624
+838@Prize, The@Drama|Mystery|Thriller@1996-03-15@1853491@1811984
+839@Malèna@Drama|Romance|War@1997-05-09@2421029@2498190
+840@Warrior of the Lost World@Action|Sci-Fi@1997-02-24@487599@3336556
+841@Head-On (Gegen die Wand)@Drama|Romance@1997-06-11@616284@1577202
+842@Lust for Gold (Duhul aurului)@Drama@2020-06-23@1716779@3972357
+843@Paul@Adventure|Comedy|Sci-Fi@2017-09-13@2011678@971173
+844@Pulse (Kairo)@Horror|Mystery|Thriller@2013-11-19@2274932@2455545
+845@Pornstar: The Legend of Ron Jeremy@Documentary@1984-06-29@519793@3525729
+846@Dirty Girl@Comedy|Drama@2001-08-09@2110966@1454778
+847@Mitt@Documentary@2000-04-03@824144@2540600
+848@Seven (a.k.a. Se7en)@Mystery|Thriller@2012-06-10@650867@4880288
+849@Confessions of a Nazi Spy@Drama@1996-02-05@162821@4992944
+850@Way Out West@Comedy|Western@1988-03-31@2682713@677791
+851@Ice Rink, The (La patinoire)@Comedy|Romance@2007-10-12@1548002@274849
+852@Man Bites Dog (C'est arrivé près de chez vous)@Comedy|Crime|Drama|Thriller@2004-12-25@2882926@3530847
+853@Mr. Denning Drives North@Crime|Drama|Mystery@2018-06-26@1357801@80020
+854@Aria@Comedy|Drama@1987-07-06@1645499@1827806
+855@Objective, The@Horror|Sci-Fi|Thriller|War@2011-12-03@2361877@4431823
+856@How to Cook Your Life@Documentary@1984-05-26@106095@427929
+857@Eye of the Storm, The@Drama@2020-12-02@1188272@4177387
+858@Frogs@Drama|Horror|Mystery|Thriller@1988-07-23@2130842@4803791
+859@Carriers Are Waiting, The (Convoyeurs attendent, Les)@Comedy|Drama@2017-12-14@151021@349603
+860@Kevin Hart: Seriously Funny@Comedy@2008-02-10@1685969@4898880
+861@Ratcatcher@Drama@2018-08-26@2318331@779591
+862@In the Mix@Comedy|Crime|Romance@1998-05-21@2624166@801049
+863@Loop the Loop (Up and Down) (Horem pádem)@Comedy@1984-07-19@1122736@3845493
+864@The Diary of Preston Plummer@Drama|Romance@1973-02-04@2173370@4564713
+865@Perfect Plan, A (Plan parfait, Un)@Adventure|Comedy|Romance@2021-02-16@2382499@3630465
+866@Killer Klowns from Outer Space@Comedy|Horror|Sci-Fi@2020-02-13@2347763@4066059
+867@Four Days in July@Comedy|Drama@2016-03-29@1347120@388354
+868@Lost Reels of Pancho Villa, The (Los rollos perdidos de Pancho Villa)@Documentary@1997-10-06@1315957@2474363
+869@Losers, The@Action|Adventure|Drama|Mystery|Thriller@2003-01-24@1283017@4688370
+870@Unmade Beds@Documentary@2006-04-25@305905@2283654
+871@Come and See (Idi i smotri)@Drama|War@1983-08-08@2858271@1693477
+872@Dr. Seuss' The Lorax@Animation|Fantasy|Musical|IMAX@1983-08-31@1705795@4147320
+873@Mail Order Bride@Comedy@2007-08-16@1071066@2876580
+874@Thin Man Goes Home, The@Comedy|Crime|Mystery@2016-03-23@1139292@1647411
+875@Up in Smoke@Comedy@1999-03-21@2139634@2240424
+876@Gui Si (Silk)@Drama|Horror|Mystery|Sci-Fi|Thriller@2018-12-15@1151846@4290710
+877@All the Light in the Sky@Drama@1981-04-02@2036342@1776648
+878@The Violent Enemy@Crime|Drama@1979-07-20@2314831@3149486
+879@Pavement: Slow Century@Documentary@1972-10-25@2328029@1980940
+880@Party, The (Boum, La)@Comedy|Romance@1994-09-07@2839772@3274811
+881@Hallelujah Trail, The@Comedy|Western@1986-08-01@2229772@1045965
+882@L.A. Story@Comedy|Romance@1989-07-23@603958@4550091
+883@Two Sons of Francisco (2 Filhos de Francisco - A História de Zezé di Camargo & Luciano)@Drama@2004-02-19@2899973@2553536
+884@Moral Tales, Filmic Issues@Documentary@2003-05-20@2399562@443211
+885@Murderer Lives at Number 21, The (L'assassin habite... au 21)@Comedy|Mystery|Thriller@1983-05-17@1513281@484867
+886@Plain Dirty (a.k.a. Briar Patch)@Drama|Romance@1973-05-01@410112@1603570
+887@Decalogue, The (Dekalog)@Crime|Drama|Romance@1995-03-18@605042@2316462
+888@Riot in Cell Block 11@Drama@1987-04-15@1155171@714782
+889@Self-Made Hero, A (Un héros très discret)@Comedy|Drama@1981-10-05@1723632@1150227
+890@Guide to Recognizing Your Saints, A@Crime|Drama@1975-08-20@450539@4485463
+891@Dragon Ball Z: Battle of Gods@Action|Animation|Fantasy|IMAX@2013-08-30@2025603@2101559
+892@Tulpan@Comedy|Drama@1972-12-20@1792994@2753770
+893@Creepshow@Horror@1990-11-02@1075283@4984129
+894@Blood into Wine@Documentary@1974-09-08@2686562@3527153
+895@Kink@Documentary@2006-01-12@1815095@126229
+896@How Do You Know@Comedy|Drama|Romance@2013-12-23@772584@3647151
+897@Maps to the Stars@Drama@2020-09-10@1626900@3002450
+898@Mr. Jones@Drama|Romance@1985-05-09@2865131@3596899
+899@Three Kingdoms: Resurrection of the Dragon (Saam gwok dzi gin lung se gap)@Action|Drama|War@2008-02-05@860519@2128716
+900@Herbie Goes Bananas@Adventure|Children|Comedy@1979-02-20@2600653@2913382
+901@They Shoot Horses, Don't They?@Drama@1974-10-11@219735@4926535
+902@Eddy Duchin Story, The@Drama|Musical|Romance@2001-06-19@273779@2518622
+903@Trancers II@Action|Sci-Fi@1971-09-05@2253421@2828827
+904@Goliath Awaits@Drama|Sci-Fi|War@1983-06-16@1909667@3645803
+905@I Love You to Death@Comedy|Crime@1986-04-20@1061097@3761298
+906@Stonewall@Drama@2010-01-21@729113@1363804
+907@Hud@Drama|Western@1981-04-20@205290@1876278
+908@Big Nothing@Comedy|Crime|Thriller@2018-08-17@2535025@4305664
+909@Clerks@Comedy@2013-04-29@1442638@3894084
+910@Falling Angels@Drama@1981-03-26@290613@2225095
+911@Aristocrats, The@Comedy|Documentary@2021-09-19@1124708@2270771
+912@Everybody's Woman (La signora di tutti)@Drama@1972-04-02@912221@4211074
+913@Gitmek: My Marlon and Brando (Gitmek: Benim Marlon ve Brandom)@Drama|Romance|War@1998-12-19@539770@3274707
+914@Aerial Gunner@Drama|War@1985-09-05@1594948@1190389
+915@Marius@Comedy|Drama|Romance@1978-11-22@1244105@2579103
+916@Beowulf@Action|Horror|Sci-Fi@2018-03-23@228237@3541513
+917@In Your Hands (Forbrydelser)@Drama@1997-01-15@1105627@102500
+918@Sweet Smell of Success@Drama|Film-Noir@2015-10-04@2035062@3437796
+919@Welcome to Sarajevo@Drama|War@1981-11-02@171263@3793794
+920@Hotel@Comedy@2014-01-01@1831578@2721406
+921@In the City (En la ciudad)@Drama@2003-09-14@2058828@2933454
+922@Johnny Mad Dog@Drama|War@1981-09-15@802232@1423809
+923@When You Comin' Back, Red Ryder?@Drama@2014-02-12@919406@3346096
+924@King of the Zombies@Comedy|Horror@2007-11-30@295462@736827
+925@Richard III@Drama|War@1994-08-08@368135@1018072
+926@Enchanted Cottage, The@Drama|Romance@1973-01-21@2042854@2885527
+927@Mr. Accident@Comedy@1991-03-24@1458112@4212687
+928@Lawless Heart, The@Comedy|Drama@2011-02-04@448400@4262408
+929@Gasoline (Benzina)@Crime@2020-10-10@2804368@3285320
+930@Scalphunters, The@Comedy|Western@1996-09-16@1169278@3560153
+931@Phil Spector@Drama@1972-03-31@1662393@2886687
+932@Ladies They Talk About@Drama|Romance@1979-11-09@794075@4096221
+933@Subway@Crime|Drama|Romance|Thriller@2012-06-10@801257@3268879
+934@4 Horsemen of the Apocalypse, The@Drama@1984-06-08@95432@4535507
+935@What Ever Happened to Baby Jane?@Drama|Horror|Thriller@1995-09-08@2163339@4378009
+936@Guy Named Joe, A@Drama|Fantasy|Romance|War@1989-04-26@2490999@975341
+937@Wrongfully Accused@Action|Comedy@1982-04-25@1288724@2057254
+938@Riding the Bullet@Horror|Thriller@2006-04-27@111541@3112095
+939@Genesis@Drama|Horror@1975-09-10@791914@928831
+940@Streetcar Named Desire, A@Drama@1985-06-14@1553803@3547627
+941@How I Live Now@Action|Drama|Thriller@1980-04-20@1166936@1559887
+942@Land Before Time, The@Adventure|Animation|Children|Fantasy@1998-02-06@1960762@727832
+943@Aaltra@Comedy|Drama@1983-05-01@2870527@745433
+944@After Image (Seeing in the Dark)@Drama|Thriller@1978-04-22@1417836@1204251
+945@Fly, The@Horror|Mystery|Sci-Fi@1996-06-25@456783@1448943
+946@Partly Cloudy@Animation|Children|Comedy|Fantasy@1999-09-28@49205@2797759
+947@Page Turner, The (Tourneuse de pages, La)@Drama|Musical|Thriller@2017-10-14@2750740@2786756
+948@Trials of Oscar Wilde, The@Drama@1976-06-09@1796862@3838360
+949@Jane Eyre@Drama|Romance@1972-12-06@1345687@3055937
+950@Parent Trap, The@Children|Comedy|Romance@1987-09-16@311270@3802224
+951@World of Henry Orient, The@Comedy@1971-09-04@2596498@2131764
+952@Sukiyaki Western Django@Action|Western@2020-07-27@282935@2128300
+953@Tar@Drama@1978-03-08@1978887@1847266
+954@For Roseanna (Roseanna's Grave)@Comedy|Drama|Romance@1995-02-19@422890@1996619
+955@Jack Brooks: Monster Slayer@Action|Comedy|Horror@1990-11-19@394743@2507117
+956@American Rhapsody, An@Drama@1981-09-24@1648347@2776178
+957@Onmyoji (Onmyoji: The Yin Yang Master)@Action|Drama|Fantasy|Horror@1979-06-21@2576252@3720308
+958@Stars in Shorts@Comedy@1982-06-11@1882668@2872103
+959@Barabbas@Drama@1975-08-28@2014530@1216825
+960@Futuresport@Action|Sci-Fi|Thriller@2019-07-02@2035089@990060
+961@Puppet Masters, The@Horror|Sci-Fi@1971-03-14@322540@89975
+962@Burning Bed, The@Drama@2018-01-19@123557@2748259
+963@Fisher King, The@Comedy|Drama|Fantasy|Romance@1977-09-22@1649809@2392450
+964@Copenhagen@Adventure|Drama|Romance@2012-04-07@175623@4957720
+965@Lebanon, Pa.@Drama@2001-12-25@972526@565064
+966@Culture High, The@Documentary@2010-11-30@2001391@2684776
+967@Stranger in the House@Thriller@1990-06-16@2043841@2180917
+968@Invasion of the Body Snatchers@Horror|Sci-Fi|Thriller@2014-05-01@1485579@3135396
+969@Suspect Zero@Crime|Thriller@1975-01-29@348671@104010
+970@North Shore@Drama|Romance@2004-09-21@2163658@174834
+971@Everest@Documentary|IMAX@1998-01-09@1081828@238082
+972@Needing You... (Goo naam gwa neui)@Comedy|Romance@1997-01-10@614878@1703679
+973@Cabeza de Vaca@Action|Adventure@1989-11-21@2640955@2069612
+974@Vincent: A Life in Color@Documentary@1973-10-07@720917@3623594
+975@I, Cesar (Moi César, 10 ans 1/2, 1m39)@Children|Comedy@1981-08-13@227581@3100168
+976@Bravados, The@Drama|Western@2006-08-19@2272805@4163217
+977@Killers, The@Action|Crime|Drama|Film-Noir|Thriller@1978-12-19@1246706@880931
+978@Precious Find@Action|Sci-Fi@1982-06-11@2173245@4643058
+979@Ashik Kerib@Drama|Romance@1971-12-01@2601944@3640963
+980@Convent, The@Horror|Sci-Fi@1994-02-24@2243257@2795318
+981@Catch That Kid@Action|Adventure|Children|Comedy|Crime@1977-02-18@2881431@589667
+982@Manny@Documentary|Drama@1995-03-26@960052@4311036
+983@Papa's Delicate Condition@Comedy@1989-01-05@2258419@1564674
+984@The First Men in the Moon@Sci-Fi@2018-01-31@1317115@3285483
+985@Little Foxes, The@Drama@2006-07-20@2449317@1605277
+986@Mission, The (Cheung fo)@Crime|Drama|Mystery@1992-09-07@2516388@3067573
+987@Twin Falls Idaho@Drama@1988-10-21@902579@3341984
+988@The Land Before Time IX: Journey to the Big Water@Adventure|Animation|Children@1988-11-15@851481@3500708
+989@Mosquito Squadron@Action@1990-03-17@453898@2770881
+990@Date Movie@Comedy|Romance@1997-01-05@2275631@3839481
+991@Innocent, The@Drama@1983-05-28@2328129@2526789
+992@Love God?, The@Comedy@2003-12-17@2720043@3505567
+993@Ten@Drama@1975-01-16@244673@31306
+994@Iron Lady, The@Drama@2000-09-17@2509432@4308624
+995@Company Men, The@Drama@1999-02-10@713823@1181745
+996@Hard to Kill@Action|Crime|Drama@2012-11-01@1628410@3861767
+997@Strawberry and Chocolate (Fresa y chocolate)@Drama@1980-08-12@1894880@636244
+998@Eila, Rampe and Likka@Comedy@1998-04-15@1995649@3536187
+999@Oyster Farmer@Drama@1978-01-14@2758350@4482878
+1000@Brain Dead@Horror|Sci-Fi@2015-06-06@601569@3349042

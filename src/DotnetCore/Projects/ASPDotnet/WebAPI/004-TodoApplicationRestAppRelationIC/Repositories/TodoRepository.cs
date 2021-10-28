@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 using static CSD.Util.Error.ExceptionUtil;
 using CSD.Util.TPL;
+using static CSD.Util.TPL.TaskUtil;
 
 namespace CSD.TodoApplicationRestApp.Repositories
 {
@@ -145,32 +146,36 @@ namespace CSD.TodoApplicationRestApp.Repositories
 
         public Task<long> CountAsync()
         {
-            return SubscribeAsync(() => new Task<long>(countCallback).Create(), () => new Task(() => closeConnection()).Create());
+            return SubscribeAsync(() => Create(countCallback), () => Create(closeConnection));            
         }
 
         public Task<IEnumerable<TodoInfo>> FindAllAsync()
         {
-            return SubscribeAsync(() => new Task<IEnumerable<TodoInfo>>(findAllCallback).Create(), () => new Task(() => closeConnection()).Create());
+            return SubscribeAsync(() => new Task<IEnumerable<TodoInfo>>(findAllCallback).Create(),
+                () => new Task(() => closeConnection()).Create());
         }
 
         public Task<TodoInfoItem> FindByItemIdAsync(int id)
         {
-            return SubscribeAsync(() => new Task<TodoInfoItem>(() => findByItemIdCallback(id)), () => new Task(closeConnection));
+            return SubscribeAsync(() => new Task<TodoInfoItem>(() => findByItemIdCallback(id)).Create(), 
+                () => new Task(closeConnection).Create());
         }
 
         public Task<IEnumerable<TodoInfo>> FindByMonthAsync(int month)
         {
-            return SubscribeAsync(() => new Task<IEnumerable<TodoInfo>>(() => findByMonthCallback(month)), () => new Task(closeConnection));
+            return SubscribeAsync(() => new Task<IEnumerable<TodoInfo>>(() => findByMonthCallback(month)).Create(), 
+                () => new Task(closeConnection).Create());
         }
 
         public Task<IEnumerable<TodoInfo>> FindByMonthAndYearAsync(int month, int year)
         {
-            return SubscribeAsync(() => new Task<IEnumerable<TodoInfo>>(() => findByMonthAndYearCallback(month, year)), () => new Task(closeConnection));
+            return SubscribeAsync(() => new Task<IEnumerable<TodoInfo>>(() => findByMonthAndYearCallback(month, year)).Create(), 
+                () => new Task(closeConnection).Create());
         }
 
         public Task<TodoInfo> SaveAsync(TodoInfo todoInfo)
         {
-            return SubscribeAsync(() => new Task<TodoInfo>(() => saveCallback(todoInfo)), () => new Task(closeConnection));
+            return SubscribeAsync(() => new Task<TodoInfo>(() => saveCallback(todoInfo)).Create(), () => new Task(closeConnection).Create());
         }
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
