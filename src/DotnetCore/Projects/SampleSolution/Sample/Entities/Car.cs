@@ -14,6 +14,6 @@ namespace CSD.Application.Entities
 
         public int Year { get; set; }
 
-        public DateTime TrafficDate { get; set; }
+        public DateTime TrafficRegisterDate { get; set; }
     }
 }

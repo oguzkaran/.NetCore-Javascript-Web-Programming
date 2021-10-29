@@ -18,7 +18,7 @@ namespace CSD
                     Console.WriteLine("Wrong number of arguments");
                     Environment.Exit(1);
                 }
-                var month= int.Parse(args[1]);
+                var month = int.Parse(args[1]);
                 var year = int.Parse(args[2]);
                 var minCost = long.Parse(args[3]);
                 var movieFactory = new MovieFactory(args[0]);
@@ -38,6 +38,8 @@ namespace CSD
 
                 query.ToList().ForEach(m => Console.WriteLine($"{m.Name}, {m.VisionDate}, {m.Cost}"));
 
+               
+                
             }
             catch (Exception ex)
             {

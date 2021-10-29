@@ -1,5 +1,5 @@
 ﻿
-using CSD.Entitites;
+using CSD.Application.Entitites;
 using System;
 using System.Collections.Generic;
 using System.IO;
