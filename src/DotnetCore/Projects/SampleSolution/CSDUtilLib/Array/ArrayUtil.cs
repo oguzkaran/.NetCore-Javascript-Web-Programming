@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSD.Util.Array
 {
     public static class ArrayUtil
     {
-        public static int [] FillRandomArray(this int[] a, Random r, int n, int min, int max)
+        public static int [] FillRandomArray(this int[] a, Random r, int min, int max)
         {
             for (var i = 0; i < a.Length; ++i)
                 a[i] = r.Next(min, max + 1);
@@ -20,7 +16,7 @@ namespace CSD.Util.Array
         {
             var a = new int[n];
 
-            return a.FillRandomArray(r, n, min, max);
+            return a.FillRandomArray(r, min, max);
         }
 
         public static void Display(this int[] a)

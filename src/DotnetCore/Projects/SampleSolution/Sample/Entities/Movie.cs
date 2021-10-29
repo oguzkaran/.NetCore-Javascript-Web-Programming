@@ -9,7 +9,6 @@ namespace CSD.Entitites
         public string Genre { get; set; }
         public DateTime VisionDate { get; set; }
         public long Rating { get; set; }
-
         public long Cost { get; set; }
     }
 }
