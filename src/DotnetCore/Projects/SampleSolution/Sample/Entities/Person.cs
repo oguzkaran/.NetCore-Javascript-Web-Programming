@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sample.Enttities
+namespace CSD.Application.Entities
 {
     public enum MaritalStatus { Single, Married, Divorced }
 

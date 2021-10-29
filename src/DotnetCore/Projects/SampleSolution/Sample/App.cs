@@ -1,8 +1,8 @@
 ﻿/*---------------------------------------------------------------------------------------------------------------------
     Yukarıdaki örneklerin sorgu sentaksı yapılışı
 ----------------------------------------------------------------------------------------------------------------------*/
+using CSD.Application.Factories;
 using System;
-using CSD.MovieApp.Factories;
 using System.Linq;
 
 namespace CSD
