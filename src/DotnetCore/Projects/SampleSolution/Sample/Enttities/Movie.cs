@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSD.MovieApp
+namespace CSD.MovieApp.Entitites
 {
     public class Movie
     {

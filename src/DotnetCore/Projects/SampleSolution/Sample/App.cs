@@ -2,7 +2,7 @@
     Yukarıdaki örneklerin sorgu sentaksı yapılışı
 ----------------------------------------------------------------------------------------------------------------------*/
 using System;
-using CSD.MovieApp;
+using CSD.MovieApp.Factories;
 using System.Linq;
 
 namespace CSD

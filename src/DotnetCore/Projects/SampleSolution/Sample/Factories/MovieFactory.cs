@@ -1,9 +1,9 @@
-﻿using System;
+﻿using CSD.MovieApp.Entitites;
+using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
-namespace CSD.MovieApp
+namespace CSD.MovieApp.Factories
 {
     public class MovieFactory
     {
