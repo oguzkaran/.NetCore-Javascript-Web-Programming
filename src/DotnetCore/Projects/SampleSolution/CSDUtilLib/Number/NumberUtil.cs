@@ -1,9 +1,15 @@
 ﻿using System;
+using System.Linq;
 
 namespace CSD.Util.Number
 {
     public static class NumberUtil
     {
+        public static long Factorial(this int n)
+        {
+            return Enumerable.Range(1, n).Aggregate(1L, (r, val) => r * val);
+        }
+
         [Obsolete("This is removed since version 2.0.0. Use IsPrime", true)]
         public static bool IsPrimeNumber(this long val)
         {

@@ -17,7 +17,6 @@ namespace CSD.Application.Factories
                 Model = carInfo[3],
                 Year = int.Parse(carInfo[4]),
                 TrafficRegisterDate = DateTime.Parse(carInfo[5])
-
             };
         }
 
