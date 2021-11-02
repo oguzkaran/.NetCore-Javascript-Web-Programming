@@ -10,7 +10,8 @@
         "dependencies": {
           "CSD.GeneralTest": "1.0.0",
           "CSD.Util": "1.0.0",
-          "CSD.Util.Collections": "1.0.0"
+          "CSD.Util.Collections": "1.0.0",
+          "CSD.Util.Math": "1.0.0"
         },
         "runtime": {
           "Sample.dll": {}
@@ -29,6 +30,11 @@
       "CSD.Util.Collections/1.0.0": {
         "runtime": {
           "CSD.Util.Collections.dll": {}
+        }
+      },
+      "CSD.Util.Math/1.0.0": {
+        "runtime": {
+          "CSD.Util.Math.dll": {}
         }
       }
     }
@@ -50,6 +56,11 @@
       "sha512": ""
     },
     "CSD.Util.Collections/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSD.Util.Math/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

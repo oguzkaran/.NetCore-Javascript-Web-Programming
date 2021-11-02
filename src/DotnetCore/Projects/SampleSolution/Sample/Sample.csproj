@@ -10,6 +10,7 @@
     <ProjectReference Include="..\CSDCollectionUtilLib\CSDCollectionUtilLib.csproj" />
     <ProjectReference Include="..\CSDUtilLib\CSDUtilLib.csproj" />
     <ProjectReference Include="..\GeneralTestDLL\GeneralTestDLL.csproj" />
+    <ProjectReference Include="..\MathUtilLib\MathUtilLib.csproj" />
   </ItemGroup>
 
 </Project>

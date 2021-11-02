@@ -10,6 +10,7 @@ namespace CSD.Application.Entities
         public string Name { get; set; }
         public string Email { get; set; }
         public MaritalStatus MaritalStatus { get; set; }
-        public DateTime BirthDate { get; set; }        
+        public DateTime BirthDate { get; set; }
+        public double Age => (DateTime.Now - BirthDate).TotalDays / 365;
     }
 }

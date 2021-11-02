@@ -1,0 +1,12 @@
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\bin\Debug\net5.0\CSD.Util.Math.deps.json
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\bin\Debug\net5.0\CSD.Util.Math.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\bin\Debug\net5.0\ref\CSD.Util.Math.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\bin\Debug\net5.0\CSD.Util.Math.pdb
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\obj\Debug\net5.0\MathUtilLib.csproj.AssemblyReference.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\obj\Debug\net5.0\MathUtilLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\obj\Debug\net5.0\MathUtilLib.AssemblyInfoInputs.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\obj\Debug\net5.0\MathUtilLib.AssemblyInfo.cs
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\obj\Debug\net5.0\MathUtilLib.csproj.CoreCompileInputs.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\obj\Debug\net5.0\CSD.Util.Math.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\obj\Debug\net5.0\ref\CSD.Util.Math.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\MathUtilLib\obj\Debug\net5.0\CSD.Util.Math.pdb

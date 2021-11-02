@@ -12,12 +12,32 @@ namespace CSD.Util.Array
             return a;
         }
 
+
         public static int[] GetRandomArray(Random r, int n, int min, int max)
         {
             var a = new int[n];
 
             return a.FillRandomArray(r, min, max);
         }
+
+        public static double[] GetRandomArray(Random r, int n, double min, double max)
+        {
+            var a = new double[n];
+
+            return a.FillRandomArray(r, min, max);
+        }
+
+
+        public static double[] FillRandomArray(this double[] a, Random r, double min, double max)
+        {
+            for (var i = 0; i < a.Length; ++i)
+                a[i] = r.NextDouble() * (max - min) + min;
+
+            return a;
+        }
+
+        
+
 
         public static void Display(this int[] a)
         {

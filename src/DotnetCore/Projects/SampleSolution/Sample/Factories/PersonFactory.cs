@@ -27,12 +27,10 @@ namespace CSD.Application.Factories
             sr.ReadLine();
 
             while ((line = sr.ReadLine()) != null)
-                Persons.Add(createPerson(line.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries)));
-
-
+                People.Add(createPerson(line.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries)));
         }
 
-        public List<Person> Persons { get; private set; } = new List<Person>();
+        public List<Person> People { get; private set; } = new List<Person>();
 
         public PersonFactory(string path)
         {
