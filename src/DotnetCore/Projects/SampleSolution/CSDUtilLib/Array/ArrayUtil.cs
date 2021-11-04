@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Linq;
+
+using static System.Linq.Enumerable;
 
 namespace CSD.Util.Array
 {
@@ -15,16 +18,12 @@ namespace CSD.Util.Array
 
         public static int[] GetRandomArray(Random r, int n, int min, int max)
         {
-            var a = new int[n];
-
-            return a.FillRandomArray(r, min, max);
+            return Range(0, n).Select(i => r.Next(min, max + 1)).ToArray();
         }
 
         public static double[] GetRandomArray(Random r, int n, double min, double max)
         {
-            var a = new double[n];
-
-            return a.FillRandomArray(r, min, max);
+            return Range(0, n).Select(i => r.NextDouble() * (max - min) + min).ToArray();            
         }
 
 
@@ -34,17 +33,13 @@ namespace CSD.Util.Array
                 a[i] = r.NextDouble() * (max - min) + min;
 
             return a;
-        }
+        }        
 
-        
-
-
-        public static void Display(this int[] a)
+        public static void Display<T>(this T[] a, string sep = " ", string end = "\n")
         {
-            foreach (var val in a)
-                Console.Write($"{val} ");
-
-            Console.WriteLine();
+            a.ToList().ForEach(t => Console.Write($"{t}{sep}"));
+            Console.Write(end);
         }
+        
     }
 }

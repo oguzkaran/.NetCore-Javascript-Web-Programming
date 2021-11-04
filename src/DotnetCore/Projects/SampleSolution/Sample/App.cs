@@ -1,8 +1,7 @@
 ﻿/*---------------------------------------------------------------------------------------------------------------------
-    Soru: Döngü kullanmadan ve Eratosten kalburunu da kullanmadan parametresi ile aldığı bir sayının asal olup
-    olmadığını test eden IsPrime metodunu yazınız
+    Aşağıdaki örnekte [min, max] aralığındaki veriler elde edilmiştir
 ----------------------------------------------------------------------------------------------------------------------*/
-using CSD.Util.Number;
+using CSD.Util.Array;
 using System;
 using System.Linq;
 
@@ -12,10 +11,9 @@ namespace CSD
     {
         public static void Main(string[] args)
         {
-            int n = 10;
-
-            Console.WriteLine(Enumerable.Range(1, n).Sum());
+            var random = new Random();
+            ArrayUtil.GetRandomArray(random, 10, 0.45, 99.89).ToArray().Display(sep: "\n", end: "");
+            ArrayUtil.GetRandomArray(random, 10, 0, 99).ToArray().Display();
         }
     }
 }
-

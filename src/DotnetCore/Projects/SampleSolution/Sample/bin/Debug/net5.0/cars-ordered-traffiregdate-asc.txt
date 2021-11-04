@@ -1,0 +1,1000 @@
+Vin:SAJWA4GB5EL831619, RegisterDate:11/8/1999, Make:GMC, Model:3500
+Vin:1YVHZ8BH1B5840055, RegisterDate:11/22/1999, Make:Mercedes-Benz, Model:SL-Class
+Vin:WA1VFBFL9EA557549, RegisterDate:12/9/1999, Make:Ferrari, Model:612 Scaglietti
+Vin:JTDKTUD37ED549027, RegisterDate:12/10/1999, Make:Honda, Model:Fit
+Vin:SCBBP9ZA7CC581636, RegisterDate:12/13/1999, Make:Audi, Model:V8
+Vin:KNDPB3A21B7822455, RegisterDate:12/24/1999, Make:Suzuki, Model:Vitara
+Vin:KMHFH4JG5FA104648, RegisterDate:12/28/1999, Make:Chevrolet, Model:Caprice
+Vin:WAUSFAFL8BA694803, RegisterDate:1/8/2000, Make:Cadillac, Model:SRX
+Vin:WBALL5C55EP197106, RegisterDate:1/27/2000, Make:Nissan, Model:Pathfinder
+Vin:1G6DU6EA7A0056600, RegisterDate:1/29/2000, Make:Land Rover, Model:Range Rover Classic
+Vin:WBA3N9C52EK664092, RegisterDate:2/1/2000, Make:Jaguar, Model:XJ Series
+Vin:19VDE1F72DE454527, RegisterDate:2/12/2000, Make:BMW, Model:M5
+Vin:3D73Y3CLXAG042529, RegisterDate:2/17/2000, Make:Audi, Model:Quattro
+Vin:1FTSW2B50AE359197, RegisterDate:2/21/2000, Make:Land Rover, Model:Range Rover
+Vin:WBAKA4C5XBC349413, RegisterDate:2/24/2000, Make:Chevrolet, Model:Astro
+Vin:3C3CFFER3FT048873, RegisterDate:2/27/2000, Make:Kia, Model:Amanti
+Vin:3N1BC1AP9BL997008, RegisterDate:3/4/2000, Make:Mitsubishi, Model:Endeavor
+Vin:19XFB4F25DE010430, RegisterDate:3/7/2000, Make:Honda, Model:Civic
+Vin:KNADH5A38B6588758, RegisterDate:3/12/2000, Make:GMC, Model:Safari
+Vin:WBA3A9G52CN036020, RegisterDate:3/13/2000, Make:Lamborghini, Model:Gallardo
+Vin:WBA3B3G55EN309979, RegisterDate:3/15/2000, Make:Chevrolet, Model:Express 3500
+Vin:WBA1J7C5XFV521513, RegisterDate:3/21/2000, Make:Dodge, Model:Charger
+Vin:WA1LMAFE3FD437352, RegisterDate:3/25/2000, Make:Mercedes-Benz, Model:300TE
+Vin:WAUMFAFR5FA027089, RegisterDate:4/3/2000, Make:Dodge, Model:Magnum
+Vin:KM8JT3AF1FU204416, RegisterDate:4/6/2000, Make:Isuzu, Model:Hombre Space
+Vin:WAUMFAFL2CA346375, RegisterDate:4/11/2000, Make:GMC, Model:Sierra 1500
+Vin:3GYEK62N96G886359, RegisterDate:4/16/2000, Make:Chevrolet, Model:3500
+Vin:JN8AZ1FY5BW896295, RegisterDate:4/20/2000, Make:Ford, Model:F250
+Vin:WBAPK73579A659609, RegisterDate:4/22/2000, Make:Oldsmobile, Model:Achieva
+Vin:WBADT53452C767393, RegisterDate:4/24/2000, Make:Dodge, Model:Durango
+Vin:WBANV1C55AB748864, RegisterDate:5/1/2000, Make:Subaru, Model:Impreza
+Vin:1FMEU7EE0AU408380, RegisterDate:5/11/2000, Make:Saturn, Model:VUE
+Vin:3D73M3HL7BG867398, RegisterDate:5/12/2000, Make:Ford, Model:Club Wagon
+Vin:TRUVD38J291378570, RegisterDate:5/24/2000, Make:Oldsmobile, Model:Achieva
+Vin:4USBT53464L082293, RegisterDate:5/30/2000, Make:Suzuki, Model:Sidekick
+Vin:1C6RD7KP5CS864248, RegisterDate:6/9/2000, Make:Cadillac, Model:Seville
+Vin:SCBBR53W568535463, RegisterDate:6/18/2000, Make:Dodge, Model:Ram 1500
+Vin:1GYUKGEF1AR373699, RegisterDate:6/26/2000, Make:Chevrolet, Model:3500
+Vin:1N6AA0CC5DN054701, RegisterDate:6/29/2000, Make:Dodge, Model:Dakota
+Vin:1GYS4GEF3BR589931, RegisterDate:7/27/2000, Make:Pontiac, Model:Grand Prix
+Vin:2C3CCABG9EH408105, RegisterDate:7/28/2000, Make:Lincoln, Model:MKT
+Vin:2T1BURHE6EC558546, RegisterDate:7/30/2000, Make:Aston Martin, Model:V8 Vantage
+Vin:WBAVB17556N802043, RegisterDate:8/6/2000, Make:Mercedes-Benz, Model:R-Class
+Vin:1FTSW3A53AE206434, RegisterDate:8/25/2000, Make:Ford, Model:Mustang
+Vin:1GTG5AEAXF1395136, RegisterDate:8/28/2000, Make:Mitsubishi, Model:Outlander
+Vin:WA1CMAFE1AD725167, RegisterDate:8/28/2000, Make:Mitsubishi, Model:Pajero
+Vin:4T1BF1FK0CU160815, RegisterDate:8/31/2000, Make:Nissan, Model:Pathfinder
+Vin:WBAYA8C50DD662856, RegisterDate:9/5/2000, Make:Toyota, Model:RAV4
+Vin:JN1AV7AP8FM049736, RegisterDate:9/12/2000, Make:Chrysler, Model:Sebring
+Vin:JTJBM7FX3F5552661, RegisterDate:9/21/2000, Make:Pontiac, Model:Bonneville
+Vin:WBAPH735X9A077258, RegisterDate:10/1/2000, Make:Dodge, Model:Grand Caravan
+Vin:KM8NU4CC7CU229839, RegisterDate:10/9/2000, Make:Pontiac, Model:G5
+Vin:5TFCW5F19CX607339, RegisterDate:10/10/2000, Make:Toyota, Model:RAV4
+Vin:JH4DC53804S346033, RegisterDate:10/19/2000, Make:Subaru, Model:Impreza WRX
+Vin:1FTSW3A57AE403638, RegisterDate:10/30/2000, Make:Lotus, Model:Elan
+Vin:WBAWV13517P702710, RegisterDate:11/3/2000, Make:Volkswagen, Model:Passat
+Vin:1GKS1GEJ7DR737718, RegisterDate:11/13/2000, Make:Pontiac, Model:Bonneville
+Vin:WP0CA2A83DK013510, RegisterDate:11/18/2000, Make:Saab, Model:9-5
+Vin:1GKS1KE00ER583736, RegisterDate:11/21/2000, Make:Chrysler, Model:Imperial
+Vin:JN8AF5MR6DT477209, RegisterDate:11/22/2000, Make:BMW, Model:5 Series
+Vin:1C3ADEBZ7DV633206, RegisterDate:11/22/2000, Make:Acura, Model:Legend
+Vin:4T1BF3EK8BU630391, RegisterDate:11/24/2000, Make:Infiniti, Model:G25
+Vin:2G4WS52JX41659734, RegisterDate:12/13/2000, Make:Volkswagen, Model:GTI
+Vin:SCBLF34F34C891646, RegisterDate:12/20/2000, Make:Dodge, Model:Ram Van 2500
+Vin:1FTWX3B52AE124823, RegisterDate:12/23/2000, Make:GMC, Model:Yukon Denali
+Vin:4T1BK3DB9AU430938, RegisterDate:12/23/2000, Make:Jeep, Model:Grand Cherokee
+Vin:WBA3A5G53DN358918, RegisterDate:1/4/2001, Make:Aston Martin, Model:DBS
+Vin:1GYFK53239R221254, RegisterDate:1/14/2001, Make:Ford, Model:F350
+Vin:WAUDF98E28A806848, RegisterDate:1/24/2001, Make:Buick, Model:LeSabre
+Vin:5J8TB4H38GL748129, RegisterDate:2/3/2001, Make:Dodge, Model:D350 Club
+Vin:3D7LT2ETXAG239061, RegisterDate:2/16/2001, Make:Buick, Model:Riviera
+Vin:JH4DC53073S401683, RegisterDate:2/20/2001, Make:Hyundai, Model:Elantra
+Vin:1N6AD0CU2FN375307, RegisterDate:2/21/2001, Make:Nissan, Model:Armada
+Vin:WBAFR7C56CC553252, RegisterDate:2/27/2001, Make:Maserati, Model:430
+Vin:1N6AA0CH8EN217919, RegisterDate:3/3/2001, Make:Pontiac, Model:GTO
+Vin:JN8AZ1MU7DW415871, RegisterDate:3/10/2001, Make:Chrysler, Model:LHS
+Vin:1N4AL2EP0DC996746, RegisterDate:3/18/2001, Make:Chevrolet, Model:HHR
+Vin:WAUEL74F36N818982, RegisterDate:3/24/2001, Make:Mitsubishi, Model:Mighty Max
+Vin:1YVHZ8BH7B5678853, RegisterDate:4/18/2001, Make:Audi, Model:A6
+Vin:3LN6L2LU7DR673400, RegisterDate:4/25/2001, Make:Audi, Model:S5
+Vin:WAUML54BX2N191222, RegisterDate:4/30/2001, Make:Audi, Model:A5
+Vin:JN1BY0AR7AM111737, RegisterDate:5/11/2001, Make:Toyota, Model:4Runner
+Vin:WP0AB2A94AS997923, RegisterDate:5/15/2001, Make:Ferrari, Model:F430
+Vin:WAUKH98E28A086405, RegisterDate:5/30/2001, Make:Ford, Model:Tempo
+Vin:SCBLE47K98C321903, RegisterDate:6/8/2001, Make:Hyundai, Model:Scoupe
+Vin:1N6AD0CU3FN100724, RegisterDate:6/8/2001, Make:Chevrolet, Model:Corvette
+Vin:2T1KU4EE1CC399410, RegisterDate:6/15/2001, Make:Pontiac, Model:Grand Am
+Vin:WVGAV7AX1FW091534, RegisterDate:6/17/2001, Make:Kia, Model:Sportage
+Vin:1G6DA5EY4B0516538, RegisterDate:6/24/2001, Make:Dodge, Model:Ram Wagon B350
+Vin:1G6DG8E53D0140231, RegisterDate:6/26/2001, Make:Pontiac, Model:Vibe
+Vin:SCFFDCCD2AG303127, RegisterDate:7/1/2001, Make:Mercedes-Benz, Model:M-Class
+Vin:5N1AN0NU8BC328362, RegisterDate:7/2/2001, Make:GMC, Model:Yukon XL 2500
+Vin:1GKUCHE09AR714615, RegisterDate:7/10/2001, Make:Toyota, Model:Tundra
+Vin:1FA6P8AM7F5805064, RegisterDate:7/11/2001, Make:Mitsubishi, Model:L300
+Vin:WAUWFAFH6AN869828, RegisterDate:7/16/2001, Make:Pontiac, Model:Grand Am
+Vin:WBANF33547B259468, RegisterDate:7/23/2001, Make:Plymouth, Model:Voyager
+Vin:JH4CU4F69DC765568, RegisterDate:7/26/2001, Make:Ford, Model:Explorer Sport Trac
+Vin:SCFFDAAM7DG744232, RegisterDate:8/12/2001, Make:Chevrolet, Model:Express 1500
+Vin:WBAKX8C51BC338256, RegisterDate:8/18/2001, Make:Aston Martin, Model:V8 Vantage S
+Vin:WD3PE7DC5F5075862, RegisterDate:9/7/2001, Make:Fillmore, Model:Fillmore
+Vin:4T1BF1FK8DU539322, RegisterDate:9/12/2001, Make:Toyota, Model:Sienna
+Vin:5TDBM5G16BS161350, RegisterDate:9/13/2001, Make:Ford, Model:Probe
+Vin:1G6EC12902B473311, RegisterDate:9/14/2001, Make:Audi, Model:A3
+Vin:WBA3N3C58EK130401, RegisterDate:9/14/2001, Make:Honda, Model:Accord
+Vin:3VWKX7AJ6AM141610, RegisterDate:9/19/2001, Make:Toyota, Model:Solara
+Vin:WVWAA7AJXCW553080, RegisterDate:9/20/2001, Make:Audi, Model:5000CS
+Vin:1D7RW3BK3AS056130, RegisterDate:10/14/2001, Make:Chrysler, Model:PT Cruiser
+Vin:1G6DL5E34C0135062, RegisterDate:10/16/2001, Make:Isuzu, Model:Rodeo
+Vin:JN1AY1AR6DM393021, RegisterDate:10/30/2001, Make:Audi, Model:TT
+Vin:JTJYWRBZXF2223786, RegisterDate:11/6/2001, Make:Ford, Model:F250
+Vin:19UUA65666A248465, RegisterDate:11/28/2001, Make:Pontiac, Model:Firebird
+Vin:WAUAC68D81A125827, RegisterDate:11/30/2001, Make:Cadillac, Model:SRX
+Vin:WBAAV53421F910259, RegisterDate:1/3/2002, Make:Dodge, Model:Durango
+Vin:WBA3B9C59DJ740646, RegisterDate:1/11/2002, Make:Audi, Model:5000S
+Vin:3C6TD5FT1CG439960, RegisterDate:1/23/2002, Make:Dodge, Model:Dakota Club
+Vin:WBA5A7C59ED792259, RegisterDate:2/3/2002, Make:Saab, Model:9-7X
+Vin:WBANA73505B389380, RegisterDate:2/13/2002, Make:Mitsubishi, Model:Mirage
+Vin:5N1AA0NC0EN866288, RegisterDate:2/17/2002, Make:Honda, Model:Accord
+Vin:JH4KA965X3C329741, RegisterDate:2/22/2002, Make:Chevrolet, Model:Silverado 1500
+Vin:WAUDGBFL6CA700188, RegisterDate:3/4/2002, Make:Lexus, Model:GS
+Vin:1N6AD0CU1DN505896, RegisterDate:3/24/2002, Make:Chevrolet, Model:Cobalt
+Vin:KNAFK4A67E5640289, RegisterDate:3/25/2002, Make:Porsche, Model:944
+Vin:WBAGK93431D416899, RegisterDate:4/10/2002, Make:Lotus, Model:Esprit
+Vin:KNAFU6A24D5597323, RegisterDate:4/12/2002, Make:Saab, Model:9-2X
+Vin:SAJWA0JH5EM007040, RegisterDate:4/15/2002, Make:Suzuki, Model:Cultus
+Vin:JN8AE2KP7F9345434, RegisterDate:4/16/2002, Make:Honda, Model:Fit
+Vin:1GYS3BEF4CR855187, RegisterDate:4/21/2002, Make:Lamborghini, Model:Countach
+Vin:WA1YL64B94N192191, RegisterDate:4/28/2002, Make:Dodge, Model:Ram
+Vin:1FTEX1C88AF640624, RegisterDate:4/30/2002, Make:GMC, Model:Savana 1500
+Vin:1G6AL1R33F0579866, RegisterDate:5/9/2002, Make:Subaru, Model:Tribeca
+Vin:5UXFE4C58AL421702, RegisterDate:5/30/2002, Make:Dodge, Model:Viper
+Vin:5UXFG83539L193198, RegisterDate:6/7/2002, Make:Chevrolet, Model:Silverado 2500
+Vin:1ZVBP8AM1C5984820, RegisterDate:6/17/2002, Make:Mercedes-Benz, Model:S-Class
+Vin:JTEBU5JR2A5130000, RegisterDate:7/16/2002, Make:Oldsmobile, Model:Cutlass Cruiser
+Vin:JTEBU5JR7F5697360, RegisterDate:7/21/2002, Make:Pontiac, Model:Bonneville
+Vin:WAUXF78K69A385600, RegisterDate:7/29/2002, Make:Bentley, Model:Continental GTC
+Vin:WBA3T1C57FP081657, RegisterDate:8/5/2002, Make:Dodge, Model:Grand Caravan
+Vin:1G6AL5S38E0738381, RegisterDate:8/12/2002, Make:Ford, Model:Tempo
+Vin:WBANA53555B607866, RegisterDate:8/22/2002, Make:Volkswagen, Model:Passat
+Vin:WVWED7AJ9AW071139, RegisterDate:8/26/2002, Make:GMC, Model:1500
+Vin:YV4612HM9F1033525, RegisterDate:9/6/2002, Make:GMC, Model:Sierra 2500
+Vin:WP1AA2A2XDL261892, RegisterDate:9/8/2002, Make:Nissan, Model:Sentra
+Vin:YV126MEB2F1832915, RegisterDate:9/18/2002, Make:Chevrolet, Model:Tahoe
+Vin:1GYEK63N34R826721, RegisterDate:9/19/2002, Make:Maybach, Model:Landaulet
+Vin:5J8TB4H35EL795566, RegisterDate:9/25/2002, Make:Land Rover, Model:Freelander
+Vin:JH4KB16627C154592, RegisterDate:10/24/2002, Make:Volkswagen, Model:Golf
+Vin:WA1VMBFP9EA719091, RegisterDate:10/30/2002, Make:Chevrolet, Model:Colorado
+Vin:WA1YD54B55N065186, RegisterDate:11/27/2002, Make:Suzuki, Model:Esteem
+Vin:WAUJT54B52N247537, RegisterDate:12/2/2002, Make:Ford, Model:E150
+Vin:4T1BF3EK9BU162865, RegisterDate:12/5/2002, Make:Chevrolet, Model:Tahoe
+Vin:5N1BA0NE0FN853791, RegisterDate:12/11/2002, Make:Chevrolet, Model:Corsica
+Vin:WAUVC68E94A903681, RegisterDate:12/27/2002, Make:Plymouth, Model:Fury
+Vin:1N6AA0EK4FN202411, RegisterDate:1/1/2003, Make:Ford, Model:Taurus
+Vin:1N6AD0CU6FN565143, RegisterDate:1/4/2003, Make:Land Rover, Model:Defender Ice Edition
+Vin:ML32A3HJ3FH070237, RegisterDate:1/5/2003, Make:Subaru, Model:Leone
+Vin:WAUHE78P29A950038, RegisterDate:1/5/2003, Make:Volvo, Model:V50
+Vin:WAUKF78E68A659736, RegisterDate:1/16/2003, Make:Mazda, Model:B-Series Plus
+Vin:WBA3B3G57FN605961, RegisterDate:1/23/2003, Make:Volkswagen, Model:Jetta
+Vin:1GYS4FEJ2CR624992, RegisterDate:1/24/2003, Make:Mercury, Model:Topaz
+Vin:1G4HP57208U438441, RegisterDate:1/28/2003, Make:Honda, Model:Prelude
+Vin:5N1AN0NU8AC762182, RegisterDate:2/27/2003, Make:Infiniti, Model:G35
+Vin:WDDLJ7DB3EA126374, RegisterDate:2/27/2003, Make:Dodge, Model:Ram 2500
+Vin:YV140MAK0F1068224, RegisterDate:3/12/2003, Make:Lexus, Model:ES
+Vin:SCBCR63W56C950239, RegisterDate:3/22/2003, Make:Cadillac, Model:SRX
+Vin:JN1AZ4EH8FM780057, RegisterDate:3/23/2003, Make:Plymouth, Model:Roadrunner
+Vin:WA1CGBFE6BD265079, RegisterDate:3/29/2003, Make:Ford, Model:Bronco
+Vin:WAULC58E45A847362, RegisterDate:4/11/2003, Make:Chevrolet, Model:Cruze
+Vin:WA1YD64B95N316281, RegisterDate:4/12/2003, Make:Lexus, Model:SC
+Vin:3D73M4CL6AG400081, RegisterDate:4/15/2003, Make:Pontiac, Model:Bonneville
+Vin:WAUVC68E54A280950, RegisterDate:4/18/2003, Make:Chevrolet, Model:Sportvan G30
+Vin:NM0KS9BN9AT607074, RegisterDate:4/23/2003, Make:Honda, Model:Accord
+Vin:5N1AA0NCXBN097701, RegisterDate:4/30/2003, Make:Cadillac, Model:CTS-V
+Vin:WBA3B1C52EK805172, RegisterDate:4/30/2003, Make:Lotus, Model:Esprit
+Vin:WAUDL74F35N736468, RegisterDate:5/8/2003, Make:Chevrolet, Model:Venture
+Vin:1FMJU1F58AE668482, RegisterDate:5/12/2003, Make:Buick, Model:Skylark
+Vin:19UUA86269A082976, RegisterDate:5/17/2003, Make:Audi, Model:A8
+Vin:WBAYE4C55ED037917, RegisterDate:5/21/2003, Make:Chevrolet, Model:Silverado 2500
+Vin:JHMGE8G34BS474957, RegisterDate:5/22/2003, Make:Nissan, Model:Xterra
+Vin:1GYUCHEF0AR671289, RegisterDate:5/25/2003, Make:Aston Martin, Model:Vantage
+Vin:SALAF2D46AA368053, RegisterDate:5/30/2003, Make:Chevrolet, Model:Corvette
+Vin:2T1BU4EE5BC009312, RegisterDate:5/31/2003, Make:Toyota, Model:Land Cruiser
+Vin:3VWKX8AJ7BM983606, RegisterDate:6/29/2003, Make:Acura, Model:TSX
+Vin:JTDKDTB38C1006875, RegisterDate:6/30/2003, Make:Jeep, Model:Patriot
+Vin:SAJWA2EK4EM416762, RegisterDate:7/2/2003, Make:Chevrolet, Model:Colorado
+Vin:1N6AF0KX9EN003323, RegisterDate:7/5/2003, Make:Honda, Model:Pilot
+Vin:WAUAF98E66A502356, RegisterDate:7/14/2003, Make:Mazda, Model:Mazda5
+Vin:WBA3G7C58EF980314, RegisterDate:7/16/2003, Make:BMW, Model:X6
+Vin:1FTEX1EW7AF807650, RegisterDate:8/7/2003, Make:Subaru, Model:Legacy
+Vin:WBAWB33527P679393, RegisterDate:8/12/2003, Make:Mitsubishi, Model:Truck
+Vin:KNAFX6A80E5829252, RegisterDate:8/15/2003, Make:Ford, Model:Crown Victoria
+Vin:WBAEW53422P875846, RegisterDate:8/18/2003, Make:Ford, Model:F250
+Vin:WBA3B5C51DF703926, RegisterDate:8/19/2003, Make:Honda, Model:Civic
+Vin:3VW8S7AT2FM225408, RegisterDate:8/22/2003, Make:Pontiac, Model:6000
+Vin:1G6DX67D990625490, RegisterDate:9/8/2003, Make:Pontiac, Model:GTO
+Vin:WVWED7AJ3DW940290, RegisterDate:9/23/2003, Make:Alfa Romeo, Model:164
+Vin:WAUCVAFR2BA615170, RegisterDate:9/30/2003, Make:Nissan, Model:JUKE
+Vin:WAUMGAFL4AA063678, RegisterDate:10/6/2003, Make:Daewoo, Model:Nubira
+Vin:5FPYK1F44CB026031, RegisterDate:10/16/2003, Make:Chevrolet, Model:Silverado 1500
+Vin:1FMJU1J59AE173344, RegisterDate:10/20/2003, Make:Mazda, Model:626
+Vin:3D7TP2HT7AG102451, RegisterDate:10/23/2003, Make:Chrysler, Model:Sebring
+Vin:1N4AB7AP0EN915434, RegisterDate:10/24/2003, Make:Buick, Model:Electra
+Vin:JN1AJ0HP4CM180876, RegisterDate:10/27/2003, Make:Lincoln, Model:Town Car
+Vin:WBAPM73539E244175, RegisterDate:11/4/2003, Make:Suzuki, Model:XL7
+Vin:WBAVS13508F132050, RegisterDate:11/24/2003, Make:Morgan, Model:Aero 8
+Vin:2G4GZ5GV4B9842203, RegisterDate:12/6/2003, Make:Toyota, Model:Matrix
+Vin:1G6AB5RX2D0549400, RegisterDate:12/8/2003, Make:Hummer, Model:H2 SUT
+Vin:JN1AZ4EH8FM224086, RegisterDate:12/19/2003, Make:Buick, Model:Skylark
+Vin:2C3CCASG3DH768985, RegisterDate:12/29/2003, Make:Buick, Model:Somerset
+Vin:WAUMF78P76A823373, RegisterDate:12/29/2003, Make:Dodge, Model:Ram Wagon B250
+Vin:2T1BPRHE5FC599839, RegisterDate:1/3/2004, Make:Chevrolet, Model:Corvette
+Vin:5UXZV4C54CL965727, RegisterDate:1/5/2004, Make:Ford, Model:F150
+Vin:5N1AA0NC6DN776951, RegisterDate:1/6/2004, Make:Chevrolet, Model:Express 2500
+Vin:5UXKR2C53F0947607, RegisterDate:1/26/2004, Make:Buick, Model:Skylark
+Vin:1G4HP57M39U611713, RegisterDate:2/9/2004, Make:Oldsmobile, Model:88
+Vin:WAULC68EX2A254235, RegisterDate:2/11/2004, Make:Ford, Model:LTD Crown Victoria
+Vin:WAULV94E89N758609, RegisterDate:2/15/2004, Make:Bentley, Model:Brooklands
+Vin:1N6AD0CW4FN141641, RegisterDate:2/26/2004, Make:Mercedes-Benz, Model:SLK-Class
+Vin:SAJWA6A79F8179978, RegisterDate:3/13/2004, Make:Isuzu, Model:Hombre Space
+Vin:WDDJK7DA0EF075060, RegisterDate:4/9/2004, Make:Buick, Model:Rendezvous
+Vin:1G6AL5S33D0861472, RegisterDate:4/14/2004, Make:Subaru, Model:Legacy
+Vin:WVWED7AJ0DW722033, RegisterDate:4/15/2004, Make:Dodge, Model:Viper
+Vin:WBASP4C58BC603943, RegisterDate:4/15/2004, Make:Subaru, Model:Forester
+Vin:WBA4B1C54FG431611, RegisterDate:4/27/2004, Make:Mercedes-Benz, Model:500E
+Vin:WA1CGAFE9ED698779, RegisterDate:5/6/2004, Make:Lexus, Model:ES
+Vin:2C4JDGAG4CR354921, RegisterDate:5/24/2004, Make:Oldsmobile, Model:Aurora
+Vin:1GYFC532X9R121715, RegisterDate:5/25/2004, Make:Ford, Model:Escort
+Vin:WBANE73507C217951, RegisterDate:6/10/2004, Make:Kia, Model:Sorento
+Vin:2D4JN1AG2BR628287, RegisterDate:6/11/2004, Make:Mitsubishi, Model:Galant
+Vin:KNDJN2A23E7733837, RegisterDate:6/13/2004, Make:Toyota, Model:Supra
+Vin:2G4WE587671661312, RegisterDate:6/24/2004, Make:Porsche, Model:911
+Vin:1G6DG1E34E0480169, RegisterDate:7/7/2004, Make:Isuzu, Model:Trooper
+Vin:2G4WS55J441296374, RegisterDate:7/13/2004, Make:Rolls-Royce, Model:Phantom
+Vin:SCFEBBCF3CG375566, RegisterDate:7/13/2004, Make:GMC, Model:Sierra 2500
+Vin:WBAEU33473P111261, RegisterDate:7/13/2004, Make:Saab, Model:900
+Vin:1FTEW1CF0FF569671, RegisterDate:7/18/2004, Make:Lincoln, Model:Continental
+Vin:WAUKD98P67A866922, RegisterDate:8/3/2004, Make:Acura, Model:TSX
+Vin:JTDKN3DP5C3044047, RegisterDate:8/10/2004, Make:Audi, Model:A4
+Vin:1G6AE5SX5F0625888, RegisterDate:8/22/2004, Make:Toyota, Model:Camry Hybrid
+Vin:2C3CDZBG4FH216667, RegisterDate:8/24/2004, Make:Mercury, Model:Villager
+Vin:WBACN33431L041878, RegisterDate:9/4/2004, Make:Volkswagen, Model:Corrado
+Vin:WBA3N7C51EK519307, RegisterDate:9/5/2004, Make:Jeep, Model:Grand Cherokee
+Vin:1G6DV5EP3C0972639, RegisterDate:9/6/2004, Make:Audi, Model:TT
+Vin:5TDDK3DCXFS082990, RegisterDate:9/20/2004, Make:Mitsubishi, Model:Mirage
+Vin:4T1BD1EB3EU731742, RegisterDate:9/25/2004, Make:BMW, Model:3 Series
+Vin:YV126MFC8F1765793, RegisterDate:9/26/2004, Make:Volkswagen, Model:Jetta
+Vin:1GKLRKED0AJ977021, RegisterDate:10/24/2004, Make:Chevrolet, Model:Aveo
+Vin:3N1AB7AP1FY978334, RegisterDate:10/29/2004, Make:Saturn, Model:Ion
+Vin:5FRYD4H66EB774350, RegisterDate:11/7/2004, Make:Suzuki, Model:Verona
+Vin:1N4AL2AP3CC894474, RegisterDate:11/14/2004, Make:BMW, Model:M3
+Vin:5NPDH4AE0EH622829, RegisterDate:12/11/2004, Make:Hyundai, Model:Entourage
+Vin:3GYFNGE32ES021210, RegisterDate:12/13/2004, Make:Toyota, Model:Camry Hybrid
+Vin:1FTEX1C89AK570848, RegisterDate:12/18/2004, Make:Mercedes-Benz, Model:300SL
+Vin:JTEBU5JR4D5331899, RegisterDate:12/24/2004, Make:Acura, Model:Legend
+Vin:2C3CCASG5DH085220, RegisterDate:1/10/2005, Make:Mercedes-Benz, Model:CLK-Class
+Vin:1FTSW2B58AE887084, RegisterDate:1/16/2005, Make:Dodge, Model:Stratus
+Vin:KNADH4A36B6433118, RegisterDate:1/24/2005, Make:Ford, Model:Flex
+Vin:1G6KD57Y58U687084, RegisterDate:2/7/2005, Make:Lamborghini, Model:Diablo
+Vin:WAUEV94F88N634131, RegisterDate:2/23/2005, Make:GMC, Model:Savana 1500
+Vin:WBAYF8C58DD951226, RegisterDate:3/2/2005, Make:Lincoln, Model:Town Car
+Vin:1D7RV1CP5AS896573, RegisterDate:4/8/2005, Make:Mitsubishi, Model:Montero Sport
+Vin:WAULV44E57N454203, RegisterDate:4/12/2005, Make:Chevrolet, Model:Silverado 1500
+Vin:SALAK2V68FA248080, RegisterDate:4/16/2005, Make:Chevrolet, Model:Express 1500
+Vin:1FAHP2D87FG564163, RegisterDate:4/16/2005, Make:GMC, Model:Sierra 1500
+Vin:3N1AB7AP7FL034941, RegisterDate:5/1/2005, Make:Pontiac, Model:Bonneville
+Vin:19UUA8F35DA041109, RegisterDate:5/11/2005, Make:Ford, Model:Thunderbird
+Vin:YV440MBM5F1130963, RegisterDate:5/20/2005, Make:Chevrolet, Model:G-Series G10
+Vin:5GAKRBKD3EJ710376, RegisterDate:5/27/2005, Make:Chrysler, Model:Cirrus
+Vin:JM1DE1KY0E0544145, RegisterDate:6/1/2005, Make:Chrysler, Model:Sebring
+Vin:WBANB53556C161484, RegisterDate:6/2/2005, Make:Mazda, Model:B-Series Plus
+Vin:1N6AA0EK1FN093647, RegisterDate:6/4/2005, Make:Chevrolet, Model:Corvette
+Vin:WVWGU9ANXBE536316, RegisterDate:6/11/2005, Make:Ford, Model:E-Series
+Vin:JM1DE1HY5B0550106, RegisterDate:6/18/2005, Make:Lotus, Model:Esprit
+Vin:WDDGF4HB1DA347983, RegisterDate:6/29/2005, Make:Chevrolet, Model:Avalanche
+Vin:YV126MFB7F1511497, RegisterDate:7/1/2005, Make:Pontiac, Model:6000
+Vin:WAUPL68E04A071348, RegisterDate:7/1/2005, Make:Lexus, Model:LS
+Vin:19UUA56883A683719, RegisterDate:7/2/2005, Make:Nissan, Model:Maxima
+Vin:5N1AN0NU5BC555878, RegisterDate:7/22/2005, Make:Subaru, Model:Legacy
+Vin:WAUPFAFM3BA454086, RegisterDate:7/26/2005, Make:Subaru, Model:XT
+Vin:1GD120EG1BF347546, RegisterDate:8/11/2005, Make:Ford, Model:F-Series
+Vin:JTJBARBZ1F2292032, RegisterDate:8/21/2005, Make:Mitsubishi, Model:Montero
+Vin:JM1NC2JF1F0810192, RegisterDate:9/2/2005, Make:Ford, Model:F250
+Vin:4T1BD1EB0EU529229, RegisterDate:9/29/2005, Make:Mercedes-Benz, Model:CL-Class
+Vin:WBAVB73527P969250, RegisterDate:10/1/2005, Make:Ford, Model:Probe
+Vin:1C4RDJEG1EC086304, RegisterDate:10/8/2005, Make:Chevrolet, Model:Cavalier
+Vin:WAUHF78P68A279825, RegisterDate:10/16/2005, Make:Ford, Model:Ranger
+Vin:WBAEP33432P772436, RegisterDate:11/4/2005, Make:Lexus, Model:SC
+Vin:4T1BF3EK3AU342518, RegisterDate:11/7/2005, Make:Honda, Model:Fit
+Vin:WAUKG78E25A696663, RegisterDate:11/16/2005, Make:Toyota, Model:Prius
+Vin:KMHHT6KD9AU573496, RegisterDate:11/18/2005, Make:Mazda, Model:Miata MX-5
+Vin:1FTEW1C88FK086647, RegisterDate:11/29/2005, Make:Mercury, Model:Grand Marquis
+Vin:1G6DA1ED9B0153434, RegisterDate:12/12/2005, Make:Mercury, Model:Villager
+Vin:1G6AB5RA7E0099014, RegisterDate:12/22/2005, Make:Lamborghini, Model:Countach
+Vin:1C4RDJAG8DC537510, RegisterDate:12/30/2005, Make:Mazda, Model:Protege
+Vin:3D4PH5FV3AT671712, RegisterDate:1/10/2006, Make:Lamborghini, Model:Gallardo
+Vin:1G6KE57Y81U130074, RegisterDate:1/17/2006, Make:Audi, Model:S6
+Vin:JA4AS2AW9BU196555, RegisterDate:1/22/2006, Make:Oldsmobile, Model:Regency
+Vin:3C63DRGL5CG894851, RegisterDate:1/26/2006, Make:Eagle, Model:Talon
+Vin:JH4DB75611S941107, RegisterDate:2/6/2006, Make:Honda, Model:Accord
+Vin:1GYS4SKJ2FR415009, RegisterDate:2/20/2006, Make:Acura, Model:NSX
+Vin:WVGAV7AX5AW982516, RegisterDate:3/7/2006, Make:Pontiac, Model:Grand Prix
+Vin:WA1MKAFP7AA336871, RegisterDate:3/14/2006, Make:BMW, Model:M6
+Vin:1FTEX1CW5AK352937, RegisterDate:3/18/2006, Make:Lexus, Model:IS-F
+Vin:JN8AZ1MU7CW953887, RegisterDate:3/27/2006, Make:Mazda, Model:Miata MX-5
+Vin:WBA3B3G56DN019457, RegisterDate:3/31/2006, Make:Nissan, Model:Quest
+Vin:1G4HJ5EM1BU767193, RegisterDate:4/9/2006, Make:Aston Martin, Model:Virage
+Vin:WP0AA2A8XCS510849, RegisterDate:4/28/2006, Make:Volvo, Model:850
+Vin:1G6AC5S33E0273038, RegisterDate:5/5/2006, Make:Honda, Model:Odyssey
+Vin:1G6DM577780814621, RegisterDate:5/17/2006, Make:Pontiac, Model:Firebird
+Vin:WAUAC48H73K006610, RegisterDate:5/28/2006, Make:Ford, Model:F350
+Vin:JTHFF2C2XD2804929, RegisterDate:5/31/2006, Make:Volkswagen, Model:Jetta
+Vin:JTHBB1BA0A2631124, RegisterDate:6/5/2006, Make:Volvo, Model:V50
+Vin:2FMGK5BC5BB376961, RegisterDate:6/6/2006, Make:Mercedes-Benz, Model:G-Class
+Vin:JH4CW2H52CC717556, RegisterDate:6/10/2006, Make:Ford, Model:Escort
+Vin:WBAPN7C57BF584166, RegisterDate:6/19/2006, Make:Chevrolet, Model:Tahoe
+Vin:WAUHE78P18A856070, RegisterDate:6/25/2006, Make:Jaguar, Model:XF
+Vin:JM1BL1L35D1766768, RegisterDate:7/1/2006, Make:Toyota, Model:Tacoma Xtra
+Vin:1GYEE53A590646182, RegisterDate:7/10/2006, Make:Pontiac, Model:GTO
+Vin:1GTN1TEX9CZ706393, RegisterDate:7/10/2006, Make:Oldsmobile, Model:Cutlass Supreme
+Vin:3N1CN7AP1FL837082, RegisterDate:8/22/2006, Make:Toyota, Model:Yaris
+Vin:1G6DD1E33E0987895, RegisterDate:8/24/2006, Make:Chevrolet, Model:Camaro
+Vin:WAULC58E15A653257, RegisterDate:8/31/2006, Make:Mercedes-Benz, Model:E-Class
+Vin:WAUAFAFL9DA039077, RegisterDate:9/24/2006, Make:Ford, Model:Explorer
+Vin:3VW517AT8FM880825, RegisterDate:9/30/2006, Make:Dodge, Model:Ram 3500
+Vin:5UXFG2C52CL112745, RegisterDate:10/1/2006, Make:Maserati, Model:Quattroporte
+Vin:1D7RB1CP1BS946931, RegisterDate:10/1/2006, Make:Buick, Model:Roadmaster
+Vin:1G6DV5EP4C0903023, RegisterDate:10/1/2006, Make:Mercedes-Benz, Model:G-Class
+Vin:KMHGC4DE9AU640488, RegisterDate:10/9/2006, Make:Mazda, Model:RX-8
+Vin:3VW517AT0FM222786, RegisterDate:10/11/2006, Make:Chevrolet, Model:Express
+Vin:2HNYD2H32DH799888, RegisterDate:10/17/2006, Make:Volkswagen, Model:Touareg
+Vin:KMHHT6KDXAU732221, RegisterDate:10/29/2006, Make:Mitsubishi, Model:Chariot
+Vin:JHMZF1C62FS555362, RegisterDate:11/17/2006, Make:Land Rover, Model:Discovery Series II
+Vin:WAUUL78E96A546197, RegisterDate:12/13/2006, Make:Plymouth, Model:Neon
+Vin:1G4PP5SK1C4884366, RegisterDate:12/17/2006, Make:Suzuki, Model:SJ
+Vin:1FTEW1CM2DF720862, RegisterDate:12/20/2006, Make:Infiniti, Model:Q
+Vin:3D73M4EL2BG096035, RegisterDate:12/26/2006, Make:Chevrolet, Model:Silverado 1500
+Vin:1N6AA0CC3BN277719, RegisterDate:1/1/2007, Make:Pontiac, Model:Trans Sport
+Vin:1GYS4CEF7BR457828, RegisterDate:1/3/2007, Make:Oldsmobile, Model:Regency
+Vin:19UUB2F3XFA398721, RegisterDate:1/5/2007, Make:Dodge, Model:Ram Van B150
+Vin:WAUAFAFL3AN071933, RegisterDate:1/19/2007, Make:Lincoln, Model:Town Car
+Vin:WAURVAFA9AN588724, RegisterDate:1/19/2007, Make:GMC, Model:Yukon XL 1500
+Vin:WAUVFAFR2CA212555, RegisterDate:1/22/2007, Make:Audi, Model:A4
+Vin:WBABV13475J668858, RegisterDate:2/4/2007, Make:Pontiac, Model:Grand Prix
+Vin:3GYFNCE3XDS355105, RegisterDate:2/5/2007, Make:Pontiac, Model:Solstice
+Vin:JN1CV6AP7AM177011, RegisterDate:3/2/2007, Make:Ford, Model:E-Series
+Vin:JN1CV6EL7EM008569, RegisterDate:3/9/2007, Make:Infiniti, Model:J
+Vin:2C3CDXGJ3CH003357, RegisterDate:3/15/2007, Make:Honda, Model:Civic
+Vin:WAUEV74F98N062054, RegisterDate:4/6/2007, Make:Ford, Model:Probe
+Vin:1G6KD57Y69U229538, RegisterDate:6/17/2007, Make:Ford, Model:Freestyle
+Vin:1G6DC5EY1B0635058, RegisterDate:6/28/2007, Make:Mercedes-Benz, Model:M-Class
+Vin:4T3BA3BB6FU016360, RegisterDate:7/13/2007, Make:Ford, Model:Escape
+Vin:WAULK78K79A238521, RegisterDate:7/22/2007, Make:Mercury, Model:Sable
+Vin:SCBLC47J47C584828, RegisterDate:7/22/2007, Make:Toyota, Model:4Runner
+Vin:SCFEBBAK4BG966875, RegisterDate:8/15/2007, Make:Hummer, Model:H1
+Vin:2HNYD18833H561553, RegisterDate:8/17/2007, Make:BMW, Model:M5
+Vin:2D4RN4DE0AR606446, RegisterDate:8/17/2007, Make:Buick, Model:Riviera
+Vin:1FMCU5K35AK398990, RegisterDate:9/4/2007, Make:Nissan, Model:GT-R
+Vin:WA1WKBFPXBA657223, RegisterDate:9/24/2007, Make:Pontiac, Model:Monterey
+Vin:3C6TD5MTXCG463421, RegisterDate:10/2/2007, Make:Toyota, Model:4Runner
+Vin:WAUFGAFC6EN125654, RegisterDate:10/6/2007, Make:Mazda, Model:B-Series Plus
+Vin:1FTMF1E80AF928553, RegisterDate:10/18/2007, Make:Dodge, Model:Dakota
+Vin:SAJWA4FB0EL598198, RegisterDate:10/25/2007, Make:Volvo, Model:S60
+Vin:WBA4A5C58FG769779, RegisterDate:10/30/2007, Make:Mazda, Model:RX-7
+Vin:1G6KY54941U660191, RegisterDate:10/31/2007, Make:Volkswagen, Model:Golf
+Vin:1D7CW3BK8AS291693, RegisterDate:11/2/2007, Make:Audi, Model:S4
+Vin:5LMJJ2H5XEE751042, RegisterDate:11/2/2007, Make:Nissan, Model:GT-R
+Vin:1N4AA5AP2EC885355, RegisterDate:11/5/2007, Make:Ford, Model:Freestar
+Vin:1D4PT4GX8BW209599, RegisterDate:11/12/2007, Make:Lamborghini, Model:Aventador
+Vin:WAUCFAFH0FN937454, RegisterDate:12/18/2007, Make:Mitsubishi, Model:Mighty Max
+Vin:3N1AB7APXFL427350, RegisterDate:12/19/2007, Make:Chevrolet, Model:Express
+Vin:JH4CU2E89CC099205, RegisterDate:12/24/2007, Make:GMC, Model:Yukon
+Vin:KNDMG4C78C6969446, RegisterDate:12/24/2007, Make:Ferrari, Model:F430
+Vin:WAUSH98EX6A786749, RegisterDate:1/3/2008, Make:Dodge, Model:Ram Wagon B250
+Vin:WAUDF58E65A792974, RegisterDate:1/11/2008, Make:Honda, Model:Accord
+Vin:JM1NC2EFXA0270814, RegisterDate:1/15/2008, Make:Chevrolet, Model:Camaro
+Vin:WBALL5C54EP737996, RegisterDate:1/21/2008, Make:Chevrolet, Model:Lumina
+Vin:WAUFGBFB8BN522209, RegisterDate:1/23/2008, Make:Chevrolet, Model:Caprice
+Vin:WBAEW53463P551042, RegisterDate:1/28/2008, Make:Toyota, Model:RAV4
+Vin:YV1902FH4D2114250, RegisterDate:2/6/2008, Make:Buick, Model:Skyhawk
+Vin:WBABW53426P581906, RegisterDate:2/20/2008, Make:Dodge, Model:Ram 3500
+Vin:5N1AA0NC7BN353941, RegisterDate:2/23/2008, Make:Toyota, Model:FJ Cruiser
+Vin:WAUBFAFL4EN351323, RegisterDate:3/8/2008, Make:Mitsubishi, Model:Eclipse
+Vin:3N1CN7AP0EL757349, RegisterDate:3/10/2008, Make:BMW, Model:5 Series
+Vin:5UXFB33572L930412, RegisterDate:3/11/2008, Make:Pontiac, Model:Bonneville
+Vin:WAUMFAFR6EA006590, RegisterDate:3/18/2008, Make:Audi, Model:A3
+Vin:WBALM5C51AE863137, RegisterDate:3/24/2008, Make:Lexus, Model:ES
+Vin:2G4GL5EX4F9322269, RegisterDate:3/31/2008, Make:Porsche, Model:Cayman
+Vin:5J8TB4H37EL088954, RegisterDate:4/17/2008, Make:Nissan, Model:Sentra
+Vin:1B3CB3HA0AD731609, RegisterDate:4/22/2008, Make:Nissan, Model:Altima
+Vin:2G4GS5ER6D9769221, RegisterDate:4/28/2008, Make:Mazda, Model:B-Series
+Vin:1FMCU0F77DU203478, RegisterDate:5/1/2008, Make:Volvo, Model:C70
+Vin:KMHCT4AE1CU203736, RegisterDate:5/13/2008, Make:Pontiac, Model:Firefly
+Vin:JA32U2FU9EU931940, RegisterDate:5/23/2008, Make:Porsche, Model:Cayenne
+Vin:4A4JM2AS2AE390407, RegisterDate:5/27/2008, Make:Dodge, Model:Challenger
+Vin:JA32X2HUXCU635570, RegisterDate:5/27/2008, Make:Dodge, Model:Caravan
+Vin:WBSPM9C50BE474365, RegisterDate:6/5/2008, Make:Chevrolet, Model:Camaro
+Vin:WAUBC48H06K415346, RegisterDate:6/5/2008, Make:BMW, Model:5 Series
+Vin:JM1CR2W36A0271517, RegisterDate:6/9/2008, Make:Honda, Model:Accord
+Vin:1FTSX2A57AE097726, RegisterDate:6/10/2008, Make:Toyota, Model:Camry
+Vin:2C3CDXDT8DH699513, RegisterDate:6/17/2008, Make:Chrysler, Model:Sebring
+Vin:3C3CFFFHXFT365457, RegisterDate:6/18/2008, Make:Cadillac, Model:SRX
+Vin:JH4CU2F60AC859225, RegisterDate:6/24/2008, Make:Land Rover, Model:Range Rover Sport
+Vin:3C6JD6EP3CG450797, RegisterDate:6/28/2008, Make:Lamborghini, Model:Gallardo
+Vin:5N1AN0NW0FN662123, RegisterDate:7/5/2008, Make:Ford, Model:Escape
+Vin:WAUEFAFL0DN636127, RegisterDate:7/8/2008, Make:Ford, Model:Thunderbird
+Vin:19XFA1E39AE933159, RegisterDate:7/10/2008, Make:Mercury, Model:Cougar
+Vin:3GYFNJE66BS553966, RegisterDate:7/28/2008, Make:Volkswagen, Model:Golf
+Vin:WAUAH94F67N572183, RegisterDate:8/6/2008, Make:Mercury, Model:Sable
+Vin:5TDDCRFH8FS078252, RegisterDate:8/10/2008, Make:Ford, Model:EXP
+Vin:JTEBC3EH4C2235392, RegisterDate:8/12/2008, Make:Mitsubishi, Model:Lancer
+Vin:WAURV78T49A533747, RegisterDate:8/24/2008, Make:Acura, Model:NSX
+Vin:WBAXH5C57DD228052, RegisterDate:8/28/2008, Make:Volkswagen, Model:GTI
+Vin:WBAEV33472K107624, RegisterDate:9/3/2008, Make:Volvo, Model:850
+Vin:1FMJK1G50EE364654, RegisterDate:9/5/2008, Make:Porsche, Model:911
+Vin:WAULT58E63A380104, RegisterDate:9/19/2008, Make:Isuzu, Model:Hombre Space
+Vin:JTDKTUD33ED682223, RegisterDate:9/27/2008, Make:Mercury, Model:Milan
+Vin:1GTN1TEX5BZ368747, RegisterDate:10/2/2008, Make:Hyundai, Model:XG350
+Vin:WAUFFAFL4EA066873, RegisterDate:10/6/2008, Make:Suzuki, Model:Grand Vitara
+Vin:3MZBM1U78EM126554, RegisterDate:10/8/2008, Make:Mitsubishi, Model:Montero
+Vin:WBAEK13567C781951, RegisterDate:10/24/2008, Make:Corbin, Model:Sparrow
+Vin:YV4902BZ8E1582409, RegisterDate:10/26/2008, Make:Dodge, Model:Charger
+Vin:1FTEX1CM4BK481896, RegisterDate:10/29/2008, Make:Mitsubishi, Model:Pajero
+Vin:WAULH64B41N136962, RegisterDate:12/2/2008, Make:Mazda, Model:Mazda5
+Vin:JTHDU1EF1D5646907, RegisterDate:12/14/2008, Make:Ford, Model:Falcon
+Vin:2T1BURHE1EC329904, RegisterDate:12/24/2008, Make:Lotus, Model:Exige
+Vin:WBSKG9C58BE391963, RegisterDate:1/7/2009, Make:Mercedes-Benz, Model:SL-Class
+Vin:SCFEBBCF4CG199742, RegisterDate:1/16/2009, Make:Mitsubishi, Model:Galant
+Vin:1D4PT2GK0AW030237, RegisterDate:1/23/2009, Make:GMC, Model:Jimmy
+Vin:3GYFNAE35CS273043, RegisterDate:1/28/2009, Make:Acura, Model:RL
+Vin:WBAWB73569P892941, RegisterDate:2/2/2009, Make:Ford, Model:Econoline E350
+Vin:WBAUL7C53BV531480, RegisterDate:2/5/2009, Make:Ford, Model:Econoline E150
+Vin:1C4RDJDG6DC563969, RegisterDate:2/11/2009, Make:GMC, Model:Sierra 1500
+Vin:JN1AZ4EH4FM584777, RegisterDate:2/12/2009, Make:Toyota, Model:Paseo
+Vin:5GAKVBKD5FJ934908, RegisterDate:2/14/2009, Make:Porsche, Model:Cayenne
+Vin:WBAYF8C58ED323572, RegisterDate:2/19/2009, Make:Chevrolet, Model:Corvette
+Vin:WAUAH98E98A544890, RegisterDate:3/13/2009, Make:Volkswagen, Model:GTI
+Vin:1G6KS54Y24U430498, RegisterDate:3/26/2009, Make:Plymouth, Model:Grand Voyager
+Vin:WA1DGAFE5ED479015, RegisterDate:4/5/2009, Make:Land Rover, Model:Defender Ice Edition
+Vin:3C6TD5JT2CG232629, RegisterDate:4/6/2009, Make:Honda, Model:Fit
+Vin:5UXFB93533L527533, RegisterDate:4/13/2009, Make:Kia, Model:Forte
+Vin:WBAWL73577P244082, RegisterDate:4/22/2009, Make:Nissan, Model:Xterra
+Vin:WBA3A5C55DJ604218, RegisterDate:4/28/2009, Make:Toyota, Model:Avalon
+Vin:5N1AR2MM9FC060302, RegisterDate:5/4/2009, Make:Chevrolet, Model:Uplander
+Vin:1G4GC5GR0CF922854, RegisterDate:5/22/2009, Make:Pontiac, Model:Grand Prix
+Vin:3C6JD7CT4CG435201, RegisterDate:5/24/2009, Make:Kia, Model:Sorento
+Vin:KNAFU6A25C5991881, RegisterDate:5/25/2009, Make:Cadillac, Model:DTS
+Vin:WAULT54B73N648680, RegisterDate:6/1/2009, Make:Suzuki, Model:Sidekick
+Vin:WAUHF98P36A811931, RegisterDate:6/3/2009, Make:Mitsubishi, Model:L300
+Vin:3FAHP0DC7BR462289, RegisterDate:6/6/2009, Make:Lotus, Model:Esprit
+Vin:5J8TB2H55CA452979, RegisterDate:6/10/2009, Make:Mazda, Model:Miata MX-5
+Vin:WBA3T3C56F5455294, RegisterDate:6/13/2009, Make:Lincoln, Model:Continental
+Vin:WBAUP9C54DV609266, RegisterDate:6/17/2009, Make:Ford, Model:Fairlane
+Vin:KM8JT3AB3DU007385, RegisterDate:7/7/2009, Make:BMW, Model:3 Series
+Vin:1N4AA5AP8DC118396, RegisterDate:7/9/2009, Make:Land Rover, Model:Discovery
+Vin:3D7TT2CT8BG938967, RegisterDate:7/19/2009, Make:Volvo, Model:S80
+Vin:JH4CU2F42CC521987, RegisterDate:8/1/2009, Make:Lexus, Model:LS
+Vin:19UUA9F79EA750801, RegisterDate:8/14/2009, Make:Jaguar, Model:XJ
+Vin:3N1AB7AP9FY957182, RegisterDate:10/10/2009, Make:Pontiac, Model:Grand Am
+Vin:WAUVT54B14N089914, RegisterDate:10/15/2009, Make:Cadillac, Model:STS-V
+Vin:1FMJK1H57BE324047, RegisterDate:11/2/2009, Make:Tesla, Model:Model S
+Vin:1GD02ZCG3CZ516274, RegisterDate:11/6/2009, Make:Volvo, Model:XC70
+Vin:1GD21ZCG0BZ192422, RegisterDate:11/7/2009, Make:BMW, Model:Z8
+Vin:WBSWD9C53AP447448, RegisterDate:11/8/2009, Make:Mazda, Model:B-Series
+Vin:3D7LT2ET2AG415214, RegisterDate:11/12/2009, Make:Honda, Model:Accord
+Vin:2G4WN58C891752775, RegisterDate:11/13/2009, Make:Saturn, Model:Outlook
+Vin:WBA3V9C55FP115295, RegisterDate:12/2/2009, Make:Mazda, Model:CX-5
+Vin:5N1AA0NC7DN797677, RegisterDate:12/7/2009, Make:Suzuki, Model:SX4
+Vin:JM1NC2PF8E0828002, RegisterDate:12/14/2009, Make:Mercedes-Benz, Model:500SL
+Vin:1C6RD6PT5CS718805, RegisterDate:12/23/2009, Make:Volvo, Model:V70
+Vin:3C63D2GL9CG755281, RegisterDate:12/27/2009, Make:Lamborghini, Model:Aventador
+Vin:1G6AF5SX5E0016411, RegisterDate:1/3/2010, Make:Dodge, Model:Caravan
+Vin:JTDKDTB37C1414106, RegisterDate:2/1/2010, Make:Audi, Model:Q7
+Vin:JHMGE8G37CS604828, RegisterDate:2/6/2010, Make:Mercedes-Benz, Model:500SL
+Vin:KNADH4A34A6172120, RegisterDate:2/9/2010, Make:Dodge, Model:Dakota Club
+Vin:WP0AB2A96FS587664, RegisterDate:2/10/2010, Make:Infiniti, Model:G
+Vin:3D7JV1EP2BG418257, RegisterDate:2/14/2010, Make:Nissan, Model:Maxima
+Vin:1G6DS57V480704341, RegisterDate:2/23/2010, Make:Chevrolet, Model:Avalanche 2500
+Vin:1N6AD0CU2FN163748, RegisterDate:2/23/2010, Make:BMW, Model:7 Series
+Vin:WVWAP7ANXEE096295, RegisterDate:2/23/2010, Make:Ford, Model:Ranger
+Vin:WAUEFAFL7DA309795, RegisterDate:3/13/2010, Make:Mercedes-Benz, Model:G-Class
+Vin:WBASN4C52AC201422, RegisterDate:3/26/2010, Make:Volkswagen, Model:New Beetle
+Vin:1C6RD6FP1CS810997, RegisterDate:3/27/2010, Make:Jeep, Model:Wrangler
+Vin:WBAWV53597P499203, RegisterDate:4/14/2010, Make:Chevrolet, Model:Colorado
+Vin:1N4AL2AP9CC551278, RegisterDate:4/26/2010, Make:Mazda, Model:MX-5
+Vin:1LNHL9EK7FG391278, RegisterDate:5/12/2010, Make:Dodge, Model:Viper
+Vin:WBSBL93466P110031, RegisterDate:5/17/2010, Make:Ford, Model:Escort
+Vin:3VW217AU6FM180216, RegisterDate:5/27/2010, Make:Chevrolet, Model:Silverado 3500
+Vin:5N3ZA0NC8AN844494, RegisterDate:6/8/2010, Make:Infiniti, Model:G
+Vin:SAJWA4DCXBM548832, RegisterDate:6/13/2010, Make:GMC, Model:Sierra 3500
+Vin:WAU2GAFC8FN291657, RegisterDate:7/12/2010, Make:Lexus, Model:LS Hybrid
+Vin:WAUHMBFC2EN839966, RegisterDate:9/6/2010, Make:Mercury, Model:Mariner
+Vin:1G6AS5SX4E0310409, RegisterDate:9/8/2010, Make:Lincoln, Model:MKS
+Vin:WAUAF78E86A930921, RegisterDate:9/21/2010, Make:Mazda, Model:Millenia
+Vin:19UYA42671A703925, RegisterDate:9/26/2010, Make:Acura, Model:TL
+Vin:WBAYP1C54DD164777, RegisterDate:10/10/2010, Make:Mitsubishi, Model:Truck
+Vin:1G6DM57T360932708, RegisterDate:10/14/2010, Make:GMC, Model:Canyon
+Vin:5N1AN0NW8DN363833, RegisterDate:10/23/2010, Make:Suzuki, Model:SJ
+Vin:1G6AK5S37D0933051, RegisterDate:11/2/2010, Make:Volkswagen, Model:rio
+Vin:WBAET374X5N776361, RegisterDate:11/14/2010, Make:Audi, Model:S6
+Vin:1FTEW1CM6BK842287, RegisterDate:11/15/2010, Make:Aston Martin, Model:DB9
+Vin:19XFB4F2XFE226910, RegisterDate:11/21/2010, Make:Lotus, Model:Exige
+Vin:2C3CCARG9EH213045, RegisterDate:11/25/2010, Make:Bentley, Model:Continental Super
+Vin:WAUJC58E52A211097, RegisterDate:11/27/2010, Make:Volvo, Model:S90
+Vin:WBA3B5C58DJ612472, RegisterDate:11/30/2010, Make:Hyundai, Model:Sonata
+Vin:5TFBW5F18BX173585, RegisterDate:12/4/2010, Make:Dodge, Model:Charger
+Vin:WAUKF98E38A287414, RegisterDate:12/16/2010, Make:Mercury, Model:Mystique
+Vin:3D73Y4CL8BG753234, RegisterDate:12/22/2010, Make:Pontiac, Model:Grand Prix
+Vin:5TDDK3DC1CS959345, RegisterDate:12/23/2010, Make:Toyota, Model:4Runner
+Vin:1N6AD0CU5CC724094, RegisterDate:1/28/2011, Make:BMW, Model:M5
+Vin:2FMHK6DC8AB484500, RegisterDate:2/3/2011, Make:Suzuki, Model:Swift
+Vin:2FMGK5CC5AB522773, RegisterDate:3/16/2011, Make:Dodge, Model:Ram 3500
+Vin:JM1NC2LF0C0318777, RegisterDate:3/23/2011, Make:Lotus, Model:Elan
+Vin:1FMCU4K35CK249217, RegisterDate:3/29/2011, Make:Honda, Model:Civic
+Vin:JTHBK1GG4F2743896, RegisterDate:4/7/2011, Make:Nissan, Model:Sentra
+Vin:WAULFAFR4BA322805, RegisterDate:4/8/2011, Make:Audi, Model:Allroad
+Vin:WAUEFBFL1AN468998, RegisterDate:4/9/2011, Make:Ford, Model:Expedition EL
+Vin:3CZRE3H3XBG256342, RegisterDate:4/9/2011, Make:Dodge, Model:Dakota
+Vin:3D73Y4EL9BG436060, RegisterDate:4/12/2011, Make:Volkswagen, Model:GTI
+Vin:4T1BK1EB6EU688682, RegisterDate:4/21/2011, Make:BMW, Model:X5
+Vin:1G4GD5ER0CF088066, RegisterDate:5/6/2011, Make:Ford, Model:Econoline E150
+Vin:1FTEW1C84FF623880, RegisterDate:5/17/2011, Make:Mercury, Model:Cougar
+Vin:2T1BPRHEXFC390516, RegisterDate:6/19/2011, Make:Hyundai, Model:Veloster
+Vin:1FADP5AU0DL619977, RegisterDate:6/22/2011, Make:GMC, Model:1500 Club Coupe
+Vin:1B3CB2HA0AD504513, RegisterDate:6/23/2011, Make:Toyota, Model:Sequoia
+Vin:WA1YD54B85N916574, RegisterDate:6/24/2011, Make:Chevrolet, Model:Sportvan G30
+Vin:WAUGGBFC1DN521161, RegisterDate:7/5/2011, Make:Cadillac, Model:Escalade ESV
+Vin:SCBGT3ZA0DC807791, RegisterDate:7/13/2011, Make:Saab, Model:9-3
+Vin:JN1BV7AP6FM905295, RegisterDate:7/22/2011, Make:Lexus, Model:GS
+Vin:2T3BF4DV5BW446826, RegisterDate:7/26/2011, Make:Jaguar, Model:X-Type
+Vin:WBA3N3C5XFF975440, RegisterDate:7/29/2011, Make:Pontiac, Model:Grand Am
+Vin:2FMDK4KC9AB890940, RegisterDate:7/30/2011, Make:Chevrolet, Model:Suburban 2500
+Vin:1C3CDZBG9EN954101, RegisterDate:7/31/2011, Make:Lincoln, Model:MKZ
+Vin:WBAWL735X7P815788, RegisterDate:8/5/2011, Make:Mazda, Model:MX-5
+Vin:KNDMG4C79E6327627, RegisterDate:8/12/2011, Make:Chevrolet, Model:Uplander
+Vin:WBAFR7C59DC101085, RegisterDate:8/14/2011, Make:Jeep, Model:Wrangler
+Vin:2FMGK5BC7CB937453, RegisterDate:8/15/2011, Make:Oldsmobile, Model:Ciera
+Vin:5GAER23748J753019, RegisterDate:8/25/2011, Make:Infiniti, Model:Q
+Vin:WAUML54D61N645966, RegisterDate:8/28/2011, Make:Lincoln, Model:LS
+Vin:WBADN63491G824315, RegisterDate:8/30/2011, Make:Volkswagen, Model:New Beetle
+Vin:4USCN53452L905145, RegisterDate:9/21/2011, Make:Mazda, Model:CX-7
+Vin:JTJHY7AX4B4076751, RegisterDate:9/29/2011, Make:Hyundai, Model:Equus
+Vin:TRUUT28N111827026, RegisterDate:9/30/2011, Make:Lexus, Model:CT
+Vin:1G4HF57968U022779, RegisterDate:10/3/2011, Make:Subaru, Model:Impreza
+Vin:WAUDFAFC0FN061994, RegisterDate:10/18/2011, Make:Hyundai, Model:Azera
+Vin:5LMJJ2HT3FE820833, RegisterDate:10/28/2011, Make:Cadillac, Model:Seville
+Vin:1FADP5CU5EL184050, RegisterDate:10/28/2011, Make:Chevrolet, Model:Tahoe
+Vin:WBA3A5C58FP996577, RegisterDate:10/29/2011, Make:Lamborghini, Model:Countach
+Vin:KNAFZ6A3XF5166093, RegisterDate:11/16/2011, Make:Mazda, Model:MX-5
+Vin:WAUHFAFL8DA191124, RegisterDate:11/29/2011, Make:Hyundai, Model:Tiburon
+Vin:1GYS4AEF4CR785763, RegisterDate:12/12/2011, Make:Nissan, Model:Frontier
+Vin:1HGCP2F39BA852027, RegisterDate:12/25/2011, Make:Chevrolet, Model:2500
+Vin:WA1VFAFL5DA395704, RegisterDate:1/11/2012, Make:Lincoln, Model:Aviator
+Vin:5TFBW5F15BX575189, RegisterDate:1/17/2012, Make:Suzuki, Model:Forenza
+Vin:SCBZB25E32C214597, RegisterDate:2/5/2012, Make:Mercury, Model:Grand Marquis
+Vin:JTDKN3DP1D3448948, RegisterDate:2/13/2012, Make:Bentley, Model:Arnage
+Vin:JTJBC1BA5E2392817, RegisterDate:2/17/2012, Make:Pontiac, Model:Bonneville
+Vin:2LMHJ5FK5FB024159, RegisterDate:3/1/2012, Make:Jeep, Model:Compass
+Vin:1D4RD3GG4BC142680, RegisterDate:3/4/2012, Make:Mitsubishi, Model:Raider
+Vin:1B3CB2HAXAD594365, RegisterDate:3/30/2012, Make:GMC, Model:Sonoma
+Vin:WAUJT54B03N617987, RegisterDate:4/2/2012, Make:Honda, Model:CR-X
+Vin:WAUAFAFL9EA719515, RegisterDate:4/17/2012, Make:Nissan, Model:Sentra
+Vin:WAULT58E95A711647, RegisterDate:4/24/2012, Make:BMW, Model:M
+Vin:1GD01ZEG1BF985489, RegisterDate:5/1/2012, Make:Kia, Model:Sorento
+Vin:1GD02ZCG8BF421273, RegisterDate:5/24/2012, Make:Infiniti, Model:QX56
+Vin:4USBU53546L265314, RegisterDate:5/26/2012, Make:Pontiac, Model:Grand Am
+Vin:YV4902DZ6D2418193, RegisterDate:6/8/2012, Make:Pontiac, Model:GTO
+Vin:1C3CDFBB7ED078170, RegisterDate:6/22/2012, Make:Oldsmobile, Model:Bravada
+Vin:JTDKTUD31DD897114, RegisterDate:6/27/2012, Make:Ford, Model:LTD
+Vin:WBA3B9C58FJ411147, RegisterDate:6/28/2012, Make:Kia, Model:Sephia
+Vin:JTDJTUD38ED771913, RegisterDate:7/8/2012, Make:Volkswagen, Model:Eurovan
+Vin:JN8AF5MV2FT755832, RegisterDate:7/9/2012, Make:Volkswagen, Model:rio
+Vin:1G6AC1R35F0329836, RegisterDate:8/16/2012, Make:Infiniti, Model:J
+Vin:JHMZF1C69DS260188, RegisterDate:8/18/2012, Make:Lotus, Model:Esprit
+Vin:2T1BURHE4FC841738, RegisterDate:8/21/2012, Make:Pontiac, Model:GTO
+Vin:WA1MYBFE2AD590196, RegisterDate:8/26/2012, Make:Ford, Model:Fairlane
+Vin:WP0AA2A81FK378584, RegisterDate:8/27/2012, Make:Chrysler, Model:Prowler
+Vin:WBANF33546C571394, RegisterDate:8/30/2012, Make:Mitsubishi, Model:Lancer
+Vin:1G6DJ5EG7A0031929, RegisterDate:9/10/2012, Make:Hummer, Model:H1
+Vin:SCFEBBBK9BG102287, RegisterDate:9/15/2012, Make:BMW, Model:760
+Vin:KNDPB3A29B7150354, RegisterDate:9/30/2012, Make:GMC, Model:2500 Club Coupe
+Vin:WBA3V5C50FP987019, RegisterDate:10/5/2012, Make:Mazda, Model:B-Series
+Vin:1GD21XEG7FZ060345, RegisterDate:10/10/2012, Make:Ford, Model:LTD Crown Victoria
+Vin:WAUDV94F89N912295, RegisterDate:10/17/2012, Make:Spyker, Model:C8
+Vin:WBALX3C53CD012865, RegisterDate:10/18/2012, Make:Buick, Model:Regal
+Vin:3C6LD5BT0CG530644, RegisterDate:10/19/2012, Make:Chevrolet, Model:Tahoe
+Vin:TRUTC28N121600397, RegisterDate:10/22/2012, Make:Lincoln, Model:Town Car
+Vin:SAJWA4HA6EM674859, RegisterDate:12/8/2012, Make:Ford, Model:F150
+Vin:WAUAC48H03K934565, RegisterDate:12/28/2012, Make:Suzuki, Model:Vitara
+Vin:3FA6P0LU4ER581441, RegisterDate:1/3/2013, Make:Dodge, Model:Stealth
+Vin:JN8AE2KP3E9405725, RegisterDate:1/5/2013, Make:Ford, Model:Explorer
+Vin:WBA3X9C57ED325987, RegisterDate:1/19/2013, Make:Honda, Model:Odyssey
+Vin:VNKKTUD39FA178978, RegisterDate:1/21/2013, Make:BMW, Model:8 Series
+Vin:YV4902DZ0B2811295, RegisterDate:2/4/2013, Make:Mitsubishi, Model:Tundra
+Vin:WAUDF78E47A965700, RegisterDate:2/22/2013, Make:Audi, Model:A5
+Vin:3VW4T7AT4EM694848, RegisterDate:3/1/2013, Make:GMC, Model:2500
+Vin:WVGAV7AX6AW950674, RegisterDate:3/3/2013, Make:Ford, Model:Explorer
+Vin:2T1BPRHE1FC359087, RegisterDate:3/4/2013, Make:Chevrolet, Model:G-Series 3500
+Vin:5NPDH4AEXBH197454, RegisterDate:3/26/2013, Make:Cadillac, Model:DTS
+Vin:1GYFK53259R757901, RegisterDate:3/29/2013, Make:Dodge, Model:Dakota
+Vin:SCFEBBEL5DG917951, RegisterDate:4/1/2013, Make:Kia, Model:Rio
+Vin:WAUSH78E56A113890, RegisterDate:4/10/2013, Make:Hyundai, Model:Azera
+Vin:WAUWFAFH0AN800326, RegisterDate:4/16/2013, Make:Volvo, Model:C70
+Vin:SCBDC47L98C003976, RegisterDate:4/19/2013, Make:Infiniti, Model:M
+Vin:1N6AF0LX7FN619585, RegisterDate:5/18/2013, Make:Lamborghini, Model:Diablo
+Vin:1G6AF5SX7E0591402, RegisterDate:5/18/2013, Make:Toyota, Model:Land Cruiser
+Vin:19VDE3F3XDE592583, RegisterDate:5/21/2013, Make:GMC, Model:Canyon
+Vin:1FTMF1EW1AF782033, RegisterDate:5/26/2013, Make:Toyota, Model:Land Cruiser
+Vin:2LMDJ6JK2DB355886, RegisterDate:6/16/2013, Make:Volkswagen, Model:Jetta
+Vin:WBSWL93578P016544, RegisterDate:6/21/2013, Make:Mazda, Model:CX-7
+Vin:1G4GE5EV3AF535206, RegisterDate:6/23/2013, Make:Cadillac, Model:Escalade ESV
+Vin:4T1BD1EB4FU871736, RegisterDate:6/30/2013, Make:Chevrolet, Model:Cobalt
+Vin:WVWAA7AHXAV162866, RegisterDate:7/4/2013, Make:Toyota, Model:MR2
+Vin:WBA3B5C53EF267744, RegisterDate:7/30/2013, Make:BMW, Model:Z4 M
+Vin:JTHBE1BLXF1864188, RegisterDate:8/6/2013, Make:Toyota, Model:Supra
+Vin:WAUKF98P19A132959, RegisterDate:8/15/2013, Make:GMC, Model:Suburban 1500
+Vin:WDDJK7DA8FF050666, RegisterDate:9/15/2013, Make:Mercury, Model:Mountaineer
+Vin:WP1AA2A20BL634869, RegisterDate:9/15/2013, Make:Chevrolet, Model:Corvette
+Vin:JM1BL1K38B1727476, RegisterDate:10/13/2013, Make:Volvo, Model:960
+Vin:WDDNG7DBXDA372716, RegisterDate:10/17/2013, Make:Ford, Model:Bronco II
+Vin:WAUVT58E05A914306, RegisterDate:10/20/2013, Make:Mazda, Model:Mazda6
+Vin:1G6DC5EG5A0342916, RegisterDate:10/20/2013, Make:Mitsubishi, Model:Montero
+Vin:WDDNG7BB5AA590464, RegisterDate:11/16/2013, Make:Cadillac, Model:Fleetwood
+Vin:WVWED7AJ5DW040670, RegisterDate:11/28/2013, Make:Lincoln, Model:Navigator
+Vin:3D73M3HL6BG017150, RegisterDate:12/4/2013, Make:Honda, Model:Insight
+Vin:2G4GR5ECXB9638717, RegisterDate:12/4/2013, Make:Pontiac, Model:Firebird
+Vin:3VW4T7AT4EM308722, RegisterDate:12/8/2013, Make:GMC, Model:Sonoma Club Coupe
+Vin:JN8AZ1MU9AW236131, RegisterDate:12/10/2013, Make:Mercedes-Benz, Model:SL-Class
+Vin:1G6AG5RX0E0837659, RegisterDate:12/20/2013, Make:Mercedes-Benz, Model:CL-Class
+Vin:1G6DM8EG7A0812118, RegisterDate:12/22/2013, Make:Kia, Model:Amanti
+Vin:WVGAV7AX6CW178471, RegisterDate:12/29/2013, Make:Daewoo, Model:Leganza
+Vin:3VW4A7AT2DM697705, RegisterDate:1/26/2014, Make:Mazda, Model:B-Series
+Vin:5GADS13S872076340, RegisterDate:1/30/2014, Make:Cadillac, Model:Seville
+Vin:WBAKE5C56DJ427680, RegisterDate:2/5/2014, Make:Cadillac, Model:Eldorado
+Vin:1G6DH5E53C0910048, RegisterDate:2/7/2014, Make:Saturn, Model:VUE
+Vin:JHMZE2H57DS890977, RegisterDate:2/21/2014, Make:Hummer, Model:H1
+Vin:2T2BK1BA7AC028881, RegisterDate:4/9/2014, Make:BMW, Model:Z4
+Vin:5J8TB2H53CA031715, RegisterDate:4/9/2014, Make:Mercury, Model:Capri
+Vin:WAUNF98P58A949346, RegisterDate:4/10/2014, Make:Pontiac, Model:Torrent
+Vin:YV1902MM5F1333257, RegisterDate:4/10/2014, Make:Volkswagen, Model:Eos
+Vin:1N6AA0CH4DN357772, RegisterDate:4/14/2014, Make:Kia, Model:Sedona
+Vin:1GD02ZCG3EF384623, RegisterDate:4/19/2014, Make:Chrysler, Model:300M
+Vin:1D7CW3GK4AS105821, RegisterDate:4/21/2014, Make:Mercury, Model:Lynx
+Vin:1C4SDHCT0EC459262, RegisterDate:4/22/2014, Make:Volvo, Model:S60
+Vin:5J6TF1H5XFL725687, RegisterDate:4/29/2014, Make:Maybach, Model:62
+Vin:4JGBF2FB1AA914714, RegisterDate:5/12/2014, Make:Toyota, Model:Xtra
+Vin:1D4PU7GX8AW767661, RegisterDate:5/23/2014, Make:BMW, Model:1 Series
+Vin:SCFAD01E29G217994, RegisterDate:5/28/2014, Make:Renault, Model:Alliance
+Vin:JM1GJ1U5XF1994506, RegisterDate:6/3/2014, Make:Mazda, Model:CX-7
+Vin:5FPYK1F50EB875469, RegisterDate:6/16/2014, Make:Dodge, Model:Grand Caravan
+Vin:WBAEV33403P705624, RegisterDate:6/26/2014, Make:Ford, Model:Transit Connect
+Vin:1G6EL12Y62B276988, RegisterDate:7/6/2014, Make:Hyundai, Model:Tiburon
+Vin:2LMDJ6JK9BB618422, RegisterDate:7/11/2014, Make:Mazda, Model:Protege
+Vin:1HGCP2E87AA846593, RegisterDate:7/20/2014, Make:Mercury, Model:Lynx
+Vin:JTEBU5JR8B5958263, RegisterDate:7/23/2014, Make:Ford, Model:Taurus
+Vin:5NPDH4AE4FH542645, RegisterDate:7/26/2014, Make:Chevrolet, Model:Suburban 2500
+Vin:1G6DA1E31C0316487, RegisterDate:7/27/2014, Make:Jeep, Model:Compass
+Vin:WBABW53436P721607, RegisterDate:8/11/2014, Make:MINI, Model:Cooper
+Vin:WAURFAFR4AA824920, RegisterDate:8/16/2014, Make:GMC, Model:Safari
+Vin:1G6AV5S80E0129226, RegisterDate:8/26/2014, Make:Chevrolet, Model:Blazer
+Vin:1GTN1UEHXFZ323842, RegisterDate:9/5/2014, Make:Maserati, Model:Karif
+Vin:KMHGH4JH6EU538796, RegisterDate:9/24/2014, Make:Mazda, Model:626
+Vin:1C6RD6NT9CS764110, RegisterDate:9/25/2014, Make:Nissan, Model:350Z
+Vin:WA1BV94L27D317567, RegisterDate:9/26/2014, Make:Dodge, Model:Ram 1500
+Vin:WAURGAFD8EN204054, RegisterDate:10/10/2014, Make:BMW, Model:3 Series
+Vin:5FNYF3H20AB012435, RegisterDate:10/16/2014, Make:Acura, Model:RDX
+Vin:19VDE1F56DE753372, RegisterDate:10/16/2014, Make:Mazda, Model:MPV
+Vin:SCBEC9ZAXFC023406, RegisterDate:10/18/2014, Make:Mercury, Model:Mariner
+Vin:WBANN73546C095819, RegisterDate:11/8/2014, Make:Maybach, Model:62
+Vin:1G6DV1EP6C0728914, RegisterDate:11/11/2014, Make:Mitsubishi, Model:Galant
+Vin:2C3CCAAG7EH182339, RegisterDate:11/15/2014, Make:Chevrolet, Model:G-Series G20
+Vin:1D4PT4GX1BW961547, RegisterDate:11/21/2014, Make:Kia, Model:Soul
+Vin:KNADM5A39D6780639, RegisterDate:11/24/2014, Make:Chevrolet, Model:Lumina
+Vin:2HKRM3H34DH295740, RegisterDate:11/30/2014, Make:Porsche, Model:Boxster
+Vin:SAJWA4GC8EM819838, RegisterDate:12/4/2014, Make:Jaguar, Model:S-Type
+Vin:JTDZN3EU1FJ896818, RegisterDate:12/9/2014, Make:Lexus, Model:IS
+Vin:5UXFG8C51BL120028, RegisterDate:12/17/2014, Make:Subaru, Model:Brat
+Vin:3GYFNCE32ES510022, RegisterDate:12/26/2014, Make:Volvo, Model:V70
+Vin:SCBFU7ZA5DC350122, RegisterDate:1/1/2015, Make:Pontiac, Model:Grand Prix
+Vin:WAUAH74F98N380519, RegisterDate:1/13/2015, Make:GMC, Model:Sonoma
+Vin:WAUUL78E25A163376, RegisterDate:1/14/2015, Make:Nissan, Model:300ZX
+Vin:3C3CFFER9FT279261, RegisterDate:2/9/2015, Make:BMW, Model:M3
+Vin:1GYEK63N96R739134, RegisterDate:2/11/2015, Make:GMC, Model:Yukon XL 1500
+Vin:2G4GT5GC4B9183491, RegisterDate:2/11/2015, Make:Eagle, Model:Summit
+Vin:3N1AB7AP0FY038008, RegisterDate:3/2/2015, Make:Maybach, Model:62
+Vin:WAUEH94F57N149998, RegisterDate:3/9/2015, Make:Mazda, Model:626
+Vin:3C3CFFFH0ET508849, RegisterDate:3/15/2015, Make:Ford, Model:E-Series
+Vin:3VWF17AT0FM417291, RegisterDate:4/9/2015, Make:Kia, Model:Sedona
+Vin:KNDJT2A24D7789984, RegisterDate:4/10/2015, Make:Pontiac, Model:Tempest
+Vin:KNADH4A32A6833014, RegisterDate:5/3/2015, Make:Chevrolet, Model:Suburban 1500
+Vin:5TDDK3DC7CS759960, RegisterDate:5/19/2015, Make:Hyundai, Model:Genesis
+Vin:WBAXH5C57DD096488, RegisterDate:5/20/2015, Make:Maybach, Model:57
+Vin:WAUAFAFL1AA268087, RegisterDate:5/26/2015, Make:BMW, Model:8 Series
+Vin:1FTSW2B5XAE637149, RegisterDate:6/5/2015, Make:Toyota, Model:MR2
+Vin:19UUA66225A312379, RegisterDate:6/5/2015, Make:Toyota, Model:Solara
+Vin:1YVHZ8BAXA5075039, RegisterDate:6/7/2015, Make:Jaguar, Model:XJ Series
+Vin:WAUBFAFL4DA422283, RegisterDate:6/10/2015, Make:Nissan, Model:Leaf
+Vin:1GTN1TEX6BZ307133, RegisterDate:6/10/2015, Make:Honda, Model:Accord
+Vin:4USBU33508L179263, RegisterDate:6/14/2015, Make:Chevrolet, Model:Corvette
+Vin:1N6AA0CC0EN131038, RegisterDate:6/18/2015, Make:Chevrolet, Model:HHR Panel
+Vin:KMHHT6KDXDU071679, RegisterDate:6/21/2015, Make:Pontiac, Model:Grand Prix
+Vin:WAUVT64B04N082359, RegisterDate:7/5/2015, Make:Volkswagen, Model:Cabriolet
+Vin:1FTEW1CW7AF373557, RegisterDate:7/6/2015, Make:Dodge, Model:Ram 3500
+Vin:JM3TB2CAXE0871042, RegisterDate:7/6/2015, Make:Ford, Model:E250
+Vin:WAULD54B84N507003, RegisterDate:7/7/2015, Make:BMW, Model:7 Series
+Vin:1FMCU9C75AK225267, RegisterDate:7/28/2015, Make:Audi, Model:200
+Vin:KL4CJASB0EB743505, RegisterDate:7/30/2015, Make:Kia, Model:Sorento
+Vin:1C4AJWAG8FL562428, RegisterDate:7/31/2015, Make:Ford, Model:E350
+Vin:1G6DC67A090810898, RegisterDate:8/31/2015, Make:Dodge, Model:Durango
+Vin:1HGCR2F38DA259028, RegisterDate:9/2/2015, Make:Mazda, Model:Mazdaspeed 3
+Vin:WBAFU9C5XBC199874, RegisterDate:9/6/2015, Make:Lamborghini, Model:Murci‚lago LP640
+Vin:KMHHT6KD7EU302233, RegisterDate:9/6/2015, Make:Subaru, Model:Legacy
+Vin:1FMJK1G52BE254362, RegisterDate:9/14/2015, Make:Audi, Model:80
+Vin:SCBCP7ZA6AC212997, RegisterDate:9/17/2015, Make:Buick, Model:LaCrosse
+Vin:5UXWX7C51E0395303, RegisterDate:9/28/2015, Make:Ford, Model:F150
+Vin:1G6DM8ED5B0347510, RegisterDate:9/30/2015, Make:Pontiac, Model:Sunbird
+Vin:1GKS1FFJ0BR595055, RegisterDate:10/3/2015, Make:Ford, Model:Bronco II
+Vin:WBAVM5C50EV954964, RegisterDate:10/12/2015, Make:Honda, Model:Prelude
+Vin:JN1AV7AP4FM941479, RegisterDate:10/30/2015, Make:Chevrolet, Model:Suburban 1500
+Vin:1G6KP5E96AU732347, RegisterDate:11/5/2015, Make:Nissan, Model:300ZX
+Vin:2C4RDGEGXCR957630, RegisterDate:11/25/2015, Make:Audi, Model:S4
+Vin:1GD120EG0BF764530, RegisterDate:12/9/2015, Make:Mercury, Model:Cougar
+Vin:1FTEW1CM2DF349654, RegisterDate:12/18/2015, Make:Mitsubishi, Model:Montero
+Vin:2HNYD28307H542412, RegisterDate:12/21/2015, Make:Dodge, Model:Ram Wagon B250
+Vin:1G6DD1E33E0466918, RegisterDate:1/7/2016, Make:Buick, Model:Skylark
+Vin:JN1BV7AP7FM706739, RegisterDate:1/11/2016, Make:Nissan, Model:Altima
+Vin:WDDPK4HA5DF884670, RegisterDate:1/11/2016, Make:Porsche, Model:911
+Vin:WAULFAFH5DN359591, RegisterDate:1/14/2016, Make:Maserati, Model:GranSport
+Vin:WA1AY74L18D426028, RegisterDate:1/18/2016, Make:Toyota, Model:Avalon
+Vin:WBAWR335X8P256994, RegisterDate:1/18/2016, Make:Isuzu, Model:i-370
+Vin:JTHFE2C23A2834286, RegisterDate:1/26/2016, Make:Mercury, Model:Capri
+Vin:4A31K2DF2BE601728, RegisterDate:2/11/2016, Make:Lexus, Model:GX
+Vin:1GD02ZCG0CF960553, RegisterDate:2/21/2016, Make:Plymouth, Model:Neon
+Vin:1N6AA0EC5DN306783, RegisterDate:3/3/2016, Make:Mercedes-Benz, Model:SLK-Class
+Vin:WA1DGAFE5CD616726, RegisterDate:3/18/2016, Make:GMC, Model:Canyon
+Vin:2G4GR5GX2F9539377, RegisterDate:3/21/2016, Make:Mitsubishi, Model:Outlander
+Vin:WAUDGBFL0CA024692, RegisterDate:4/5/2016, Make:Toyota, Model:Supra
+Vin:WBSDX9C50CE448974, RegisterDate:4/6/2016, Make:Jaguar, Model:XJ Series
+Vin:2T3BF4DV2BW791229, RegisterDate:4/13/2016, Make:Fiat, Model:500
+Vin:2C3CCABG7DH779522, RegisterDate:4/19/2016, Make:Ford, Model:Taurus
+Vin:3N1CN7AP9EL105040, RegisterDate:4/29/2016, Make:GMC, Model:Yukon XL 2500
+Vin:YV1902FH7B2226425, RegisterDate:5/15/2016, Make:Mitsubishi, Model:Cordia
+Vin:5J6TF2H59EL946024, RegisterDate:5/18/2016, Make:Suzuki, Model:Grand Vitara
+Vin:1G6DJ8EV2A0606180, RegisterDate:6/2/2016, Make:GMC, Model:Yukon XL 2500
+Vin:1G4HD5EM3AU389075, RegisterDate:6/12/2016, Make:Dodge, Model:Caravan
+Vin:KNADH4A3XA6335966, RegisterDate:6/14/2016, Make:Suzuki, Model:Verona
+Vin:1C4NJPBA9DD543539, RegisterDate:7/5/2016, Make:Audi, Model:A6
+Vin:SCBCR63W54C368512, RegisterDate:7/23/2016, Make:Mazda, Model:Protege
+Vin:1G6AE5SX3F0263625, RegisterDate:7/27/2016, Make:Dodge, Model:Durango
+Vin:WAUXL58E94A300992, RegisterDate:8/7/2016, Make:Volkswagen, Model:Golf
+Vin:1FTSS3EL3AD307368, RegisterDate:8/10/2016, Make:Kia, Model:Sorento
+Vin:WAULC68E95A102581, RegisterDate:8/18/2016, Make:Volkswagen, Model:New Beetle
+Vin:3VW8S7AT0FM585888, RegisterDate:8/23/2016, Make:Kia, Model:Spectra
+Vin:JTDZN3EU1D3644939, RegisterDate:8/26/2016, Make:Lexus, Model:IS
+Vin:1G6DV8EP8E0803494, RegisterDate:8/30/2016, Make:BMW, Model:8 Series
+Vin:1G6DX67D760734266, RegisterDate:9/1/2016, Make:Dodge, Model:Ram Van B150
+Vin:WAULT58E15A187183, RegisterDate:9/7/2016, Make:Infiniti, Model:Q
+Vin:SCBGU3ZA7FC748836, RegisterDate:9/10/2016, Make:Lexus, Model:SC
+Vin:2HNYD28608H977703, RegisterDate:9/11/2016, Make:Toyota, Model:Venza
+Vin:1C6RD6HT5CS341052, RegisterDate:9/11/2016, Make:Saab, Model:900
+Vin:1FTSX2A52AE779395, RegisterDate:9/14/2016, Make:Honda, Model:Passport
+Vin:JHMFA3F20AS903240, RegisterDate:9/21/2016, Make:Toyota, Model:Avalon
+Vin:1N6BF0KLXFN533366, RegisterDate:10/2/2016, Make:Toyota, Model:Tundra
+Vin:WA1DMAFP8EA891974, RegisterDate:10/2/2016, Make:Dodge, Model:Neon
+Vin:3N1CN7AP5FL015532, RegisterDate:10/8/2016, Make:Chevrolet, Model:Caprice Classic
+Vin:WBASP4C54BC735243, RegisterDate:11/6/2016, Make:Mazda, Model:Miata MX-5
+Vin:4USBT53555L007725, RegisterDate:11/7/2016, Make:Honda, Model:Accord
+Vin:KL4CJCSB2DB063566, RegisterDate:11/10/2016, Make:Mercedes-Benz, Model:G-Class
+Vin:WAU4FAFR6DA725062, RegisterDate:11/20/2016, Make:Chevrolet, Model:Suburban 2500
+Vin:JTDBT4K35B1450478, RegisterDate:11/28/2016, Make:Mitsubishi, Model:Truck
+Vin:1HGCR2E34FA942624, RegisterDate:12/2/2016, Make:Hummer, Model:H1
+Vin:5FRYD3H90GB137784, RegisterDate:12/24/2016, Make:Ford, Model:Focus
+Vin:JTHBL1EF4B5659836, RegisterDate:1/2/2017, Make:Ford, Model:F250
+Vin:WA1VMBFE5BD633642, RegisterDate:1/5/2017, Make:Nissan, Model:Armada
+Vin:WAUNF78P48A628242, RegisterDate:1/6/2017, Make:Land Rover, Model:Range Rover
+Vin:WAUKFAFL1BA959514, RegisterDate:1/9/2017, Make:Pontiac, Model:Firefly
+Vin:SALAC2D49CA421081, RegisterDate:2/11/2017, Make:Pontiac, Model:Bonneville
+Vin:JN8AZ2NC5E9525409, RegisterDate:2/19/2017, Make:Chevrolet, Model:Aveo
+Vin:SCFPDCGP8EG854094, RegisterDate:2/25/2017, Make:Lincoln, Model:Town Car
+Vin:1GD11ZCG1BF995589, RegisterDate:3/8/2017, Make:Spyker, Model:C8 Double 12 S
+Vin:3D7TT2CT5BG003146, RegisterDate:3/16/2017, Make:Isuzu, Model:Hombre
+Vin:5UXZV4C54BL130211, RegisterDate:3/21/2017, Make:Hyundai, Model:Azera
+Vin:19UUA65514A025013, RegisterDate:3/28/2017, Make:Buick, Model:Century
+Vin:WP0AA2A99CS963174, RegisterDate:4/14/2017, Make:Jeep, Model:Liberty
+Vin:4T1BF1FK6CU498154, RegisterDate:4/19/2017, Make:Chevrolet, Model:Tahoe
+Vin:WVWED7AJ5DW884322, RegisterDate:4/25/2017, Make:BMW, Model:X3
+Vin:1GKUCFDJ0AR295052, RegisterDate:5/5/2017, Make:Ford, Model:LTD
+Vin:1C3CDZBG6CN551951, RegisterDate:5/5/2017, Make:Mercury, Model:Sable
+Vin:1GD01ZCG1BF340716, RegisterDate:5/11/2017, Make:Subaru, Model:Impreza
+Vin:WA1AV74L79D333962, RegisterDate:5/21/2017, Make:Dodge, Model:Ram Van 2500
+Vin:WAUGU44D02N448622, RegisterDate:6/5/2017, Make:Saab, Model:9000
+Vin:1C3BCBEB9DN608179, RegisterDate:6/9/2017, Make:Acura, Model:TL
+Vin:WA1CFAFP8BA839696, RegisterDate:6/12/2017, Make:BMW, Model:3 Series
+Vin:1G6DF5E50C0564028, RegisterDate:6/29/2017, Make:Mitsubishi, Model:Outlander
+Vin:KNADH4A34A6509241, RegisterDate:7/6/2017, Make:Dodge, Model:Dakota Club
+Vin:1G4PR5SK4C4425018, RegisterDate:7/10/2017, Make:Chevrolet, Model:Camaro
+Vin:1GYS3JEF2ER420892, RegisterDate:7/25/2017, Make:Audi, Model:100
+Vin:3VW4A7AT4DM958381, RegisterDate:8/6/2017, Make:Chrysler, Model:LHS
+Vin:WAUDH78E26A889905, RegisterDate:8/7/2017, Make:Subaru, Model:Legacy
+Vin:JTHFE2C21B2995334, RegisterDate:8/13/2017, Make:Pontiac, Model:LeMans
+Vin:WAUUL78E95A340280, RegisterDate:8/31/2017, Make:Lexus, Model:LFA
+Vin:2G61V5S34D9125897, RegisterDate:9/13/2017, Make:Hyundai, Model:Elantra
+Vin:WUADUAFG1BN588743, RegisterDate:9/24/2017, Make:Pontiac, Model:Firebird
+Vin:1B3CC5FB3AN755594, RegisterDate:9/25/2017, Make:Toyota, Model:Camry
+Vin:1N6AA0CA2CN511087, RegisterDate:10/5/2017, Make:Plymouth, Model:Grand Voyager
+Vin:2G61W5S87F9147615, RegisterDate:10/14/2017, Make:Dodge, Model:Grand Caravan
+Vin:19VDE1F71FE828970, RegisterDate:11/8/2017, Make:Toyota, Model:Celica
+Vin:2C3CDXHG2CH980072, RegisterDate:11/11/2017, Make:Lexus, Model:LS
+Vin:WAUKGAFB6AN239167, RegisterDate:11/20/2017, Make:Ford, Model:Explorer Sport Trac
+Vin:WUARL48H29K002109, RegisterDate:11/21/2017, Make:Ferrari, Model:430 Scuderia
+Vin:1GD312CG6DF641263, RegisterDate:11/26/2017, Make:Suzuki, Model:Grand Vitara
+Vin:WBAKX6C54CC609204, RegisterDate:12/1/2017, Make:Ford, Model:Explorer
+Vin:1D7RE3BK4AS758010, RegisterDate:12/2/2017, Make:Lexus, Model:LS
+Vin:1G6YV36A285124245, RegisterDate:12/19/2017, Make:Ford, Model:Mustang
+Vin:1D7CE2BKXAS681918, RegisterDate:1/19/2018, Make:BMW, Model:Z4
+Vin:3GYFK66N24G784106, RegisterDate:1/24/2018, Make:Chevrolet, Model:Avalanche
+Vin:1D4PU2GK7BW214962, RegisterDate:1/31/2018, Make:Volvo, Model:V70
+Vin:1FMCU5K30AK911353, RegisterDate:2/11/2018, Make:Mazda, Model:MPV
+Vin:2LMDJ6JKXBB996331, RegisterDate:2/13/2018, Make:Volkswagen, Model:Golf
+Vin:1GYS4NKJ2FR088712, RegisterDate:2/18/2018, Make:Acura, Model:Integra
+Vin:1FTEW1CM6CF829968, RegisterDate:3/5/2018, Make:Chrysler, Model:300
+Vin:WVGAV7AX8BW900795, RegisterDate:3/8/2018, Make:Dodge, Model:Dakota
+Vin:WAUDH98E78A074579, RegisterDate:3/14/2018, Make:Mitsubishi, Model:Eclipse
+Vin:5UMBT935X8L644865, RegisterDate:3/17/2018, Make:Toyota, Model:Corolla
+Vin:JN1AJ0HP1BM650215, RegisterDate:3/24/2018, Make:Ford, Model:Crown Victoria
+Vin:5N1AN0NW9EN517919, RegisterDate:3/25/2018, Make:Mercedes-Benz, Model:GL-Class
+Vin:1FTSE3ELXAD643803, RegisterDate:4/11/2018, Make:Chevrolet, Model:Silverado 2500
+Vin:1G4HC5EM4BU826909, RegisterDate:4/17/2018, Make:Jensen, Model:Interceptor
+Vin:1FTMF1EW8AK060095, RegisterDate:4/19/2018, Make:Audi, Model:A3
+Vin:1GKS1AE04CR027579, RegisterDate:4/21/2018, Make:Chevrolet, Model:Astro
+Vin:WAUAF78EX8A181915, RegisterDate:4/24/2018, Make:Chevrolet, Model:S10
+Vin:5N1AA0ND3EN621008, RegisterDate:5/15/2018, Make:Mazda, Model:Mazda3
+Vin:2C3CK5CV1AH176844, RegisterDate:5/20/2018, Make:Volkswagen, Model:Eurovan
+Vin:3GYFNDEY5AS256981, RegisterDate:5/26/2018, Make:Audi, Model:S8
+Vin:5NPEB4AC8EH769999, RegisterDate:5/27/2018, Make:GMC, Model:Safari
+Vin:WBAUP73579V323133, RegisterDate:5/28/2018, Make:Mazda, Model:CX-9
+Vin:WBANN73517C632308, RegisterDate:5/30/2018, Make:Bentley, Model:Azure
+Vin:2G61S5S39D9236809, RegisterDate:6/3/2018, Make:Nissan, Model:Pathfinder
+Vin:1C3BC8EG3BN943594, RegisterDate:6/12/2018, Make:Dodge, Model:Caravan
+Vin:WAUNF68P06A089612, RegisterDate:7/7/2018, Make:GMC, Model:Savana
+Vin:1G6KD57Y68U209725, RegisterDate:7/22/2018, Make:Ford, Model:Club Wagon
+Vin:5BZBF0AA0FN540734, RegisterDate:7/27/2018, Make:Mitsubishi, Model:Pajero
+Vin:WBAVM5C51EV452884, RegisterDate:8/8/2018, Make:Chevrolet, Model:Equinox
+Vin:5N1AN0NU8AC760514, RegisterDate:8/20/2018, Make:Toyota, Model:T100
+Vin:JN8AF5MRXBT152771, RegisterDate:8/26/2018, Make:Dodge, Model:Dakota
+Vin:WA1EY94L68D106197, RegisterDate:8/31/2018, Make:Audi, Model:4000s Quattro
+Vin:1G6AB5R32F0415809, RegisterDate:9/3/2018, Make:Nissan, Model:Cube
+Vin:WAULK98K99A185431, RegisterDate:9/11/2018, Make:Pontiac, Model:Sunfire
+Vin:JTHBL1EF6A5090678, RegisterDate:9/12/2018, Make:Bentley, Model:Continental
+Vin:1G6DL8EY1B0514824, RegisterDate:9/16/2018, Make:Mercedes-Benz, Model:SLR McLaren
+Vin:2G4GU5GVXC9150933, RegisterDate:9/17/2018, Make:Land Rover, Model:LR2
+Vin:WBA3A5C5XDJ874173, RegisterDate:9/26/2018, Make:Volkswagen, Model:R32
+Vin:WBAFR7C54CD391356, RegisterDate:10/5/2018, Make:Mazda, Model:MPV
+Vin:5GTMNGEE9A8140043, RegisterDate:10/13/2018, Make:Plymouth, Model:Sundance
+Vin:5GAER23768J464028, RegisterDate:10/20/2018, Make:Ford, Model:GT
+Vin:WAUEV74F27N634404, RegisterDate:11/2/2018, Make:Ford, Model:F450
+Vin:1FTSW2B59AE765639, RegisterDate:11/9/2018, Make:Eagle, Model:Vision
+Vin:1FTEW1CM8EK817119, RegisterDate:11/20/2018, Make:Dodge, Model:Grand Caravan
+Vin:1C4RJEAG9DC676545, RegisterDate:11/22/2018, Make:Chevrolet, Model:S10
+Vin:2G61R5S3XF9159799, RegisterDate:11/27/2018, Make:BMW, Model:Alpina B7
+Vin:1G6EL12Y71B211212, RegisterDate:12/17/2018, Make:Subaru, Model:Alcyone SVX
+Vin:WBAAW33451E709687, RegisterDate:12/21/2018, Make:Plymouth, Model:Neon
+Vin:JA32X8HW3AU693635, RegisterDate:12/22/2018, Make:Porsche, Model:944
+Vin:1C6RD6GP2CS737072, RegisterDate:12/24/2018, Make:Acura, Model:NSX
+Vin:19VDE2E51DE805434, RegisterDate:12/25/2018, Make:Chevrolet, Model:Aveo
+Vin:1D4RE2GG5BC789404, RegisterDate:12/26/2018, Make:Mazda, Model:B-Series Plus
+Vin:WAU3GAFR1EA778570, RegisterDate:12/27/2018, Make:Lexus, Model:LS
+Vin:3VW1K7AJ2CM866716, RegisterDate:12/28/2018, Make:Mitsubishi, Model:Sigma
+Vin:WAUR2AFD3EN929365, RegisterDate:1/14/2019, Make:Mitsubishi, Model:Galant
+Vin:1G6EC12952B324019, RegisterDate:1/14/2019, Make:Hummer, Model:H1
+Vin:1FTWX3B58AE066636, RegisterDate:1/17/2019, Make:Cadillac, Model:Escalade
+Vin:WAULT64B24N708596, RegisterDate:1/20/2019, Make:Pontiac, Model:GTO
+Vin:WP0AA2A90FS048072, RegisterDate:2/12/2019, Make:Toyota, Model:Solara
+Vin:WBAKB4C50CC563907, RegisterDate:3/2/2019, Make:Volvo, Model:940
+Vin:JM1CW2BL6C0749663, RegisterDate:3/7/2019, Make:Ford, Model:Mustang
+Vin:WAUKH78EX7A599811, RegisterDate:3/10/2019, Make:GMC, Model:1500 Club Coupe
+Vin:WAUAT48H75K511453, RegisterDate:3/15/2019, Make:Audi, Model:A8
+Vin:1FTEX1CW6AF327831, RegisterDate:3/21/2019, Make:Hyundai, Model:Azera
+Vin:1N4AA5AP5DC265081, RegisterDate:3/24/2019, Make:Buick, Model:Skylark
+Vin:WBACN534X1L120511, RegisterDate:3/30/2019, Make:GMC, Model:Savana 2500
+Vin:WAUEH94F67N493713, RegisterDate:4/9/2019, Make:Plymouth, Model:Neon
+Vin:2HNYD18285H682352, RegisterDate:4/14/2019, Make:Subaru, Model:Forester
+Vin:JN1BY1AR8EM260508, RegisterDate:4/27/2019, Make:Mazda, Model:B-Series
+Vin:SCFFDCBD9CG147267, RegisterDate:4/29/2019, Make:Mercedes-Benz, Model:S-Class
+Vin:5UXFA93505L104091, RegisterDate:5/2/2019, Make:Pontiac, Model:Tempest
+Vin:JN8AZ1FY5BW159890, RegisterDate:5/3/2019, Make:Mitsubishi, Model:Outlander
+Vin:5N1AN0NW9FN317172, RegisterDate:5/16/2019, Make:Ford, Model:LTD Crown Victoria
+Vin:4T3BA3BB3CU706644, RegisterDate:5/27/2019, Make:Toyota, Model:Tacoma Xtra
+Vin:2LNBL8CV9AX970515, RegisterDate:5/29/2019, Make:Audi, Model:S4
+Vin:WBAYE8C54ED211354, RegisterDate:5/29/2019, Make:Pontiac, Model:Grand Prix
+Vin:JTMHY7AJ9B5233747, RegisterDate:6/19/2019, Make:Pontiac, Model:G8
+Vin:19UUA65506A158820, RegisterDate:6/28/2019, Make:Merkur, Model:XR4Ti
+Vin:1GKS1AKC3FR433940, RegisterDate:7/1/2019, Make:Volkswagen, Model:Passat
+Vin:3VWML7AJ1EM460438, RegisterDate:7/26/2019, Make:Mitsubishi, Model:Lancer Evolution
+Vin:WBXPC93587W632126, RegisterDate:7/26/2019, Make:Jaguar, Model:X-Type
+Vin:WBA3B5C5XEF203796, RegisterDate:7/26/2019, Make:Nissan, Model:Titan
+Vin:1GD02ZCG5DF117207, RegisterDate:8/15/2019, Make:Porsche, Model:Cayenne
+Vin:JN1CV6EK4BM514623, RegisterDate:8/21/2019, Make:Mercedes-Benz, Model:E-Class
+Vin:3GYEK63N12G033091, RegisterDate:9/3/2019, Make:Chevrolet, Model:SSR
+Vin:WBABS53471J128520, RegisterDate:9/7/2019, Make:Chevrolet, Model:Avalanche
+Vin:WDDNG9FB2DA082527, RegisterDate:9/9/2019, Make:Toyota, Model:Highlander
+Vin:WAUJT68EX3A136064, RegisterDate:10/14/2019, Make:Mercedes-Benz, Model:S-Class
+Vin:1C6RD6PT9CS629528, RegisterDate:10/14/2019, Make:Acura, Model:NSX
+Vin:4JGCB2FE8BA849453, RegisterDate:10/23/2019, Make:Volvo, Model:V50
+Vin:WBAGN63404D852040, RegisterDate:10/25/2019, Make:Mitsubishi, Model:Pajero
+Vin:1G4PR5SK0C4434881, RegisterDate:10/26/2019, Make:Ford, Model:F-Series
+Vin:WBALW3C51CC835108, RegisterDate:10/28/2019, Make:Cadillac, Model:Eldorado
+Vin:WAUHF98P58A992730, RegisterDate:12/6/2019, Make:Chevrolet, Model:Suburban 1500
+Vin:WAULC68E62A604265, RegisterDate:12/9/2019, Make:Lexus, Model:IS-F
+Vin:WUAGNAFG4CN679419, RegisterDate:12/24/2019, Make:Oldsmobile, Model:Bravada
+Vin:WP0CA2A82DK309490, RegisterDate:12/25/2019, Make:Infiniti, Model:M
+Vin:2C4RDGAG4CR189441, RegisterDate:12/28/2019, Make:Mitsubishi, Model:Truck
+Vin:YV1672MS4B2265020, RegisterDate:12/28/2019, Make:BMW, Model:M6
+Vin:WDDPK4HA9FF592829, RegisterDate:1/1/2020, Make:GMC, Model:Suburban 1500
+Vin:1G6AZ5S39F0363665, RegisterDate:1/9/2020, Make:Bentley, Model:Continental GT
+Vin:WP0CA2A85ES074178, RegisterDate:1/14/2020, Make:Mitsubishi, Model:Truck
+Vin:WBA3T7C5XF5068495, RegisterDate:1/23/2020, Make:Plymouth, Model:Breeze
+Vin:KNAFZ6A33F5097120, RegisterDate:1/24/2020, Make:BMW, Model:3 Series
+Vin:1FT7W2A6XEE837406, RegisterDate:1/25/2020, Make:Mercedes-Benz, Model:SLS AMG
+Vin:KMHTC6AD0CU754873, RegisterDate:2/6/2020, Make:BMW, Model:5 Series
+Vin:2T2BK1BA6BC273138, RegisterDate:2/17/2020, Make:Ford, Model:Th!nk
+Vin:WVWGU7AN2AE421888, RegisterDate:2/18/2020, Make:Pontiac, Model:Sunbird
+Vin:JH4NA12683T426482, RegisterDate:2/18/2020, Make:Hyundai, Model:Veloster
+Vin:JTMHY7AJ5A5312931, RegisterDate:3/18/2020, Make:GMC, Model:Savana 2500
+Vin:WBA1F5C51FV555118, RegisterDate:3/21/2020, Make:Volkswagen, Model:Jetta
+Vin:1G4GC5GR8CF192319, RegisterDate:3/22/2020, Make:Pontiac, Model:Bonneville
+Vin:SCBLF44J98C074777, RegisterDate:3/22/2020, Make:Chevrolet, Model:Corvette
+Vin:1GD11XEGXFF374228, RegisterDate:3/26/2020, Make:Peugeot, Model:207
+Vin:1G6DG5EY0B0190235, RegisterDate:4/10/2020, Make:Plymouth, Model:Grand Voyager
+Vin:1NXBU4EE3AZ967653, RegisterDate:4/16/2020, Make:Suzuki, Model:Grand Vitara
+Vin:1GYS4GKJ1FR255685, RegisterDate:4/16/2020, Make:Land Rover, Model:Range Rover
+Vin:WBALW3C52DC265203, RegisterDate:4/17/2020, Make:Mitsubishi, Model:Eclipse
+Vin:WAUKFAFL1CN483064, RegisterDate:4/27/2020, Make:Volvo, Model:740
+Vin:WA1WYBFE0AD218736, RegisterDate:5/9/2020, Make:Toyota, Model:Sienna
+Vin:3FAHP0KC5AR804890, RegisterDate:5/16/2020, Make:Geo, Model:Tracker
+Vin:JTJBM7FX3E5934221, RegisterDate:5/30/2020, Make:Mercedes-Benz, Model:500SEC
+Vin:WBA3T3C50FP657357, RegisterDate:6/2/2020, Make:Mercury, Model:Sable
+Vin:WA1LYAFE0AD121761, RegisterDate:6/10/2020, Make:Mercedes-Benz, Model:E-Class
+Vin:2FMPK3J97FB514001, RegisterDate:6/19/2020, Make:Chevrolet, Model:Metro
+Vin:WAUSH78E88A130508, RegisterDate:7/4/2020, Make:Ford, Model:F-Series
+Vin:WBAYF8C51DD827489, RegisterDate:7/6/2020, Make:BMW, Model:5 Series
+Vin:2T1KE4EE7CC605150, RegisterDate:7/19/2020, Make:Oldsmobile, Model:Bravada
+Vin:19UUA56963A246035, RegisterDate:8/3/2020, Make:BMW, Model:6 Series
+Vin:WA1WMBFE6FD448980, RegisterDate:8/6/2020, Make:Subaru, Model:XT
+Vin:KL4CJGSB1EB484199, RegisterDate:8/9/2020, Make:Nissan, Model:300ZX
+Vin:WBAYA6C57FD109905, RegisterDate:8/14/2020, Make:Lotus, Model:Evora
+Vin:WAUVT68E93A486447, RegisterDate:8/20/2020, Make:Subaru, Model:Forester
+Vin:1GD11ZCG5CF776684, RegisterDate:9/1/2020, Make:Hyundai, Model:Elantra
+Vin:JTJBM7FX6B5571585, RegisterDate:9/2/2020, Make:Lexus, Model:IS F
+Vin:1GYUCBEF2AR121024, RegisterDate:9/4/2020, Make:Ford, Model:Mustang
+Vin:JHMZF1D44ES965527, RegisterDate:9/6/2020, Make:Mazda, Model:CX-5
+Vin:WBAFU9C56BC706950, RegisterDate:9/22/2020, Make:Pontiac, Model:Bonneville
+Vin:3C63DRLL7CG196389, RegisterDate:9/26/2020, Make:Mercury, Model:Sable
+Vin:4A4AP3AU8FE204438, RegisterDate:10/2/2020, Make:Nissan, Model:Stanza
+Vin:5FRYD3H46EB523272, RegisterDate:10/4/2020, Make:Dodge, Model:Caravan
+Vin:5J8TB4H55DL692986, RegisterDate:10/9/2020, Make:Land Rover, Model:LR4
+Vin:1C4RDJEG0EC529462, RegisterDate:10/14/2020, Make:Mercedes-Benz, Model:CLK-Class
+Vin:5YMGY0C56DL667293, RegisterDate:10/16/2020, Make:Honda, Model:Pilot
+Vin:1FTEX1CM6BF102728, RegisterDate:10/31/2020, Make:Volkswagen, Model:Jetta
+Vin:WAUSF78EX6A309586, RegisterDate:11/4/2020, Make:Chevrolet, Model:Corvette
+Vin:WA1LFAFP1FA209167, RegisterDate:11/16/2020, Make:GMC, Model:Sierra 3500
+Vin:WBAPH5C59BA115914, RegisterDate:12/3/2020, Make:BMW, Model:X3
+Vin:WAURVAFD2BN468453, RegisterDate:1/1/2021, Make:Jaguar, Model:XK
+Vin:WBANV13528C596188, RegisterDate:1/19/2021, Make:Ford, Model:Taurus
+Vin:SALFR2BN8BH486624, RegisterDate:1/27/2021, Make:Ford, Model:F-Series
+Vin:WBAKE3C53CE260366, RegisterDate:1/28/2021, Make:Mercedes-Benz, Model:CLK-Class
+Vin:4USDU53577L375462, RegisterDate:2/3/2021, Make:Audi, Model:A8
+Vin:KMHHT6KD3CU329409, RegisterDate:2/4/2021, Make:Toyota, Model:Prius
+Vin:1G4HC5EM6BU974088, RegisterDate:2/19/2021, Make:Smart, Model:Fortwo
+Vin:3VWKX7AJ8BM507925, RegisterDate:3/9/2021, Make:Chevrolet, Model:1500
+Vin:2G61N5S3XF9606868, RegisterDate:3/16/2021, Make:Mercedes-Benz, Model:S-Class
+Vin:WAUSF98EX7A154275, RegisterDate:3/26/2021, Make:Mazda, Model:B-Series
+Vin:WVGAV7AXXAW204356, RegisterDate:4/11/2021, Make:Ford, Model:LTD Crown Victoria
+Vin:KMHHT6KD5BU926320, RegisterDate:4/17/2021, Make:Alfa Romeo, Model:Spider
+Vin:WDDHF0EB5FB160650, RegisterDate:4/19/2021, Make:Land Rover, Model:Discovery
+Vin:WP0AB2A99FS140049, RegisterDate:4/27/2021, Make:Chevrolet, Model:Venture
+Vin:2G4GS5EV3D9590017, RegisterDate:5/16/2021, Make:Dodge, Model:Grand Caravan
+Vin:19UUA56681A829273, RegisterDate:5/20/2021, Make:Saab, Model:9-7X
+Vin:5TFCY5F19BX382798, RegisterDate:5/23/2021, Make:Chevrolet, Model:Suburban 1500
+Vin:1C4NJCBA3ED496809, RegisterDate:5/25/2021, Make:Kia, Model:Carens
+Vin:KNAGM4AD4C5607387, RegisterDate:5/25/2021, Make:Chevrolet, Model:1500
+Vin:JN8AF5MRXBT240977, RegisterDate:6/5/2021, Make:Mercury, Model:Villager
+Vin:1G6DH5E52C0259852, RegisterDate:6/10/2021, Make:Infiniti, Model:G
+Vin:WAUDH98E66A143968, RegisterDate:6/15/2021, Make:Toyota, Model:4Runner
+Vin:1G6DL1E34D0940800, RegisterDate:6/23/2021, Make:Dodge, Model:Viper
+Vin:3MZBM1L71EM312275, RegisterDate:6/25/2021, Make:GMC, Model:Sierra 3500
+Vin:JHMZE2H50AS295741, RegisterDate:6/28/2021, Make:Mercury, Model:Sable
+Vin:1GYUCJEF8AR599359, RegisterDate:6/30/2021, Make:Saab, Model:9000
+Vin:SCFEDCAD2CG738697, RegisterDate:7/12/2021, Make:Nissan, Model:Altima
+Vin:SCBZK25E02C293095, RegisterDate:7/25/2021, Make:Pontiac, Model:Grand Am
+Vin:1GKS1CE00ER615414, RegisterDate:7/29/2021, Make:Mercedes-Benz, Model:SL-Class
+Vin:JN1AV7AP1FM018778, RegisterDate:8/9/2021, Make:Mercedes-Benz, Model:M-Class
+Vin:WBADR634X3G032682, RegisterDate:8/11/2021, Make:Hyundai, Model:Tucson
+Vin:JN8AS5MT3AW596580, RegisterDate:8/15/2021, Make:Volkswagen, Model:Tiguan
+Vin:TRUWC28N811745271, RegisterDate:8/26/2021, Make:Chevrolet, Model:Equinox
+Vin:3C3CFFCR3CT052713, RegisterDate:9/8/2021, Make:Saturn, Model:L-Series
+Vin:WBAVA37587N995109, RegisterDate:9/14/2021, Make:Subaru, Model:Alcyone SVX
+Vin:WBASN2C50DC491619, RegisterDate:9/27/2021, Make:Hyundai, Model:Azera
+Vin:WAUDF98E75A324551, RegisterDate:10/1/2021, Make:Porsche, Model:911
+Vin:1C4PJLAB0FW674183, RegisterDate:10/7/2021, Make:Suzuki, Model:Esteem
+Vin:3D7TP2CT9BG028586, RegisterDate:10/11/2021, Make:Mazda, Model:RX-7
+Vin:WA1WGAFP4EA781925, RegisterDate:10/16/2021, Make:Acura, Model:Legend

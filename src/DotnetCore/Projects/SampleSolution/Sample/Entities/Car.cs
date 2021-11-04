@@ -2,7 +2,7 @@
 
 namespace CSD.Application.Entities
 {
-    public class Car
+    public partial class Car
     {
         public long Id { get; set; }
 

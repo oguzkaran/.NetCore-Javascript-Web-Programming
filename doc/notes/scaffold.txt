@@ -1,0 +1,3 @@
+Scaffold-DbContext "Server=.;Database=TodoDb;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data -force
+
+Install-Package Bricelam.EntityFrameworkCore.Pluralizer -IncludePrerelease
