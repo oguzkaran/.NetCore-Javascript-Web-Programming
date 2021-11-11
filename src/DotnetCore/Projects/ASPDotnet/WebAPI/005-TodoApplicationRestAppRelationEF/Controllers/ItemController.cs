@@ -4,6 +4,7 @@ using CSD.TodoApplicationRestApp.Errors;
 using CSD.Util.Data.Service;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CSD.TodoApplicationRestApp.Controllers
 {
@@ -19,17 +20,17 @@ namespace CSD.TodoApplicationRestApp.Controllers
         }
 
         [HttpGet("items/todo")]
-        public IEnumerable<ItemInfo> FindItemByTodoIdOrderByLastUpdateDesc(int id)
+        public async Task<IEnumerable<ItemInfo>> FindItemByTodoIdOrderByLastUpdateDesc(int id)
         {
-            return m_todoAppService.FindItemByTodoIdOrderByLastUpdateDesc(id);
+            return await m_todoAppService.FindItemByTodoIdOrderByLastUpdateDesc(id);
         }
 
         [HttpGet("items/count")]
-        public IActionResult CountItems()
+        public async Task<IActionResult> CountItems()
         {
             try
             {
-                return new ObjectResult(new { Count = m_todoAppService.CountItems() });
+                return new ObjectResult(new { Count = await m_todoAppService.CountItemsAsync() });
             }
             catch (DataServiceException ex)
             {
@@ -41,6 +42,7 @@ namespace CSD.TodoApplicationRestApp.Controllers
         [HttpPost]
         public IActionResult SaveItem([FromBody] ItemInfo itemInfo)
         {
+            //TODO:
             try
             {
                 return new ObjectResult(m_todoAppService.SaveItem(itemInfo));

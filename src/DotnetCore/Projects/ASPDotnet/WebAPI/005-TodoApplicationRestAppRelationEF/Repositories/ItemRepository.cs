@@ -1,9 +1,12 @@
 ﻿using CSD.TodoApplicationRestApp.Configuration;
+using CSD.TodoApplicationRestApp.Data;
 using CSD.TodoApplicationRestApp.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Linq;
 using System.Threading.Tasks;
+using static CSD.Util.TPL.TaskUtil;
 
 namespace CSD.TodoApplicationRestApp.Repositories
 {
@@ -16,6 +19,8 @@ namespace CSD.TodoApplicationRestApp.Repositories
 
         private readonly ConnectionConfig m_connectionConfig;
         private readonly SqlConnection m_connection;
+
+        private readonly TodoDbContext m_todoDbContext;
 
         private ItemInfo getItemInfo(SqlDataReader dataReader)
         {
@@ -30,56 +35,38 @@ namespace CSD.TodoApplicationRestApp.Repositories
             };
         }
 
-        public ItemRepository(ConnectionConfig connectionConfig)
+        #region callbacks
+        private long countCallback()
         {
-            m_connectionConfig = connectionConfig;
-            m_connection = new(m_connectionConfig.ConnectionString);
+            return m_todoDbContext.ItemInfos.LongCount();
         }
 
-        public long Count()
+        public IEnumerable<ItemInfo> findByTodoIdOrderByLastUpdateDesc(int todoId)
         {
-            try
-            {
-                var command = new SqlCommand(ms_countSqlCommandStr, m_connection);
-                m_connection.Open();
-                var reader = command.ExecuteReader();
-
-                reader.Read();
-
-                return (int)reader[0];
-            }
-            finally
-            {
-                if (m_connection.State == System.Data.ConnectionState.Open)
-                    m_connection.Close();
-            }
+            return m_todoDbContext.ItemInfos.Where(i => i.TodoId == todoId).OrderBy(i => i.LastUpdate);               
         }
 
-        public IEnumerable<ItemInfo> FindByTodoIdOrderByLastUpdateDesc(int todoId)
+        #endregion
+
+        public ItemRepository(TodoDbContext todoDbContext)
         {
-            try
-            {
-                var list = new List<ItemInfo>();
-                var command = new SqlCommand(ms_findByTodoIdLastUpdateDescSqlComdStr, m_connection);
-                command.Parameters.AddWithValue("@TodoId", todoId);
-                m_connection.Open();
-                var reader = command.ExecuteReader();
-
-                while (reader.Read())
-                    list.Add(getItemInfo(reader));
-
-                return list;
-            }
-            finally
-            {
-                if (m_connection.State == System.Data.ConnectionState.Open)
-                    m_connection.Close();
-            }
+            m_todoDbContext = todoDbContext;
         }
 
+        public Task<long> CountAsync()
+        {
+            return Create(countCallback);                          
+        }
+
+        public Task<IEnumerable<ItemInfo>> FindByTodoIdOrderByLastUpdateDesc(int todoId)
+        {
+            return Create(() => findByTodoIdOrderByLastUpdateDesc(todoId));
+        }
 
         public ItemInfo Save(ItemInfo itemInfo)
         {
+
+            //TODO:
             try
             {
                 var command = new SqlCommand(ms_insertSqlCommandStr, m_connection);
@@ -147,7 +134,7 @@ namespace CSD.TodoApplicationRestApp.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<long> CountAsync()
+        public long Count()
         {
             throw new NotImplementedException();
         }

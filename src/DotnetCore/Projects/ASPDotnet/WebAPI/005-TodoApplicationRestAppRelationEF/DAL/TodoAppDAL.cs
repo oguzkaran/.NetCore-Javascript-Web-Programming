@@ -19,6 +19,7 @@ namespace CSD.TodoApplicationRestApp.DAL
             m_itemRepository = itemRepository;
         }
 
+        #region TodoInfo
         public Task<long> CountTodosAsync()
         {
             return SubscribeRepositoryAsync(m_todoRepository.CountAsync, "TodoAppDAL.CountTodosAsync");            
@@ -37,7 +38,12 @@ namespace CSD.TodoApplicationRestApp.DAL
         public Task<IEnumerable<TodoInfo>> FindTodosByMonthAsync(int month)
         {
             return SubscribeRepositoryAsync(() => m_todoRepository.FindByMonthAsync(month), "TodoAppDAL.FindTodosByMonthAsync");
-        }        
+        }
+
+        public Task<IEnumerable<TodoInfo>> FindTodosByYearAsync(int year)
+        {
+            return SubscribeRepositoryAsync(() => m_todoRepository.FindByYearAsync(year), "TodoAppDAL.FindTodosByYearAsync");
+        }
 
         public Task<IEnumerable<TodoInfo>> FindTodosByMonthAndYearAsync(int month,int year)
         {
@@ -48,36 +54,24 @@ namespace CSD.TodoApplicationRestApp.DAL
         {
             return SubscribeRepositoryAsync(() => m_todoRepository.SaveAsync(todoInfo), "TodoAppDAL.FindTodosByMonthAndYearAsync");            
         }
+        #endregion
 
-        
+        #region ItemInfo
 
-        public long CountItems()
+        public Task<long> CountItemsAsync()
         {
-            try
-            {
-                return m_itemRepository.Count();
-            }
-            catch (Exception ex)
-            {
-                throw new RepositoryException("TodoAppDAL.CountItems", ex);
-            }
+            return SubscribeRepositoryAsync(m_itemRepository.CountAsync, "TodoAppDAL.CountItemsAsync");
         }
 
-        public IEnumerable<ItemInfo> FindItemByTodoIdOrderByLastUpdateDesc(int todoId)
+        public Task<IEnumerable<ItemInfo>> FindItemByTodoIdOrderByLastUpdateDesc(int todoId)
         {
-            try
-            {
-                return m_itemRepository.FindByTodoIdOrderByLastUpdateDesc(todoId);
-            }
-            catch (Exception ex)
-            {
-                throw new RepositoryException("TodoAppDAL.FindItemByTodoIdOrderByLastUpdateDesc", ex);
-            }
+            return SubscribeRepositoryAsync(() => m_itemRepository.FindByTodoIdOrderByLastUpdateDesc(todoId), "TodoAppDAL.FindItemByTodoIdOrderByLastUpdateDesc");
         }
 
 
         public ItemInfo SaveItemInfo(ItemInfo itemInfo)
         {
+            //TODO:
             try
             {
                 return m_itemRepository.Save(itemInfo);
@@ -86,8 +80,9 @@ namespace CSD.TodoApplicationRestApp.DAL
             {
                 throw new RepositoryException("TodoAppDAL.SaveItemInfo", ex);
             }
-        }        
-        
+        }
+
+        #endregion
         //...
     }
 }

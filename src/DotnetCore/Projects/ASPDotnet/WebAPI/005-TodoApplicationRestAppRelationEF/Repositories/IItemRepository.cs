@@ -9,6 +9,6 @@ namespace CSD.TodoApplicationRestApp.Repositories
 {
     public interface IItemRepository : ICrudRepository<ItemInfo, int>
     {
-        IEnumerable<ItemInfo> FindByTodoIdOrderByLastUpdateDesc(int todoId);
+        Task<IEnumerable<ItemInfo>> FindByTodoIdOrderByLastUpdateDesc(int todoId);
     }
 }

@@ -5,6 +5,7 @@ using CSD.Util.Data.Repository;
 using CSD.Util.Data.Service;
 using CSD.Util.Mappers;
 using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using static CSD.Data.DatabaseUtil;
@@ -16,19 +17,44 @@ namespace CSD.TodoApplicationRestApp
         private readonly TodoAppDAL m_todoAppDAL;
         private readonly IMapper m_mapper;
 
+        #region TodoInfo callbacks
         private async Task<IEnumerable<TodoInfoDTO>> findAllTodosCallback()
         {
             var todos = await m_todoAppDAL.FindAllTodosAsync();
 
-
-            var todosDTO = new List<TodoInfoDTO>();
-
-            foreach (var todo in todos)
-                todosDTO.Add(m_mapper.Map<TodoInfoDTO, TodoInfo>(todo));
-
-            return todosDTO;            
+            return todos.ToList().Select(t => m_mapper.Map<TodoInfoDTO, TodoInfo>(t)).ToList();            
         }
 
+        private async Task<IEnumerable<TodoInfoDTO>> findTodosByMonthCallback(int month)
+        {
+            var todos = await m_todoAppDAL.FindTodosByMonthAsync(month);
+
+            return todos.ToList().Select(t => m_mapper.Map<TodoInfoDTO, TodoInfo>(t)).ToList();
+        }
+
+        private async Task<IEnumerable<TodoInfoDTO>> findTodosByYearCallback(int year)
+        {
+            var todos = await m_todoAppDAL.FindTodosByMonthAsync(year);
+
+            return todos.ToList().Select(t => m_mapper.Map<TodoInfoDTO, TodoInfo>(t)).ToList();
+        }
+
+        private async Task<IEnumerable<TodoInfoDTO>> findTodosByMonthAndYearCallback(int month, int year)
+        {
+            var todos = await m_todoAppDAL.FindTodosByMonthAndYearAsync(month, year);
+
+            return todos.ToList().Select(t => m_mapper.Map<TodoInfoDTO, TodoInfo>(t)).ToList();
+        }
+
+        public async Task<TodoInfoDTO> saveTodoCallback(TodoInfoDTO todoInfoDTO)
+        {
+            var todo = m_mapper.Map<TodoInfo, TodoInfoDTO>(todoInfoDTO);
+
+            return m_mapper.Map<TodoInfoDTO, TodoInfo>(await m_todoAppDAL.SaveTodoInfoAsync(todo));
+        }
+
+
+        #endregion
         public TodoAppService(TodoAppDAL todoAppDAL, IMapper mapper)
         {
             m_todoAppDAL = todoAppDAL;
@@ -37,7 +63,7 @@ namespace CSD.TodoApplicationRestApp
 
         public Task<long> CountTodosAsync()
         {
-            return SubscribeServiceAsync(m_todoAppDAL.CountTodosAsync, "TodoAppService.CountTodos");            
+            return SubscribeServiceAsync(m_todoAppDAL.CountTodosAsync, "TodoAppService.CountTodosAsync");            
         }
 
         public Task<IEnumerable<TodoInfoDTO>> FindAllTodosAsync()
@@ -47,40 +73,45 @@ namespace CSD.TodoApplicationRestApp
 
         public Task<TodoInfoItem> FindTodoByItemIdAsync(int id)
         {
+            //TODO:
             return SubscribeServiceAsync(() => m_todoAppDAL.FindTodoByItemIdAsync(id), "TodoAppService.FindTodoByItemIdAsync");            
         }
 
-        public Task<IEnumerable<TodoInfo>> FindTodosByMonthAsync(int month)
+        public Task<IEnumerable<TodoInfoDTO>> FindTodosByMonthAsync(int month)
         {
-            return SubscribeServiceAsync(() => m_todoAppDAL.FindTodosByMonthAsync(month), "TodoAppService.FindTodosByMonthAsync");            
+            return SubscribeServiceAsync(() => findTodosByMonthCallback(month), "TodoAppService.FindTodosByMonthAsync");            
         }        
 
-        public Task<IEnumerable<TodoInfo>> FindTodosByMonthAndYearAsync(int month, int year)
+        public Task<IEnumerable<TodoInfoDTO>> FindTodosByYear(int year)
         {
-            return SubscribeServiceAsync(() => m_todoAppDAL.FindTodosByMonthAndYearAsync(month, year), "TodoAppService.FindTodosByMonthAndYearAsync");            
+            return SubscribeServiceAsync(() => findTodosByYearCallback(year), "TodoAppService.FindTodosByYearAsync");            
         }
 
-        public Task<TodoInfo> SaveTodo(TodoInfo todoInfo)
+        public Task<IEnumerable<TodoInfoDTO>> FindTodosByMonthAndYearAsync(int month, int year)
         {
-            return SubscribeServiceAsync(() => m_todoAppDAL.SaveTodoInfoAsync(todoInfo), "TodoAppService.SaveTodoAsync");            
+            return SubscribeServiceAsync(() => findTodosByMonthAndYearCallback(month, year), "TodoAppService.FindTodosByMonthAndYearAsync");
         }
 
-        //////////////////////////////////////////////////////////////////
-        public IEnumerable<ItemInfo> FindItemByTodoIdOrderByLastUpdateDesc(int todoId)
+        public Task<TodoInfoDTO> SaveTodo(TodoInfoDTO todoInfo)
         {
-            try
-            {
-                return m_todoAppDAL.FindItemByTodoIdOrderByLastUpdateDesc(todoId);
-            }
-            catch (Exception ex)
-            {
-                throw new RepositoryException("TodoAppDAL.FindItemByTodoIdOrderByLastUpdateDesc", ex);
-            }
+            return SubscribeServiceAsync(() => saveTodoCallback(todoInfo), "TodoAppService.SaveTodoAsync");            
+        }
+
+        #region ITemInfo
+        public Task<long> CountItemsAsync()
+        {
+            return SubscribeServiceAsync(m_todoAppDAL.CountItemsAsync, "TodoAppService.CountItemsAsync");
+        }
+
+        public Task<IEnumerable<ItemInfo>> FindItemByTodoIdOrderByLastUpdateDesc(int todoId)
+        {
+            return SubscribeServiceAsync(() => m_todoAppDAL.FindItemByTodoIdOrderByLastUpdateDesc(todoId), "TodoAppService.FindItemByTodoIdOrderByLastUpdateDesc");
         }
 
 
         public ItemInfo SaveItem(ItemInfo itemInfo)
         {
+            //TODO:
             try
             {
                 return m_todoAppDAL.SaveItemInfo(itemInfo);
@@ -96,22 +127,8 @@ namespace CSD.TodoApplicationRestApp
             }
         }
 
-        public long CountItems()
-        {
-            try
-            {
-                return m_todoAppDAL.CountItems();
-            }
-            catch (RepositoryException ex)
-            {
-                //...
-                throw new DataServiceException("TodoAppService.CountItems", ex.InnerException);
-            }
-            catch (Exception ex)
-            {
-                throw new DataServiceException("TodoAppService.CountItems", ex);
-            }
-            //...
-        }
+       
+
+        #endregion
     }
 }

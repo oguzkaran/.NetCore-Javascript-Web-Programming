@@ -1,4 +1,5 @@
-﻿using CSD.TodoApplicationRestApp.Entities;
+﻿using CSD.TodoApplicationRestApp.DTO;
+using CSD.TodoApplicationRestApp.Entities;
 using CSD.TodoApplicationRestApp.Errors;
 
 using CSD.Util.Data.Service;
@@ -90,17 +91,16 @@ namespace CSD.TodoApplicationRestApp.Controllers
         }        
 
         [HttpPost]
-        public async Task<IActionResult> SaveTodoAsync([FromBody] TodoInfo todoInfo)
+        public async Task<IActionResult> SaveTodoAsync([FromBody] TodoInfoDTO todoInfoDTO)
         {
             try
             {
-                return new ObjectResult(await m_todoAppService.SaveTodo(todoInfo));
+                return new ObjectResult(await m_todoAppService.SaveTodo(todoInfoDTO));
             }
             catch (DataServiceException ex)
             {
                 return NotFound(new ErrorInfo { Message = ex.Message, Status = 404, Detail = "Internal DB problem" });
             }
         }
-
     }
 }

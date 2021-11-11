@@ -1,4 +1,4 @@
-create database TodoDb
+create database DCJSWPA21_TodoDb
 
 go
 

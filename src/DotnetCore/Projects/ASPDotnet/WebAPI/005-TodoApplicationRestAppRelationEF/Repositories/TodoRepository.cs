@@ -1,63 +1,16 @@
-﻿using CSD.TodoApplicationRestApp.Configuration;
+﻿using CSD.TodoApplicationRestApp.Data;
 using CSD.TodoApplicationRestApp.Entities;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Threading.Tasks;
 using System.Linq;
-
-using static CSD.Util.Error.ExceptionUtil;
-using CSD.Util.TPL;
+using System.Threading.Tasks;
 using static CSD.Util.TPL.TaskUtil;
-using CSD.TodoApplicationRestApp.Data;
 
 namespace CSD.TodoApplicationRestApp.Repositories
 {
     public class TodoRepository : ITodoRepository
     {
-        private readonly TodoDbContext m_dbContext;
-
-        private const string ms_insertSqlCommandStr = "insert into TodoInfo (Title, Description) values (@Title, @Description)";
-        private const string ms_countSqlCommandStr = "select count(*) from TodoInfo";
-        private const string ms_selectAllSqlCommandStr = "select * from TodoInfo";
-        private const string ms_selectByMonthSqlCommandStr = "select * from TodoInfo where month(CreateDateTime)=@month";
-        private const string ms_selectByMonthAndYearSqlCommandStr = "select * from TodoInfo where month(CreateDateTime)=@month and year(CreateDateTime)=@year";
-        private const string ms_selectByItemIdSqlCommanStr =
-            "select t.Title, t.Description, t.CreateDateTime, i.Text, i.LastUpdate" +
-            " from TodoInfo t inner join ItemInfo i on t.Id=i.TodoId where i.Id=@ItemId";
-
-        private readonly ConnectionConfig m_connectionConfig;
-        private readonly SqlConnection m_connection;
-
-        private TodoInfo getTodoInfo(SqlDataReader reader)
-        {
-            return new()
-            {
-                Id = (int)reader[0],
-                Title = (string)reader[1],
-                Description = (string)reader[2],
-                CreateDateTime = (DateTime)reader[3],
-                Completed = (bool)reader[4]
-            };
-        }
-
-        private TodoInfoItem getTodoInfoItem(SqlDataReader reader)
-        {
-            return new()
-            {
-                Title = (string)reader[0],
-                Description = (string)reader[1],
-                CreateDateTime = (DateTime)reader[2],
-                Text = (string)reader[3],
-                LastUpdate = (DateTime)reader[4],
-            };
-        }
-
-        private void closeConnection()
-        {
-            if (m_connection.State == System.Data.ConnectionState.Open)
-                m_connection.Close();
-        }
+        private readonly TodoDbContext m_dbContext;        
         
         #region callbacks
         private long countCallback()
@@ -72,13 +25,7 @@ namespace CSD.TodoApplicationRestApp.Repositories
 
         private TodoInfoItem findByItemIdCallback(int id)
         {
-            var command = new SqlCommand(ms_selectByItemIdSqlCommanStr, m_connection);
-
-            command.Parameters.AddWithValue("@ItemId", id);
-            m_connection.Open();
-            var reader = command.ExecuteReader();
-
-            return reader.Read() ? getTodoInfoItem(reader) : null;
+            throw new NotImplementedException("findByItemIdCallback");
         }
 
         private IEnumerable<TodoInfo> findByMonthCallback(int month)
@@ -86,8 +33,11 @@ namespace CSD.TodoApplicationRestApp.Repositories
             return from ti in m_dbContext.TodoInfos
                    where ti.CreateDateTime.Month == month
                    select ti;
+        }
 
-            //return m_dbContext.TodoInfos.Where(t => t.CreateDateTime.Month == month);
+        private IEnumerable<TodoInfo> findByYearCallback(int year)
+        {
+            return m_dbContext.TodoInfos.Where(t => t.CreateDateTime.Year == year);
         }
 
         private IEnumerable<TodoInfo> findByMonthAndYearCallback(int month, int year)
@@ -97,13 +47,10 @@ namespace CSD.TodoApplicationRestApp.Repositories
 
         private TodoInfo saveCallback(TodoInfo todoInfo)
         {
-            var command = new SqlCommand(ms_insertSqlCommandStr, m_connection);
+            m_dbContext.TodoInfos.Add(todoInfo);
 
-            command.Parameters.AddWithValue("@Title", todoInfo.Title);
-            command.Parameters.AddWithValue("@Description", todoInfo.Description);
-            m_connection.Open();
-
-            command.ExecuteNonQuery();
+            if (m_dbContext.SaveChanges() != 1)
+                throw new Exception("Save Problem");
 
             return todoInfo;
         }
@@ -114,45 +61,44 @@ namespace CSD.TodoApplicationRestApp.Repositories
             m_dbContext = dbContext;
         }
 
+        #region Implementeds
         public Task<long> CountAsync()
         {
-            return SubscribeAsync(() => Create(countCallback), ex => throw ex);            
+            return Create(countCallback);
         }
 
         public Task<IEnumerable<TodoInfo>> FindAllAsync()
         {
-            return SubscribeAsync(() => new Task<IEnumerable<TodoInfo>>(findAllCallback).Create(), ex => throw ex);
+            return Create(findAllCallback);
         }
 
         public Task<TodoInfoItem> FindByItemIdAsync(int id)
         {
-            return SubscribeAsync(() => new Task<TodoInfoItem>(() => findByItemIdCallback(id)).Create(), 
-                () => new Task(closeConnection).Create());
+            return Create(() => findByItemIdCallback(id));
         }
 
         public Task<IEnumerable<TodoInfo>> FindByMonthAsync(int month)
         {
-            return SubscribeAsync(() => new Task<IEnumerable<TodoInfo>>(() => findByMonthCallback(month)).Create(), ex => throw ex);
+            return Create(() => findByMonthCallback(month));
+        }
+
+        public Task<IEnumerable<TodoInfo>> FindByYearAsync(int year)
+        {
+            return Create(() => findByYearCallback(year));
         }
 
         public Task<IEnumerable<TodoInfo>> FindByMonthAndYearAsync(int month, int year)
         {
-            return SubscribeAsync(() => new Task<IEnumerable<TodoInfo>>(() => findByMonthAndYearCallback(month, year)).Create(), 
-                ex => throw ex);
+            return Create(() => findByMonthAndYearCallback(month, year));
         }
 
         public Task<TodoInfo> SaveAsync(TodoInfo todoInfo)
         {
-            return SubscribeAsync(() => new Task<TodoInfo>(() => saveCallback(todoInfo)).Create(), () => new Task(closeConnection).Create());
+            return Create(() => saveCallback(todoInfo));
         }
+        #endregion
 
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        public Task<IEnumerable<TodoInfo>> FindByYearAsync(int year)
-        {
-            throw new NotImplementedException();
-        }
-
+        #region Not Implementeds
         public long Count()
         {
             throw new NotImplementedException();
@@ -247,5 +193,7 @@ namespace CSD.TodoApplicationRestApp.Repositories
         {
             throw new NotImplementedException();
         }
+
+        #endregion
     }
 }

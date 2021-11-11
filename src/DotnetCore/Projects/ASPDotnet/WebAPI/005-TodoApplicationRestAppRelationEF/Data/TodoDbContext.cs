@@ -22,9 +22,9 @@ namespace CSD.TodoApplicationRestApp.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (optionsBuilder.IsConfigured)
-                return;            
+                return;
 
-            optionsBuilder.UseSqlServer("Server=.;Database=TodoDb;Trusted_Connection=True;");            
+            optionsBuilder.UseSqlServer("Server = aws-mssql.cct1ehgoywdp.us-east-2.rds.amazonaws.com; Database = DCJSWPA21_TodoAppDb; User Id = admin; Password = csystem1993;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
