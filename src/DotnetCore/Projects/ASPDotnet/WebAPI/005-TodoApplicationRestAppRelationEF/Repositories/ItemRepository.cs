@@ -1,9 +1,7 @@
-﻿using CSD.TodoApplicationRestApp.Configuration;
-using CSD.TodoApplicationRestApp.Data;
+﻿using CSD.TodoApplicationRestApp.Data;
 using CSD.TodoApplicationRestApp.Entities;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using static CSD.Util.TPL.TaskUtil;
@@ -11,29 +9,8 @@ using static CSD.Util.TPL.TaskUtil;
 namespace CSD.TodoApplicationRestApp.Repositories
 {
     public class ItemRepository : IItemRepository
-    {
-        private const string ms_insertSqlCommandStr = "insert into ItemInfo (TodoId, Text) values (@TodoId, @Text)";
-        private const string ms_countSqlCommandStr = "select count(*) from ItemInfo";
-        private const string ms_findByTodoIdLastUpdateDescSqlComdStr =
-            "select * from ItemInfo where TodoId = @TodoId order by LastUpdate desc";
-
-        private readonly ConnectionConfig m_connectionConfig;
-        private readonly SqlConnection m_connection;
-
-        private readonly TodoDbContext m_todoDbContext;
-
-        private ItemInfo getItemInfo(SqlDataReader dataReader)
-        {
-            return new()
-            {
-                Id = (int)dataReader[0],
-                TodoId = (int)dataReader[1],
-                Text = dataReader[2].ToString(),
-                CreateDateTime = (DateTime)dataReader[3],
-                LastUpdate = (DateTime)dataReader[4],
-                Completed = (bool)dataReader[5]
-            };
-        }
+    {        
+        private readonly TodoDbContext m_todoDbContext;        
 
         #region callbacks
         private long countCallback()
@@ -65,25 +42,7 @@ namespace CSD.TodoApplicationRestApp.Repositories
 
         public ItemInfo Save(ItemInfo itemInfo)
         {
-
-            //TODO:
-            try
-            {
-                var command = new SqlCommand(ms_insertSqlCommandStr, m_connection);
-
-                command.Parameters.AddWithValue("@TodoId", itemInfo.TodoId);
-                command.Parameters.AddWithValue("@Text", itemInfo.Text);
-                m_connection.Open();
-
-                command.ExecuteNonQuery();
-            }
-            finally
-            {
-                if (m_connection.State == System.Data.ConnectionState.Open)
-                    m_connection.Close();
-            }
-
-            return itemInfo;
+            throw new NotImplementedException("Save");            
         }
 
 
