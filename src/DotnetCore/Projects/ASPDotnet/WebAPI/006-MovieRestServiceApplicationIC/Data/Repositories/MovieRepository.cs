@@ -7,15 +7,39 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
 {
     public class MovieRepository : IMovieRepository
     {
+        public Task<long> CountAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<Movie>> FindAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<Movie>> FindByYearAsync(int year)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<Movie>> FindByYearAndMonthAsync(int year, int month)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Movie> FindByDirectorIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        ///////////////////////////////////////////////////////////
+
         public long Count()
         {
             throw new NotImplementedException();
         }
 
-        public Task<long> CountAsync()
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public void Delete(Movie entity)
         {
@@ -81,16 +105,8 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
         {
             throw new NotImplementedException();
         }
-
-        public Task<IEnumerable<Movie>> FindAllAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Movie FindByDirectorId(int id)
-        {
-            throw new NotImplementedException();
-        }
+        
+        
 
         public Movie FindById(long id)
         {
@@ -100,18 +116,7 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
         public Task<Movie> FindByIdAsync(long id)
         {
             throw new NotImplementedException();
-        }
-
-        public IEnumerable<Movie> FindByYear(int year)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Movie> FindByYearAndMonth(int year, int month)
-        {
-            throw new NotImplementedException();
-        }
-
+        }      
         public Movie Save(Movie entity)
         {
             throw new NotImplementedException();
@@ -131,5 +136,7 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
         {
             throw new NotImplementedException();
         }
+
+        
     }
 }

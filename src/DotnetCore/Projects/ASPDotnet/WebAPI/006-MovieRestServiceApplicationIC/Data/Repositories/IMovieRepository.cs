@@ -1,13 +1,14 @@
 ﻿using CSD.MovieRestServiceApplication.Data.Entities;
 using CSD.Util.Data.Repository;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CSD.MovieRestServiceApplication.Data.Repositories
 {
     public interface IMovieRepository : ICrudRepository<Movie, long>
     {
-        IEnumerable<Movie> FindByYear(int year);
-        IEnumerable<Movie> FindByYearAndMonth(int year, int month);
-        Movie FindByDirectorId(int id);
+        Task<IEnumerable<Movie>> FindByYearAsync(int year);
+        Task<IEnumerable<Movie>> FindByYearAndMonthAsync(int year, int month);
+        Task<Movie> FindByDirectorIdAsync(int id);
     }
 }
