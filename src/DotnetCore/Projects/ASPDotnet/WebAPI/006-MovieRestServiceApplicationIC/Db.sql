@@ -1,8 +1,8 @@
-create database MovieAppDb
+create database DCJSWPA21_MovieAppDb
 
 go
 
-use MovieAppDb
+use DCJSWPA21_MovieAppDb
 
 go
 
