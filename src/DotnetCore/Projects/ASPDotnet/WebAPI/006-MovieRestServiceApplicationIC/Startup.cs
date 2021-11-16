@@ -1,3 +1,4 @@
+using CSD.MovieRestServiceApplication.Data;
 using CSD.MovieRestServiceApplication.Data.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -24,7 +25,9 @@ namespace MovieRestServiceApplication
 
             services
                 .AddSingleton<IMovieRepository, MovieRepository>()
-                .AddSingleton<IDirectorRepository, DirectorRepository>();
+                .AddSingleton<IDirectorRepository, DirectorRepository>()
+                .AddSingleton<MovieAppDbContext>()
+                ;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

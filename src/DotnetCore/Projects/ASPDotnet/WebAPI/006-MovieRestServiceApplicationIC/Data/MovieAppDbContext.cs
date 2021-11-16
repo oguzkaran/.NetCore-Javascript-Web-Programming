@@ -1,7 +1,5 @@
-﻿using System;
-using CSD.MovieRestServiceApplication.Data.Entities;
+﻿using CSD.MovieRestServiceApplication.Data.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 

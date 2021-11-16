@@ -2,19 +2,36 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Linq;
+using static CSD.Util.TPL.TaskUtil;
 
 namespace CSD.MovieRestServiceApplication.Data.Repositories
 {
     public class MovieRepository : IMovieRepository
     {
+        private readonly MovieAppDbContext m_movieAppDbContext;
+        #region callbacks
+
+        public IEnumerable<Movie> findAllCallback()
+        {
+            return m_movieAppDbContext.Movies.ToList();
+        }
+
+        #endregion
+        public MovieRepository(MovieAppDbContext movieAppDbContext)
+        {
+            m_movieAppDbContext = movieAppDbContext;
+        }
+
+        #region Task implementions
         public Task<long> CountAsync()
         {
-            throw new NotImplementedException();
+            return Create(() => m_movieAppDbContext.Movies.LongCount());
         }
 
         public Task<IEnumerable<Movie>> FindAllAsync()
         {
-            throw new NotImplementedException();
+            return Create(findAllCallback);
         }
 
         public Task<IEnumerable<Movie>> FindByYearAsync(int year)
@@ -31,7 +48,7 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
         {
             throw new NotImplementedException();
         }
-
+        #endregion
         ///////////////////////////////////////////////////////////
 
         public long Count()
