@@ -1,12 +1,61 @@
-﻿
-using CSD.MovieRestServiceApplication.Data.Entities;
+﻿using CSD.MovieRestServiceApplication.Data.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Linq;
+using static CSD.Util.TPL.TaskUtil;
 
 namespace CSD.MovieRestServiceApplication.Data.Repositories
 {
     public class DirectorRepository : IDirectorRepository
     {
+        private readonly MovieAppDbContext m_movieAppDbContext;
+
+        #region Callbacks
+        private IEnumerable<Director> findByAgeGreaterCallback(double threshold)
+        {
+            return m_movieAppDbContext.Directors.Where(d => d.Age > threshold);
+        }
+
+        private IEnumerable<Director> findByAgeLessCallback(double threshold)
+        {
+            return m_movieAppDbContext.Directors.Where(d => d.Age < threshold);
+        }
+
+        public Director saveCallback(Director director)
+        {
+            m_movieAppDbContext.Directors.Add(director);
+
+            m_movieAppDbContext.SaveChanges();
+
+            return director;
+        }
+
+        #endregion
+
+        public DirectorRepository(MovieAppDbContext movieAppDbContext)
+        {
+            m_movieAppDbContext = movieAppDbContext;
+        }
+
+        #region Task implementions
+        public Task<IEnumerable<Director>> FindByAgeGreaterAsync(double threshold)
+        {
+            return Create(() => findByAgeGreaterCallback(threshold));
+        }
+
+        public Task<IEnumerable<Director>> FindByAgeLessAsync(double threshold)
+        {
+            return Create(() => findByAgeLessCallback(threshold));
+        }
+
+        public Task<Director> SaveAsync(Director director)
+        {
+            return Create(() => saveCallback(director));
+        }
+
+        #endregion
+
+        ///////////////////////////////////////////////////////////////////////////////////
         public long Count()
         {
             throw new System.NotImplementedException();
@@ -85,17 +134,7 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
         public Task<IEnumerable<Director>> FindAllAsync()
         {
             throw new System.NotImplementedException();
-        }
-
-        public IEnumerable<Director> FindByAgeGreater(double threshold)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public IEnumerable<Director> FindByAgeLess(double threshold)
-        {
-            throw new System.NotImplementedException();
-        }
+        }        
 
         public Director FindById(int id)
         {
@@ -120,11 +159,6 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
         public Task<IEnumerable<Director>> SaveAllAsync(IEnumerable<Director> entities)
         {
             throw new System.NotImplementedException();
-        }
-
-        public Task<Director> SaveAsync(Director entity)
-        {
-            throw new System.NotImplementedException();
-        }
+        }       
     }
 }

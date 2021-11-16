@@ -9,6 +9,6 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
     {
         Task<IEnumerable<Movie>> FindByYearAsync(int year);
         Task<IEnumerable<Movie>> FindByYearAndMonthAsync(int year, int month);
-        Task<Movie> FindByDirectorIdAsync(int id);
+        Task<IEnumerable<Movie>> FindByDirectorIdAsync(int id);
     }
 }
