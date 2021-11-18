@@ -11,6 +11,11 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
         private readonly MovieAppDbContext m_movieAppDbContext;
 
         #region Callbacks
+        private IEnumerable<Director> findAllCallback()
+        {
+            return m_movieAppDbContext.Directors;
+        }
+
         private IEnumerable<Director> findByAgeGreaterCallback(double threshold)
         {
             return m_movieAppDbContext.Directors.Where(d => d.Age > threshold);
@@ -20,6 +25,7 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
         {
             return m_movieAppDbContext.Directors.Where(d => d.Age < threshold);
         }
+
 
         public Director saveCallback(Director director)
         {
@@ -38,6 +44,12 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
         }
 
         #region Task implementions
+
+        public Task<IEnumerable<Director>> FindAllAsync()
+        {
+            return Create(findAllCallback);
+        }
+
         public Task<IEnumerable<Director>> FindByAgeGreaterAsync(double threshold)
         {
             return Create(() => findByAgeGreaterCallback(threshold));
@@ -56,6 +68,7 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
         #endregion
 
         ///////////////////////////////////////////////////////////////////////////////////
+        
         public long Count()
         {
             throw new System.NotImplementedException();
@@ -131,10 +144,7 @@ namespace CSD.MovieRestServiceApplication.Data.Repositories
             throw new System.NotImplementedException();
         }
 
-        public Task<IEnumerable<Director>> FindAllAsync()
-        {
-            throw new System.NotImplementedException();
-        }        
+        
 
         public Director FindById(int id)
         {

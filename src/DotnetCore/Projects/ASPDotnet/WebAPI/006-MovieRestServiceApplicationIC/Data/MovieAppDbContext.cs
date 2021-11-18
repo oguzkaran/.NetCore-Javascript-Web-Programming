@@ -25,7 +25,7 @@ namespace CSD.MovieRestServiceApplication.Data
             if (optionsBuilder.IsConfigured)
                 return;
             
-            optionsBuilder.UseSqlServer("Server = aws-mssql.cct1ehgoywdp.us-east-2.rds.amazonaws.com; Database = DCJSWPA21_MovieAppDb; User Id = admin; Password = csystem1993;");            
+            optionsBuilder.UseSqlServer("Server = aws-mssql.cct1ehgoywdp.us-east-2.rds.amazonaws.com; Database = DCJSWPA21_MovieAppDb; User Id = admin; Password = csystem1993;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

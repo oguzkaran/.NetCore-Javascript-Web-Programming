@@ -32,8 +32,7 @@ namespace MovieRestServiceApplication
                 .AddSingleton<IDirectorRepository, DirectorRepository>()  
                 .AddSingleton<MoviesDataHelper>()
                 .AddSingleton<IMapper, Mapper>()
-                .AddSingleton<MoviesService>()
-                ;
+                .AddSingleton<MoviesService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

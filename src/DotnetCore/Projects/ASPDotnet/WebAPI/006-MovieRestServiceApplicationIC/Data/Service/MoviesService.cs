@@ -48,6 +48,13 @@ namespace CSD.MovieRestServiceApplication.Data.Service
         #endregion
 
         #region Director callbacks    
+        private async Task<IEnumerable<DirectorWithIdViewModel>> findAllDirectorsCallbackAsync()
+        {
+            var directors = await m_moviesDataHelper.FindAllDirectors();
+
+            return directors.Select(d => m_mapper.Map<DirectorWithIdViewModel, Director>(d));
+        }
+
         private async Task<IEnumerable<DirectorViewModel>> findDirectorByAgeGreaterCallbackAsync(double threshold)
         {
             var directors = await m_moviesDataHelper.FindDirectorByAgeGreaterAsync(threshold);
@@ -101,6 +108,11 @@ namespace CSD.MovieRestServiceApplication.Data.Service
         #endregion
 
         #region Director
+        public Task<IEnumerable<DirectorWithIdViewModel>> FindAllDirectorsAsync()
+        {
+            return SubscribeServiceAsync(findAllDirectorsCallbackAsync, "MoviesService.FindAllDirectorsAsync");
+        }
+
         public Task<IEnumerable<DirectorViewModel>> FindDirectorByAgeGreaterAsync(double threshold)
         {
             return SubscribeServiceAsync(() => findDirectorByAgeGreaterCallbackAsync(threshold), "MoviesService.FindDirectorByAgeGreaterAsync");

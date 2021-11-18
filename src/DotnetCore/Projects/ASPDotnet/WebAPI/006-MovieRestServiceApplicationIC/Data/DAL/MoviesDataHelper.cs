@@ -17,7 +17,7 @@ namespace CSD.MovieRestServiceApplication.DAL
             m_directorRepository = directorRepository;
         }
 
-        #region Movie
+        #region Movie        
         public Task<IEnumerable<Movie>> FindMoviesByYearAsync(int year)
         {
             return SubscribeRepositoryAsync(() => m_movieRepository.FindByYearAsync(year), "MoviesDataHelper.FindMoviesByYearAsync");
@@ -41,6 +41,11 @@ namespace CSD.MovieRestServiceApplication.DAL
         #endregion
 
         #region Director
+        public Task<IEnumerable<Director>> FindAllDirectors()
+        {
+            return SubscribeRepositoryAsync(m_directorRepository.FindAllAsync, "MoviesDataHelper.FindAllDirectors");
+        }
+
         public Task<IEnumerable<Director>> FindDirectorByAgeGreaterAsync(double threshold)
         {
             return SubscribeRepositoryAsync(() => m_directorRepository.FindByAgeGreaterAsync(threshold), "MoviesDataHelper.FindDirectorByAgeGreaterAsync");

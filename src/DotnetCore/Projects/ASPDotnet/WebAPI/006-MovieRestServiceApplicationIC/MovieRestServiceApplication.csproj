@@ -23,10 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="CSD.Data">
       <HintPath>..\..\..\..\Libraries\DataUtilLib\bin\Release\net5.0\CSD.Data.dll</HintPath>
     </Reference>
