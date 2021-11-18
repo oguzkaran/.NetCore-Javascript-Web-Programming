@@ -1,5 +1,9 @@
+using CSD.MovieRestServiceApplication.DAL;
 using CSD.MovieRestServiceApplication.Data;
 using CSD.MovieRestServiceApplication.Data.Repositories;
+using CSD.MovieRestServiceApplication.Data.Service;
+using CSD.Util.Mappers;
+using CSD.Util.Mappers.Mapster;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -25,7 +29,10 @@ namespace MovieRestServiceApplication
             services
                 .AddSingleton<MovieAppDbContext>()
                 .AddSingleton<IMovieRepository, MovieRepository>()
-                .AddSingleton<IDirectorRepository, DirectorRepository>()                
+                .AddSingleton<IDirectorRepository, DirectorRepository>()  
+                .AddSingleton<MoviesDataHelper>()
+                .AddSingleton<IMapper, Mapper>()
+                .AddSingleton<MoviesService>()
                 ;
         }
 

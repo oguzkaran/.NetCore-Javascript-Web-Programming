@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "RnWWFYrSK7rEWi2loj6BT54Yx+tSb6vW3G5RN+2czXo8JDlCnu9hNVWAQUQ5sQGgfckdNJyCWTsm0NsljeeIkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\Siemens-DotnetAppII-III-Sep-2020\\src\\DotnetCoreLibraries\\Libraries\\HttpClientExtensionLib\\HttpClientExtensionLib\\HttpClientExtensionLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Karans\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.4\\microsoft.extensions.configuration.3.1.4.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.4\\microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.4\\microsoft.extensions.configuration.binder.3.1.4.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.4\\microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.4\\microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\microsoft.extensions.http\\3.1.4\\microsoft.extensions.http.3.1.4.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\microsoft.extensions.logging\\3.1.4\\microsoft.extensions.logging.3.1.4.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\microsoft.extensions.options\\3.1.4\\microsoft.extensions.options.3.1.4.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
