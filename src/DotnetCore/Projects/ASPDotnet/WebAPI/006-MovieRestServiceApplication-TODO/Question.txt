@@ -1,0 +1,37 @@
+Soru: Aşağıda açıklanan uygulamayı katmanlı mimari ile yazınız.
+Açıklamalar:
+    - Şu ana kadar gördüklerimizle yapmaya çalışınız
+    - Internetten herhangi bir araştırma yapmayınız    
+Uygulamaya Yönelik Açıklamalar:
+    - Uygulama bir film veritabanına yönelik REST servis olacaktır.
+    - Sinema filmlerine yönelik aşağıdaki tablolar bulunacaktır
+        Movie:
+            - Id
+            - Name
+            - SceneDate
+            - Rating
+            - Imdb
+            - Cost
+        Director:
+            - Id
+            - Name
+            - BirthDate
+        MovieToDirector
+            - Id
+            - DirectorId
+            - MovieId
+    - Uygulama aşağıdaki servislerden oluşacaktır
+        + Movie save: ~/api/Movie/save
+        + Find Movies By year and month: ~/api/Movie/find/yearmonth?y=2021&m=3
+        + Find Movies By year: ~/api/Movie/find/year?y=2021
+        + Find Movies by Director Id: ~/api/Movie/find/director?id=1
+
+        + Director save: ~/api/Director/save
+        + All directors: ~/api/Director/all
+        + Find Directors By Age Greater: ~/api/Director/find/age/greater?t=34
+        + Find Directors By Age Less: ~/api/Director/find/age/less?t=34
+
+        - MovieToDirector Save ~/api/Movie/director/save
+
+
+
