@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\WikiSearchAppEntitiesLib.csproj" />
+    <ProjectReference Include="..\WikiSearchAppDALLib\WikiSearchAppDALLib.csproj" />
+    <ProjectReference Include="..\WikiSearchAppRepositoryLib\WikiSearchAppRepositoryLib.csproj" />
+  </ItemGroup>
+
+</Project>
