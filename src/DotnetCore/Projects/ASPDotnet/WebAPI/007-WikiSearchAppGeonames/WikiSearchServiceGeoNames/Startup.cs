@@ -1,3 +1,4 @@
+using CSD.WikiSearchApp.Geonames;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +33,11 @@ namespace WikiSearchServiceGeoNames
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WikiSearchServiceGeoNames", Version = "v1" });
             });
+
+            //For DI
+
+            services.AddHttpClient();
+            services.AddSingleton<WikiSearch>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -10,6 +10,19 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "CSD.WikiSearchAppGeonamesLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/CSD.WikiSearchAppGeonamesLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSD.WikiSearchAppGeonamesLib.dll": {}
+        }
       }
     }
   },
@@ -40,10 +53,16 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "CSD.WikiSearchAppGeonamesLib/1.0.0": {
+      "type": "project",
+      "path": "../WikiSearchAppGeonamesLib/WikiSearchAppGeonamesLib.csproj",
+      "msbuildProject": "../WikiSearchAppGeonamesLib/WikiSearchAppGeonamesLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CSD.WikiSearchAppGeonamesLib >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1"
     ]
   },
@@ -56,11 +75,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppGeonamesLib\\WikiSearchAppGeonamesLib.csproj",
-      "projectName": "CSD.WikiSearchAppGeonamesLib",
-      "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppGeonamesLib\\WikiSearchAppGeonamesLib.csproj",
+      "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchGeoManualTest\\WikiSearchGeoManualTest.csproj",
+      "projectName": "WikiSearchGeoManualTest",
+      "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchGeoManualTest\\WikiSearchGeoManualTest.csproj",
       "packagesPath": "C:\\Users\\Karans\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppGeonamesLib\\obj\\",
+      "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchGeoManualTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -83,7 +102,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppGeonamesLib\\WikiSearchAppGeonamesLib.csproj": {
+              "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppGeonamesLib\\WikiSearchAppGeonamesLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

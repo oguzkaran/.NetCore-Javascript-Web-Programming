@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppGeonamesLib\\WikiSearchAppGeonamesLib.csproj",
-        "projectName": "WikiSearchAppGeonamesLib",
+        "projectName": "CSD.WikiSearchAppGeonamesLib",
         "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppGeonamesLib\\WikiSearchAppGeonamesLib.csproj",
         "packagesPath": "C:\\Users\\Karans\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppGeonamesLib\\obj\\",
@@ -46,6 +46,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
