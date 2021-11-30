@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WikiSearchAppDALLib", "..\W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WikiSearchAppGeonamesLib", "..\WikiSearchAppGeonamesLib\WikiSearchAppGeonamesLib.csproj", "{4EDF24CB-15DB-4220-9C7B-6AE158721507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiSearchGeoManualTest", "..\WikiSearchGeoManualTest\WikiSearchGeoManualTest.csproj", "{A297C067-0AC0-43A3-9E46-AD9B3325E96D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WikiSearchGeoManualTest", "..\WikiSearchGeoManualTest\WikiSearchGeoManualTest.csproj", "{A297C067-0AC0-43A3-9E46-AD9B3325E96D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiSearchGeoNUnitTest", "..\WikiSearchGeoNUnitTest\WikiSearchGeoNUnitTest.csproj", "{A4E6E775-F1DF-4813-9401-DEF986669672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{A297C067-0AC0-43A3-9E46-AD9B3325E96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A297C067-0AC0-43A3-9E46-AD9B3325E96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A297C067-0AC0-43A3-9E46-AD9B3325E96D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E6E775-F1DF-4813-9401-DEF986669672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E6E775-F1DF-4813-9401-DEF986669672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E6E775-F1DF-4813-9401-DEF986669672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E6E775-F1DF-4813-9401-DEF986669672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

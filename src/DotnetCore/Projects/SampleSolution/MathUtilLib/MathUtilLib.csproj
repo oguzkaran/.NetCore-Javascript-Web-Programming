@@ -5,5 +5,6 @@
     <AssemblyName>CSD.Util.Math</AssemblyName>
     <RootNamespace>CSD.Util.Mathematics</RootNamespace>
   </PropertyGroup>
-
+  
+  
 </Project>

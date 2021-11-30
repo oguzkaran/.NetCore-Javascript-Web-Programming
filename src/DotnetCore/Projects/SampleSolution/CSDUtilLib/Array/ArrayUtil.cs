@@ -15,7 +15,6 @@ namespace CSD.Util.Array
             return a;
         }
 
-
         public static int[] GetRandomArray(Random r, int n, int min, int max)
         {
             return Range(0, n).Select(i => r.Next(min, max + 1)).ToArray();
@@ -23,7 +22,7 @@ namespace CSD.Util.Array
 
         public static double[] GetRandomArray(Random r, int n, double min, double max)
         {
-            return Range(0, n).Select(i => r.NextDouble() * (max - min) + min).ToArray();            
+            return Range(0, n).Select(i => r.NextDouble() * (max - min) + min).ToArray();
         }
 
 

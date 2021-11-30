@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "OELzU8UrJNNBdKfYPfhuOLZspL1zplfibbqNKTxVZFWjBYoG8dS343FEJsMUl2doaf4Mt/URdkD+t/0uKY6DEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\SampleSolution\\NumberUtilUnitTest\\NumberUtilUnitTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\Karans\\.nuget\\packages\\nunit3testadapter\\4.1.0\\nunit3testadapter.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

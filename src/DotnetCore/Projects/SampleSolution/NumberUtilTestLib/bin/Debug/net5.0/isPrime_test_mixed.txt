@@ -1,0 +1,6 @@
+﻿4935060337471977161 true
+100003	true
+2	true
+1	false
+100002	false
+19	true

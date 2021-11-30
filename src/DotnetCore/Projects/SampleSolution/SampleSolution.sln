@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSDUtilLib", "CSDUtilLib\CS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneralTestDLL", "GeneralTestDLL\GeneralTestDLL.csproj", "{0BD8EBB0-8D21-41BB-8875-3390473767A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathUtilLib", "MathUtilLib\MathUtilLib.csproj", "{A64E55BD-1C41-4146-ADDD-A9B8A11DBED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathUtilLib", "MathUtilLib\MathUtilLib.csproj", "{A64E55BD-1C41-4146-ADDD-A9B8A11DBED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberUtilTestLib", "NumberUtilTestLib\NumberUtilTestLib.csproj", "{7E19B998-0B23-4C39-BC7C-14C232F7A8FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A64E55BD-1C41-4146-ADDD-A9B8A11DBED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A64E55BD-1C41-4146-ADDD-A9B8A11DBED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A64E55BD-1C41-4146-ADDD-A9B8A11DBED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E19B998-0B23-4C39-BC7C-14C232F7A8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E19B998-0B23-4C39-BC7C-14C232F7A8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E19B998-0B23-4C39-BC7C-14C232F7A8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E19B998-0B23-4C39-BC7C-14C232F7A8FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

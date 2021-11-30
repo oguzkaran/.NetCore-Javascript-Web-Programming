@@ -8,13 +8,12 @@ namespace WikiSearchGeoManualTest
 {
     class Program
     {
-        static async Task Main(string[] args)
+        public static async Task Main(string[] args)
         {
             try
             {
                 var httpClient = new HttpClient();
                 var search = new WikiSearch(httpClient);
-
                 var data = await search.FindGeonames("ankara", 20);
 
                 data.ToList().ForEach(d => Console.WriteLine($"{d.GeoNameId}"));
