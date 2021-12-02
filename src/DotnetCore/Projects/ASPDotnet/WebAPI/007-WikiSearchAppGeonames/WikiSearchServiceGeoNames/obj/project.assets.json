@@ -1554,10 +1554,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "CSD.WikiSearchAppEntitiesLib": "1.0.0",
-          "Mapster": "7.2.0",
           "Microsoft.EntityFrameworkCore": "5.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
-          "System.Data.SqlClient": "4.8.3"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11"
         },
         "compile": {
           "bin/placeholder/CSD.WikiSearchAppRepositoryLib.dll": {}
@@ -1586,6 +1584,10 @@
         "dependencies": {
           "CSD.WikiSearchAppEntitiesLib": "1.0.0",
           "CSD.WikiSearchAppRepositoryLib": "1.0.0",
+          "Mapster": "7.2.0",
+          "Microsoft.EntityFrameworkCore": "5.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
+          "System.Data.SqlClient": "4.8.3",
           "WikiSearchAppDALLib": "1.0.0"
         },
         "compile": {
