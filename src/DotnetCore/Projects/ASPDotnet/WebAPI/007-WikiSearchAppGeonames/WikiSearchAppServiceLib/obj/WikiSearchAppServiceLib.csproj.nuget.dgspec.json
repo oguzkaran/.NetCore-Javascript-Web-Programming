@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\Entities\\WikiSearchAppEntitiesLib.csproj",
-        "projectName": "WikiSearchAppEntitiesLib",
+        "projectName": "CSD.WikiSearchAppEntitiesLib",
         "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\Entities\\WikiSearchAppEntitiesLib.csproj",
         "packagesPath": "C:\\Users\\Karans\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\Entities\\obj\\",
@@ -137,7 +137,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppRepositoryLib\\WikiSearchAppRepositoryLib.csproj",
-        "projectName": "WikiSearchAppRepositoryLib",
+        "projectName": "CSD.WikiSearchAppRepositoryLib",
         "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppRepositoryLib\\WikiSearchAppRepositoryLib.csproj",
         "packagesPath": "C:\\Users\\Karans\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppRepositoryLib\\obj\\",
@@ -179,6 +179,36 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

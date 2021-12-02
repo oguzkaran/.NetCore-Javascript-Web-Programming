@@ -6022,11 +6022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\006-MovieRestServiceApplicationIC\\MovieRestServiceApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\006-MovieRestServiceApplication-TODO\\MovieRestServiceApplication.csproj",
       "projectName": "CSD.MovieRestServiceApplication",
-      "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\006-MovieRestServiceApplicationIC\\MovieRestServiceApplication.csproj",
+      "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\006-MovieRestServiceApplication-TODO\\MovieRestServiceApplication.csproj",
       "packagesPath": "C:\\Users\\Karans\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\006-MovieRestServiceApplicationIC\\obj\\",
+      "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\006-MovieRestServiceApplication-TODO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
