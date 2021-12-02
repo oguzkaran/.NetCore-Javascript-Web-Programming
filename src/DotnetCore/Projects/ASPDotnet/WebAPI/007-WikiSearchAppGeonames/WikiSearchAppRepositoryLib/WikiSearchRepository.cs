@@ -1,9 +1,7 @@
 ﻿using CSD.WikiSearchApp.Data.Repositories.Contexts;
 using CSD.WikiSearchApp.Data.Repositories.Entities;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using static CSD.Util.TPL.TaskUtil;
 
@@ -31,12 +29,12 @@ namespace CSD.WikiSearchApp.Data.Repositories
             m_wikiSearchAppDbContext = wikiSearchAppDbContext;
         }
 
-        public Task<IEnumerable<WikiSearch>> FindByQ(string q)
+        public Task<IEnumerable<WikiSearch>> FindByQAsync(string q)
         {
             return Create(() => findByQCallback(q));            
         }
 
-        public Task<WikiSearch> Save(WikiSearch wikiSearch)
+        public Task<WikiSearch> SaveAsync(WikiSearch wikiSearch)
         {
             return Create(() => savecallback(wikiSearch));
         }

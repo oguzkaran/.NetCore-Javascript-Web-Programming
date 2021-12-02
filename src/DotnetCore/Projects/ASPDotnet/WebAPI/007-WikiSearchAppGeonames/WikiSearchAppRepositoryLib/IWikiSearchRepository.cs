@@ -6,7 +6,7 @@ namespace CSD.WikiSearchApp.Data.Repositories
 {
     public interface IWikiSearchRepository
     {
-        Task<WikiSearch> Save(WikiSearch wikiSearch);
-        Task<IEnumerable<WikiSearch>> FindByQ(string q);
+        Task<WikiSearch> SaveAsync(WikiSearch wikiSearch);
+        Task<IEnumerable<WikiSearch>> FindByQAsync(string q);
     }
 }

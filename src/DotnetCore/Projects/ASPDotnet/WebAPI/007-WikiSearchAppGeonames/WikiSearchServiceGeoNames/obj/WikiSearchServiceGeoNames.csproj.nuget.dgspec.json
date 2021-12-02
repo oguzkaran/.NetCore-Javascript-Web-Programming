@@ -69,7 +69,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppDALLib\\WikiSearchAppDALLib.csproj",
-        "projectName": "WikiSearchAppDALLib",
+        "projectName": "CSD.WikiSearchAppDALLib",
         "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppDALLib\\WikiSearchAppDALLib.csproj",
         "packagesPath": "C:\\Users\\Karans\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppDALLib\\obj\\",
@@ -114,6 +114,28 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -291,7 +313,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppServiceLib\\WikiSearchAppServiceLib.csproj",
-        "projectName": "WikiSearchAppServiceLib",
+        "projectName": "CSD.WikiSearchAppServiceLib",
         "projectPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppServiceLib\\WikiSearchAppServiceLib.csproj",
         "packagesPath": "C:\\Users\\Karans\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchAppServiceLib\\obj\\",
@@ -363,10 +385,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.11, )"
-            },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.3, )"
             }
           },
           "imports": [
