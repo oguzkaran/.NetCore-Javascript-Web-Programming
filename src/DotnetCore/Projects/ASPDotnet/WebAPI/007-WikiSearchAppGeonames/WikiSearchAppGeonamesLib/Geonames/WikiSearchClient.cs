@@ -7,11 +7,11 @@ using static System.String;
 
 namespace CSD.WikiSearchApp.Geonames
 {
-    public class WikiSearch
+    public class WikiSearchClient
     {
         private readonly HttpClient m_httpClient;
 
-        public WikiSearch(HttpClient httpClient)
+        public WikiSearchClient(HttpClient httpClient)
         {
             m_httpClient = httpClient;
         }

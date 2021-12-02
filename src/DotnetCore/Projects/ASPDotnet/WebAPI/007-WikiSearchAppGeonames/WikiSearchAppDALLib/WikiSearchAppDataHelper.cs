@@ -19,7 +19,7 @@ namespace CSD.WikiSearchApp.Data.DAL
             m_wikiSearchRepository = wikiSearchRepository;
         }
 
-        public Task<IEnumerable<WikiSearch>> FindWikiSearchByQAsync(string q)
+        public Task<WikiSearch> FindWikiSearchByQAsync(string q)
         {
             return SubscribeRepositoryAsync(() => m_wikiSearchRepository.FindByQAsync(q), "WikiSearchAppDataHelper.FindWikiSearchByQ");
         }

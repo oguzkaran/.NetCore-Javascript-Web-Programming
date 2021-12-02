@@ -11,9 +11,9 @@ namespace CSD.WikiSearchApp.Data.Repositories
     {
         private readonly WikiSearchAppDbContext m_wikiSearchAppDbContext;
 
-        private IEnumerable<WikiSearch> findByQCallback(string q)
+        private WikiSearch findByQCallback(string q)
         {
-            return m_wikiSearchAppDbContext.WikiSearches.Where(ws => ws.Q == q);
+            return m_wikiSearchAppDbContext.WikiSearches.Where(ws => ws.Q == q).FirstOrDefault();
         }
 
         private WikiSearch savecallback(WikiSearch wikiSearch)
@@ -29,7 +29,7 @@ namespace CSD.WikiSearchApp.Data.Repositories
             m_wikiSearchAppDbContext = wikiSearchAppDbContext;
         }
 
-        public Task<IEnumerable<WikiSearch>> FindByQAsync(string q)
+        public Task<WikiSearch> FindByQAsync(string q)
         {
             return Create(() => findByQCallback(q));            
         }

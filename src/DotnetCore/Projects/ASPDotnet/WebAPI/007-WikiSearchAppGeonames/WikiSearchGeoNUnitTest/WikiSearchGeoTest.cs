@@ -13,12 +13,12 @@ namespace WikiSearchGeoNUnitTest
     [Author("Muhammed Oğur")]
     class WikiSearchGeoTest
     {
-        private WikiSearch m_wikiSearch;
+        private WikiSearchClient m_wikiSearch;
 
         [SetUp]
         public void SetUp()
         {
-            m_wikiSearch = new WikiSearch(new HttpClient());
+            m_wikiSearch = new WikiSearchClient(new HttpClient());
         }
 
         [Test]

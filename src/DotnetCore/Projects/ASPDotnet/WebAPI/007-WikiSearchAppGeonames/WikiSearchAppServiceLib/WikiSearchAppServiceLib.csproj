@@ -21,6 +21,8 @@
     <ProjectReference Include="..\Entities\WikiSearchAppEntitiesLib.csproj" />
 
     <ProjectReference Include="..\WikiSearchAppDALLib\WikiSearchAppDALLib.csproj" />
+
+    <ProjectReference Include="..\WikiSearchAppGeonamesLib\WikiSearchAppGeonamesLib.csproj" />
     <ProjectReference Include="..\WikiSearchAppRepositoryLib\WikiSearchAppRepositoryLib.csproj" />    
 
     <PackageReference Include="Mapster" Version="7.2.0" />

@@ -37,7 +37,7 @@ namespace WikiSearchServiceGeoNames
             //For DI
 
             services.AddHttpClient();
-            services.AddSingleton<WikiSearch>();
+            services.AddSingleton<WikiSearchClient>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

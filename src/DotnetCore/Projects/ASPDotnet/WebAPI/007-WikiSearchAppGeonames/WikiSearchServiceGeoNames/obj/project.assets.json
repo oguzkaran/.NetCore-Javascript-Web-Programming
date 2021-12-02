@@ -1527,6 +1527,7 @@
         "dependencies": {
           "CSD.WikiSearchAppDALLib": "1.0.0",
           "CSD.WikiSearchAppEntitiesLib": "1.0.0",
+          "CSD.WikiSearchAppGeonamesLib": "1.0.0",
           "CSD.WikiSearchAppRepositoryLib": "1.0.0",
           "Mapster": "7.2.0",
           "Microsoft.EntityFrameworkCore": "5.0.11",
