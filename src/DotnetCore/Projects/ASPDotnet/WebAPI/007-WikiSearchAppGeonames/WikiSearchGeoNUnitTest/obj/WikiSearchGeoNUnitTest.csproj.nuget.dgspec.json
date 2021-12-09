@@ -118,6 +118,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"

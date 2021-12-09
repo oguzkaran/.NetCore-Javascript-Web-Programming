@@ -22,12 +22,10 @@ namespace CSD.WikiSearchApp.Data.Services
         private readonly WikiSearchClient m_wikiSearchClient;
 
         private async Task<WikiSearchDTO> findWikiSearchByQCallbackAsync(string q)
-        {
-            var wikiSearch = await m_wikiSearchAppDataHelper.FindWikiSearchByQAsync(q);
-
+        {            
             WikiSearchDTO wikiSearchDTO;
 
-            if (wikiSearch == null)
+            if (!await m_wikiSearchAppDataHelper.ExistsByIdAsync(q))
             {
                 var wikiGeos = await m_wikiSearchClient.FindGeonames(q);
 
@@ -35,14 +33,17 @@ namespace CSD.WikiSearchApp.Data.Services
                     return new WikiSearchDTO();
 
                 wikiSearchDTO = wikiGeos.Select(g => m_mapper.Map<WikiSearchDTO, WikiGeoname>(g)).FirstOrDefault();
-                wikiSearch = new WikiSearch() { Q = q, SearchTime = DateTime.Now };
+                var wikiSearch = new WikiSearch() { Q = q, SearchTime = DateTime.Now };
 
                 wikiSearch.Geonames = wikiGeos.Select(g => m_mapper.Map<RepoGeoname, WikiGeoname>(g)).ToList();
 
                 await m_wikiSearchAppDataHelper.SaveWikiSearchAsync(wikiSearch);
             }
             else
+            {
+                var wikiSearch = await m_wikiSearchAppDataHelper.FindWikiSearchByQAsync(q);
                 wikiSearchDTO = wikiSearch.Geonames.Select(g => m_mapper.Map<WikiSearchDTO, RepoGeoname>(g)).FirstOrDefault();
+            }
 
             return wikiSearchDTO;
         }

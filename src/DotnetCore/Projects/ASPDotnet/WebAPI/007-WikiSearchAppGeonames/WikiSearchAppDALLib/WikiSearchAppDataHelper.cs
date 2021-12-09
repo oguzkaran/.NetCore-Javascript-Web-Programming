@@ -1,12 +1,7 @@
 ﻿using CSD.WikiSearchApp.Data.Repositories;
-
-using static CSD.Data.DatabaseUtil;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CSD.WikiSearchApp.Data.Repositories.Entities;
+using System.Threading.Tasks;
+using static CSD.Data.DatabaseUtil;
 
 namespace CSD.WikiSearchApp.Data.DAL
 {
@@ -28,5 +23,12 @@ namespace CSD.WikiSearchApp.Data.DAL
         { 
             return SubscribeRepositoryAsync(() => m_wikiSearchRepository.SaveAsync(wikiSearch), "WikiSearchAppDataHelper.SaveWikiSearchAsync");
         }
+
+        public Task<bool> ExistsByIdAsync(string q)
+        {
+            return SubscribeRepositoryAsync(() => m_wikiSearchRepository.ExistsByQAsync(q), "WikiSearchAppDataHelper.ExistsByIdAsync");
+        }
+
+        //...
     }
 }

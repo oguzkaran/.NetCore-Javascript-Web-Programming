@@ -24,7 +24,8 @@ namespace CSD.WikiSearchApp.Data.Repositories.Contexts
             if (optionsBuilder.IsConfigured)
                 return;
 
-            optionsBuilder.UseSqlServer("Server = aws-mssql.cct1ehgoywdp.us-east-2.rds.amazonaws.com; Database = DCJSWPA21_WikiSearchAppDb; User Id = admin; Password = csystem1993;");            
+            //optionsBuilder.UseSqlServer("Server = aws-mssql.cct1ehgoywdp.us-east-2.rds.amazonaws.com; Database = DCJSWPA21_WikiSearchAppDb; User Id = admin; Password = csystem1993;");
+            optionsBuilder.UseSqlServer("Server=.;Database=DCJSWPA21_WikiSearchAppDb;Trusted_Connection=True;");            
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -60,7 +61,7 @@ namespace CSD.WikiSearchApp.Data.Repositories.Contexts
                 entity.HasOne(d => d.WikiSearch)
                     .WithMany(p => p.Geonames)
                     .HasForeignKey(d => d.WikiSearchId)
-                    .HasConstraintName("FK__Geoname__WikiSea__3A81B327");
+                    .HasConstraintName("FK__Geoname__WikiSea__3A81B327");                
             });
 
             modelBuilder.Entity<WikiSearch>(entity =>

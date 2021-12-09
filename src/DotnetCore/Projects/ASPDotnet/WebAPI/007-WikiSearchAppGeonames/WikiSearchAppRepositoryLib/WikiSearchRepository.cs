@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using static CSD.Util.TPL.TaskUtil;
+using Microsoft.EntityFrameworkCore;
 
 namespace CSD.WikiSearchApp.Data.Repositories
 {
@@ -11,9 +12,17 @@ namespace CSD.WikiSearchApp.Data.Repositories
     {
         private readonly WikiSearchAppDbContext m_wikiSearchAppDbContext;
 
-        private WikiSearch findByQCallback(string q)
+        private bool existsByQ(string q)
         {
-            return m_wikiSearchAppDbContext.WikiSearches.Where(ws => ws.Q == q).FirstOrDefault();
+            return m_wikiSearchAppDbContext.WikiSearches.Any(w => w.Q == q);               
+        }
+
+        private WikiSearch findByQCallback(string q)
+        {            
+            return m_wikiSearchAppDbContext.WikiSearches 
+                .Include(w => w.Geonames)
+                .Where(ws => ws.Q == q)
+                .FirstOrDefault();
         }
 
         private WikiSearch savecallback(WikiSearch wikiSearch)
@@ -37,6 +46,11 @@ namespace CSD.WikiSearchApp.Data.Repositories
         public Task<WikiSearch> SaveAsync(WikiSearch wikiSearch)
         {
             return Create(() => savecallback(wikiSearch));
+        }
+
+        public Task<bool> ExistsByQAsync(string q)
+        {
+            return Create(() => existsByQ(q));
         }
     }
 }

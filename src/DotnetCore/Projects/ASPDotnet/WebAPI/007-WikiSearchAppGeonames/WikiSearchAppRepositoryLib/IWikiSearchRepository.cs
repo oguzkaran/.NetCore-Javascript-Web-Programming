@@ -8,5 +8,6 @@ namespace CSD.WikiSearchApp.Data.Repositories
     {
         Task<WikiSearch> SaveAsync(WikiSearch wikiSearch);
         Task<WikiSearch> FindByQAsync(string q);
+        Task<bool> ExistsByQAsync(string q);
     }
 }
