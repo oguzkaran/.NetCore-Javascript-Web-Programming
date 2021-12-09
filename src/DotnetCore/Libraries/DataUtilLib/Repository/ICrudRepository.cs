@@ -1,31 +1,54 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace CSD.Util.Data.Repository
 {
-    public interface ICrudRepository<T, ID> where T: class
+    public interface ICrudRepository<T, ID>
     {
+        #region CRUD Operations
+        IEnumerable<T> All { get; }
+
         long Count();
-        void Delete(T entity);
-        void DeleteAll();
-        void DeleteAll(IEnumerable<T> entities);
-        void DeleteAllById(IEnumerable<ID> ids);
+
+        void Delete(T t);
+
         void DeleteById(ID id);
+
         bool ExistsById(ID id);
-        IEnumerable<T> FindAll();
+
+        IEnumerable<T> FindByFilter(Expression<Func<T, bool>> predicate);
+
         T FindById(ID id);
-        T Save(T entity);
-        IEnumerable<T> SaveAll(IEnumerable<T> entities);
+
+        IEnumerable<T> FindByIds(IEnumerable<ID> ids);
+
+        T Save(T t);
+
+        IEnumerable<T> Save(IEnumerable<T> entities);
+        #endregion
+
+        #region Async CRUD Operations
         Task<long> CountAsync();
-        Task DeleteAsync(T entity);
-        Task DeleteAllAsync();
-        Task DeleteAllAsync(IEnumerable<T> entities);
-        Task DeleteAllByIdAsync(IEnumerable<ID> ids);
-        Task DeleteByIdAsync(ID id);
+
+        Task<IEnumerable<T>> FindAllAsync();        
+
+        void DeleteAsync(T t);
+
+        void DeleteByIdAsync(ID id);
+
         Task<bool> ExistsByIdAsync(ID id);
-        Task<IEnumerable<T>> FindAllAsync();
+
+        Task<IEnumerable<T>> FindByFilterAsync(Expression<Func<T, bool>> predicate);
+
         Task<T> FindByIdAsync(ID id);
-        Task<T> SaveAsync(T entity);
-        Task<IEnumerable<T>> SaveAllAsync(IEnumerable<T> entities);
+
+        Task<IEnumerable<T>> FindByIdsAsync(IEnumerable<ID> ids);
+
+        Task<T> SaveAsync(T t);
+
+        Task<IEnumerable<T>> SaveAsync(IEnumerable<T> entities);
+        #endregion
     }
 }
