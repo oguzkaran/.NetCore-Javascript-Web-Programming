@@ -26,6 +26,10 @@
     <Reference Include="CSD.Data">
       <HintPath>..\..\..\..\..\Libraries\DataUtilLib\bin\Release\net5.0\CSD.Data.dll</HintPath>
     </Reference>
+    
+    <Reference Include="CSD.Util.TPL">
+      <HintPath>..\..\..\..\..\Libraries\TaskUtilLib\bin\Release\net5.0\CSD.Util.TPL.dll</HintPath>
+    </Reference>
 
   </ItemGroup>
 

@@ -1,3 +1,7 @@
+using CSD.WikiSearchApp.Data.DAL;
+using CSD.WikiSearchApp.Data.Repositories;
+using CSD.WikiSearchApp.Data.Repositories.Contexts;
+using CSD.WikiSearchApp.Data.Services;
 using CSD.WikiSearchApp.Geonames;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -12,6 +16,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CSD.Util.Mappers;
+using CSD.Util.Mappers.Mapster;
 
 namespace WikiSearchServiceGeoNames
 {
@@ -36,8 +42,16 @@ namespace WikiSearchServiceGeoNames
 
             //For DI
 
-            services.AddHttpClient();
-            services.AddSingleton<WikiSearchClient>();
+            services
+                //.AddHttpClient()
+                //.AddSingleton<WikiSearchClient>()
+                .AddSingleton<WikiSearchAppDbContext>()
+                .AddSingleton(typeof(IWikiSearchRepository), typeof(WikiSearchRepository))
+                .AddSingleton<IWikiSearchRepository, WikiSearchRepository>()
+                .AddSingleton<WikiSearchAppDataHelper>()
+                .AddSingleton<WikiSearchAppService>()
+                .AddSingleton<IMapper, Mapper>();
+                
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

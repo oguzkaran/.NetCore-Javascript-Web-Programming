@@ -18,7 +18,7 @@
     <ProjectReference Include="..\WikiSearchAppServiceLib\WikiSearchAppServiceLib.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
+  <ItemGroup>    
     <Reference Include="CSD.Util.Mappers">
       <HintPath>..\..\..\..\..\Libraries\MapperUtilLib\bin\Release\net5.0\CSD.Util.Mappers.dll</HintPath>
     </Reference>

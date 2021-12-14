@@ -2001,7 +2001,8 @@
           "CSD.WikiSearchAppRepositoryLib": "1.0.0",
           "Mapster": "7.2.0",
           "Microsoft.EntityFrameworkCore": "5.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/CSD.WikiSearchAppServiceLib.dll": {}

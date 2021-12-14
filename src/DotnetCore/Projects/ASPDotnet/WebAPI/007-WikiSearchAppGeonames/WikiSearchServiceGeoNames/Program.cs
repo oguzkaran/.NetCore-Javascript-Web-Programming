@@ -21,6 +21,8 @@ namespace WikiSearchServiceGeoNames
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    //webBuilder.UseUrls("http://161.97.141.113:50501");
+                    webBuilder.UseUrls("http://192.168.1.92:50501");
                 });
     }
 }

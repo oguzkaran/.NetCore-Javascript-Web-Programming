@@ -6,6 +6,8 @@ using CSD.WikiSearchApp.Geonames;
 using NUnit.Framework;
 using System.Threading.Tasks;
 
+using System.Linq;
+
 namespace WikiSearchGeoNUnitTest
 {
     [TestFixture]
@@ -19,18 +21,21 @@ namespace WikiSearchGeoNUnitTest
         public void SetUp()
         {
             var mapper = new CSD.Util.Mappers.Mapster.Mapper();
-            var httpClient = new WikiSearchClient(new());
-            m_wikiSearchAppDataHelper = new WikiSearchAppService(new WikiSearchAppDataHelper(new WikiSearchRepository(new WikiSearchAppDbContext())), mapper, httpClient);
+            //var httpClient = new WikiSearchClient(new());
+            //m_wikiSearchAppDataHelper = new WikiSearchAppService(new WikiSearchAppDataHelper(new WikiSearchRepository(new WikiSearchAppDbContext())), mapper, httpClient);
         }
 
-        [Test]
-        [TestCase("zonguldak")]
+        //[Test]
+        //[TestCase("zonguldak")]
+        //[TestCase("ankara")]
+        //[TestCase("istanbul")]
+        //[TestCase("izmir")]
+        //[TestCase("jjjjjjjjjjjjjjjjjjjj")]
         [TestCase("ankara")]
-        [TestCase("istanbul")]
-        [TestCase("izmir")]
+
         public async Task Test(string q)
         {
-            await m_wikiSearchAppDataHelper.FindWikiSearchByQAsync(q);
+            Assert.IsTrue((await m_wikiSearchAppDataHelper.FindWikiSearchByQAsync(q)).Count() == 0);
         }       
     }
 }

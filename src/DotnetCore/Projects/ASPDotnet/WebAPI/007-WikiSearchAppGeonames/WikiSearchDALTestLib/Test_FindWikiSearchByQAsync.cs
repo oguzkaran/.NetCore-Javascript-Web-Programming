@@ -16,7 +16,7 @@ namespace WikiSearchGeoNUnitTest
         [SetUp]
         public void SetUp()
         {            
-            m_wikiSearchAppDataHelper = new WikiSearchAppDataHelper(new WikiSearchRepository(new WikiSearchAppDbContext()));
+           m_wikiSearchAppDataHelper = new WikiSearchAppDataHelper(new WikiSearchRepository(new WikiSearchAppDbContext()));
         }
 
         [Test]
@@ -25,7 +25,7 @@ namespace WikiSearchGeoNUnitTest
         [TestCase("izmir", 10)]
         public async Task Test(string q, int expected)
         {
-            var ws = await m_wikiSearchAppDataHelper.FindWikiSearchByQAsync(q);
+            var ws = await m_wikiSearchAppDataHelper.FindWikiSearchByQAsync(q, expected);
 
             Assert.AreEqual(expected, ws.Geonames.Count);
         }       

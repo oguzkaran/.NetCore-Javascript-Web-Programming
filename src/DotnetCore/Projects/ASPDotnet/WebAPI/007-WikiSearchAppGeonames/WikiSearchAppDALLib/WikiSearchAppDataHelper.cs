@@ -7,16 +7,16 @@ namespace CSD.WikiSearchApp.Data.DAL
 {
     public class WikiSearchAppDataHelper
     {
-        private readonly WikiSearchRepository m_wikiSearchRepository;
+        private readonly IWikiSearchRepository m_wikiSearchRepository;
 
-        public WikiSearchAppDataHelper(WikiSearchRepository wikiSearchRepository)
+        public WikiSearchAppDataHelper(IWikiSearchRepository wikiSearchRepository)
         {
             m_wikiSearchRepository = wikiSearchRepository;
         }
 
-        public Task<WikiSearch> FindWikiSearchByQAsync(string q)
+        public Task<WikiSearch> FindWikiSearchByQAsync(string q, int maxRows)
         {
-            return SubscribeRepositoryAsync(() => m_wikiSearchRepository.FindByQAsync(q), "WikiSearchAppDataHelper.FindWikiSearchByQ");
+            return SubscribeRepositoryAsync(() => m_wikiSearchRepository.FindByQAsync(q, maxRows), "WikiSearchAppDataHelper.FindWikiSearchByQ");
         }
 
         public Task<WikiSearch> SaveWikiSearchAsync(WikiSearch wikiSearch)

@@ -19,20 +19,22 @@ namespace CSD.WikiSearchApp.Data.Services
     {
         private readonly WikiSearchAppDataHelper m_wikiSearchAppDataHelper;
         private readonly IMapper m_mapper;
-        private readonly WikiSearchClient m_wikiSearchClient;
+       private readonly WikiSearchClient m_wikiSearchClient = new WikiSearchClient();
 
-        private async Task<WikiSearchDTO> findWikiSearchByQCallbackAsync(string q)
+        private async Task<IEnumerable<WikiSearchDTO>> findWikiSearchByQCallbackAsync(string q, int maxRows)
         {            
-            WikiSearchDTO wikiSearchDTO;
+            IEnumerable<WikiSearchDTO> wikiSearchDTO;
 
             if (!await m_wikiSearchAppDataHelper.ExistsByIdAsync(q))
             {
-                var wikiGeos = await m_wikiSearchClient.FindGeonames(q);
+                var wikiGeos = await m_wikiSearchClient.FindGeonames(q, maxRows);
 
-                if (!wikiGeos.Any())
-                    return new WikiSearchDTO();
+                Console.WriteLine(wikiGeos == null);
+                Console.WriteLine(q);
+                if (wikiGeos == null)
+                    return new List<WikiSearchDTO>();
 
-                wikiSearchDTO = wikiGeos.Select(g => m_mapper.Map<WikiSearchDTO, WikiGeoname>(g)).FirstOrDefault();
+                wikiSearchDTO = wikiGeos.Select(g => m_mapper.Map<WikiSearchDTO, WikiGeoname>(g));
                 var wikiSearch = new WikiSearch() { Q = q, SearchTime = DateTime.Now };
 
                 wikiSearch.Geonames = wikiGeos.Select(g => m_mapper.Map<RepoGeoname, WikiGeoname>(g)).ToList();
@@ -41,23 +43,24 @@ namespace CSD.WikiSearchApp.Data.Services
             }
             else
             {
-                var wikiSearch = await m_wikiSearchAppDataHelper.FindWikiSearchByQAsync(q);
-                wikiSearchDTO = wikiSearch.Geonames.Select(g => m_mapper.Map<WikiSearchDTO, RepoGeoname>(g)).FirstOrDefault();
+                var wikiSearch = await m_wikiSearchAppDataHelper.FindWikiSearchByQAsync(q, maxRows);
+                
+                wikiSearchDTO = wikiSearch.Geonames.Select(g => m_mapper.Map<WikiSearchDTO, RepoGeoname>(g));
             }
 
             return wikiSearchDTO;
         }
 
-        public WikiSearchAppService(WikiSearchAppDataHelper wikiSearchAppDataHelper, IMapper mapper, WikiSearchClient wikiSearchClient)
+        public WikiSearchAppService(WikiSearchAppDataHelper wikiSearchAppDataHelper, IMapper mapper) //, WikiSearchClient wikiSearchClient)
         {
             m_wikiSearchAppDataHelper = wikiSearchAppDataHelper;
             m_mapper = mapper;
-            m_wikiSearchClient = wikiSearchClient;
+            //m_wikiSearchClient = wikiSearchClient;
         }
 
-        public Task<WikiSearchDTO> FindWikiSearchByQAsync(string q)
+        public Task<IEnumerable<WikiSearchDTO>> FindWikiSearchByQAsync(string q, int maxRows = 10)
         {
-            return SubscribeServiceAsync(() => findWikiSearchByQCallbackAsync(q), "WikiSearchAppService.FindWikiSearchByQAsync");
+            return SubscribeServiceAsync(() => findWikiSearchByQCallbackAsync(q, maxRows), "WikiSearchAppService.FindWikiSearchByQAsync");
         }
     }
 }

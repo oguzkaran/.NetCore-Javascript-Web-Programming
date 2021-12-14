@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using static CSD.Util.TPL.TaskUtil;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace CSD.WikiSearchApp.Data.Repositories
 {
@@ -17,11 +18,11 @@ namespace CSD.WikiSearchApp.Data.Repositories
             return m_wikiSearchAppDbContext.WikiSearches.Any(w => w.Q == q);               
         }
 
-        private WikiSearch findByQCallback(string q)
+        private WikiSearch findByQCallback(string q, int maxRows)
         {            
             return m_wikiSearchAppDbContext.WikiSearches 
                 .Include(w => w.Geonames)
-                .Where(ws => ws.Q == q)
+                .Where(ws => ws.Q == q)                
                 .FirstOrDefault();
         }
 
@@ -34,13 +35,13 @@ namespace CSD.WikiSearchApp.Data.Repositories
         }
 
         public WikiSearchRepository(WikiSearchAppDbContext wikiSearchAppDbContext)
-        {
+        {            
             m_wikiSearchAppDbContext = wikiSearchAppDbContext;
         }
 
-        public Task<WikiSearch> FindByQAsync(string q)
+        public Task<WikiSearch> FindByQAsync(string q, int maxRows)
         {
-            return Create(() => findByQCallback(q));            
+            return Create(() => findByQCallback(q, maxRows));            
         }
 
         public Task<WikiSearch> SaveAsync(WikiSearch wikiSearch)

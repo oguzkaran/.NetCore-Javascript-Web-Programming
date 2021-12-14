@@ -29,7 +29,7 @@ namespace WikiSearchGeoNUnitTest
         [SetUp]
         public void SetUp()
         {
-            m_wikiSearch = new WikiSearchClient(new HttpClient());
+            //m_wikiSearch = new WikiSearchClient(new HttpClient());
             m_wikiSearchAppDataHelper = new WikiSearchAppDataHelper(new WikiSearchRepository(new WikiSearchAppDbContext()));
         }
 
