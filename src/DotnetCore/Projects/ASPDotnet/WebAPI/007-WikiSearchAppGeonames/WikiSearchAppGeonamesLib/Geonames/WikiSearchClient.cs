@@ -1,6 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
+using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Linq;
 using static System.String;
@@ -22,7 +24,7 @@ namespace CSD.WikiSearchApp.Geonames
             var response = await m_httpClient.GetAsync(Format(Global.WikiUrlTemplate, q, maxRows));
 
             Console.WriteLine(response == null);
-            var result = JsonConvert.DeserializeObject<WikiSearchInfo>(await response.Content.ReadAsStringAsync()).Geonames;
+            var result = JsonConvert.DeserializeObject<WikiSearchInfo>(await response.Content.ReadAsStringAsync()).Geonames;            
 
             Console.WriteLine(result == null);
             return result;
