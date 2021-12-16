@@ -22,10 +22,10 @@ namespace WikiSearchGeoNUnitTest
         }
 
         [Test]
-        [TestCase("ankara", 10)]
-        [TestCase("istanbul", 20)]
-        [TestCase("ankara", 10)]
-        [TestCase("xxx", 10)]
+        [TestCase("ankara", 1000)]
+        [TestCase("istanbul", 1000)]
+        [TestCase("ankara", 1000)]
+        [TestCase("xxx", 322)]
         public async Task Test(string q, int expected)
         {
             var data = await m_wikiSearch.FindGeonames(q);
