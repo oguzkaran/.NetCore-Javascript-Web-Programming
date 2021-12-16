@@ -1,32 +1,28 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Net;
 using System.Net.Http;
-using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using System.Linq;
 using static System.String;
-using System;
 
 namespace CSD.WikiSearchApp.Geonames
 {
     public class WikiSearchClient
     {
-        private readonly HttpClient m_httpClient = new HttpClient();
+        private readonly HttpClient m_httpClient;
 
-        //public WikiSearchClient(HttpClient httpClient)
-        //{
-        //    m_httpClient = httpClient;
-        //}
-
-        public async Task<IEnumerable<Geoname>> FindGeonames(string q, int maxRows = 10)
+        public WikiSearchClient(HttpClient httpClient)
         {
-            var response = await m_httpClient.GetAsync(Format(Global.WikiUrlTemplate, q, maxRows));
+            m_httpClient = httpClient;        
+        }
 
-            Console.WriteLine(response == null);
-            var result = JsonConvert.DeserializeObject<WikiSearchInfo>(await response.Content.ReadAsStringAsync()).Geonames;            
+        public async Task<IEnumerable<Geoname>> FindGeonames(string q)
+        {
+            var response = await m_httpClient.GetStringAsync(Format(Global.WikiUrlTemplate, q, 1000));
 
-            Console.WriteLine(result == null);
+            var geo = JsonConvert.DeserializeObject<WikiSearchInfo>(response);
+            
+            var result = geo.Geonames;
+
             return result;
         }
     }

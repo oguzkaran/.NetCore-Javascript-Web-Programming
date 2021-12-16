@@ -43,8 +43,8 @@ namespace WikiSearchServiceGeoNames
             //For DI
 
             services
-                //.AddHttpClient()
-                //.AddSingleton<WikiSearchClient>()
+                .AddHttpClient()
+                .AddSingleton<WikiSearchClient>()
                 .AddSingleton<WikiSearchAppDbContext>()
                 .AddSingleton(typeof(IWikiSearchRepository), typeof(WikiSearchRepository))
                 .AddSingleton<IWikiSearchRepository, WikiSearchRepository>()

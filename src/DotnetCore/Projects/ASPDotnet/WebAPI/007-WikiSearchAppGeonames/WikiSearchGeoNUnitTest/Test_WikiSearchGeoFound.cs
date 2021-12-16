@@ -18,17 +18,17 @@ namespace WikiSearchGeoNUnitTest
         [SetUp]
         public void SetUp()
         {
-           m_wikiSearch = new WikiSearchClient();
+           m_wikiSearch = new WikiSearchClient(new HttpClient());
         }
 
         [Test]
-        //[TestCase("ankara", 10)]
-        //[TestCase("istanbul", 20)]
         [TestCase("ankara", 10)]
-        //[TestCase("xxx", 10)]
+        [TestCase("istanbul", 20)]
+        [TestCase("ankara", 10)]
+        [TestCase("xxx", 10)]
         public async Task Test(string q, int expected)
         {
-            var data = await m_wikiSearch.FindGeonames(q, expected);
+            var data = await m_wikiSearch.FindGeonames(q);
             
             Assert.AreEqual(expected, data.ToList().Count);            
         }       

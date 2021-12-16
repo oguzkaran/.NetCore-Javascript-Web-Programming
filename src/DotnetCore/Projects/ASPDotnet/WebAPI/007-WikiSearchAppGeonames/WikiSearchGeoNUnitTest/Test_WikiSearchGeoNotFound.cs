@@ -18,7 +18,7 @@ namespace WikiSearchGeoNUnitTest
         [SetUp]
         public void SetUp()
         {
-          //  m_wikiSearch = new WikiSearchClient(new HttpClient());
+            m_wikiSearch = new WikiSearchClient(new HttpClient());
         }
 
         [Test]
@@ -27,7 +27,7 @@ namespace WikiSearchGeoNUnitTest
         [TestCase("ccccccccccc")]
         public async Task Test(string q)
         {
-            var data = await m_wikiSearch.FindGeonames(q, 10);
+            var data = await m_wikiSearch.FindGeonames(q);
 
             Assert.IsFalse(data.Any());
         }       

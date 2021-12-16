@@ -24,8 +24,8 @@ namespace CSD.WikiSearchApp.Data.Repositories.Contexts
             if (optionsBuilder.IsConfigured)
                 return;
 
-            optionsBuilder.UseSqlServer("Server = aws-mssql.cct1ehgoywdp.us-east-2.rds.amazonaws.com; Database = DCJSWPA21_WikiSearchAppDb; User Id = admin; Password = csystem1993;");
-            //optionsBuilder.UseSqlServer("Server=.;Database=DCJSWPA21_WikiSearchAppDb;Trusted_Connection=True;");            
+            //optionsBuilder.UseSqlServer("Server = aws-mssql.cct1ehgoywdp.us-east-2.rds.amazonaws.com; Database = DCJSWPA21_WikiSearchAppDb; User Id = admin; Password = csystem1993;");
+            optionsBuilder.UseSqlServer("Server=.;Database=DCJSWPA21_WikiSearchAppDb;Trusted_Connection=True;");            
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

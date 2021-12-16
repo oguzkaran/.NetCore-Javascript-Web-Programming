@@ -8,7 +8,7 @@ go
 
 create table WikiSearch (
 	Id int primary key identity(1, 1),
-	Q varchar(250) unique not null,
+	Q varchar(250) unique not null,	
 	SearchTime datetime default(sysdatetime()) not null
 )
 
