@@ -27,7 +27,7 @@ namespace WikiSearchGeoNUnitTest
         }
 
         [Test]
-        [TestCase("zonguldak", 5, 5)]
+        [TestCase("sydney", 5, 5)]
         [TestCase("ankara", 10, 10)]
         [TestCase("istanbul", 10, 10)]
         [TestCase("izmir", 10, 10)]

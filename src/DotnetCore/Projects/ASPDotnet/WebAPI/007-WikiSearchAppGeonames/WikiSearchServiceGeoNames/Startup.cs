@@ -18,6 +18,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CSD.Util.Mappers;
 using CSD.Util.Mappers.Mapster;
+using System.Threading;
 
 namespace WikiSearchServiceGeoNames
 {
@@ -74,6 +75,9 @@ namespace WikiSearchServiceGeoNames
             {
                 endpoints.MapControllers();
             });
-        }
+
+            //Tamamen örnek amaçlı yazılmıştır. Arka plan bir iş (job) için uygun olabilir. Şüphesiz yeri burası olmak zorunda değildir
+            new Timer(_ => Console.Write("."), null, 3000, 3000); 
+        }       
     }
 }

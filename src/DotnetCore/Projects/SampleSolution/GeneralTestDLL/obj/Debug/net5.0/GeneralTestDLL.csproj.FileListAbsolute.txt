@@ -9,3 +9,15 @@ C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\GeneralTe
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\GeneralTestDLL\obj\Debug\net5.0\CSD.GeneralTest.dll
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\GeneralTestDLL\obj\Debug\net5.0\ref\CSD.GeneralTest.dll
 C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\GeneralTestDLL\obj\Debug\net5.0\CSD.GeneralTest.pdb
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\bin\Debug\net5.0\CSD.GeneralTest.deps.json
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\bin\Debug\net5.0\CSD.GeneralTest.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\bin\Debug\net5.0\ref\CSD.GeneralTest.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\bin\Debug\net5.0\CSD.GeneralTest.pdb
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\obj\Debug\net5.0\GeneralTestDLL.csproj.AssemblyReference.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\obj\Debug\net5.0\GeneralTestDLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\obj\Debug\net5.0\GeneralTestDLL.AssemblyInfoInputs.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\obj\Debug\net5.0\GeneralTestDLL.AssemblyInfo.cs
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\obj\Debug\net5.0\GeneralTestDLL.csproj.CoreCompileInputs.cache
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\obj\Debug\net5.0\CSD.GeneralTest.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\obj\Debug\net5.0\ref\CSD.GeneralTest.dll
+C:\Users\Karans\Dropbox\CSD\Kurslar\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\SampleSolution\GeneralTestDLL\obj\Debug\net5.0\CSD.GeneralTest.pdb

@@ -30,9 +30,9 @@ namespace WikiSearchGeoNUnitTest
         }
 
         [Test]
-        [TestCase("ankara")]
-        [TestCase("istanbul")]
-        [TestCase("izmir")]
+        [TestCase("london")]
+        [TestCase("tokyo")]
+        [TestCase("berlin")]
         public async Task Test(string q)
         {
             var data = await m_wikiSearch.FindGeonames(q);

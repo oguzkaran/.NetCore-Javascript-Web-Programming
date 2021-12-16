@@ -1,53 +1,24 @@
 ﻿/*---------------------------------------------------------------------------------------------------------------------
-    HttpClient sınıfının GetAsync metodu
+    System.Timers.Timer sınıfı
 ----------------------------------------------------------------------------------------------------------------------*/
 using System;
-using System.Net.Http;
-using System.Threading.Tasks;
-using System.IO;
-using Newtonsoft.Json;
-using System.Collections.Generic;
 
-using System.Linq;
+using System.Timers;
 
 namespace CSD
 {
     class App
     {
-        public static async Task Main(string[] args)
+        public static void Main(string[] args)
         {
-            try
-            {                
-                var httpClient = new HttpClient();
-                var responseMessage = await httpClient.GetAsync("http://161.97.141.113:50500/api/Director/all");
+            var timer = new Timer();
 
-                if (responseMessage.IsSuccessStatusCode)
-                {
-                    var content = await responseMessage.Content.ReadAsStringAsync();
+            timer.Interval = 1000;
+            timer.Elapsed += (_, _) => Console.Write(".");
+            timer.Enabled = true;
 
-                    var list = JsonConvert.DeserializeObject<List<DirectorInfo>>(content);
 
-                    list.ForEach(di => Console.WriteLine(di));
-
-                    Console.WriteLine("--------------------------------");
-                    list.ForEach(di => Console.WriteLine(JsonConvert.SerializeObject(di)));
-                }
-                else
-                    Console.WriteLine("Fail");
-            }
-            catch (Exception ex) {
-                Console.WriteLine(ex.Message);
-            }
+            Console.ReadKey(true);                   
         }
-    }
-
-    public class DirectorInfo
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public DateTime BirthDate { get; set; }
-
-        public override string ToString() => $"[{Id}]{Name}-{BirthDate.ToShortDateString()}";
-        
-    }
+    }    
 }

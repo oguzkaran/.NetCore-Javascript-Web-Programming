@@ -38,8 +38,7 @@ namespace CSD.Util.Data.Repository
             task.Start();
 
             return task;
-        }
-        
+        }        
 
         public Context Ctx { get; }
 
