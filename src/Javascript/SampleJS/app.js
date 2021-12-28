@@ -8,29 +8,29 @@ function writeln(a)
     write(a === undefined ? '\n' : `${a}\n`)
 }
 
-function displayDevice()
+function writeLine()
 {
-    writeln(`Device Id:${this.id}`)
-    writeln(`Device name:${this.name}`)
-    writeln(`Device port:${this.port}`)
-    writeln(`Device IP:${this.ip}`)
+    for (let arg of arguments)
+        writeln(`${arg}`)
 }
 
+function sum()
+{
+    let total = 0
+
+    for (let val of arguments)
+        total += val
+
+    return total
+}
 
 function main()
 {
-    let device = {
-        id: 1,
-        name: "test",
-        port: 1234,
-        ip: "192.168.2.234",
-        display: displayDevice
-    }
-
-    device.display()
-    device.port = 5765
-    device.display()
-
+    writeLine(10, 20, 30)
+    writeLine(10)
+    writeln(sum(10, 20, 30))
+    writeln(sum(10))
+    writeln(sum())
 }
 
 main()
