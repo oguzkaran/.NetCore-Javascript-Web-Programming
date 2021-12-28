@@ -1,54 +1,36 @@
+function write(a)
+{
+    process.stdout.write(a)
+}
+
 function writeln(a)
 {
-    console.log(a)
+    write(a === undefined ? '\n' : `${a}\n`)
 }
 
-function isPrime(val)
+function displayDevice()
 {
-    if (val <= 1)
-        return false
-
-    if (val % 2 == 0)
-        return val == 2
-
-    if (val % 3 == 0)
-        return val == 3
-
-    if (val % 5 == 0)
-        return val == 5
-
-    if (val % 7 == 0)
-        return val == 7
-
-    for (let i = 11; i * i<= val; i += 2)
-        if (val % i == 0)
-            return false
-
-    return true
+    writeln(`Device Id:${this.id}`)
+    writeln(`Device name:${this.name}`)
+    writeln(`Device port:${this.port}`)
+    writeln(`Device IP:${this.ip}`)
 }
 
-function getPrime(n)
-{
-    let count = 0
-    let val = 2
-
-    for (;;) {
-        if (isPrime(val))
-            ++count
-
-        if (count == n)
-            return val
-
-        ++val
-    }
-}
 
 function main()
 {
-    writeln(getPrime(1))
-    writeln(getPrime(2))
-    writeln(getPrime(3))
-    writeln(getPrime(20))
+    let device = {
+        id: 1,
+        name: "test",
+        port: 1234,
+        ip: "192.168.2.234",
+        display: displayDevice
+    }
+
+    device.display()
+    device.port = 5765
+    device.display()
+
 }
 
 main()
