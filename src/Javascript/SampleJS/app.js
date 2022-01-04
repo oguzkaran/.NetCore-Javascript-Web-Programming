@@ -1,23 +1,33 @@
-function writeln(a)
+function write(a)
 {
-    console.log(a)
+    process.stdout.write(a)
 }
 
-let Device = function (name, host, port) {
-    this.name = name
-    this.host = host
-    this.port = port
+function writeln(a)
+{
+    write(a === undefined ? '\n' : `${a}\n`)
+}
 
-    this.toString = function () {return `${name} ${host}:${port}`}
+function randomInt(min, max)
+{
+    return Math.floor(Math.random() * (max - min)) + min + 1
+}
 
-    return this
+function toString()
+{
+    return `${this.name}:${this.stock * this.price}`
 }
 
 function main()
 {
-    let dev = new Array(10)
+    let products = [
+        { name: "laptop", stock: 6, price: 4345, toString: toString },
+        { name: "mouse", stock: 40, price: 70, toString: toString },
+        { name: "motherboard", stock: 5, price: 500, toString: toString },
+    ]
 
-    writeln(dev)
+    for (let p of products)
+        writeln(p.toString())
 }
 
 main()
