@@ -1,36 +1,23 @@
-function write(a)
-{
-    process.stdout.write(a)
-}
-
 function writeln(a)
 {
-    write(a === undefined ? '\n' : `${a}\n`)
+    console.log(a)
 }
 
-function writeLine()
-{
-    for (let arg of arguments)
-        writeln(`${arg}`)
-}
+let Device = function (name, host, port) {
+    this.name = name
+    this.host = host
+    this.port = port
 
-function sum()
-{
-    let total = 0
+    this.toString = function () {return `${name} ${host}:${port}`}
 
-    for (let val of arguments)
-        total += val
-
-    return total
+    return this
 }
 
 function main()
 {
-    writeLine(10, 20, 30)
-    writeLine(10)
-    writeln(sum(10, 20, 30))
-    writeln(sum(10))
-    writeln(sum())
+    let dev = new Array(10)
+
+    writeln(dev)
 }
 
 main()
