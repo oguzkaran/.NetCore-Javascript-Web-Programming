@@ -13,21 +13,35 @@ function randomInt(min, max)
     return Math.floor(Math.random() * (max - min)) + min + 1
 }
 
-function toString()
+function countValue(array, value)
 {
-    return `${this.name}:${this.stock * this.price}`
+    let count = 0
+
+    array.forEach(e => {if (e === value) ++count})
+
+    return count
+}
+
+function generateRandomArray(count, min, max)
+{
+    let array = []
+
+    for (let i = 0; i < count; ++i)
+        array[i] = randomInt(min, max)
+
+    return array
 }
 
 function main()
 {
-    let products = [
-        { name: "laptop", stock: 6, price: 4345, toString: toString },
-        { name: "mouse", stock: 40, price: 70, toString: toString },
-        { name: "motherboard", stock: 5, price: 500, toString: toString },
-    ]
+    let a = generateRandomArray(40, -10, 10)
 
-    for (let p of products)
-        writeln(p.toString())
+    let count = countValue(a, 0)
+
+    writeln(a)
+
+    writeln(`Count:${count}`)
 }
 
 main()
+
