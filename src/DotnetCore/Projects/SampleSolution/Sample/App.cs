@@ -11,10 +11,9 @@ namespace CSD
     {
         public static void Main(string[] args)
         {
-            var str = "Bugün  ,hava çok .güzel";
+            var date = new DateTime(2021, 9, 6);
 
-            foreach (var s in str.Split(new char[] { ',', '.' }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
-                Console.WriteLine($"({s})");
+            Console.WriteLine(date);
         }        
     }    
 }
