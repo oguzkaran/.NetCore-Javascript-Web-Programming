@@ -1,19 +1,13 @@
-import {writeLine, write} from "./csdstdioutil.mjs";
+import {writeLine} from "./csdstdioutil.mjs";
 
 function main()
 {
-    let a = [1, 2, 3, 5, 6, 7, 8, 9]
+    let s = "Bugün hava  çok.........           güzel"
+    let words = s.split(/[ .]/)
 
-
-    for (let val of a)
-        write(`${val} `)
-
-    writeLine()
-
-    a.length = 7
-
-    for (let val of a)
-        write(`${val} `)
+    for (let word of words)
+        writeLine(`(${word})`)
 }
 
 main()
+

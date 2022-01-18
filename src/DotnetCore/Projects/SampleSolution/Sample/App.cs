@@ -11,14 +11,10 @@ namespace CSD
     {
         public static void Main(string[] args)
         {
-            var timer = new Timer();
+            var str = "Bugün  ,hava çok .güzel";
 
-            timer.Interval = 1000;
-            timer.Elapsed += (_, _) => Console.Write(".");
-            timer.Enabled = true;
-
-
-            Console.ReadKey(true);                   
-        }
+            foreach (var s in str.Split(new char[] { ',', '.' }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
+                Console.WriteLine($"({s})");
+        }        
     }    
 }
