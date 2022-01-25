@@ -1,14 +1,20 @@
-import {writeLine} from "./csdstdioutil.mjs";
+import {write, writeLine} from "./csdstdioutil.mjs";
+import {Random} from "./csdrandom.mjs";
 
 function main()
 {
-    const divider = 1000 * 60 * 60 * 24 * 365
+    for (let i = 0; i < 10; ++i)
+        write(Random.nextInt(1, 100) + " ")
 
-    let millis = Date.now() //new Date().getTime()
+    writeLine("\n-------------------------------------")
 
-    writeLine(millis)
+    for (let i = 0; i < 10; ++i)
+        writeLine(Random.nextNumber(3.4, 7.789))
+
+    writeLine("\n-------------------------------------")
+
+    for (let i = 0; i < 10; ++i)
+        writeLine(Random.nextBoolean())
 }
 
 main()
-
-
