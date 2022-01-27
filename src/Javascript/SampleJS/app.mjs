@@ -1,20 +1,38 @@
-import {write, writeLine} from "./csdstdioutil.mjs";
-import {Random} from "./csdrandom.mjs";
+import {writeLine} from "./csdstdioutil.mjs";
+import {MathError} from "./csdexception.mjs";
+
+class MathUtil {
+    static log(value)
+    {
+        if (value < 0)
+            throw new MathError("Belirsiz", -1)
+
+        if (value === 0)
+            throw new MathError("Tanımsız", 0)
+
+        return Math.log(value)
+    }
+}
+
+
+
 
 function main()
 {
-    for (let i = 0; i < 10; ++i)
-        write(Random.nextInt(1, 100) + " ")
+    let min = -10
+    let max = 10
 
-    writeLine("\n-------------------------------------")
+    for (let i = 0; i < 100; ++i) {
+        try {
+            let result = MathUtil.log(Math.random() * (max - min) + min)
 
-    for (let i = 0; i < 10; ++i)
-        writeLine(Random.nextNumber(3.4, 7.789))
-
-    writeLine("\n-------------------------------------")
-
-    for (let i = 0; i < 10; ++i)
-        writeLine(Random.nextBoolean())
+            writeLine(result)
+        }
+        catch (ex) {
+            writeLine(ex.errorMessage)
+        }
+    }
 }
+
 
 main()

@@ -1,3 +1,5 @@
+import {randomDouble, randomNumber} from "./csdrandomutil.mjs";
+
 class Random {
     static nextNumber(min, max) //[min, max)
     {
@@ -12,6 +14,11 @@ class Random {
     static nextBoolean()
     {
         return Random.nextInt(0, 2) === 1
+    }
+
+    static randomNumber(min, max)
+    {
+        return randomDouble(min, max)
     }
 }
 

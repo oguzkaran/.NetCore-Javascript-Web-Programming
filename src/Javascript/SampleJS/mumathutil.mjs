@@ -1,6 +1,6 @@
 import {createRandomPoint} from "./csdpoint.mjs";
 
-export const createRandomPoints = (n, min, bound) => {
+const createRandomPoints = (n, min, bound) => {
     let points = []
 
     while (n--)
@@ -9,4 +9,7 @@ export const createRandomPoints = (n, min, bound) => {
     return points;
 }
 
+
+
+export {createRandomPoints}
 
