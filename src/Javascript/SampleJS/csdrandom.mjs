@@ -16,9 +16,9 @@ class Random {
         return Random.nextInt(0, 2) === 1
     }
 
-    static randomNumber(min, max)
+    static nextDouble(min, max)
     {
-        return randomDouble(min, max)
+        return this.nextNumber(min, max)
     }
 }
 

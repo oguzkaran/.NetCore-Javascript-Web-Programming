@@ -22,6 +22,4 @@ function isPrime(val)
     return true
 }
 
-
-
 export {isPrime, }

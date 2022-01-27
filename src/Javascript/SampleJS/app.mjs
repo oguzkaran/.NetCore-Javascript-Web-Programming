@@ -1,38 +1,32 @@
+import {randomInt} from "./csdrandomutil.mjs";
 import {writeLine} from "./csdstdioutil.mjs";
-import {MathError} from "./csdexception.mjs";
 
-class MathUtil {
-    static log(value)
-    {
-        if (value < 0)
-            throw new MathError("Belirsiz", -1)
+const doWork = timeout => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            let val = randomInt(-10, 10)
 
-        if (value === 0)
-            throw new MathError("Tanımsız", 0)
-
-        return Math.log(value)
-    }
+            console.log(`val=${val}`)
+            if (val > 0)
+                resolve(val)
+            else
+                reject("not positive value ")
+        }, timeout)
+    })
 }
 
-
-
-
-function main()
+async function main()
 {
-    let min = -10
-    let max = 10
+    try {
+        const val = await doWork(2000)
 
-    for (let i = 0; i < 100; ++i) {
-        try {
-            let result = MathUtil.log(Math.random() * (max - min) + min)
-
-            writeLine(result)
-        }
-        catch (ex) {
-            writeLine(ex.errorMessage)
-        }
+        writeLine(`val=${val}`)
+    }
+    catch (err) {
+        writeLine(err.message)
     }
 }
-
 
 main()
+
+writeLine("here")
