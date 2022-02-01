@@ -31,5 +31,11 @@ function subscribeJustFinally(action, finallyAction)
     }
 }
 
+function exitFail(msg, exitCode = 1)
+{
+    process.sdterr.write(msg += "\r\n")
+    process.exit(exitCode)
+}
 
-export {subscribe, subscribeJustFinally, subscribeWithFinally}
+
+export {subscribe, subscribeJustFinally, subscribeWithFinally, exitFail}
