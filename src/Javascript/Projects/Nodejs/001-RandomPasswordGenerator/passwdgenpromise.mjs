@@ -2,8 +2,6 @@ import {open} from 'fs/promises';
 import fs from 'fs';
 import {randomTextTR} from '../../../csd-modules/csdstringutil.mjs';
 import {checkForLengthEqual} from '../../../csd-modules/csdcommandlineargsutil.mjs';
-import {writeErrLine} from '../../../csd-modules/csdstdioutil.mjs';
-
 
 async function generatePasswords(filepath, count, n)
 {

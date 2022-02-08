@@ -1,5 +1,3 @@
-import {randomDouble, randomNumber} from "./csdrandomutil.mjs";
-
 class Random {
     static nextNumber(min, max) //[min, max)
     {
