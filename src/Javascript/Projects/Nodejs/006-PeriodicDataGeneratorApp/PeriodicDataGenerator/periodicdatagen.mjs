@@ -38,15 +38,10 @@ function main()
     const count = parseInt(process.argv[6])
 
     for (let i = 0; i < count; ++i)
-        setInterval(insertPeriodicDataCallback, 1)
+        setInterval(insertPeriodicDataCallback, 500)
 }
 
 main()
-
-/*
-TODO: Komut satırı argümanı ile alınan eşik değerine göre 5 saniyede bir bu eşik değerinden büyük veriye sahip
-sensörlerin isimleri ile birlikte data ve tarihleri getiren bir interval' ayrı bir uygulama olarak yazınız
- */
 
 
 
