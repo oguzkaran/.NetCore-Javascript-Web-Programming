@@ -1,63 +1,45 @@
 import {MessageInfo} from "./messageinfo.mjs";
-import {remoteAddress} from '../../../csd-modules/csdhttputil.mjs'
+import {saveAddress} from "./crud.mjs";
 import {sendJSONNotFound, sendJSONSuccess, sendJSON400} from '../../../csd-modules/csdrestutil.mjs'
-import {createMongoClient} from '../../../csd-modules/csdmongodbutil.mjs'
 import {writeLine} from '../../../csd-modules/csdstdioutil.mjs'
 import express from 'express'
 
 const msgInfo = new MessageInfo("")
 const app = express()
 
-function connectForInsertCallback(err, client, req, msg)
-{
-    if (err)
-        throw  err
-
-    const db = client.db(process.argv[5])
-    const clients = db.collection(process.argv[6])
-    const record = {host: remoteAddress(req), time: new Date().toString(), url: msg}
-    clients.insertOne(record, err => {if (err) throw err})
-}
-
-function saveAddress(req, msg)
-{
-    const host = process.argv[3]
-    const port = parseInt(process.argv[4])
-    createMongoClient(host, port).connect((err, client) => connectForInsertCallback(err, client, req, msg))
-}
 
 function rootUrlCallback(req, res)
 {
-    saveAddress(req, req.url)
     msgInfo.message = "Forbidden!..."
+    saveAddress(req, req.url, msgInfo.message)
     sendJSON400(res, msgInfo)
 }
 
 function helloUrlCallback(req, res)
 {
-    saveAddress(req, req.url)
     msgInfo.message = "Hello!..."
+    saveAddress(req, req.url, msgInfo.message)
     sendJSONSuccess(res, msgInfo)
 }
 
 function helloTRUrlCallback(req, res)
 {
-    saveAddress(req, req.url)
     msgInfo.message = "Merhaba arkadaşlar"
+    saveAddress(req, req.url, msgInfo.message)
     sendJSONSuccess(res, msgInfo)
 }
 
 function helloENUrlCallback(req, res)
 {
-    saveAddress(req, req.url)
     msgInfo.message = "Hi friends"
+    saveAddress(req, req.url, msgInfo.message)
     sendJSONSuccess(res, msgInfo)
 }
 
 function notFoundUrlCallback(req, res)
 {
-    saveAddress(req, `${req.url} not found`)
     msgInfo.message = `${req.url} not found`
+    saveAddress(req, req.url, msgInfo.message)
     sendJSONNotFound(res, msgInfo)
 }
 
