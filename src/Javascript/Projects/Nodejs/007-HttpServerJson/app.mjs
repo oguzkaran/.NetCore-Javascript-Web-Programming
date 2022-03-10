@@ -1,18 +1,9 @@
-/*
-    Aşağıdaki örneği açıklamalara göre düzenleyiniz:
-
-    - Örnekte kara listede olsa bile cevabı vermektedir. Kara listede ise doğru cevap verilmeyecektir.
-   - Kara listede olsa bile client tekrar eklenecektir
-   - Kara liste kayıt sayısı komut satırı argümanından alınan değerden az olan client'lar,  yine komut satırı
-   argümanından alınan milisaniye periyotlarda veritabanına bakılarak kara listeden çıkartılacaktır
-
-   Bonus: Aynı IP'den gelen client'lar ayrı ayrı değil, birer tane tutulacak şekilde verileri düzenleyiniz
-*/
-
 import http from 'http';
 import {writeLine, writeErrLine} from '../../../csd-modules/csdstdioutil.mjs'
 import {MessageInfo} from "./messageinfo.mjs";
+import {remoteAddress} from '../../../csd-modules/csdhttputil.mjs'
 import {createMongoClient} from '../../../csd-modules/csdmongodbutil.mjs'
+
 
 process.on("uncaughtException", err => writeErrLine(err))
 
@@ -25,12 +16,8 @@ function connectForInsertCallback(err, client, req, msg)
 
     const db = client.db(process.argv[4])
     const clients = db.collection(process.argv[5])
-
-    const remoteAddress = req.connection.remoteAddress
-    const count = clients.find({host: remoteAddress, blackList: true}).count()
-
-    const record = {host: remoteAddress, time: new Date().toString(), url: msg, blackList: count !== 0}
-
+    writeErrLine(remoteAddress(req))
+    const record = {host: remoteAddress(req), time: new Date().toString(), url: msg}
     clients.insertOne(record, err => {if (err) throw err})
 }
 
@@ -41,15 +28,6 @@ function saveAddress(req, msg)
 
     createMongoClient(host, port).connect((err, client) => connectForInsertCallback(err, client, req, msg))
 }
-
-function rootUrlCallback(req, res)
-{
-    saveAddress(req, req.url)
-    res.writeHead(200, {'Content-Type':'application/json'})
-    msgInfo.message = "You are in black list now"
-    res.end(msgInfo.toString())
-}
-
 
 function helloUrlCallback(req, res)
 {
@@ -88,9 +66,6 @@ function serverCallback(req, res)
     writeLine(`url:${req.url}`)
 
     switch (req.url) {
-        case '/':
-            rootUrlCallback(req, res)
-            break;
         case '/hello':
             helloUrlCallback(req, res)
             break;
