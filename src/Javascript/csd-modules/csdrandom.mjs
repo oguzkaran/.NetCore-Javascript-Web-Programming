@@ -6,7 +6,7 @@ class Random {
 
     static nextInt(min, max) //[min, max)
     {
-        return parseInt(Random.nextNumber(min, max))
+        return Math.floor(Random.nextNumber(min, max))
     }
 
     static nextBoolean()
