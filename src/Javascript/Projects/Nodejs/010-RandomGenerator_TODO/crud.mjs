@@ -19,5 +19,4 @@ function saveAddress(req, url, msg)
     createMongoClient(host, port).connect((err, client) => connectForInsertCallback(err, client, req, url, msg))
 }
 
-
 export {saveAddress}
