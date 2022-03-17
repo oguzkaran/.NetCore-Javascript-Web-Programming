@@ -7,7 +7,8 @@ function doWorkForCount(host, port, count)
 {
     const socket = net.connect(port, host, () => {})
     socket.on("connect", () => socket.write(count.toString()))
-    socket.on("data", data => writeLine(data.toString()))
+    socket.on("data", data => writeLine(data.toString().trim()))
+    socket.on("close", () => writeLine("Socket closed by server"))
 }
 
 function main()
@@ -18,8 +19,8 @@ function main()
     if (isNaN(port))
         port = 50505
 
-    for (let i = 0; i < 10; ++i)
-        doWorkForCount(host, port, (i + 1) * 2)
+
+    doWorkForCount(host, port, Number(process.argv[4]))
 }
 
 main()
