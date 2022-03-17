@@ -1,12 +1,16 @@
 import dgram from 'dgram'
 import {writeErrLine, writeLine} from '../../../../csd-modules/csdstdioutil.mjs'
+import {randomTextTR} from '../../../../csd-modules/csdstringutil.mjs'
+import {Random} from '../../../../csd-modules/csdrandom.mjs'
 
 process.on("uncaughtException", err => writeErrLine(`Message: ${err.message}`))
 
 
-function sendMessage(msg, port, host, client)
+function sendMessage(port, host, client)
 {
-    client.send(msg, port, host, err => {if (err) throw err})
+    const msg = randomTextTR(Random.nextInt(10, 15))
+    writeLine(msg)
+    client.send(msg + '\r\n', port, host, err => {if (err) throw err})
 }
 
 
@@ -16,7 +20,7 @@ function main()
     const port = Number(process.argv[3])
     const client = dgram.createSocket("udp4")
 
-    setInterval(() => sendMessage("I am Ok\r\n", port, host, client), 400)
+    setInterval(() => sendMessage(port, host, client), 400)
 }
 
 main()
