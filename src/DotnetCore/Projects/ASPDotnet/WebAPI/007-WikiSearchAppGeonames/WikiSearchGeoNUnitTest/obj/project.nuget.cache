@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BfVShoSKazC7aWxtW6JkX46QjVZW8I0Gk+lmldV3nt8nsgKRE2esu5cp7uVShYnwiOjDhANfFD4Bo2dAXhjkKg==",
+  "dgSpecHash": "FTHIryZc0H3bThWlZU54An24zLdskySc0OPsHajGUAubIAQQTZpBjMdxA1kro+E36eLUL9qbTjqIYdjRoQFN5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Karans\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames\\WikiSearchGeoNUnitTest\\WikiSearchGeoNUnitTest.csproj",
   "expectedPackageFiles": [
