@@ -1,0 +1,45 @@
++Soru: Periyodik olarak udp ile server'a "I am ok" mesajı gönderen ancak örneğin 10 saniyede 1 panik durumunun oluşumu varsayımıyla TCP server'ı üzerinden panik durumu mesajını gönderen ve cevabını alan server-client yapıyı kurunuz
+
+
+Soru: Yerel bir ağda bekleyen n tane client için ağa bağlanan bir server broadcast yaparak, IP sini ve portunu gönderecektir. Bu bilgileri alan clientlarda TCP üzerinden bağşantı yapıp "rastgele yazı" gönderecektir ve büyütülmüş olarak geri verecektir. Ayrıca bu uygulamada server, clientların durumunu mongodb ye kaydedecektir.
+
+
+Soru:
+Aşağıdaki açıklanan "POP3 (Post Office Protocol 3)"'e ilişkin komutların çalıştırılabildiği genel olarak
+kullanılabilecek bir kütüphane tasarlayınız.
+
+POP3 Protokolü:
+POP3 protokolü e-postaları server'dan almak için kullanılan bir protoköldür. Client'ın server'a gönderdiği ve server'ın
+client'a gönderdiği yanıt mesajları text tabanlıdır. Komutlar 3 ya da 4 karakter uzunluğundadır ve büyük küçük
+harf duyarlılığı yoktur. Her komutun sonunda CR/LF çifti vardır. Server'ın client'a gönderdiği yanıtlar genellikle
+tek satırdır. Onlar da CR/LF ile biter. Ancak birden fazla satırlı yanıtların her biri CR/LF ile bitmektedir. Ancak
+mesajın sonunun anlaşılabilmesi için yalnız '.' karakteri ve CR/LF'den oluşan bir satır gönderilir. Eğer tesadüfen
+bir satır '.' içeriyorsa bu durumda CR/LF '.' CR/LF karakterleri gönderilmektedir. 
+
+Client POP3 için mail server host bilgisi ile birlikte 110 numaralı TCP portundan bağlantı kurar. Bağlantı başarılı 
+ise artık komut gönderilebilir.
+
+Client'ın komutları şunlardır:
+
+1. USER <kullanıcı ismi>\r\n: Burada kullanıcı ismi herhangi bir isim olabilse de genel olarak e-posta adresi kullanılır.
+Server eğer bu işlem başarılı ise "+OK\r\n" yazısını gönderir.
+
+2. PASS <parola>\r\n: Kullanıcı parolasıdır. Maaalesef buradaki parola "encrypted" değildir. IMAP bu anlamda daha güvenlidir.
+Eğer parola doğru ise "+OK ...", yanlış ise "-ERR ...\r\n" yazısını gönderir.
+
+3. LIST\r\n: Server'daki kullanıcının posta kutusunda bulunan bilgileri elde eder. Bu komuta karşın server birden
+fazla satırdan oluşan bir bilgi verir. Son satır olarak da '.' karakterini CR/LF ile birlikte gönderir.
+
+4. Client herhangi bir postayı "RETR <no>\r\n" ile elde edebilir. Buna karşın server e-postanın içeriğini birden fazla
+satır olarak yollar. E posta düz text ya da genellikle HTML olarak gönderilmiş olabilir. E posta içerisinde MIME Type
+belirtilir. Bu konuda detaylar vardır. Burada ele alınmayacaktır.
+
+Bu protokolde server'ın olumlu yanıtlarında "+OK ..." olumsuz yanıtlarında ise "-ERR ..." biçiminde satırlar gönderilmektedir.
+5. Client işini bitirdikten sonra server'a "QUIT\r\n" komutunu gönderir. Server da soketi kapatır. Bu durumda client da
+gerekli işlemleri yapar
+
+Anahtar Notlar: Bu komutlar dışında da bazı komutlar vardur. Burada ele alınmayacaktır
+
+
+
+
