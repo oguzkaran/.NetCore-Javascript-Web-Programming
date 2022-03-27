@@ -1,5 +1,5 @@
-MongoDB                 : https://www.dropbox.com/sh/cypsgjdal47vwmc/AACCSg3K1Zh7YwClGrdGqMCoa?dl=0
-JavaScript              : https://www.dropbox.com/sh/kadwrmujg0719wv/AABTXpyTIPhz7Fy9ppWIO-JZa?dl=0
+MongoDB                 : https://www.dropbox.com/scl/fi/1vv0k9gujz6qpsmikbomk/MongoDB.docx?dl=0&rlkey=3casxc6elysiz23fsdchv1m37
+JavaScript              : https://www.dropbox.com/scl/fi/jyr01t7clbt1ey3h8qlv4/EcmaScript.docx?dl=0&rlkey=wa1kvdh6l64ist84fvxazxv1c
 Basic IP Protocol       : https://www.dropbox.com/scl/fi/9bt8w4m35uh6e27cx4ixf/IP.docx?dl=0&rlkey=9zfzrrodqomy1vqysu7grtx8v
 Basic Database          : https://www.dropbox.com/scl/fi/u59wgra518t1tk04j956r/Temel-Veritaban.docx?dl=0&rlkey=h5fzcyvvd4kf19pzfixvz88xl
 Basic Algoritm Analysis : https://www.dropbox.com/scl/fi/7y5a7qunhz6i96xnv0nqb/AlgoritmaAnalizi.docx?dl=0&rlkey=c0wemoobtsy5p2zs1sj2mwxq1
