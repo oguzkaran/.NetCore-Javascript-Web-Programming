@@ -2,7 +2,7 @@
 
 namespace CSD.WikiSearchApp.Geonames
 {
-    class WikiSearchInfo
+    public class WikiSearchInfo
     {
         public IList<Geoname> Geonames { get; set; }
     }

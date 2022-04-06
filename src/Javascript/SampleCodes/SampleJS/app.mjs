@@ -1,3 +1,9 @@
-import {writeLine} from "./csdstdioutil.mjs";
+const isLeap = year => year % 4 === 0 && year % 100 !== 0 || year % 400 === 0
 
-process.argv.forEach(writeLine)
+
+process.stdout.write(`${typeof isLeap}\n`)
+
+for (let y = 2000; y <= 2104; ++y)
+    if (isLeap(y))
+        process.stdout.write(`${y} `)
+

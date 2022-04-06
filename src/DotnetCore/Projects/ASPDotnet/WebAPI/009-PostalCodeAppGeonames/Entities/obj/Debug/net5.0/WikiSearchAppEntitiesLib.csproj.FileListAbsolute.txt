@@ -1,0 +1,12 @@
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\bin\Debug\net5.0\CSD.WikiSearchAppEntitiesLib.deps.json
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\bin\Debug\net5.0\CSD.WikiSearchAppEntitiesLib.dll
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\bin\Debug\net5.0\ref\CSD.WikiSearchAppEntitiesLib.dll
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\bin\Debug\net5.0\CSD.WikiSearchAppEntitiesLib.pdb
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\obj\Debug\net5.0\WikiSearchAppEntitiesLib.csproj.AssemblyReference.cache
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\obj\Debug\net5.0\WikiSearchAppEntitiesLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\obj\Debug\net5.0\WikiSearchAppEntitiesLib.AssemblyInfoInputs.cache
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\obj\Debug\net5.0\WikiSearchAppEntitiesLib.AssemblyInfo.cs
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\obj\Debug\net5.0\WikiSearchAppEntitiesLib.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\obj\Debug\net5.0\CSD.WikiSearchAppEntitiesLib.dll
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\obj\Debug\net5.0\ref\CSD.WikiSearchAppEntitiesLib.dll
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\007-WikiSearchAppGeonames\Entities\obj\Debug\net5.0\CSD.WikiSearchAppEntitiesLib.pdb
