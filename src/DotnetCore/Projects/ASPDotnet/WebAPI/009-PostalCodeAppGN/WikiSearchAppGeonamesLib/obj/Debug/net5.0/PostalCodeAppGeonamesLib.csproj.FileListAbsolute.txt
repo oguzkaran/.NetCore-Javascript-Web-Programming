@@ -1,0 +1,12 @@
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\bin\Debug\net5.0\CSD.PostalCodeAppGeonamesLib.deps.json
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\bin\Debug\net5.0\CSD.PostalCodeAppGeonamesLib.dll
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\bin\Debug\net5.0\ref\CSD.PostalCodeAppGeonamesLib.dll
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\bin\Debug\net5.0\CSD.PostalCodeAppGeonamesLib.pdb
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\obj\Debug\net5.0\PostalCodeAppGeonamesLib.csproj.AssemblyReference.cache
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\obj\Debug\net5.0\PostalCodeAppGeonamesLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\obj\Debug\net5.0\PostalCodeAppGeonamesLib.AssemblyInfoInputs.cache
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\obj\Debug\net5.0\PostalCodeAppGeonamesLib.AssemblyInfo.cs
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\obj\Debug\net5.0\PostalCodeAppGeonamesLib.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\obj\Debug\net5.0\CSD.PostalCodeAppGeonamesLib.dll
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\obj\Debug\net5.0\ref\CSD.PostalCodeAppGeonamesLib.dll
+C:\Users\ibrah\Desktop\DotnetCore-JS-WebProg-Aug-2021\src\DotnetCore\Projects\ASPDotnet\WebAPI\009-PostalCodeAppGeonames\WikiSearchAppGeonamesLib\obj\Debug\net5.0\CSD.PostalCodeAppGeonamesLib.pdb
