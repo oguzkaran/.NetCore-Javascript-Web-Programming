@@ -13,5 +13,3 @@ const sendJSON400 = (res, obj) => sendJSONWithStatusCode(400, res, obj)
 
 export {sendJSONSuccess, sendJSON500, sendJSONWithStatusCode, sendJSONNotFound, sendJSON400}
 
-
-
