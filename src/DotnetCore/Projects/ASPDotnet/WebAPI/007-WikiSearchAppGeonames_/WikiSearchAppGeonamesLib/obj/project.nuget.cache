@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "TqJXjOkO4s1aVrGpHizksc3rwSCkjWT7+kuVvJMUWHpFhGrlAXmeA4iVgxEMb5lslTCAdH1kk1TAarPTQn6aSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oguzkaran\\Dropbox\\CSD\\Kurslar\\DotnetCore-JS-WebProg-Aug-2021\\src\\DotnetCore\\Projects\\ASPDotnet\\WebAPI\\007-WikiSearchAppGeonames_\\WikiSearchAppGeonamesLib\\WikiSearchAppGeonamesLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oguzkaran\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\oguzkaran\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\oguzkaran\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\oguzkaran\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
