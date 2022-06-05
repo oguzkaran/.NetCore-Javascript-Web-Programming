@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+service ProductService {
+  rpc findAllProducts(Empty) returns (ProductList);
+  //rpc findProductsInStock(Empty) returns (ProductList);
+  //rpc findOProductById(Id) returns (Product)
+  rpc saveProduct(Product) returns (ProductList);
+  rpc deleteAllProducts(Empty) returns (Empty);
+}
+
+message Product {
+  string id = 1;
+  string name = 2;
+  int32 stock = 3;
+  double cost = 4;
+  double unitPrice = 5;
+}
+
+message Id {
+  string id = 1;
+}
+
+message Empty {}
+
+message ProductList {
+  repeated Product products = 1;
+}
+
