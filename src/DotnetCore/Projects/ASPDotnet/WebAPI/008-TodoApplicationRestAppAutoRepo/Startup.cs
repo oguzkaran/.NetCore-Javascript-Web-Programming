@@ -23,15 +23,15 @@ namespace _001_TodoApplicationRestApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers();            
 
             services                
                 .AddSingleton<ITodoRepository, TodoRepository>()
                 .AddSingleton<IItemRepository, ItemRepository>()
                 .AddSingleton<TodoAppDAL>()
                 .AddSingleton<TodoAppService>()
-                .AddSingleton<TodoDbContext>()
-                .AddSingleton<IMapper, CSD.Util.Mappers.Mapster.Mapper>();                
+                .AddSingleton<TodoDbContext>()                
+                .AddSingleton<IMapper, CSD.Util.Mappers.Mapster.Mapper>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,7 +39,7 @@ namespace _001_TodoApplicationRestApp
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();                
+                app.UseDeveloperExceptionPage();
             }
 
             app.UseHttpsRedirection();
